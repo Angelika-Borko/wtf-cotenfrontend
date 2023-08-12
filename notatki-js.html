@@ -9,6 +9,71 @@
 </head>
 
 <body>
+    <main>
+        <header>
+          <h1>Notatki z Java Scriptu</h1>
+        </header>
     
+        <section>
+          <h2>TYDZIEŃ 2</h2>
+          <article>
+            JavaScript - tydzień 2 i 3
+            Podstawy
+            JAVA SCRIPT – umożliwia interakcje
+            
+            ECMAScript - skryptowy język oprogramowania, ustandaryzowany przez organizację ECMA, ECMAScript Language Specification.
+            ECMA - European Association for Standardizing Information and Communication Systems jest to organizacja, której zadaniem jest tworzenie standardów technologicznych.
+            Co roku jest aktualizowany, w kursie wykorzystywany ES6+ dla roku 2015+ i nowszych, do 2020 włącznie. JavaScript implementuje rzeczy ze specyfikacji ECMAScript. Nowo wprowadzone feature'y, funkcje języka, mogą nie być wspierane we wszystkich przeglądarkach, ale można to obejść.
+            
+            JavaScript jest obiektowym językiem programowania i składa się z następujących elementów:
+            - wartości, 
+            - zmienne,
+            - funkcje,
+            - literały,
+            - obiekty,
+            - operacje porównywania.
+            
+            Wartości są dla JS tym, czym liczby dla matematyki - jest to pewien zbiór, który już istnieje, nie tworzymy go. Wartością może być np. jakaś liczba, słowo. Są one niezmienialne.
+            
+            Pliki zawierające kod JavaScript mają rozszerzenie .js. Podobnie jak style mają też swój znacznik "script".
+            Znacznik "script" dodajemy na samym dole strony, po stopce "footer", tuż przed domknięciem znacznika "body".
+            Przykładem może być funkcja alert, która składa się z nazwy funkcji, nawiasów otwartych oraz znajdujących się w nawiasie parametrów w pojedynczych apostrofach. Na końcu dajemy średnik ; oznaczający zakończenie linii.
+            Przedstawienie umiejscowienia znacznika script z funkcją alert przed domknięciem znacznika body.
+            Skrypt wykonuje się tylko raz, jeszcze przed załadowaniem strony. W przypadku funkcji alert jest to wyskakujące okienko zawierające treść podaną w parametrach funkcji.
+            
+            Przykład działania funkcji alert na stronie - wyskakujące okienko.
+            Tak, jak w przypadku stylów, bezpośrednie pisanie kodu JavaScript w pliku z htmlem zadziała, ale jest mało praktyczne, dlatego stosuje się wydzielanie kodu JavaScript do osobnego pliku, np. main.js.
+            W pliku zawieramy po prostu bezpośrednio treść naszego kodu JavaScript w kolejności, w jakiej ma być wykonywany.
+            Odniesienie do pliku z kodem JavaScript umieszczamy na końcu strony przed domknięciem znacznika body, używając znacznika "script". Używamy atrybutu "src", tak jak w obrazkach, a nie "href", tak jak w przypadku stylów.
+            
+            Odwołanie do pliku z kodem JavaScript w pliku HTML.
+            Kolejnym poleceniem jest funkcja console.log, która w przeciwieństwie do funkcji alert nie wyświetla informacji na stronie, ale w narzędziach deweloperskich w zakładce "console".
+            Funkcja console.log pozwala na wyśietlenie określonego tekstu lub wartości, np.:
+            console.log('tekst');
+            Jeśli wpisze się funkcję dwa razy, to zostanie ona wywołana dwukrotnie.
+            
+            Przykład dwukrotnego wywołania funkcji console.log w konsoli w narzędziach deweloperskich w przeglądarce.
+            Zmienna w JavaScript to stworzenie powiązania między nazwą, której chcemy użyć a wartością, którą chcemy przypisać tej zmiennej.
+            const name = 'Magdusia';
+            const age = 38;
+            Zmiennej o nazwie "name" przypisujemy wartość słowną "Magdusia", używając apostrofów. Zmiennej o nazwie "age" przypisujemy wartość liczbową "38", nie używając apostrofów.
+            Przy tworzeniu zmiennych nie trzeba dawać średnika na końcu linii, przeglądarka to przetworzy. Jednak dla dobrej praktyki lepiej to robić, żeby zaznaczyć w ten sposób koniec linii.
+            Wywołując nazwę zmiennej w funkcji nie używamy apostrofów.
+            Stworzenie zmiennej słownej i liczbowej oraz ich wywołanie w funkcji console.log.
+            
+            Backtick/backquote (`) - przetrącony apostrof, na klawiaturze znajduje się tam, gdzie tylda ~.
+            Używamy go, jeśli chcemy wykorzystać w jakiejś funkcji jednocześnie zmienną i tekst - taki ciąg znaków nazywamy literałem.
+            console.log(`Nazywam się ${firstName} i mam ${age} lat.`);
+            
+            Wykorzystanie w funkcji console.log jednocześnie zmiennej oraz tekstu, czyli literału.
+            Kod Js uruchamia się raz (po załadowaniu strony). Może też oczywiście działać później, jeśli ma odpowiednie instrukcje.
+            
+          </article>
+        </section>
+        
+        <footer>
+          Brudnopis Angeliki Borko - notatki z frontendu.
+        </footer>
+      </main>
 </body>
 </html>

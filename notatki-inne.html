@@ -9,6 +9,167 @@
 </head>
 
 <body>
+    <main>
+        <header>
+          <h1>Notatki pozostałe</h1>
+        </header>
     
+        <section>
+          <h2>TYDZIEŃ 2</h2>
+          <article>
+            Schemat blokowy
+            Zapis kroków/instrukcji, które powinny się po sobie wydarzać to algorytmy. Algorytm można zapisać za pomocą schematu blokowego.
+            Prostokąt – wykonywane akcje
+            Romb – sprawdzany warunek – w zależności od odpowiedzi wykonujemy inną akcję
+            Trapez – rzeczy, które trzeba przygotować przed rozpoczęciem akcji, warunki rozpoczęcia
+            Okręgi – start i stop – rozpoczęcie i zakończenie algorytmu
+            
+            Krótki schemat blokowy na przykładzie akcji czytania książki.
+            Devtools – narzędzia developerskie w przeglądarce.
+            
+                      </article>
+        </section>
+
+        <section>
+            <h2>TYDZIEŃ 3</h2>
+            <article>
+                Varia - tydzień 3
+                Nazywanie rzeczy
+                Wymyślając nazwy, które stosujemy w programowaniu, należy stosować się do następujących zasad:
+                1. Nie używamy znaków diakrytycznych.
+                2. Nie używamy spacji.
+                3. Stosujemy angielskie nazwy (rekomendacja, a nie wymóg).
+                4. Trzymamy się konsekwentnie jednego, wybranego schematu.
+                
+                Stosuje się następujące konwencje nazewnictwa:
+                1. camelCase - całą frazę piszemy łącznie, gdy składa się z kilku słów, to pierwsze rozpoczynamy z małej litery, wszystkie kolejne natomiast rozpoczynamy wielką literą, np. id "my super bod header" zgodnie z tą konwencją zostałby zapisany w następujacy sposób: mySuperBoldHeader.
+                2. kebab-case - wszystkie słowa występujące w danej frazie piszemy z małej litery i rozdzielamy je myślnikiem, np. id "my super bod header" zgodnei z tą konwencją zostałby zapisany w następujacy sposób: my-super-bold-header.
+                3. snake_case - wszystkie słowa występujące w danej frazie piszemy z małej litery i rozdzielamy je podkreślinikiem, np. id "my super bod header" zgodnei z tą konwencją zostałby zapisany w następujacy sposób: my_super_bold_header.
+                4. PascalCase - wywodzi się z języka Pascal; całą frazę piszemy łącznie, gdy składa się z kilku słów, to zarówno pierwsze pierwsze słowo, jak i kolejne rozpoczynamy z wielkiej litery, np. id "my super bod header" zgodnie z tą konwencją zostałby zapisany w następujacy sposób: MySuperBoldHeader.
+                W praktyce najczęściej wykorzystuje się dwa pierwsze sposoby zapisu, czyli camelCase i kebab-case.
+                
+                Działanie przeglądarki
+                HTTP (HTTPS) - protokół, z którego zazwyczaj korzysta przeglądarka, żeby pobrać pliki występujace na stronach, a następnie wyświetlić je użytkownikowi. HTTP - HyperText Transfer Protocol, a zatem HTTP to protkół do transferowania HTML-a i całej reszty widocznej na stronach internetowych.
+                Z kolei HTTPS - Hypertext Transfer Protocol Secure to protokół szyfrowany, rekomendowany do stosowania. Zasada działania jest jednak analogiczna jak w HTTP.
+                Obecnie coraz częściej wykorzystuje się protokół HTTP/2, który pozwala na tworzenie równoległych połączeń i nie blokuje tak bardzo serwera, dzięki czemu strona działa szybciej.
+                
+                URL - Uniform Resource Locator - adres wpisywanej strony.
+                Adres strony internetowej rozbity na elementy.
+                Port najczęściej nie jest widoczny, przeglądarka sama go sobie dopisuje automatycznie, gdy wykrywa, czy korzystamy z protokołu HTTP czy HTTPS. Port to informacja, w którym miejscu na serwerze znajdują się pliki. Innymi słowy, na którym porcie przeglądarka musi dogadywać się z serwerem, aby transfer doszedł do skutku.
+                Ścieżka dostęu do zasobu - gdy połączymy się już z serwerem, to serwer ten szuka u siebie danego, wskazanego pliku, np. index.html. Zależnie od konfiguracji serwera, po ścieżce dostępu może być jeszcze widoczny znak zapytania oraz parametry, które są przekazywane do serwera lub mogą być one niewidoczne, a mimo to są i działają.
+                
+                Flow działania przeglądarki
+                1. Wpisanie adresu cotenfrontend.pl.
+                2. Przeglądarka szuka serwera cotenfrontend.pl. (Odpowiada za to DNS, który tłumaczy adresy pisane słownie na adresy IP).
+                3. Po znalezieniu serwera, przeglądarka wypytuje go o index (jeśli podamy sam adres serwera). To, co jest indeksem zależy od konfiguracji serwera. Nie musi to być index.html, chociaż w przypadku stron statytycznych jest tak zazwyczaj (przyjęło się, że index.html to główny plik, który jest ładowany, jeśli nie podamy żadnej nazwy pliku).
+                4. Serwer wysyła do przeglądarki zawartość HTML.
+                5. Przeglądarka wczytuje HTML i szuka wszystkich dodatkowych zasobów: style, skrypty, obrazki, etc. i dla każdego z tych zasobów wykonuje osobne zapytanie.
+                6. Przeglądarka parsuje (sprawdza składnię strony) i renderuje stronę (zamienia kod HTML na to, co widzimy, dodatkowo aplikując wszystkie style i ładując dodatkowe zasoby).
+                DNS (Domain Name System) to protokół, którego główna funkcja polega na tłumaczeniu łatwych do zapamiętania przez człowieka nazw domen na zrozumiałe dla komputerów dane liczbowe.
+                Serwer DNS wyszukuje adres IP danej strony na podstawie wpisu użytkownika zamieszczonego w polu adresu wyszukiwarki.
+                
+                Schemat komunikacji między przeglądarką i serwerem.
+                Schemat komunikacji między przeglądarką i serwerem w modelu request-response.
+                Komunikacja przeglądarki i serwera jest w modelu request-response, czyli przeglądarka wysyła zapytanie o dany zasób, a serwer odpowiada, że dany zasób posiada (lub nie) i przesyła odpowiednią zwrotkę. Serwer może również nie odpowiadać (wówczas dostajemy błędy) lub odpowiadać z błędem.
+                
+                Kody odpowiedzi protokołu HTTP
+                100 - poczekaj, za chwilę dostaniesz opowiedź.
+                200 - OK, serwer odpowiada, że ma taki zasób i przekazuje go przeglądarce.
+                30x - przekierowania, serwer odpowiada: szukasz w złym miejscu, przekieruję Cię w dobre, bo wiem, gdzie.
+                404 - nie mam tego, czego potrzebujesz, sorry.
+                50x - wewnętrzne błędy serwera.
+                
+                Kody HTTP
+                1xx - hold on
+                2xx - here you go
+                3xx - go away
+                4xx - you fucked up
+                5xx - I fucked up
+                
+                ROOT /
+                Root to istotna część ścieżki do zasobu - mówi, wktórym miejscu przeglądarka powinna szukać danego zasobu.
+                Rozróżniamy tutaj ścieżki bezwzględne, gdzie na początku adresu zasobu jest podany znak /, oraz ścieżki względne, gdzie na początku adresu zasobu znaku / nie ma.
+                
+                Przedstawienie na przykładzie adresu cotenfrontend.pl, na czym polega działanie roota, gdy adres obrazka podany jest ze znakiem slash na początku i bez tego znaku.
+                Gdy wchodzimy na stronę https://cotenfrontend.pl/, do doklejamy wskazany wyżej adres obrazka na końcu adresu strony i w obu przypadkach dostajemy 200, bo w efekcie mamy ten sam adres obrazka, pod którym obrazek faktycznie się znajduje.
+                W pierwszym przypadku, gdy adres obrazka podany był z / na początku adresu, po doklejeniu tego adresu do adresu strony, znak / z końca adresu strony zamieniany jest przez znak / z początku adresu obrazka.
+                W drugim przypadku, gdy adres obrazka podany jest bez znaku / na początku adresu, po doklejeniu adresu obrazka do adresu strony, gdzie znak / znajduje się na końcu adresu, dostajemy pełny adres obrazka.
+                
+                Przedstawienie na przykładzie podstrony domeny cotenforntend.pl, na czym polega działanie roota, gdy adres obrazka podany jest ze znakiem slash na początku i bez tego znaku.
+                Jeśli natomiast wejdziemy na podstronę o adresie https://cotenfrontend.pl/podstrona/, to w pierwszym przypadku, mając informację o znaku / na początku adresu obrazka, będzie on doklejony do końca adresu strony, czyli zapytanie pójdzie pod właściwy adres i obrazek zostanie pobrany.
+                W drugim przypadku z kolei, gdy w adresie obrazka nie ma znaku /, to nastąpi próba doklejenia adresu obrazka do znaku / na końcu podstrony w podanym adresie zerwera i w efekcie nastąpi próba szukania obrazka w miejscu, w którym go nie ma.
+                Tworząc stronę uruchamianą z dysku (tak, jak teraz) lepiej jednak pomijać używanie slasha na początku adresów zasobów.
+                
+                Terminal
+                W Windowsie wchodzimy do terminala poprzez komendę cmd wpisaną w wyszukiwarce systemowej i wybieramy wiersz poleceń.
+                Podstawowe polecenia:
+                dir - wyświetla wszystko, co jest w bieżącym katalogu;
+                cd - wyświetla ścieżkę bieżącego katalogu;
+                cd (change directory) - powoduje przejście w wybrane miejsce, np do głównego katalogu (cd C:/); jeśli zaczniemy wpisywać nazwę katalogu w ścieżce, to po kliknięciu w TAB, system zacznie dopełniać nam ją podpowiedziami z danej lokalizacji;
+                cd .. - powoduje przejście do katalogu wyżej;
+                cd ../.. - powoduje przejście dwa katalogi wyżej;
+                mkdir nowyfolder - tworzy w bieżącej lokalizacji nowy katalog o nazwie "nowyfolder";
+                code . - otwiera visual studio code w bieżącym katalogu;
+                code katalog - otwiera folder katalog" w visual studio code;
+                cls - czyści historię bieżących poleceń w terminalu.
+                Do skakania po wprowadzonych poleceniach, by wprowadzić w nowej linii ich zawartość, można używać strzałek góra/dół.
+                
+                Podstawowe komendy dla terminala w systemie Windows.
+                
+            </article>
+        </section>
+<section>
+    <h2>TYDZIEŃ 4</h2>
+    <article>
+        Varia - tydzień 4
+        GIT
+        GIT narzędzie kontroli wersji kodu, wersjonowania kodu, stworzone przez Linusa Torvaldsa (tego od Linuxa). Można z niego korzystać za pomocą terminali:
+        - cmd,
+        - powershell,
+        - git bash.
+        
+        Po pobraniu i zainstalowaniu GIT-a należy go skonfigurować pod nasze dane z poziomu terminala. Dostępne są następujące polecenia: git --version sprawdza wersję zainstalowanego GIT-a
+        git config --global user.name "Magdalena Derek"
+        git config --global user.email magdalena.derek@tlen.pl
+        
+        Poprawność wprowadzonych danych można sprawdzić za pomocą następujących poleceń:
+        git config --get user.name
+        git config --get user.email
+        
+        GIT składa się z repozytoriów. Repozytorium to nasz projekt, czyli katalog, w którym znajdują się wszystkie pliki, które chcemy rozwijać.
+        Aby założyć repozytorium dla naszego projektu, z poziomu terminala wchodzimy do katalogu projektu (w tym przypadku katalog homepage) i używamy polecenia git init. W efekcie pojawia się informacja o utworzeniu pustego repozytorium i w katalogu homepage pojawia się nowy katalog .git, który jest katalogiem ukrytym i nie należy go kasować. W katalogu tym przechowywana jest cała historia GIT-a, informacje na temat plików. Zarządza nim program GIT, my nic tam nie robimy.
+        C:\dev\homepage>git init
+        Initialized empty Git repository in C:/dev/homepage/.git/
+        
+        Obrazek przedstawiający, na czym polega commit. Na osi czasu znajdują się punkty będące commitami z opisem zmian w projekcie.
+        Commit - stan projektu na daną chwilę i opis tego, co się zmieniło od ostatniego zapisu. W commicie zapisywana jest historia zmian, czyli tylko to, co się zmieniło.
+        git status - sprawdza stan plików w katalogu, w którym się znajdujemy
+        git add . - opcja z kropką powoduje dodanie wszystkich plików z katalogu, w kórym się znajdujemy do śledzenia w ramach kontroli wersji kodu.
+        
+        Po dodaniu do śledzenia plików z katalogu, w którym się znajdujemy, kolejne zapytanie git status pokazuje jakie zmiany w plikach zostały wprowadzone i jakie pojawiły się nowe pliki, które należy skomitować.
+        git commit -m "initial commit"
+        Komitując zmiany, w cudzysłowiu opisujemy jakie zmiany wrzucamy w ramach tego commita. Opis może być po polsku, ale najlepiej po angielsku.
+        Jako zwrotkę dostajemy informację, jakie zmiany zostały wykonane w ramach danego commita wraz z unikalnym identyfikatorem tego commita.
+        
+        GIT przyjmuje wszystkie rodzaje plików, ale zmiany śledzi tylko w plikach tekstowych. Nie śledzi zmian w obrazkach (i innych plikach) - jeśli takie zmiany zostały wprowadzone, to traktuje taki obrazek jako nowy plik i go po prostu podmienia, bez wskazywania konkretnych, zmienionych elementów w tym obrazku.
+        
+        gitk - pokazuje w nowym oknie poza terminalem historię zmian: kto, kiedy, co i w jaki sposób zmienił
+        Po wprowadzeniu zmian w plikach, wpisujemy w terminalu polecenie git status, następnie git add . i komitujemy zmiany za pomoca polecenia git commit -m "description of changes", po czym sprawdzamy historię poleceniem gitk.
+        
+        W visual studio code jest wbudowane narzędzie, które pozwala na podglądanie repozytorium i bieżące sprawdzanie wprowadzonych zmian. Jest widoczne w edytorze w menu po lewej stronie jako trzecia ikona od góry (pod lupą) pod nazwą source control. Pokazywane są w nim zmiany wprowadzone od czasu ostatniego commita. Można również z tego narzędzia korzystać do komitowania zmian.
+        
+        Oprócz tego w VSC dostępne jest rozszerzenie git lens, które można dodatkowo zainstalować. Pojawi się ono wówczas jako kolejna ikona w menu po lewej stronie. Pokazywana jest tam historia wykonanych commitów i można wykonywać polecenia GIT-owe. Historia zmian wyświetlana jest dla pliku, w którym się znajdujemy aktualnie. Widoczne są też zmiany dla konkretnej linijki kodu, w której się znajdujemy.
+        
+        Do obsługi GIT-a można ponadto wykorzystywać całe mnóstwo programów graficznych (stanowią jakby wizualną nakładkę na GIT-a). My będziemy korzystać z narzędzia GitHub Desktop.
+        
+
+    </article>
+</section>
+
+
+        <footer>
+          Brudnopis Angeliki Borko - notatki z frontendu.
+        </footer>
+      </main>
 </body>
 </html>
