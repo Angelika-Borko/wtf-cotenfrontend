@@ -9,13 +9,24 @@
 </head>
 
 <body>
+  <header>
+<nav>
+<a href="index.html">Strona główna</a>
+<a href="notatki-html.html">Notatki z HTML-a</a>
+<a href="notatki-css.html">Notatki z CSS-a</a>
+<a href="notatki-js.html">Notatki z JS-a</a>
+<a href="notatki-inne.html">Inne notatki</a>
+</nav>
+    <p>Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku stronach.</p>
+  </header>
   <main>
     <header>
       <h1>Notatki z frontendu</h1>
     </header>
-
+W main opakowywujemy unikalną treść dla danej strony
     <section>
       <h2>O mnie</h2>
+    <img src="angie.jpg" alt="Zdjęcie Angeliki Borko">
       <p>Cześć! Na co dzień pracuje jako testerka oprogramowania. Chcę podnieść swoje kwalifikacje, aby zostać
         programistką, dlatego też zdecydowałam się wziąć udział w kursie WTF. To moje drugie podejście do kursu. Za
         pierwszym razem utknęłam na 9 module. Pokonały mnie javascript i zbyt ambitne podejście do budowy swojego
@@ -45,10 +56,11 @@
         </ol>
       </article>
     </section>
-    <footer>
-      Brudnopis Angeliki Borko - notatki z frontendu.
-    </footer>
   </main>
+  <footer>
+    <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
+  <p>Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+  </footer>
 </body>
 
 </html>
