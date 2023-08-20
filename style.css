@@ -5,3 +5,8 @@ body {
 h2 {
     color: #1460aa;
 }
+
+.screen {
+   font-weight: 600;
+   color: yellowgreen;
+}
