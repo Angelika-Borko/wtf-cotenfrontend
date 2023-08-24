@@ -10,3 +10,10 @@ h2 {
    font-weight: 600;
    color: yellowgreen;
 }
+
+.hint {
+    font-weight: 900;
+    background-color: darkorange
+}
+
+a {color: inherit;}

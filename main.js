@@ -1,4 +1,4 @@
-alert("Witaj! :)");
+// alert("Witaj! :)");
 console.log("jestem Twoim console.logiem");
 console.log("jestem Twoim drugim console.logiem");
 

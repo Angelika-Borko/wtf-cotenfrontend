@@ -11,68 +11,84 @@
 <body>
   <header>
     <nav>
-    <a href="index.html">Strona główna</a>
-    <a href="notatki-html.html">Notatki z HTML-a</a>
-    <a href="notatki-css.html">Notatki z CSS-a</a>
-    <a href="notatki-js.html">Notatki z JS-a</a>
-    <a href="notatki-inne.html">Inne notatki</a>
+      <a href="index.html">Strona główna</a>
+      <a href="notatki-html.html">Notatki z HTML-a</a>
+      <a href="notatki-css.html">Notatki z CSS-a</a>
+      <a href="notatki-js.html">Notatki z JS-a</a>
+      <a href="notatki-inne.html">Inne notatki</a>
     </nav>
-        <p>Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku stronach.</p>
-      </header>
+    <p class="hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
+      stronach.</p>
+  </header>
 
   <main>
     <header id="Top">
       <h1>Notatki z HTML-a</h1>
     </header>
+    <section>
+      <h2>TYDZIEŃ 1</h2>
+      <article>
+        <h3>Warstwy strony internetowej</h3>
+        <img src="images/warstwy.jpg" alt="Warstwy strony internetowej. Są 4 - od dołu: treść, html, css, javascript">
+      </article>
+    </section>
 
+    <br>
+    <hr>
+    <br>
 
     <section>
       <h2>TYDZIEŃ 2</h2>
       <article>
-        HTML - podstawowe informacje i znaczniki
-        HTML – nie jest to język programowania, lecz język znaczników (HyperText Markup Language) ; odpowiada za
-        semantykę, nadaje znaczenie i strukturę elementom składającym się na treść strony.</article>
+        <h3>HTML - podstawowe informacje i znaczniki</h3>
+        <p>HTML – nie jest to język programowania, lecz język znaczników (HyperText Markup Language) ; odpowiada za
+          semantykę, nadaje znaczenie i strukturę elementom składającym się na treść strony.</p>
+      </article>
 
       <article>
         <h3>Tworzymy główny plik – index.html.</h3>
-        Po utworzeniu pliku wpisujemy w pierwszej linii ”!” i klikamy tabulator. Automatycznie wkleja nam się wówczas
-        szkielet strony.
-        DOCTYPE – określa typ dokumentu, aktualnie będzie to raczej zawsze html
-        Lang – wybór języka, np. en, pl; ma znaczenie dla dostępności, kierują się tym czytniki treści
-        "head" to co jest w tej sekcji nie jest widoczne na stronie, ale wpływa na jej wygląd i treść
-        "main" główna treść dokumentu,
-        "header" główny nagłówek dokumentu, sekcji lub artykułu (dodawany np. w przypadku artykułów na blogu i
-        zawierający wówczas nazwisko autora czy datę, <header>
-          <h1></h1>
-        </header>
-        "footer" stopka dokumentu, sekcji lub artykułu,
-        "section" sekcja dokumentu, część treści logicznie wyodrębniona; każda sekcja powinna mieć nagłówek,
-        "article" część treści, która może funkcjonować jako odrębny element (analogia do gazety – sekcja to np. sekcja
-        kulturalna, a article to konkretny artykuł w ramach takiej sekcji,
-        "h1-h6" nagłówki od najważniejszego do najmniej istotnego,
-        "p" paragraf, akapit
+        <p class="hint">Po utworzeniu pliku wpisujemy w pierwszej linii ”!” i klikamy tabulator. Automatycznie wkleja
+          nam się wówczas
+          szkielet strony.</p>
+        <lu>
+          <li>DOCTYPE – określa typ dokumentu, aktualnie będzie to raczej zawsze html</li>
+          <li>lang – wybór języka, np. en, pl; ma znaczenie dla dostępności, kierują się tym czytniki treści</li>
+          <li>head - to co jest w tej sekcji nie jest widoczne na stronie, ale wpływa na jej wygląd i treść</li>
+          <li>main - główna treść dokumentu</li>
+          <li>header - główny nagłówek dokumentu, sekcji lub artykułu (dodawany np. w przypadku artykułów na blogu i
+            zawierający wówczas nazwisko autora czy datę)</li>
+          <li>footer - stopka dokumentu, sekcji lub artykułu</li>
+          <li>section - sekcja dokumentu, część treści logicznie wyodrębniona; każda sekcja powinna mieć nagłówek</li>
+          <li>article - część treści, która może funkcjonować jako odrębny element (analogia do gazety – sekcja to np.
+            sekcja
+            kulturalna, a article to konkretny artykuł w ramach takiej sekcji)</li>
+          <li>h1-h6 - nagłówki od najważniejszego do najmniej istotnego</li>
+          <li>p - paragraf, akapit</li>
+        </lu>
       </article>
+
       <article>
         <h3>Porządkujemy htmla</h3>
-        ctrl+shift+p i wyszukiwana fraza „format” – z podpowiedzi wybieramy „format document” i automatycznie formatuje
-        nam dokument napisany w html.
-        Możemy też regulować wyrównywanie, głębokość wcięć. Wybieramy w tym celu opcję "spaces" na dolnej belce VSC po
-        prawej stronie, następnie na rozwijanej liście klikamy w opcję indent using tabs i wpisujemy wybraną wartość
-        (wybrałam 2, wcześniej było 4). To samo można zastosować w pliku ze stylami.
+        <p class="hint">ctrl+shift+p i wyszukiwana fraza „format” – z podpowiedzi wybieramy „format document” i
+          automatycznie formatuje
+          nam dokument napisany w html.</p>
+        <p class="hint">Możemy też regulować wyrównywanie, głębokość wcięć: wybieramy w tym celu opcję "spaces" na
+          dolnej belce VSC po
+          prawej stronie, następnie na rozwijanej liście klikamy w opcję indent using tabs i wpisujemy wybraną wartość
+          (wybrałam 2, wcześniej było 4). To samo można zastosować w pliku ze stylami.</p>
       </article>
-      <article>
-        <h3>Podpięcie pliku ze stylami css</h3>
-        <link rel="stylesheet" href="style.css">
-      </article>
+
       <article>
         <h3>Klan</h3>
-        Kod HTML ma strukturę drzewa, rodziny, klanu z zagnieżdżonymi elementami, które zawierają się jedne w drugich w
-        relacji rodzic (element, w którym jest zagnieżdżony inny element) - dziecko (element, który jest zagnieżdżony w
-        innym elemencie, swoim rodzicu). Poszczególne zagnieżdżone elementy to węzły (node), a element, z którego
-        wychodzą to korzeń (root element - znacznik html).
+        <p>Kod HTML ma strukturę drzewa, rodziny, klanu z zagnieżdżonymi elementami, które zawierają się jedne w drugich
+          w relacji rodzic (element, w którym jest zagnieżdżony inny element) - dziecko (element, który jest
+          zagnieżdżony
+          w innym elemencie, swoim rodzicu). Poszczególne zagnieżdżone elementy to węzły (node), a element, z którego
+          wychodzą to korzeń (root element - znacznik html).</p>
       </article>
       </article>
     </section>
+
     <br>
     <hr>
     <br>
@@ -81,150 +97,218 @@
       <h2>TYDZIEŃ 3</h2>
       <article>
         <h3>Znaczniki wyróżniające treść</h3>
-        "znacznik atrybut="wartość""treść"/znacznik"
-        br - znacznik pozwalający na przejście do nowej linii. Po dodaniu go na końcu frazy, po której chcemy rozpocząć
-        nową linię, kolejna część tekstu zaczyna się w nowej linii. Jest to znacznik występujący pojedynczo, nie ma
-        swojej pary, tzw. znacznik samozamykający. Można go jednak zapisać też tradycyjnie poprzez rozpoczęcie i
-        zamknięcie znacznika na końcu danej frazy, po której chcemy zacząć nową llinię. Ale najlepiej zapisać go po
-        prostu w nawiasach ostrych jako "br/".
+        <lu>
+          <li>br - znacznik pozwalający na przejście do nowej linii. Po dodaniu go na końcu frazy, po której chcemy
+            rozpocząć
+            nową linię, kolejna część tekstu zaczyna się w nowej linii. Jest to znacznik występujący pojedynczo, nie ma
+            swojej pary, tzw. znacznik samozamykający. Można go jednak zapisać też tradycyjnie poprzez rozpoczęcie i
+            zamknięcie znacznika na końcu danej frazy, po której chcemy zacząć nową llinię. Ale najlepiej zapisać go po
+            prostu w nawiasach ostrych jako "br/".</li>
+          <li>b (bold) - wyróżnienie wizualne tekstu z otaczającej go treści poprzez pogrubienie, nie ma żadnego
+            znaczenia
+            semantycznego</li>
+          <li>i (italic) - wyróżnienie wizualne tekstu z otaczającej go treści poprzez kursywę, nie ma żandego znaczenia
+            semantycznego</li>
+          <li>strong - wyróżnia wizualnie tekst poprzez pogrubienie, ale ma również znaczenie semantyczne, służy
+            podkreśleniu
+            znaczenia danej frazy - z tego korzystamy</li>
 
-        b (bold) - wyróżnienie wizualne tekstu z otaczającej go treści poprzez pogrubienie, nie ma żadnego znaczenia
-        semantycznego,
+          <li>em - wyróżnia wizualnie tekst poprzez kursywę, ale ma również znaczenie semantyczne, służy podkreśleniu,
+            że dany
+            zwrot został użyty w innym znaczeniu niż dosłowne, często ironicznie. - z tego korzystamy</li>
+        </lu>
 
-        i (italic) - wyróżnienie wizualne tekstu z otaczającej go treści poprzez kursywę, nie ma żandego znaczenia
-        semantycznego,
+        <h3> Linkowanie i nawigacja</h3>
+        <p> a - znacznik używany do tworzenia linków zewnętrznych oraz łacza wewnątrz dokumentu, opisywany jest
+          najczęsciej przez dwa atrybuty - href i target.</p>
+        <p>"(a href="" target="")opis łącza(/a)</p>
+        <p>a - linki / łącza wewnątrz dokumentu</p>
+        <p>target="blank" - otworzy się link w nowej karcie</p>
+        <p>Tworząc link zewnętrzny jako wartość atrybutu href podajemy adres strony, do której chcemy się
+          odwołać, np. href="https://cotenfrontend.pl", a w opisie łącza wskazujemy dokąd link prowadzi (będzie to
+          literał, który będzie linkował do przestrzeni zewnętrznej).</p>
 
-        strong - wyróżnia wizualnie tekst poprzez pogrubienie, ale ma również znaczenie semantyczne, służy podkreśleniu
-        znaczenia danej frazy - z tego korzystamy
+        <h4>Nawigacja wewnątrz strony</h4>
+        <p>(element id="moje-wymyslone-id")</p>
+        <p>Tworząc łącze w ramach dokumentu musimy posłużyc się atrybutem "id" identyfikującym dany element,
+          np. daną sekcję, header, etc. Identyfikator powinien być unikalny w ramach dokumentu (id="moj-identyfikator")
+          i
+          odnosimy się do niego podając na początku jego wartości znak #. Czyli jeśli danemu elementowi nadamy id o
+          wartości "notatki", to odnosimy się do niego wpisując href="#notatki". ważne jest też, m. in. z punktu
+          widzenia dostępności strony, by w opisie łącza wskazywać dokładnie, dokąd link prowadzi. Przykładowo, jeśli
+          w elemencie header damy id="top", to w stopce możemy stworzyć łącze pozwalające na powrót na górę strony
+          wyglądające w ten sposób:
+          <strong>(a href="#top")(/a)</strong> i jako opis łącza podać "Wróć na górę strony".
+        </p>
 
-        em - wyróżnia wizualnie tekst poprzez kursywę, ale ma również znaczenie semantyczne, służy podkreśleniu, że dany
-        zwrot został użyty w innym znaczeniu niż dosłowne, często ironicznie. - z tego korzystamy
-        < b > & < i >
-            Nie mają dużego znaczenia semantycznego - służą do wyróżnienia fragmentu z tekstu otaczającego
-            < strong > - podkreśla wysoką istotność
-              i poważność frazy w nim zawartej
-              < em > - podkreśla, że tekst może mieć inne znaczenie (np. ironia)
-                < u >
-                  Kiedyś - stylowanie tekstu przez podkreślenie Teraz - dodanie "nietekstowej adnotacji"
-                  na przykład oznaczenie błędu
+        <h4>Nawigacja między stronami</h4>
+        <p>nav - służy do nawigacji, np. między podstronami w ramach dokumentu; wskazuje, że jest to
+          główna nawigacja po stronie/serwisie. Aby utworzyć kolejne podstrony, tworzymy kolejny plik, np.
+          nauka-html.html (nie używamy
+          znaków diakrytcznych ani spacji, rozdzielamy myślinikami). Kopiujemy całą treść z pliku index.html i zaczynamy
+          porządki. Na początku tworzymy dodatkowy znacznik header, który znajduje się w body, ale poza znacznikiem
+          main.
+          Dzięki temu na wszystkich podstronach będzie powtarzał się ten sam nagłówek. Każdą treść powtarzalną
+          wyrzucamy poza main, czyli oprócz znacznika header może to być przykładowo znacznik footer. Treści takie nie
+          są
+          analizowane przez wyszukiwarki czy czytniki treści, które skupiają się na treści zawartej w tagu main.
+          W takim znaczniku header znajdującym się poza tagiem main, wpisujemy tag nav i w ramach tego
+          znacznika, stosując znaczniki a, dodajemy linkowanie do podstron, tworząc w ten sposób spis treści. Jako adres
+          podajemy nazwę pliku podstrony, do której linkujemy, czyli np. href="nauka-html.html". Dobrą praktyką jest, by
+          menu się powtarzało, czyli zawierało takie same linki na wszystkich podstronach, co oznacza, że na podstronie
+          "strona główna" powinien być również link do strony głównej. Przy przeklikiwaniu między stronami widać, że
+          zmienia się adres w urlu - na index lub nauka-html. Elementem powtarzalnym jest również stopka, więc wycnamy
+          ją na obu dokumentach z sekcji main i wklejamy poza tym znacznikiem. Sam nagłówek h1 w header w sekcji main
+          zostawiamy w obu dokumentach, tylko
+          zmieniamy jego treść w pliku nauka-html.html, tak aby odpowiadał treści na tej podstronie, czyli np. "Nauka
+          HTML-a". Robimy też roszady w treści dokumentów.
 
-
-                  <h3> Linkowanie i nawigacja</h3>
-                  a - znacznik używany do tworzenia linków zewnętrznych oraz łacza wewnątrz dokumentu, opisywany jest
-                  najczęsciej
-                  przez dwa atrybuty - href i target.
-
-                  < a href="" target="">opis łącza< /a >
-                  a - linki / łącza wewnątrz dokumentu
-                  target="blank" - otworzy się link w nowej karcie
-
-
-
-                  Tworząc link zewnętrzny jako wartość atrybutu href podajemy adres strony, do której chcemy się
-                  odwołać, np.
-                  href="https://cotenfrontend.pl", a w opisie łącza wskazujemy dokąd link prowadzi (będzie to literał,
-                  który
-                  będzie linkował do przestrzeni zewnętrznej).
-                  <h2>nawigacja wewnątrz strony</h2>
-                  <p><element id="moje-wymyslone-id"></p>
-                  Tworząc łącze w ramach dokumentu musimy posłużyc się atrybutem "id" identyfikującym dany element, np.
-                  daną
-                  sekcję, header, etc. Identyfikator powinien być unikalny w ramach dokumentu (id="moj-identyfikator") i
-                  odnosimy
-                  się do niego podając na początku jego wartości znak #. Czyli jeśli danemu elementowi nadamy id o
-                  wartości
-                  "notatki", to odnosimy się do niego wpisując href="#notatki". ważne jest też, m. in. z punktu widzenia
-                  dostępności strony, by w opisie łącza wskazywać dokładnie, dokąd link prowadzi. Przykładowo, jeśli w
-                  elemencie
-                  header damy id="top", to w stopce możemy stworzyć łącze pozwalające na powrót na górę strony
-                  wyglądające w ten
-                  sposób: < strong >< a href="#top" >< /a >< /strong > i jako opis łącza podać "Wróć na górę strony".
-<h3>Nawigacja między stronami</h3>
-                  nav - służy do nawigacji, np. między podstronami w ramach dokumentu; wskazuje, że jest to główna
-                  nawigacja po
-                  stronie/serwisie.
-                  Aby utworzyć kolejne podstrony, tworzymy kolejny plik, np. nauka-html.html (nie używamy znaków
-                  diakrytcznych ani
-                  spacji, rozdzielamy myślinikami). Kopiujemy całą treść z pliku index.html i zaczynamy porządki. Na
-                  początku
-                  tworzymy dodatkowy znacznik header, który znajduje się w body, ale poza znacznikiem main. Dzięki temu
-                  na
-                  wszystkich podstronach będzie powtarzał się ten sam nagłówek. Każdą treść powtarzalną wyrzucamy poza
-                  main, czyli
-                  oprócz znacznika header może to być przykładowo znacznik footer. Treści takie nie są analizowane przez
-                  wyszukiwarki czy czytniki treści, które skupiają się na treści zawartej w tagu main.
-                  W takim znaczniku header znajdującym się poza tagiem main, wpisujemy tag nav i w ramach tego
-                  znacznika, stosując
-                  znaczniki a, dodajemy linkowanie do podstron, tworząc w ten sposób spis treści. Jako adres podajemy
-                  nazwę pliku
-                  podstrony, do której linkujemy, czyli np. href="nauka-html.html". Dobrą praktyką jest, by menu się
-                  powtarzało,
-                  czyli zawierało takie same linki na wszystkich podstronach, co oznacza, że na podstronie "strona
-                  główna"
-                  powinien być również link do strony głównej. Przy przeklikiwaniu między stronami widać, że zmienia się
-                  adres w
-                  urlu - na index lub nauka-html.
-                  Elementem powtarzalnym jest również stopka, więc wycnamy ją na obu dokumentach z sekcji main i
-                  wklejamy poza tym
-                  znacznikiem. Sam nagłówek h1 w header w sekcji main zostawiamy w obu dokumentach, tylko zmieniamy jego
-                  treść w
-                  pliku nauka-html.html, tak aby odpowiadał treści na tej podstronie, czyli np. "Nauka HTML-a". Robimy
-                  też roszady
-                  w treści dokumentów.
-
-                  <h3> Dodawanie obrazków na stronie</h3>
-                  < img src="" alt="zdj" >
-                  img - znacznik, który pozwala na dołączenie obrazka, który ma podany adres
-                  Aby dodać obrazek, zapisujemy go w formacie np. jpg lub gif w folderze naszego projektu. Jest on
-                  wówczas
-                  widoczny również wśród plików wyświetlonych w edytorze kodu. Następnie wybieramy miejsce, gdzie chcemy
-                  taki
-                  obrazek dodać - ja postanowiłam dodać stworzony przeze mne obrazek przedstawiający przykład schematu
-                  blokowego w
-                  notatce na ten temat w pliku nauka-js.html. Obrazek znajduje się na tej podstronie.
-
-                  W pliku tym w miejscu, gdzie chcemy dodać obrazek, otwieramy znacznik img i wskazujemy adres obrazka,
-                  podając
-                  jego nazwę, w moim przypadku to src="schemat-blokowy.JPG". Dodajemy też tekst alternatywny jako
-                  wartość dla
-                  atrybutu "alt". Tekst ten nie jest widoczny dla użytkownika na stronie, ale posługują się nim
-                  wyszukiwarki oraz
-                  mające na celu zapewnienie dostępności czytniki stron internetowych. Warto więc w miarę dokładnie
-                  opisać
-                  zawartość obrazka. W moim przypadku to alt="Krótki schemat blokowy na przykładzie akcji czytania
-                  książki."
-                  Img jest znacznikiem samozamykającem się (tak jak br), więc na koniec dajemy tylko slash i zamykamy
-                  nawias
-                  ostry.
-                  W ramach pracy domowej mam dodać obrazki na każdej stronie, więc poniżej Magdusia radośnie ucząca się
-                  frontendu.
-
-
+        <h3> Dodawanie obrazków na stronie</h3>
+        <p>(img src="" alt="zdj")</p>
+        <p>img - znacznik, który pozwala na dołączenie obrazka, który ma podany adres. Aby dodać obrazek, zapisujemy go
+          w formacie np. jpg lub gif w folderze naszego projektu. Jest on wówczas widoczny również wśród plików
+          wyświetlonych w edytorze kodu. Następnie wybieramy miejsce, gdzie chcemy taki obrazek dodać - ja postanowiłam
+          dodać stworzony przeze mne obrazek przedstawiający
+          przykład schematu blokowego w notatce na ten temat w pliku nauka-js.html. Obrazek znajduje się na tej
+          podstronie.
+        <p>W pliku tym w miejscu, gdzie chcemy dodać obrazek, otwieramy znacznik img i wskazujemy
+          adres obrazka, podając jego nazwę, w moim przypadku to src="schemat-blokowy.JPG". Dodajemy też tekst
+          alternatywny jako wartość dla atrybutu "alt". Tekst ten nie jest widoczny dla użytkownika na stronie, ale
+          posługują
+          się nim wyszukiwarki oraz mające na celu zapewnienie dostępności czytniki stron internetowych. Warto więc w
+          miarę
+          dokładnie opisać zawartość obrazka. W moim przypadku to alt="Krótki schemat blokowy na przykładzie akcji
+          czytania książki." Img jest znacznikiem samozamykającem się (tak jak br), więc na koniec dajemy tylko slash
+          i zamykamy nawias ostry.</p>
       </article>
       <article>
         <h3> Podsumowanie</h3>
-        - atrybuty są "niewidzialne" - chowamy je w znaczniku
-        - nadają elementom dodatkowe właściwości (href, src)
-        - pozwalają na grupowanie elementów (class)
-        - pozwalają na identyfikowanie elementów (id)
-        - można je miksować
-        - spis atrybutów "globalnych"
-        https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
-      </article>
+        <lu>
+          <li>atrybuty są "niewidzialne" - chowamy je w znaczniku</li>
 
-      Tworząc stronę uruchamianą "z dysku" pomijaliśmy używanie slasha z przodu
+          <li>nadają elementom dodatkowe właściwości (href, src)</li>
+          <li>pozwalają na grupowanie elementów (class)</li>
+          <li>pozwalają na identyfikowanie elementów (id)</li>
+          <li>można je miksować</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes" target="_blank">spis
+              atrybutów "globalnych"</a></li>
+        </lu>
+        <p class="hint">Tworząc stronę uruchamianą "z dysku" pomijaliśmy używanie slasha z przodu</p>
+      </article>
     </section>
 
+
     <br>
-<hr>
-<br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 4</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 5</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 6</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 7</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 8</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 9</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 10</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 11</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 12</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+      <h2>TYDZIEŃ 13</h2>
+      <article>
+        <h3>Szablon</h3>
+        <p>szablon</p>
+      </article>
+    </section>
+    <br>
+    <hr>
+    <br>
 
 
   </main>
   <footer>
     <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
     <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
-  <p>Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+    <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
   </footer>
 </body>
+
 </html>
