@@ -2,355 +2,389 @@
 <html lang="pl">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>4 moduł WTF</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 moduł WTF</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Strona główna</a>
-      <a href="notatki-html.html">Notatki z HTML-a</a>
-      <a href="notatki-css.html">Notatki z CSS-a</a>
-      <a href="notatki-js.html">Notatki z JS-a</a>
-      <a href="notatki-inne.html">Inne notatki</a>
-      <a href="module-4.html">Moduł 4</a>
-    </nav>
-    <p class="hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
-      stronach.</p>
-  </header>
-
-  <main>
     <header>
-      <h1>Notatki z modułu 4</h1>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="notatki-html.html">Notatki z HTML-a</a>
+            <a href="notatki-css.html">Notatki z CSS-a</a>
+            <a href="notatki-js.html">Notatki z JS-a</a>
+            <a href="notatki-inne.html">Inne notatki</a>
+            <a href="module-4.html">Moduł 4</a>
+        </nav>
+        <p class="hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
+            stronach.</p>
     </header>
-    <p class="hint">W main opakowywujemy unikalną treść dla danej strony</p>
 
-    <section>
-        <h2>TYDZIEŃ 4</h2>
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635006"
-              target="_blank">M04L01: Tydzień IV + rozwiązania tydzień III [01:42]</a></h3>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635007"
-              target="_blank">M04L02: CSS: display, overflow [20:22]</a></h3>
-          
-            <h4>Życie w pudełku</h4>
-            <div class="box">
-            <img src="images/4/04-zycie-w-pudelku.png" width="500" alt="">
-          </div>
-          <div class="box">
-            <p>świat stron internetowych jest płaski (prawie cały)</p>
-            <img src="images/4/04-2d.png" width="500" alt="">
-          </div>
-          <div class="box">
-            <p>div - nie ma znaczenia semantycznego, używamy gdy chcemy coś "opakować" (tylko kiedy nie istnieje
-              odpowiedni
-              semantyczny znacznik)</p>
-            <img src="images/4/04-div.png" width="500" alt="">
-          </div>
-          
-            <h4>Display</h4>
-            <div class="box">
-            <p>display: block - przenosi ostylowany element do nowej lini, element zajmuje całą dostępną szerokość</p>
-            <img src="images/4/04-display-block.png" width="500" alt="">
-          </div>
-          <div class="box">
-            <p>display: inline - wyświetla elementy obok siebie, elementy są tak szerokie jaki ich zawartość/kontent/treść</p>
-            <img src="images/4/04-display-inline.png" width="500" alt="">
-          </div>
-          <div class="box">
-          <p>display: inline-block - jeżeli elementy są wystarczająco małe, mają wystarczająco wąską zawartość, to zachowują się inlinowo, jeśli są tak szerokie, że nic więcej sie nie zmieści, linia zamienia się w block</p>
-          <img src="images/4/04-display-inline-block.png" width="500" alt="">
-        </div>
-          <div class="box">
-            <p>wartości width / height określają wysokość i szerokość pudełka. Przy display: inline są ignorowane</p>
-            <img src="images/4/04-width-height.png" width="500" alt="">
-          </div>
-          <div class="box">
-            <p>wartości max-width / max-height</p>
-            <img src="images/4/04-max.png" width="500" alt="">
-          </div>
-  
-  
-  
-  
-  
-  
-          <div class="box">test</div>
-          <div class="box">test</div>
-          <div class="box">test</div>
-          <div class="box">test</div>
-          <div class="box">test</div>
-          <div class="box">test</div>
-          <div class="box">test</div>
-          <div class="box">test</div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-          
-          
-          min-width / min-height
-          overflow
-          0 możemy zapisywać bez jednostek
-          piksele
-          procenty
-          vw = viewport width
-          vh = viewport height
-          <img src="images/4/04-vh.png" width="500" alt="">
-          BOX MODEL
-          Wszystkie elementy otoczone są "niewidzialnym" prostokątem
-          BOX MODEL
-          padding
-          zapis pełny / zapis skrótowy (shorthand)
-          wartości "lustrzane"
-          wartości wszystkie takie same
-          border
-          zapis pełny / zapis skrótowy (shorthand)
-          border-radius
-          margin
-          margin - zapisujemy tak samo jak padding
-          margin: __px auto;
-          Box model w devtools (wartości w px)
-  
-  
-  
-  
-  
-          <p>box-sizing</p>
-          <p>https://www.abeautifulsite.net/box-sizing-border-box-explained</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635009"
-              target="_blank">M04L03: CSS: jednostki [10:31]</a></h3>
-          <p>szablon</p>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635008"
-              target="_blank">M04L04: CSS: box model [15:47]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635011"
-              target="_blank">M04L05: CSS: box-sizing [06:19]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635010"
-              target="_blank">M04L06: Position, float [21:04]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635012"
-              target="_blank">M04L07: JavaScript: typy i struktury danych, immutability [12:11]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635013"
-              target="_blank">M04L08: Normalizacja vs reset [11:04]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635014"
-              target="_blank">M04L09: Serwer lokalny [08:52]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635015"
-              target="_blank">M04L10: BEM [15:33]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635016"
-              target="_blank">M04L11: DOM-owe przedszkole [13:19]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635017"
-              target="_blank">M04L12: Prace domowe tydzień IV [03:35]</a></h3>
-          <p>szablon</p>
-        </article>
-  
-        <article>
-          <h3><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169745319"
-              target="_blank">WTF M04 LIVE</a></h3>
-          <p>szablon</p>
-        </article>
-        <div>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <img src="images/0g-0g-css.JPG" width="500" alt="">
-          <img src="images/0q.0q-css.JPG" width="500" alt="">
-          <img src="images/0w-0w-html.JPG" width="500" alt="">
-          <img src="images/0x.0x-css.JPG" width="500" alt="">
-  
-          <img src="images/4/04-07-css.JPG" width="500" alt="">
-          <img src="images/4/04-08-css.JPG" width="500" alt="">
-          <img src="images/4/04-10-js.JPG" width="500" alt="">
-          <img src="images/4/04-11-inne.JPG" width="500" alt="">
-          <img src="images/4/04-13-js.JPG" width="500" alt="">
-          <img src="images/4/04-B.png" width="500" alt="">
-          <img src="images/4/04-BEM.png" width="500" alt="">
-          <img src="images/4/04-bem-2.png" width="500" alt="">
-          <img src="images/4/04-bem-11.png" width="500" alt="">
-          <img src="images/4/04-BEM-dlaczego.png" width="500" alt="">
-          <img src="images/4/04-bem-na-dloni.png" width="500" alt="">
-          <img src="images/4/04-bem-na-dłoni-html.png" width="500" alt="">
-          <img src="images/4/04-bem-podsumowanie.png" width="500" alt="">
-          <img src="images/4/04-bem-w-css.png" width="500" alt="">
-          <img src="images/4/04-bem-w-htmlu.png" width="500" alt="">
-          <img src="images/4/04-bem-zyciowy-przyklad.png" width="500" alt="">
-          <img src="images/4/04-block-element-modifier.png" width="500" alt="">
-          <img src="images/4/04-border.png" width="500" alt="">
-          <img src="images/4/04-border-radius.png" width="500" alt="">
-          <img src="images/4/04-box-model.png" width="500" alt="">
-          <img src="images/4/04-box-model-2.png" width="500" alt="">
-          <img src="images/4/04-box-model-w-devtools.png" width="500" alt="">
-          <img src="images/4/04-box-sizing.png" width="500" alt="">
-          <img src="images/4/04-can-i-use.png" width="500" alt="">
-          <img src="images/4/04-clear.png" width="500" alt="">
-          <img src="images/4/04-css.png" width="500" alt="">
-  
-  
-  
-          <img src="images/4/04-div-2.png" width="500" alt="">
-          <img src="images/4/04-document-object-model.png" width="500" alt="">
-          <img src="images/4/04-dom-devtools.png" width="500" alt="">
-          <img src="images/4/04-dom-podsumowanie.png" width="500" alt="">
-          <img src="images/4/04-dom-pytanie.png" width="500" alt="">
-          <img src="images/4/04-domowe-przedszkole.png" width="500" alt="">
-          <img src="images/4/04-domyslne-style.png" width="500" alt="">
-          <img src="images/4/04-E.png" width="500" alt="">
-          <img src="images/4/04-float.png" width="500" alt="">
-          <img src="images/4/04-float-zakaz.png" width="500" alt="">
-          <img src="images/4/04-html-to-nie-dom.png" width="500" alt="">
-          <img src="images/4/04-ikea.png" width="500" alt="">
-          <img src="images/4/04-ikea-web.png" width="500" alt="">
-          <img src="images/4/04-immutability.png" width="500" alt="">
-          <img src="images/4/04-jquery.png" width="500" alt="">
-          <img src="images/4/04-js-loves-dom.png" width="500" alt="">
-          <img src="images/4/04-js-selector.png" width="500" alt="">
-          <img src="images/4/04-js-tresc.png" width="500" alt="">
-          <img src="images/4/04-js-typy-danych-i-immutability.png" width="500" alt="">
-          <img src="images/4/04-M.png" width="500" alt="">
-          <img src="images/4/04-margin.png" width="500" alt="">
-          <img src="images/4/04-margin-2.png" width="500" alt="">
-          <img src="images/4/04-margin-px-auto.png" width="500" alt="">
-          
-          <img src="images/4/04-miksujemy.png" width="500" alt="">
-          <img src="images/4/04-min.png" width="500" alt="">
-          <img src="images/4/04-normalizacja.png" width="500" alt="">
-          <img src="images/4/04-normalize-link.png" width="500" alt="">
-          <img src="images/4/04-overflow.png" width="500" alt="">
-          <img src="images/4/04-padding.png" width="500" alt="">
-          <img src="images/4/04-pelikan.png" width="500" alt="">
-          <img src="images/4/04-piksele.png" width="500" alt="">
-          <img src="images/4/04-plik-html-nie-dom.png" width="500" alt="">
-          <img src="images/4/04-polaczenie.png" width="500" alt="">
-          <img src="images/4/04-polaczmy-sie-z-dom.png" width="500" alt="">
-          <img src="images/4/04-position.png" width="500" alt="">
-          <img src="images/4/04-position-absolute.png" width="500" alt="">
-          <img src="images/4/04-position-fixed.png" width="500" alt="">
-          <img src="images/4/04-position-relative.png" width="500" alt="">
-          <img src="images/4/04-position-static.png" width="500" alt="">
-          <img src="images/4/04-position-sticky.png" width="500" alt="">
-          <img src="images/4/04-posprzatajmy.png" width="500" alt="">
-          <img src="images/4/04-praca-0.png" width="500" alt="">
-          <img src="images/4/04-praca-1.png" width="500" alt="">
-          <img src="images/4/04-praca-2.png" width="500" alt="">
-          <img src="images/4/04-praca-3.png" width="500" alt="">
-          <img src="images/4/04-praca-4.png" width="500" alt="">
-          <img src="images/4/04-praca-5.png" width="500" alt="">
-          <img src="images/4/04-praca-6.png" width="500" alt="">
-          <img src="images/4/04-praca-7.png" width="500" alt="">
-          <img src="images/4/04-prace-domowe.png" width="500" alt="">
-          <img src="images/4/04-primitives.png" width="500" alt="">
-          <img src="images/4/04-procenty.png" width="500" alt="">
-          <img src="images/4/04-reset.png" width="500" alt="">
-          <img src="images/4/04-shorthand.png" width="500" alt="">
-          <img src="images/4/04-shorthand-border.png" width="500" alt="">
-          <img src="images/4/04-top-right-bottom-left.png" width="500" alt="">
-          <img src="images/4/04-type-of.png" width="500" alt="">
-          <img src="images/4/04-typowy-reset.png" width="500" alt="">
-          
-          <img src="images/4/04-vw.png" width="500" alt="">
-          <img src="images/4/04-wartosci-lustrzane.png" width="500" alt="">
-          <img src="images/4/04-wartosci-takie-same.png" width="500" alt="">
-         
-          <img src="images/4/04-wszystkie-elementy.png" width="500" alt="">
-          <img src="images/4/04-z-index.png" width="500" alt="">
-          <img src="images/4/04-zamowmy-meble.png" width="500" alt="">
-          <img src="images/4/04-zero.png" width="500" alt="">
-          <img src="images/4/04-zmienna-to-nie-wartosc.png" width="500" alt="">
-          <img src="images/4/04-zmienne-w-js.png" width="500" alt="">
-          <img src="images/4/04-zmienne-w-js-2.png" width="500" alt="">
-          <img src="images/4/04-zrodlo-strony-to-nie-dom.png" width="500" alt="">
-  
-          <img src="images/4/04.02-inne.JPG" width="500" alt="">
-          <img src="images/4/04.04-css.JPG" width="500" alt="">
-          <img src="images/4/04.05-css.JPG" width="500" alt="">
-          <img src="images/4/04.06-css.JPG" width="500" alt="">
-          <img src="images/4/04.09-css.JPG" width="500" alt="">
-          <img src="images/4/04.12-my-notes-BEM.JPG" width="500" alt="">
-        </div>
-      </section>
-  
-      <br>
-      <hr>
-      <br>
+    <main>
+        <header>
+            <h1>notatki z modułu 4</h1>
+        </header>
+        <p class="hint">W main opakowywujemy unikalną treść dla danej strony</p>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635006"
+                        target="_blank">M04L01: Tydzień IV + rozwiązania tydzień III [01:42]</a></h2>
+            </article>
+
+            <br>
+            <hr>
+            <br>
+
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635007"
+                        target="_blank">M04L02: CSS: display, overflow [20:22]</a></h2>
+
+                <h3>życie w pudełku</h3>
+                <div class="box">
+                    <img src="images/4/04-zycie-w-pudelku.png" width="300" alt="">
+                </div>
+                <div class="box">
+                    <img src="images/4/04-2d.png" width="300" alt="">
+                    <p>świat stron internetowych jest płaski (prawie cały)</p>
+                </div>
+                <div class="box">
+                    <img src="images/4/04-div.png" width="300" alt="">
+                    <p>div - nie ma znaczenia semantycznego, używamy gdy chcemy coś "opakować" (tylko kiedy nie istnieje
+                        odpowiedni
+                        semantyczny znacznik)</p>
+                </div>
+
+                <h3>display</h3>
+                <div class="box">
+                    <img src="images/4/04-display-block.png" width="300" alt="">
+                    <p>display: block - przenosi ostylowany element do nowej lini, element zajmuje całą dostępną
+                        szerokość</p>
+                </div>
+                <div class="box">
+                    <img src="images/4/04-display-inline.png" width="300" alt="">
+                    <p>display: inline - wyświetla elementy obok siebie, elementy są tak szerokie jaki ich
+                        zawartość/kontent/treść</p>
+                </div>
+                <div class="box">
+                    <img src="images/4/04-display-inline-block.png" width="300" alt="">
+                    <p>display: inline-block - jeżeli elementy są wystarczająco małe, mają wystarczająco wąską
+                        zawartość, to zachowują się inlinowo, jeśli są tak szerokie, że nic więcej sie nie zmieści,
+                        linia zamienia się w block</p>
+                </div>
+                <div class="box">
+                    <img src="images/4/04-width-height.png" width="300" alt="">
+                    <p>wartości width / height określają wysokość i szerokość pudełka. Przy display: inline są
+                        ignorowane</p>
+                </div>
+                <div class="box">
+                    <img src="images/4/04-max.png" width="300" alt="">
+                    <p>wartości max-width / max-height pozwalają na kurczenie się elementów, dzięki czemu na mniejszych ekranach nie pojawia się scroll. Elementy mogą się kurczyć, a jednocześnie nie będą większe niż określona wartość px</p>
+                </div>
+                <div class="box">
+                    <img src="images/4/04-min.png" width="300" alt="">
+                    <p>min-width / min-height NIE pozwalają na kurczenie się elementów bardziej niż określona wartość px, przez co na mniejszych ekranach może pojawiać się scroll, ale dzięki temu zmieści się kontent</p>
+                </div>
+                <h3>overflow</h3>
+                <div class="box">
+                    <img src="images/4/04-overflow.png" width="300" alt="">
+                    <p>overflow: hidden; - ucina treść, wszystko co nie zmieści się w pudełku, zostanie ukryte, zamiast wyjechać poza kontener </p>
+                    <p>overflow: auto; - ucina treść, ale pozwala ją przescrollować, scroll jest widoczny cały czas</p>
+                    <p>overflow: clip; - działa podobnie jak hidden, ale jest używane wtedy, gdy niektóre elementy mają wystawać poza body</p>
+                    <p>overflow: scroll; - wszystkie elementy, które nie mieszczą się w pudełku mają scroll, ale jest ładniejszy i pojawia się dopiero po najechaniu kursorem na div</p>
+                    <p>overflow: visible; - kontent, który się nie mieści jest wyświetlany poza pudełkiem, ale to miejsce nie jest rezerwowane, więc</p><p class="warning">jeżeli pod takim boxem dodamy kolejny div, to ich kontenty się na siebie nałożą i strona będzie nieczytelna</p>
+                </div>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635009"
+                        target="_blank">M04L03: CSS: jednostki [10:31]</a></h2>
+                <p>szablon</p>
+
+
+
+
+
+
+                <div class="box">test</div>
+                <div class="box">test</div>
+                <div class="box">test</div>
+                <div class="box">test</div>
+                <div class="box">test</div>
+                <div class="box">test</div>
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+                0 możemy zapisywać bez jednostek
+                piksele
+                procenty
+                vw = viewport width
+                vh = viewport height
+                <img src="images/4/04-vh.png" width="300" alt="">
+                BOX MODEL
+                Wszystkie elementy otoczone są "niewidzialnym" prostokątem
+                BOX MODEL
+                padding
+                zapis pełny / zapis skrótowy (shorthand)
+                wartości "lustrzane"
+                wartości wszystkie takie same
+                border
+                zapis pełny / zapis skrótowy (shorthand)
+                border-radius
+                margin
+                margin - zapisujemy tak samo jak padding
+                margin: __px auto;
+                Box model w devtools (wartości w px)
+
+
+
+
+
+                <p>box-sizing</p>
+                <p>https://www.abeautifulsite.net/box-sizing-border-box-explained</p>
+
+
+
+
+
+
+
+
+
+
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635008"
+                        target="_blank">M04L04: CSS: box model [15:47]</a></h2>
+                <p>szablon</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635011"
+                        target="_blank">M04L05: CSS: box-sizing [06:19]</a></h2>
+                <p>szablon</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635010"
+                        target="_blank">M04L06: Position, float [21:04]</a></h2>
+                <p>szablon</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635012"
+                        target="_blank">M04L07: JavaScript: typy i struktury danych, immutability [12:11]</a></h2>
+                <p>szablon</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635013"
+                        target="_blank">M04L08: Normalizacja vs reset [11:04]</a></h2>
+                <p>szablon</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635014"
+                        target="_blank">M04L09: Serwer lokalny [08:52]</a></h2>
+                <p>szablon</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635015"
+                        target="_blank">M04L10: BEM [15:33]</a></h2>
+                <p>szablon</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635016"
+                        target="_blank">M04L11: DOM-owe przedszkole [13:19]</a></h2>
+                <p>szablon</p>
+                <div>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <img src="images/0g-0g-css.JPG" width="300" alt="">
+                    <img src="images/0q.0q-css.JPG" width="300" alt="">
+                    <img src="images/0w-0w-html.JPG" width="300" alt="">
+                    <img src="images/0x.0x-css.JPG" width="300" alt="">
+    
+                    <img src="images/4/04-07-css.JPG" width="300" alt="">
+                    <img src="images/4/04-08-css.JPG" width="300" alt="">
+                    <img src="images/4/04-10-js.JPG" width="300" alt="">
+                    <img src="images/4/04-11-inne.JPG" width="300" alt="">
+                    <img src="images/4/04-13-js.JPG" width="300" alt="">
+                    <img src="images/4/04-B.png" width="300" alt="">
+                    <img src="images/4/04-BEM.png" width="300" alt="">
+                    <img src="images/4/04-bem-2.png" width="300" alt="">
+                    <img src="images/4/04-bem-11.png" width="300" alt="">
+                    <img src="images/4/04-BEM-dlaczego.png" width="300" alt="">
+                    <img src="images/4/04-bem-na-dloni.png" width="300" alt="">
+                    <img src="images/4/04-bem-na-dłoni-html.png" width="300" alt="">
+                    <img src="images/4/04-bem-podsumowanie.png" width="300" alt="">
+                    <img src="images/4/04-bem-w-css.png" width="300" alt="">
+                    <img src="images/4/04-bem-w-htmlu.png" width="300" alt="">
+                    <img src="images/4/04-bem-zyciowy-przyklad.png" width="300" alt="">
+                    <img src="images/4/04-block-element-modifier.png" width="300" alt="">
+                    <img src="images/4/04-border.png" width="300" alt="">
+                    <img src="images/4/04-border-radius.png" width="300" alt="">
+                    <img src="images/4/04-box-model.png" width="300" alt="">
+                    <img src="images/4/04-box-model-2.png" width="300" alt="">
+                    <img src="images/4/04-box-model-w-devtools.png" width="300" alt="">
+                    <img src="images/4/04-box-sizing.png" width="300" alt="">
+                    <img src="images/4/04-can-i-use.png" width="300" alt="">
+                    <img src="images/4/04-clear.png" width="300" alt="">
+                    <img src="images/4/04-css.png" width="300" alt="">
+                    <img src="images/4/04-div-2.png" width="300" alt="">
+                    <img src="images/4/04-document-object-model.png" width="300" alt="">
+                    <img src="images/4/04-dom-devtools.png" width="300" alt="">
+                    <img src="images/4/04-dom-podsumowanie.png" width="300" alt="">
+                    <img src="images/4/04-dom-pytanie.png" width="300" alt="">
+                    <img src="images/4/04-domowe-przedszkole.png" width="300" alt="">
+                    <img src="images/4/04-domyslne-style.png" width="300" alt="">
+                    <img src="images/4/04-E.png" width="300" alt="">
+                    <img src="images/4/04-float.png" width="300" alt="">
+                    <img src="images/4/04-float-zakaz.png" width="300" alt="">
+                    <img src="images/4/04-html-to-nie-dom.png" width="300" alt="">
+                    <img src="images/4/04-ikea.png" width="300" alt="">
+                    <img src="images/4/04-ikea-web.png" width="300" alt="">
+                    <img src="images/4/04-immutability.png" width="300" alt="">
+                    <img src="images/4/04-jquery.png" width="300" alt="">
+                    <img src="images/4/04-js-loves-dom.png" width="300" alt="">
+                    <img src="images/4/04-js-selector.png" width="300" alt="">
+                    <img src="images/4/04-js-tresc.png" width="300" alt="">
+                    <img src="images/4/04-js-typy-danych-i-immutability.png" width="300" alt="">
+                    <img src="images/4/04-M.png" width="300" alt="">
+                    <img src="images/4/04-margin.png" width="300" alt="">
+                    <img src="images/4/04-margin-2.png" width="300" alt="">
+                    <img src="images/4/04-margin-px-auto.png" width="300" alt="">
+                    <img src="images/4/04-miksujemy.png" width="300" alt="">
+                    <img src="images/4/04-normalizacja.png" width="300" alt="">
+                    <img src="images/4/04-normalize-link.png" width="300" alt="">
+                    <img src="images/4/04-padding.png" width="300" alt="">
+                    <img src="images/4/04-pelikan.png" width="300" alt="">
+                    <img src="images/4/04-piksele.png" width="300" alt="">
+                    <img src="images/4/04-plik-html-nie-dom.png" width="300" alt="">
+                    <img src="images/4/04-polaczenie.png" width="300" alt="">
+                    <img src="images/4/04-polaczmy-sie-z-dom.png" width="300" alt="">
+                    <img src="images/4/04-position.png" width="300" alt="">
+                    <img src="images/4/04-position-absolute.png" width="300" alt="">
+                    <img src="images/4/04-position-fixed.png" width="300" alt="">
+                    <img src="images/4/04-position-relative.png" width="300" alt="">
+                    <img src="images/4/04-position-static.png" width="300" alt="">
+                    <img src="images/4/04-position-sticky.png" width="300" alt="">
+                    <img src="images/4/04-posprzatajmy.png" width="300" alt="">
+                    <img src="images/4/04-primitives.png" width="300" alt="">
+                    <img src="images/4/04-procenty.png" width="300" alt="">
+                    <img src="images/4/04-reset.png" width="300" alt="">
+                    <img src="images/4/04-shorthand.png" width="300" alt="">
+                    <img src="images/4/04-shorthand-border.png" width="300" alt="">
+                    <img src="images/4/04-top-right-bottom-left.png" width="300" alt="">
+                    <img src="images/4/04-type-of.png" width="300" alt="">
+                    <img src="images/4/04-typowy-reset.png" width="300" alt="">
+                    <img src="images/4/04-vw.png" width="300" alt="">
+                    <img src="images/4/04-wartosci-lustrzane.png" width="300" alt="">
+                    <img src="images/4/04-wartosci-takie-same.png" width="300" alt="">
+                    <img src="images/4/04-wszystkie-elementy.png" width="300" alt="">
+                    <img src="images/4/04-z-index.png" width="300" alt="">
+                    <img src="images/4/04-zamowmy-meble.png" width="300" alt="">
+                    <img src="images/4/04-zero.png" width="300" alt="">
+                    <img src="images/4/04-zmienna-to-nie-wartosc.png" width="300" alt="">
+                    <img src="images/4/04-zmienne-w-js.png" width="300" alt="">
+                    <img src="images/4/04-zmienne-w-js-2.png" width="300" alt="">
+                    <img src="images/4/04-zrodlo-strony-to-nie-dom.png" width="300" alt="">
+                    <img src="images/4/04.02-inne.JPG" width="300" alt="">
+                    <img src="images/4/04.04-css.JPG" width="300" alt="">
+                    <img src="images/4/04.05-css.JPG" width="300" alt="">
+                    <img src="images/4/04.06-css.JPG" width="300" alt="">
+                    <img src="images/4/04.09-css.JPG" width="300" alt="">
+                    <img src="images/4/04.12-my-notes-BEM.JPG" width="300" alt="">
+                </div>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635017"
+                        target="_blank">M04L12: Prace domowe tydzień IV [03:35]</a></h2>
+                        <div class="to-do"><img src="images/4/04-prace-domowe.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-0.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-1.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-2.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-3.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-4.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-5.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-6.png" width="300" alt=""></div>
+                        <div class="to-do"><img src="images/4/04-praca-7.png" width="300" alt=""></div>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169745319"
+                        target="_blank">WTF M04 LIVE</a></h2>
+                <p>szablon</p>
+            </article>
+        </section>
+
+        <br>
+        <hr>
+        <br>
 
     </main>
 
     <footer>
-      <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
-      <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
-      <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+        <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
+        <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
+        <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
     </footer>
     <script src="main.js"></script>
-  </body>
-  
-  </html>
+</body>
+
+</html>

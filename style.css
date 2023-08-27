@@ -15,12 +15,22 @@ h2 {
     font-weight: 900;
     background-color: darkorange
 }
+.warning {
+    color: darkred;
+}
 
 a {color: inherit;}
 
 .box {
     display: inline-block;
     background: firebrick;
-    width: 200px;
-    height: 400px;
+    width: 310px;
+    height: 310px;
+    overflow: scroll;
+}
+.to-do {
+    display: inline-block;
+    background: lightgray;
+    width: 310px;
+    height: 310px;
 }
