@@ -17,3 +17,10 @@ h2 {
 }
 
 a {color: inherit;}
+
+.box {
+    display: inline-block;
+    background: firebrick;
+    width: 200px;
+    height: 400px;
+}
