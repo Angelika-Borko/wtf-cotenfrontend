@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 moduł WTF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="notatki-html.html">Notatki z HTML-a</a>
+            <a href="notatki-css.html">Notatki z CSS-a</a>
+            <a href="notatki-js.html">Notatki z JS-a</a>
+            <a href="notatki-inne.html">Inne notatki</a>
+            <a href="module-1.html">Moduł 1</a>
+            <a href="module-2.html">Moduł 2</a>
+            <a href="module-3.html">Moduł 3</a>
+            <a href="module-4.html">Moduł 4</a>
+        </nav>
+        <p class="hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
+            stronach.</p>
+    </header>
+
+    <main>
+        <header>
+            <h1>notatki z modułu 3</h1>
+        </header>
+        <p class="hint">W main opakowywujemy unikalną treść dla danej strony</p>
+
+        <br>
+        <hr>
+        <br>
+      
+        <section>
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456211"
+                  target="_blank">M03L01: Tydzień III + rozwiązania tydzień II [04:42]</a></h2>
+              <p>szablon</p>
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456212"
+                  target="_blank">M03L02: Jest GIT! [14:35]</a></h2>
+              <p>szablon</p>
+              Jest GIT!
+
+              UWAGA: BĘDĄ UPROSZCZENIA *będziemy używać gita jako maszynki do robienia zip-ów
+        
+             Problemy przy tworzeniu oprogramowania*
+        *w sumie ogólnie przy tworzeniu rzeczy na komputerze
+        
+             Wczoraj działało...
+        
+             Gdybym miał poprzednią wersję...
+        
+             Skasowałem przez przypadek plik...
+        
+             Chciałbym zrobić zmiany w kilku plikach, ale móc cofnąć do obecnego stanu...
+        
+             Chcę pracować nad projektem grupowym...
+        
+             I wiele, wiele innych
+        
+               What if I tell you... There's an app for that.
+        
+             Linus Torvalds
+        
+              LINUX
+        
+             GIT
+        
+           Projekt
+           Mamy tylko aktualną wersję nie mamy historii tego co dokładaliśmy
+        
+           Projekt
+        Utworzyłem projekt.
+        Pliki:
+        nowy: index.html nowy: style.css
+        .. .
+                  Dodałem tło strony
+        Pliki:
+        zmiana: style.css
+        Rozwiązałem pracę domową
+        Pliki:
+        zmiana: index.html zmiana: style.css
+        Dodałem info o kolejnym dniu nauki
+        Pliki:
+        zmiana: index.html
+        
+             Instalujemy program do obsługi GIT-a
+        Mac/Win: https://desktop.github.com
+        Linux: https://github.com/shiftkey/desktop/releases
+            
+             Można również korzystać z terminala*
+        *ale wygodniej nam będzie przy wykorzystaniu GitHub Desktop
+          https://git-scm.com/
+        
+             git config --global user.name "Jan Nowak"
+        git config --global user.email jannowak@example.com
+        
+           Projekt
+        Utworzyłem projekt.
+        Pliki:
+        nowy: index.html nowy: style.css
+        .. .
+                  Dodałem tło strony
+        Pliki:
+        zmiana: style.css
+        Rozwiązałem pracę domową
+        Pliki:
+        zmiana: index.html zmiana: style.css
+        Dodałem info o kolejnym dniu nauki
+        Pliki:
+        zmiana: index.html
+        
+              Repozytorium = projekt czyli wszystkie pliki
+        
+             Załóżmy repozytorium
+        
+             git init
+        
+              .git
+        
+             Zróbmy zmiany (i je podejrzyjmy)
+        
+               Commit = stan projektu
+        i opis tego co się zmieniło od ostatniego zapisu
+        
+           Projekt
+        Utworzyłem projekt.
+        Pliki:
+        nowy: index.html nowy: style.css
+        .. .
+                  Dodałem tło strony
+        Pliki:
+        zmiana: style.css
+        Rozwiązałem pracę domową
+        Pliki:
+        zmiana: index.html zmiana: style.css
+        Dodałem info o kolejnym dniu nauki
+        Pliki:
+        zmiana: index.html
+        
+             git status
+        
+             git add .
+        
+             git commit -m "opis zmian"
+        
+             Jak często commitować?
+        
+           To be continued...
+        
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456213"
+                  target="_blank">M03L03: Git vs GitHub [10:45]</a></h2>
+              <p>szablon</p>
+              GitHub
+
+              GitHub != Git chociaż tutaj mamy części wspólne ;)
+           
+              
+                Zakładamy konto na githubie
+           https://github.com
+              
+                 Zakładamy repozytorium na GitHubie
+           
+                git remote add origin https://github.com/user/repo
+           
+                Podpinamy repozytorium zdalne do lokalnego
+           
+                Wrzucamy kod na GitHuba
+           
+                git push
+           
+              Podsumowanie
+           - GIT pozwala na sprawne zarządzanie zmianami w projekcie
+           - Działa lokalnie
+           - Do działania zdalnego potrzebuje serwera (np. GitHub)
+           - Znajomość podstaw GIT-a jest wymagana niezależnie od technologii
+           - Konto na GitHubie jest Twoją programistyczną wizytówką, zadbaj aby była ładna i prawdziwa :)
+           - Commitujemy jak dokładamy jakąś widoczną zmianę do projektu (lepiej częściej, niż za mało)
+           - Podstawowy flow: git add . / git commit -m "opis zmiany" / git push
+              
+              To be continued...
+           
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456214"
+                  target="_blank">M03L04: Atrybuty w HTML [22:23]</a></h2>
+              <p>szablon</p>
+              WTF: HTML II
+
+              W poprzednim odcinku...
+         
+              &lt;znacznik atrybut=”wartość”&gt;treść&lt;/znacznik&gt; ATRYBUTY (i nowe znaczniki)
+           
+              &lt;br&gt;
+         nowa linia
+           
+         &lt;b&gt; vs &lt;strong&gt; vs &lt;i&gt; vs &lt;em&gt;
+         Elementy do wyróżniania tekstu?
+           
+         &lt;b&gt; & &lt;i&gt;
+         Nie mają dużego znaczenia semantycznego - służą do wyróżnienia fragmentu z tekstu otaczającego
+           
+         &lt;strong&gt; & &lt;em&gt;
+         &lt;strong&gt; - podkreśla wysoką istotność
+         i poważność frazy w nim zawartej
+         &lt;em&gt; - podkreśla, że tekst może mieć inne znaczenie (np. ironia)
+          
+         &lt;u&gt;
+         Kiedyś - stylowanie tekstu przez podkreślenie Teraz - dodanie "nietekstowej adnotacji"
+         na przykład oznaczenie błędu
+           
+             JavaScript
+               CSS
+             HTML
+             TREŚĆ
+           Warstwy strony internetowej
+         
+           &lt;a href="" target=""&gt;opis łącza&lt;/a&gt;
+         a - linki / łącza wewnątrz dokumentu
+           
+         &lt;element id="moj-identyfikator"&gt;
+         atrybut id - identyfikuje element (przydaje się do nawigacji w obrębie dokumentu)
+           
+         &lt;nav&gt;
+         Nawigacja
+           
+         &lt;img src="" alt=""&gt;
+         img - obrazek o podanym adresie
+           
+            Podsumowanie
+         - atrybuty są "niewidzialne" - chowamy je w znaczniku
+         - nadają elementom dodatkowe właściwości (href, src)
+         - pozwalają na grupowanie elementów (class)
+         - pozwalają na identyfikowanie elementów (id)
+         - można je miksować
+         - spis atrybutów "globalnych"
+         https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
+              
+            To be continued...
+         
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456215"
+                  target="_blank">M03L05: Klasy CSS [24:34]</a></h2>
+              <p>szablon</p>
+              WTF: CSS II
+
+              W poprzednim odcinku...
+         
+              &lt;znacznik style=”color:yellow;”&gt;treść&lt;/znacznik&gt;
+         Styl przy znaczniku z wykorzystaniem atrybutu style nazywamy stylem inline
+           
+              Czy ma to sens?
+         
+             #id .class element
+         Prawdziwe selektory
+          
+         &lt;znacznik class=”name”&gt;treść&lt;/znacznik&gt; Jak dostać się do takiego elementu?
+           
+         &lt;znacznik class=”name”&gt;treść&lt;/znacznik&gt;
+         .name {
+         właściwość: wartość;
+          }
+          . (kropka) - selektor klasy
+          
+          &lt;znacznik id=”name”&gt;treść&lt;/znacznik&gt;
+         #name {
+         właściwość: wartość;
+          }
+          # (hash) - selektor id
+          
+              !important
+         
+              Łączenie selektorów
+         
+            #name { color: red;
+         }
+         &lt;span style=”color: yellow” id="name"&gt;treść&lt;/span&gt;
+           Jakiego koloru będzie treść?
+          
+              Specyficzność w CSS
+         
+              źródło: sport.pl
+         
+            (_ , _) , _ , _ , _ !important style="" #name .name element
+              
+            body h1 {
+         color: yellow; }
+         0 , 0 , 0, 0 , 2 !important style="" #name .name element
+         h1 {
+         color: red;
+         }
+                  0 , 0 , 0, 0 , 1 !important style="" #name .name element
+              
+            html body h1 {
+         color: yellow; }
+         0 , 0, 0, 0 , 3 !important style="" #name .name element
+         #main-header { color: red;
+         }0 , 0 , 1 , 0 , 0 !important style="" #name .name element
+                       
+            html body h1#main-header {
+         color: yellow; }
+         0 , 0, 1 , 0 , 3 !important style="" #name .name element
+         body .section #main-header {
+         color: red; }
+         0 , 0 , 1 ,1 , 1 !important style="" #name .name element
+                       
+            html body h1 {
+         color: yellow; }
+         0 , 0, 0, 0 , 3 !important style="" #name .name element
+         body #main-header {
+         color: red !important; }
+         1 , 0 , 1 ,0 , 1 !important style="" #name .name element
+                       
+         &lt;h1 style="color:blue"&gt;Nagłówek&lt;/h1&gt;
+         0 , 1 , 0, 0 , 0 !important style="" #name .name element
+         h1 {
+         color: red !important;
+         } 1 , 0, 0 , 0 , 1 !important style="" #name .name element
+                       
+         &lt;h1 style="color:blue"&gt;Nagłówek&lt;/h1&gt;
+         0 , 1 , 0, 0 , 0 !important style="" #name .name element
+         body section#main h1.heading { color: red;
+         } 0 , 0 , 1 ,1 , 3 !important style="" #name .name element
+                       
+              Jeśli specyficzność jest równa - pierwszeństwo ma selektor "bliżej" elementu
+         
+            style.css
+         body section#main h1.heading {
+         color: red; }
+         body section#main h1.heading {
+         color: blue; }
+           
+            style.css
+         body section#main h1.heading { color: red;
+         color: blue; }
+            
+              Rekomenduję dodawać klasy do wszystkich elementów i unikać zagnieżdżeń
+         
+              There are only two hard things in Computer Science: cache invalidation and naming things.
+         -- Phil Karlton
+         
+            Nazewnictwo klas
+         - używaj pojedynczych słów z j. angielskiego
+         - nazywaj rzeczy zgodnie z ich funkcją na stronie
+         - startuj z małej litery np. header nie Header
+         - nie zaczynaj od cyfry
+         - jeśli musisz użyć dwóch słów użyj tzw. kebab case np.
+         news-listing
+         - staraj się, żeby element miał jedną klasę (nie zwiększaj
+         specyficzności bez potrzeby)
+            
+            Podsumowanie
+         - html class="name" = css .name
+         - html id="name" = css #name
+         - stylujemy po klasach (bez zagnieżdżeń!)
+         - nazywamy klasy po angielsku zgodnie z przeznaczeniem
+         - tworzymy klasy nawet mamy jeden element danego typu
+         - specyficzność może dać popalić ;)
+         - nie używamy !important i stylów inline'owych
+            
+            To be continued...
+         
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456216"
+                  target="_blank">M03L06: Opowieść o wężu, kebabie, wielbłądzie i Pascalu [04:55]</a></h2>
+              <p>szablon</p>
+              Opowieść o wężu, kebabie, wielbłądzie i Pascalu
+
+              Najtrudniejsza rzecz w programowaniu
+         
+              Nazywanie rzeczy
+         
+            Nazywanie rzeczy
+         - nazwy zapisujemy bez polskich znaków (ąćęłńóśżź)
+         - nie używamy spacji
+         - najlepiej używać angielskich słów
+         (treść oczywiście może być w innym języku)
+         - trzymamy się jednego schematu (konsekwencja jest istotna)
+            
+               Konwencje nazewnictwa
+         
+               &lt;H1&gt;
+          My super bold header
+         
+              camelCase
+         
+              mySuperBoldHeader
+         
+              kebab-case
+         
+              my-super-bold-header
+         
+              snake_case
+         
+              my_super_bold_header
+         
+              PascalCase
+         
+              MySuperBoldHeader
+         
+            theEnd the-end the_end TheEnd
+         
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456217"
+                  target="_blank">M03L07: Klan - dziedziczenie [09:22]</a></h2>
+              <p>szablon</p>
+              WTF: Klan II
+
+              Dziedziczenie
+         
+            inherit
+          wartość: inherit;
+         
+            The end
+         
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456220"
+                  target="_blank">M03L08: Jak działa internet i protokół HTTP? [20:17]</a></h2>
+              <p>szablon</p>
+              Jak działa przeglądarka?
+
+              Internet (wg IT Crowd)
+            
+               HTTP
+            Protokół, którego używa Twoja przeglądarka*
+           * (w większości przypadków)
+           
+               HTTP
+            Hypertext Transfer Protocol
+           
+                 HTML = HyperText Markup Language
+           
+               http = protokół do transportowania htmla* * i całej reszty, którą widzisz na stronach
+           
+               HTTPS
+            Hypertext Transfer Protocol Secure
+           
+               URL
+            Uniform Resource Locator
+           
+              super ważny / (root)
+             https://cotenfrontend.pl:443/index.html?parametr=wartość
+                     protokół
+           host (adres serwera) ścieżka dostępu do zasobu
+           port
+           parametry
+           
+              1. wpisuję w pasku adresu cotenfrontend.pl [enter]
+           2. przeglądarka szuka serwera cotenfrontend.pl [DNS]
+           3. po znalezieniu serwera odpytuje go o index (jeśli podamy sam adres serwera) - to co jest indexem zależy od konfiguracji serwera (nie musi to być index.html, choć w przypadku stron statycznych jest to najczęstszy przypadek)
+           4. serwer wysyła do przeglądarki zawartość html
+           5. przeglądarka wczytuje html i szuka wszystkich dodatkowych zasobów: style, skrypty, obrazki itp. i dla każdego z zasobów wykonuje zapytanie
+           6. Przeglądarka parsuje i renderuje stronę
+           request - response
+             
+                Zobaczmy jak to działa!
+           
+                -404-
+             KODY ODPOWIEDZI HTTP
+           
+                -200-
+             OK
+           
+                -30x-
+             Szukasz w złym miejscu - przekieruję Cię w dobre (bo wiem gdzie)
+           
+                -404-
+             Nie mam tego czego potrzebujesz. Sorry.
+           
+                -50x-
+             Nie czuję się najlepiej... Błąd wewnętrzny serwera.
+           
+              Kody HTTP
+           1xx: hold on
+           2xx: here you go 3xx: go away
+           4xx: you fucked up 5xx: I fucked up
+             
+               /
+           Czym jest root?
+            
+               https://cotenfrontend.pl/img/wtf.sv
+           g
+            1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt; 2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+            
+               1
+           https://cotenfrontend.pl
+            
+              https://cotenfrontend.pl/
+             1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+           pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
+           2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+           pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
+                  
+               2
+           https://cotenfrontend.pl/podstrona/
+            
+              https://cotenfrontend.pl/podstrona/
+             1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+           pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
+           2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+           pobierz: https://cotenfrontend.pl/podstrona/img/wtf.svg ❌ 404 Not found
+                  
+                ?!
+           WTF?!
+            
+               /
+           Brak / z przodu drugiej ścieżki uczynił
+           adres do zasobu relatywnym* *dlatego przeglądarka szukała pliku w aktualnym "katalogu" - /podstrona/img/wtf.svg
+            
+               /
+           Tworząc stronę uruchamianą "z dysku" pomijaliśmy używanie slasha z przodu
+             
+               /
+           Ale wkrótce będzie naszym dobrym przyjacielem 😎
+             
+              Podsumowanie
+           - protokół który obsługuje strony internetowe i ich zawartość to HTTP (aktualnie coraz częściej HTTP/2)
+           - komunikacja przeglądarka - serwer odbywa się na zasadach request - response
+           - odpowiedzi serwera mają różne kody
+           (i pozwala nam to na diagnozowanie problemów)
+           - root (/) jest istotną częścią ścieżek do zasobów (i dobrze wiedzieć jak działa :))
+              
+              To be continued...
+           
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456219"
+                  target="_blank">M03L09: WTF: JavaScript [20:43]</a></h2>
+              <p>szablon</p>
+              WTF: JavaScript
+
+              JS = JavaScript
+        
+           JavaScript != Java NIGDY nie używaj takiego skrótu
+          
+            operator porównania - nie równa się
+        JavaScript != Java NIGDY nie używaj takiego skrótu
+             
+           Java ma się do JavaScriptu jak...
+         kot do kotary
+        
+           Java ma się do JavaScriptu jak...
+         świnka do świnki morskiej
+        
+           Java ma się do JavaScriptu jak...
+         sam do samochodu
+        
+           Java is to JavaScript like...
+         ham to hamster
+        
+             Będziemy uczyć się ECMAScript 2015+ (ES6+)
+         
+           Co to jest ECMAScript 6+
+        - ECMAScript jest to ustandaryzowany przez organizację ECMA skryptowy język programowania
+        - JavaScript implementuje rzeczy ze specyfikacji ECMAScript
+        - Rozwój ECMAScript mocno przyspieszył przez szerokie wykorzystywanie JavaScriptu
+        - ES6 (i nowsze) wprowadzają wiele udogodnień dla developerów
+        - Nowe feature'y mogą nie być wspierane we wszystkich przeglądarkach (ale są na to sposoby 😎)
+            
+            JavaScript
+              CSS
+            HTML
+            TREŚĆ
+          Warstwy strony internetowej
+        
+            ?
+        Z czego składa się JavaScript?
+          
+           Wartości
+          
+            Wartości
+        Operacje porównywania
+           
+            Wartości Literały
+        Operacje porównywania
+             
+            Wartości
+        Operacje porównywania
+            Zmienne Literały
+           
+            Wartości
+        Operacje porównywania
+            Zmienne Literały
+        Obiekty
+             
+            Wartości
+        Operacje porównywania
+            Zmienne Literały
+        Funkcje
+        Obiekty
+               
+             Wartości dla JS tym, czym liczby dla matematyki
+         
+            Wszechświat wartości
+         
+            .js
+        Pliki zawierające kod JavaScript mają rozszerzenie .js*
+        *ale podobnie jak style - mają też swój znacznik - &lt;script&gt;
+          
+             Poskryptujmy!
+        
+             &lt;script&gt;
+        alert('Siema!')
+        &lt;/script&gt;
+         Znacznik &lt;script&gt;
+        
+            &lt;script src="main.js"&gt; &lt;/script&gt;
+         Znacznik &lt;script&gt;
+        
+             JavaScript daje nam masę narzędzi!
+        
+             console.log('Siema!');
+        
+             console.log(name); console.log(age);
+        
+             &lsquo;
+        Backtick / backquote
+        (znajdź go na klawiaturze, zwykle występuje z ~)
+         
+            ${zmienna}
+         console.log(`Nazywam się ${name} i mam ${age} lat`);
+        
+           Podsumowanie
+        - Kod JS uruchamia się raz (po załadowaniu strony)
+        - Java to nie JavaScript
+        - JavaScript implementuje rzeczy ze specyfikacji ECMAScript
+        - JavaScript to frontendowe programowanie
+        - Za pomocą JS można robić różne szalone rzeczy (a ja jestem ekspertem od szalonych rzeczy 😎)
+            
+           To be continued...
+        
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456222"
+                  target="_blank">M03L10: Terminal, czyli ocb z tym czarnym okienkiem - MacOS [05:11]</a></h2>
+              <p>szablon</p>
+              Terminal
+
+OCB z tym czarnym okienkiem
+
+  Różnice w systemach operacyjnych
+
+MacOS
+- cd ~
+przejście do katalogu domowego
+- ls
+wypisanie zawartości katalogu
+- cd ..
+przejście do katalogu wyżej
+- cd nazwa-katalogu
+przejście do katalogu o nazwie nazwa-katalogu
+- code .
+uruchomienie visual studio code w aktualnym katalogu
+- pwd
+wyświetlenie aktualnej ścieżki
+- mkdir nazwa-katalogu
+stworzenie katalogu o nazwie nazwa-katalogu
+ 
+Linux
+- cd ~
+przejście do katalogu domowego
+- ls
+wypisanie zawartości katalogu
+- cd ..
+przejście do katalogu wyżej
+- cd nazwa-katalogu
+przejście do katalogu o nazwie nazwa-katalogu
+- code .
+uruchomienie visual studio code w aktualnym katalogu
+- pwd
+wyświetlenie aktualnej ścieżki
+- mkdir nazwa-katalogu
+stworzenie katalogu o nazwie nazwa-katalogu
+ 
+Windows
+- cd C:\
+przejście do głównego katalogu na dysku C
+- dir
+wypisanie zawartości katalogu
+- cd ..
+przejście do katalogu wyżej
+- cd nazwa-katalogu
+przejście do katalogu o nazwie nazwa-katalogu
+- code .
+uruchomienie visual studio code w aktualnym katalogu
+- cd
+wyświetlenie aktualnej ścieżki
+- mkdir nazwa-katalogu
+stworzenie katalogu o nazwie nazwa-katalogu
+  
+The end
+
+            </article>
+
+        <br>
+        <hr>
+        <br>
+
+            <article>
+              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456224"
+                  target="_blank">M03L11: Tydzień III - prace domowe [04:07]</a></h2>
+              <p>szablon</p>
+              Tydzień III: Prace domowe
+
+0. Baw się dobrze!
+
+1. Załóż konto na GitHubie i zainstaluj
+program GitHub Desktop
+https://github.com
+
+2. Wrzuć projekt homepage na GitHuba
+
+ 3. Zacznij commitować zmiany
+
+4. Rozbuduj projekt homepage
+1. W katalogu homepage stwórz kolejne pliki
+2. Do każdego pliku dołóż jakieś zdjęcie
+3. Stwórz nawigację między plikami
+4. Pamiętaj o formatowaniu i sprawdzaniu swojego kodu za pomocą validatora
+
+5. Dodaj klasy
+1. Uzupełnij HTML-a o klasy i utwórz odniesienia do nich w stylach
+2. Nadaj style nagłówkom za pomocą klas
+3. Pamiętaj o odpowiednim nazewnictwie
+4. Nie bój się eksperymentować!
+
+6. Przejdź labirynt*
+*i obejrzyj nagrodę - tylko bez spoilerów!
+
+7. Dołóż skrypt do swojej strony i w konsoli przywitaj się z odbiorcą :)
+
+Good luck!
+
+            </article>
+          </section>
+      
+          <br>
+          <hr>
+          <br>
+      
+    </main>
+
+    <footer>
+        <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
+        <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
+        <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
