@@ -8,38 +8,42 @@ html {
 
 body {
     background: #fefefe;
-    margin: 30px;
+    margin: auto;
 }
 
-nav {
+.navigation {
     position: fixed;
     top: 0;
     left: 0;
     background-color: orchid;
     width: 100vw;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 30px 5px 30px;
 }
 
-h2 {
-    color: #1460aa;
+.navigation__link {
+    color: inherit;
 }
 
-.screen {
-   font-weight: 600;
-   color: yellowgreen;
-}
-
-.hint {
+.navigation__hint {
     font-weight: 900;
     background-color: darkorange
 }
-.warning {
-    color: darkred;
+
+.module__header {
+    background-color: cadetblue;
+    margin-top: 100px;
 }
 
-a {color: inherit;}
+.module__header--hint {
+    font-weight: 900;
+    background-color: darkorange
+}
 
-.box {
+.lesson__header {
+    color: #1460aa;
+}
+
+.lesson__tile {
     box-sizing: border-box;
     display: inline-block;
     background: firebrick;
@@ -53,9 +57,68 @@ a {color: inherit;}
     border-radius: 30px;
     margin: 10px;
 }
-.to-do {
+
+.lesson__tile--img {
+    width: 360px;
+}
+
+.lesson__tile--hint {
+    font-weight: 900;
+    background-color: darkorange
+}
+
+.lesson__tile--warning {
+    color: darkred;
+}
+
+.homework__tile--to-do {
+    box-sizing: border-box;
     display: inline-block;
     background: lightgray;
-    width: 310px;
+    width: 400px;
     height: 310px;
+    overflow: scroll;
+    padding: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:gray;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.homework__tile--done {
+    box-sizing: border-box;
+    display: inline-block;
+    background: green;
+    width: 400px;
+    height: 310px;
+    overflow: scroll;
+    padding: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:greenyellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.homework__tile--img {
+    width: 360px;
+}
+
+footer {
+background: yellow;
+color: inherit;
+}
+
+.footer__button-up {
+    background-color: darkmagenta;
+}
+
+.footer__button-up--link {
+    color:floralwhite;
+}
+
+.footer__hint {
+    font-weight: 900;
+    background-color: darkorange
 }

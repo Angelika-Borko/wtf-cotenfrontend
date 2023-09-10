@@ -11,26 +11,26 @@
 
 <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="notatki-html.html">Notatki z HTML-a</a>
-            <a href="notatki-css.html">Notatki z CSS-a</a>
-            <a href="notatki-js.html">Notatki z JS-a</a>
-            <a href="notatki-inne.html">Inne notatki</a>
-            <a href="module-1.html">Moduł 1</a>
-            <a href="module-2.html">Moduł 2</a>
-            <a href="module-3.html">Moduł 3</a>
-            <a href="module-4.html">Moduł 4</a>
+        <nav class="navigation">
+    <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="notatki-html.html">Notatki z HTML-a</a>
+            <a class="navigation__link" href="notatki-css.html">Notatki z CSS-a</a>
+            <a class="navigation__link" href="notatki-js.html">Notatki z JS-a</a>
+            <a class="navigation__link" href="notatki-inne.html">Inne notatki</a>
+            <a class="navigation__link" href="module-1.html">Moduł 1</a>
+            <a class="navigation__link" href="module-2.html">Moduł 2</a>
+            <a class="navigation__link" href="module-3.html">Moduł 3</a>
+            <a class="navigation__link" href="module-4.html">Moduł 4</a>
+            <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
+                stronach.</p>
         </nav>
-        <p class="hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
-            stronach.</p>
     </header>
 
     <main>
-        <header>
+        <header class="module__header">
             <h1>notatki z modułu 4</h1>
+            <p class="module__header--hint">W main opakowywujemy unikalną treść dla danej strony</p>
         </header>
-        <p class="hint">W main opakowywujemy unikalną treść dla danej strony</p>
 
         <br>
         <hr>
@@ -38,7 +38,7 @@
 
         <section>
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635006"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635006"
                         target="_blank">M04L01: Tydzień IV + rozwiązania tydzień III [01:42]</a></h2>
             </article>
 
@@ -47,68 +47,68 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635007"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635007"
                         target="_blank">M04L02: CSS: display, overflow [20:22]</a></h2>
                 <h3>życie w pudełku</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-01.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-01.jpg" width="300"
                         alt="">
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-02.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-02.jpg" width="300"
                         alt="">
                     <p>świat stron internetowych jest płaski (prawie cały)</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-03.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-03.jpg" width="300"
                         alt="">
                     <p>div - nie ma znaczenia semantycznego, używamy gdy chcemy coś "opakować" (tylko kiedy nie istnieje
                         odpowiedni
                         semantyczny znacznik)</p>
                 </div>
                 <h3>display</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-04.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-04.jpg" width="300"
                         alt="">
                     <p>display: block - przenosi ostylowany element do nowej lini, element zajmuje całą dostępną
                         szerokość</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-05.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-05.jpg" width="300"
                         alt="">
                     <p>display: inline - wyświetla elementy obok siebie, elementy są tak szerokie jaki ich
                         zawartość/kontent/treść</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-06.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-06.jpg" width="300"
                         alt="">
                     <p>display: inline-block - jeżeli elementy są wystarczająco małe, mają wystarczająco wąską
                         zawartość, to zachowują się inlinowo, jeśli są tak szerokie, że nic więcej sie nie zmieści,
                         linia zamienia się w block</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-07.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-07.jpg" width="300"
                         alt="">
                     <p>wartości width / height określają wysokość i szerokość pudełka. Przy display: inline są
                         ignorowane</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-08.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-08.jpg" width="300"
                         alt="">
                     <p>wartości max-width / max-height pozwalają na kurczenie się elementów, dzięki czemu na mniejszych
                         ekranach nie pojawia się scroll. Elementy mogą się kurczyć, a jednocześnie nie będą większe niż
                         określona wartość px</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-09.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-09.jpg" width="300"
                         alt="">
                     <p>min-width / min-height NIE pozwalają na kurczenie się elementów bardziej niż określona wartość
                         px, przez co na mniejszych ekranach może pojawiać się scroll, ale dzięki temu zmieści się
                         kontent</p>
                 </div>
                 <h3>overflow</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-10.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-10.jpg" width="300"
                         alt="">
                     <p>overflow: hidden; - ucina treść, wszystko co nie zmieści się w pudełku, zostanie ukryte, zamiast
                         wyjechać poza kontener </p>
@@ -119,7 +119,7 @@
                         ładniejszy i pojawia się dopiero po najechaniu kursorem na div</p>
                     <p>overflow: visible; - kontent, który się nie mieści jest wyświetlany poza pudełkiem, ale to
                         miejsce nie jest rezerwowane, więc</p>
-                    <p class="warning">jeżeli pod takim boxem dodamy kolejny div, to ich kontenty się na siebie nałożą i
+                    <p class="lesson__tile--warning">jeżeli pod takim boxem dodamy kolejny div, to ich kontenty się na siebie nałożą i
                         strona będzie nieczytelna</p>
                 </div>
             </article>
@@ -129,41 +129,41 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635009"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635009"
                         target="_blank">M04L03: CSS: jednostki [10:31]</a></h2>
                 <h3>zero</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-11.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-11.jpg" width="300"
                         alt="">
                     <p>0 możemy zapisywać bez jednostek</p>
                 </div>
                 <h3>pixele</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-12.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-12.jpg" width="300"
                         alt="">
                     <p>pixel to jeden punkt na ekranie i nie ma związku z rozdzielczością ekranu. Urządzenia sobie
                         przeliczają</p>
                     <p>"px" zapisujemy zaraz po wartości, bez spacji, czyli np "200px"</p>
                 </div>
                 <h3>procenty</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-13.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-13.jpg" width="300"
                         alt="">
                     <p>jest to wartość, która odnosi się do rodzica, zwykle korzystamy z tego przy definicji szerokości
                         width</p>
                 </div>
 
                 <h3>vw = viewport width</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-14.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-14.jpg" width="300"
                         alt="">
                     <p>odnosi się do szerokości naszego okna przeglądarki, zapis 50vw spowoduje, że element zajmie
                         połowę szerokości okna.Jeżeli korzystamy z devtools, to wtedy okno jest pomniejszone o narzędzia
                     </p>
                 </div>
                 <h3>vh = viewport height</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-15.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-15.jpg" width="300"
                         alt="">
                     <p>odnosi się do wysokości naszego okna przeglądarki, zapis 50vh spowoduje, że element zajmie połowę
                         wysokości okna. Jeżeli korzystamy z devtools, to wtedy okno jest pomniejszone o narzędzia</p>
@@ -175,87 +175,87 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635008"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635008"
                         target="_blank">M04L04: CSS: box model [15:47]</a></h2>
                 <h3>BOX MODEL</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-16.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-16.jpg" width="300"
                         alt="">
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-17.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-17.jpg" width="300"
                         alt="">
                     <p>Wszystkie elementy otoczone są "niewidzialnym" prostokątem</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-18.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-18.jpg" width="300"
                         alt="">
                     <p>BOX MODEL</p>
                 </div>
                 <h3>padding</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-19.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-19.jpg" width="300"
                         alt="">
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-20.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-20.jpg" width="300"
                         alt="">
                     <p>padding - zapis pełny / zapis skrótowy (shorthand)</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-21.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-21.jpg" width="300"
                         alt="">
                     <p>padding - wartości "lustrzane"</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-22.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-22.jpg" width="300"
                         alt="">
                     <p>padding - wartości wszystkie takie same</p>
                 </div>
                 <h3>border</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-23.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-23.jpg" width="300"
                         alt="">
                     <p>aby ramka w ogóle się pojawiła trzeba podać dwie wartości: border-width: 10px; border-style:
                         solid</p>
                     <p>kolor ramki definiujemy za pomocą border-color;</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-24.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-24.jpg" width="300"
                         alt="">
                     <p>border - zapis pełny / zapis skrótowy (shorthand)</p>
-                    <p class="hint">Przy pomocy tego zapisu można stworzyć efekt ramki 3D (8:52 w kursie)</p>
+                    <p class="lesson__tile--hint">Przy pomocy tego zapisu można stworzyć efekt ramki 3D (8:52 w kursie)</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-25.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-25.jpg" width="300"
                         alt="">
                     <p>border-radius - odpowiada za zaokrąglenie i nie trzeba mieć zdefiniowanego bordera, żeby
                         skorzystać z tej funkcji</p>
                     <p>za pomocą border-radius można zrobić kółko</p>
                 </div>
                 <h3>margin</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-26.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-26.jpg" width="300"
                         alt="">
                     <p>odpowiada za odstęp pudełka od innych elementów</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-27.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-27.jpg" width="300"
                         alt="">
                     <p>margin - zapisujemy tak samo jak padding</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-28.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-28.jpg" width="300"
                         alt="">
                     <p>margin: __px auto; - może służyć do wyśrodkowania naszego elementu</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-29.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-29.jpg" width="300"
                         alt="">
                     <p>Box model w devtools (wartości w px)</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-30.jpg" width="300"
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L02 - Zycie w pudelku I/WTF_M04L02 - Zycie w pudelku I-30.jpg" width="300"
                         alt="">
                     <p>To be continued...</p>
                 </div>
@@ -266,16 +266,16 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635011"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635011"
                         target="_blank">M04L05: CSS: box-sizing [06:19]</a></h2>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -02.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -02.jpg"
+                        alt="">
                     <p>box-sizing</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -03.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -03.jpg"
+                        alt="">
                     <a href="https://www.abeautifulsite.net/box-sizing-border-box-explained"
                         target="_blank">https://www.abeautifulsite.net/box-sizing-border-box-explained</a>
                     <br>
@@ -289,76 +289,76 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635010"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635010"
                         target="_blank">M04L06: Position, float [21:04]</a></h2>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -04.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -04.jpg"
+                        alt="">
                     <h3>position</h3>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -05.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -05.jpg"
+                        alt="">
                     <p>position: static - przeglądarka czyta wszystko od góry do dołu i wyświetla tak jak napisaliśmy
                     </p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -06.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -06.jpg"
+                        alt="">
                     <p>position: relative - pozwala nam stworzyć przestrzeń, względem której będziemy umieszczać
                         elementy. Samo dodanie tej właściwości nic nie zmienia, trzeba dodać jeszcze element o
                         właściwości position: absolute</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -07.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -07.jpg"
+                        alt="">
                     <p>position: absolute - właściwość dodajemy do drugiego diva, dzięki czemu możemy sterować
                         położeniem jedengo diva w względem drugiego, który ma właściwość position: relative</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -08.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -08.jpg"
+                        alt="">
                     <p>top, right, bottom, left - wartości dodajemy do elementu z właściwością position: absolute</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -09.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -09.jpg"
+                        alt="">
                     <p>z-index - odpowiada za kolejność warstw, im wyższa wartość z-index, tym bardziej na wierzchu</p>
-                    <p class="hint">w przeglądarce Edge jest możliwość podejrzenia strony w 3D, z uwzględnieniem warstw
+                    <p class="lesson__tile--hint">w przeglądarce Edge jest możliwość podejrzenia strony w 3D, z uwzględnieniem warstw
                     </p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -10.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -10.jpg"
+                        alt="">
                     <p>position: fixed - odpowiada za przyklejenie elementu do naszego view port (okna przeglądarki)</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -11.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -11.jpg"
+                        alt="">
                     <p>position: sticky - pozwala przykleić element w środku kontenera, działa podobnie jak fixed, ale
                         dla konkretnego diva</p>
                     <br>
                     <a href="https://caniuse.com/#feat=css-sticky"
                         target="_blank">https://caniuse.com/#feat=css-sticky</a>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -12.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -12.jpg"
+                        alt="">
                     <p>float - właściwość pozwala, żeby element był opływany przez tekst</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -13.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -13.jpg"
+                        alt="">
                     <p>FLOAT NIE SŁUŻY DO BUDOWANIA LAYOUTÓW</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -14.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -14.jpg"
+                        alt="">
                     <p>clear - własność clear czyści własność float</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -15.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L05 - Zycie w pudełku II /WTF_M04L05 - Zycie w pudełku II -15.jpg"
+                        alt="">
                     <p>To be continued...</p>
                 </div>
             </article>
@@ -368,41 +368,41 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635012"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635012"
                         target="_blank">M04L07: JavaScript: typy i struktury danych, immutability [12:11]</a></h2>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-01.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-01.jpg"
+                        alt="">
                     <p>JS: typy danych i immutability</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-02.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-02.jpg"
+                        alt="">
                     <p>Zmienna to takie połączenie z naszym wszechświatem wartości
                     </p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-03.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-03.jpg"
+                        alt="">
                     <p>Zmienna to nie wartość!</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-04.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-04.jpg"
+                        alt="">
                     <p>Zmienne w JS: LET vs CONST vs VAR</p>
                     <p>VAR już raczej nie używamy</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-05.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-05.jpg"
+                        alt="">
                     <p>Can I use...?
                         <br>
                         <a href="https://caniuse.com/#feat=es6" target="_blank">https://caniuse.com/#feat=es6</a>
                     </p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-06.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-06.jpg"
+                        alt="">
                     <p>Zmienne w JS</p>
                     <p>// const - zmienne mające stałe połączenie z jedną wartością<br><br>
                         const name = 'Maciek';<br>
@@ -413,14 +413,14 @@
                         isHappy = true;<br>
                         isHappy = 'tak';</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-07.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-07.jpg"
+                        alt="">
                     <p>JS jest językiem nietypowanym. Zmienne w JS są jak młody pelikan: "łykną" wszystko</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-08.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-08.jpg"
+                        alt="">
                     <p>Typy proste w JS (primitives)<br><br>
                         String - tekst, otaczamy ' lub " (zalecam ')<br>
                         Number - liczba<br>
@@ -430,21 +430,21 @@
                         undefined - brak definicji<br>
                         *symbol - tworzy "unikalne opakowanie" - z tego nie korzystamy</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-09.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-09.jpg"
+                        alt="">
                     <p> TYPEOF - Jakiego typu jest zmienna?</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-10.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-10.jpg"
+                        alt="">
                     <p>IMMUTABILITY - Nie możemy zmieniać wartości primitive values w JS. To co zmieniamy to połączenie
                         między nimi, a
                         zmiennymi.</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-11.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L07 - JS_ typy danych i immutability/WTF_M04L07 - JS_ typy danych i immutability-11.jpg"
+                        alt="">
                     <p>To be continued...</p>
                 </div>
             </article>
@@ -454,27 +454,27 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635013"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635013"
                         target="_blank">M04L08: Normalizacja vs reset [11:04]</a></h2>
                 <h3>sposoby na pozbycie się domyślnych stylów przeglądarki</h3>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-1.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-1.jpg"
+                        alt="">
                     <p>Normalizacja vs reset</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-2.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-2.jpg"
+                        alt="">
                     <p>"Domyślne style"</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-3.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-3.jpg"
+                        alt="">
                     <p>Reset</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-4.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-4.jpg"
+                        alt="">
                     <p> "Typowy" reset<br><br>
                         *{<br>
                         margin:0;<br>
@@ -486,21 +486,21 @@
                     <br>
                     <p>* jest selektorem uniwersalnym - wybiera wszystkie elementy</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-5.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-5.jpg"
+                        alt="">
                     <p>Normalizacja - powstała, żeby ujednolicić style między przeglądarkami, żeby przeglądarki nie narzucały swoich stylów</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-6.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-6.jpg"
+                        alt="">
                     <p>normalize.css</p>
                     <a href="https://necolas.github.io/normalize.css/" target="_blank">https://necolas.github.io/normalize.css/</a>
                     <p>wchodzimy w link, klikamy 'download', następnie kopiujemy tekst i dodajemy go do naszego projektu, tworząc plik normalize.css, do którego wklejamy zawartość. Style dodajemy do head i gotowe!</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-7.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-7.jpg"
+                        alt="">
                     <p>Miksujemy! - poniższe style warto dodać do swojego pliku CSS - nie ma ich w normalize, a Korsi mówi, że są przydatne<br><br>
                         html {<br>
                         box-sizing: border-box;<br>
@@ -511,9 +511,9 @@
                         +<br><br>
                         normalize.css</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-8.jpg"
-                        width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L08 - Normalizacja vs Reset/WTF_M04L08 - Normalizacja vs Reset-8.jpg"
+                        alt="">
                     <p>The end</p>
                 </div>
             </article>
@@ -522,9 +522,22 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635014"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635014"
                         target="_blank">M04L09: Serwer lokalny [08:52]</a></h2>
-                <p>szablon</p>
+                        <div class="lesson__tile">
+                            <ol>
+                                <li>Otwieramy VSC</li>
+                                <li>W rozszerzeniach szukamy "live server" [0:22]</li>
+                                <li>Instalujemy go</li>
+                                <li>Wracamy do pliku index.html</li>
+                                <li>W prawym dolnym rogu pojawiła się opcja "Go Live" i klikamy w nią [0:50]</li>
+                                <li>Strona wczytuje się na serwerze</li>
+                                <li>Strona sama się odświeża!</li>
+                            </ol>
+                            <p class="lesson__tile--hint">Możemy taką stronę uruchomić na telefonie, tylko musimy znać nasze IP. [2:36] IP na Macu można sprawdzić klikając klawisz "option" i ikonkę wifi na górnym pasku</p>
+                            <p>Mój adres to 192.168.18.4, a adres serwera to http://127.0.0.1<b>:5500</b>/module-4.html,<br>
+                            więc adres z jakiego wejde na moją stronę z telefonu, to będzie: http://192.168.18.4<b>:5500</b>/module-4.html</p>
+                        </div>
             </article>
 
             <br>
@@ -532,18 +545,18 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635015"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635015"
                         target="_blank">M04L10: BEM [15:33]</a></h2>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-01.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-01.jpg" alt="">
                     <p>BLOCK - ELEMENT - MODIFIER</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-02.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-02.jpg" alt="">
                     <p>BEM = block element modifier</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-03.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-03.jpg" alt="">
                     <p> Dlaczego?</p>
                     <ul>
                         <li>Świat stylowania doszedł do wysokiego stopnia (specyficzność 😡)</li>
@@ -554,16 +567,16 @@
                         <li>Stylowanie kilkoma klasami, powtarzające się nazwy</li>
                     </ul>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-04.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-04.jpg" alt="">
                     <p>BEM (jak na dłoni)<br><br>
                         .hand__finger<br>
                         .hand__finger--thumb<br>
                         .hand__finger--pinky<br>
                         .hand</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-05.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-05.jpg" alt="">
                     <p>BEM (jak na dłoni) w HTML-u<br><br>
                         &lt;div class="hand"&gt;<br>
                         &lt;div class="hand__finger hand__finger--thumb"&gt;&lt;/div&gt;<br>
@@ -574,24 +587,24 @@
                     </p>
                 </div>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-06.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-06.jpg" alt="">
                     <p>Block - nadrzędny element</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-07.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-07.jpg" alt="">
                     <p>Element - część bloku<br>(nie musi być bezpośrednim dzieckiem)</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-08.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-08.jpg" alt="">
                     <p>Modifier - modyfikator - jeśli element występuje w kilku wariantach tworzymy dodatkową klasę</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-09.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-09.jpg" alt="">
                     <p>block__element--modifier</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-10.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-10.jpg" alt="">
                     <p>"życiowy" przykład<br>
                         .article__image<br>
                         .article__cover<br>
@@ -603,12 +616,12 @@
                         .article-footer<br>
                         .article-footer__reading-time</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-11.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-11.jpg" alt="">
                     <p>... i w HTML-u<br><br>
                         &lt;article class="article"&gt;<br>
                         &lt;div class="article__cover"&gt;<br>
-                        &lt;img src="cover.jpg" width="300" alt="Beach with clouds and nice weather"/&gt;<br>
+                        &lt;img src="cover.jpg" alt="Beach with clouds and nice weather"/&gt;<br>
                         &lt;span class="article__date"&gt;12 MAY&lt;/span&gt;<br>
                         &lt;span class="article__category"&gt;<br>
                         PHOTOS<br>
@@ -627,8 +640,8 @@
                         &lt;/article&gt;<br>
                     </p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-12.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-12.jpg" alt="">
                     <p>... i w CSS<br><br>
                         .article {
                         width: 400px;
@@ -646,12 +659,12 @@
                         }
                     </p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-13.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-13.jpg" alt="">
                     <p>Posprzątajmy nasz projekt</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-14.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-14.jpg" alt="">
                     <p>Podsumowanie </p>
                     <ul>
                         <li>Szukamy elementów na stronie i dzielimy ją na bloki</li>
@@ -660,8 +673,8 @@
                             dla niego wartości, nie przepisujemy rzeczy z klasy bazowej)</li>
                     </ul>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-15.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L10 - BEM/WTF_M04L10 - BEM-15.jpg" alt="">
                     <p>Do it!</p>
                 </div>
             </article>
@@ -671,70 +684,71 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635016"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635016"
                         target="_blank">M04L11: DOM-owe przedszkole [13:19]</a></h2>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-01.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-01.jpg" alt="">
                     <p>DOMowe przedszkole</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-02.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-02.jpg" alt="">
                     <p>Document Object Model</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-03.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-03.jpg" alt="">
                     <p>Plik HTML to nie DOM</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-04.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-04.jpg" alt="">
                     <p>Źródło strony to nie DOM</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-05.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-05.jpg" alt="">
                     <p>To co widzimy w devtoolsach to DOM!</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-06.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-06.jpg" alt="">
                     <p>🤔 ale przecież to to samo co w edytorze!</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-07.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-07.jpg" alt="">
                     <p>Zamówmy meble z IKEA</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-08.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-08.jpg" alt="">
                     <p>instrukcja -> skręcony mebel</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-09.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-09.jpg" alt="">
                     <p>instrukcja (HTML) -> skręcony mebel (DOM)</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-10.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-10.jpg" alt="">
                     <p>JS ❤ DOM</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-11.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-11.jpg" alt="">
                     <p>Tak samo jak w CSS!<br>document.querySelector('.selector')</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-12.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-12.jpg" alt="">
                     <p>document.querySelector('.selector')<br>= $('.selector')</p>
+                <p>*z jQuery już nie korzystamy</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-13.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-13.jpg" alt="">
                     <p>block__element--js</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-14.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-14.jpg" alt="">
                     <p>Połączmy się z DOM</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-15.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-15.jpg" alt="">
                     <p>nazwaZmiennejQuerySelector.innerHTML = 'treść'</p>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-16.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-16.jpg" alt="">
                     <p>Podsumowanie</p>
                     <ul>
                         <li>DOM to "złożony" w przeglądarce HTML</li>
@@ -744,8 +758,8 @@
                         <li>korzystając z BEM - tworzymy dodatkową klasę z modyfikatorem --js (ułatwia identyfikację / usuwa potencjalne problemy)</li>
                     </ul>
                 </div>
-                <div class="box">
-                    <img src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-17.jpg" width="300" alt="">
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-17.jpg" alt="">
                     <p>To be continued...</p>
                 </div>
             </article>
@@ -755,77 +769,72 @@
             <br>
 
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635017"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169635017"
                         target="_blank">M04L12: Prace domowe tydzień IV [03:35]</a></h2>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-01.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--done">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-01.jpg"
+                        alt="">
                     <p>Tydzień IV: Prace domowe</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-02.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--done">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-02.jpg"
+                        alt="">
                     <p>0. Baw się dobrze!</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-03.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--done">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-03.jpg"
+                        alt="">
                     <p>1. Dodaj normalize.css</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-04.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--done">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-04.jpg"
+                        alt="">
                     <p>2. Zainstaluj live server</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-05.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--to-do">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-05.jpg"
+                        alt="">
                     <p>3. Dostosuj projekt homepage do BEM</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-06.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--to-do">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-06.jpg"
+                        alt="">
                     <p>4. Dostosuj style tak, aby ograniczyć szerokość treści i ją wyśrodkuj</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-07.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--to-do">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-07.jpg"
+                        alt="">
                     <p>5. Stwórz pusty element z wybraną klasą i uzupełnij go za pomocą JS</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-08.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--done">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-08.jpg"
+                        alt="">
                     <p>6. Pobaw w się w doktora i zbadaj jak działa box model modyfikując paddingi/marginesy/box-sizing
                     </p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-09.jpg"
-                        width="300" alt="">
-
+                <div class="homework__tile--done">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-09.jpg"
+                        alt="">
                     <p>7. Pamiętaj o commitowaniu swojej pracy</p>
                 </div>
-                <div class="to-do">
-                    <img src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-10.jpg"
-                        width="300" alt="">
+                <div class="homework__tile--to-do">
+                    <img class="homework__tile--img" src="images/4/WTF_M04L12 - Tydzien IV Prace domowe/WTF_M04L12 - Tydzien IV Prace domowe-10.jpg"
+                        alt="">
                     <p>Good luck!</p>
                 </div>
-
+                <div class="homework__tile--to-do">
+                    <img class="homework__tile--img" src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-4.jpg"
+                    alt="">
+                    <p>Przeczytać czat na discordzie, dedykowany temu modułowi</p>
+                </div>
             </article>
             <br>
             <hr>
             <br>
             <article>
-                <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169745319"
+                <h2 class="lesson__header"><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153362353/posts/2169745319"
                         target="_blank">WTF M04 LIVE</a></h2>
-                <p>szablon</p>
+                <p>Q&A</p>
             </article>
         </section>
 
@@ -836,9 +845,9 @@
     </main>
 
     <footer>
-        <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
+        <button class="footer__button-up"><a class="footer__button-up--link" href="#Top">Przewiń na górę strony</a></button>
         <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
-        <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+        <p class="footer__hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
     </footer>
     <script src="main.js"></script>
 </body>
