@@ -28,7 +28,7 @@
 
     <main>
         <header class="module__header">
-            <h1>notatki z modułu 4</h1>
+            <h1 class="module__h1--js">notatki z modułu 4</h1>
             <p class="module__header--hint">W main opakowywujemy unikalną treść dla danej strony</p>
         </header>
 
@@ -537,6 +537,7 @@
                             <p class="lesson__tile--hint">Możemy taką stronę uruchomić na telefonie, tylko musimy znać nasze IP. [2:36] IP na Macu można sprawdzić klikając klawisz "option" i ikonkę wifi na górnym pasku</p>
                             <p>Mój adres to 192.168.18.4, a adres serwera to http://127.0.0.1<b>:5500</b>/module-4.html,<br>
                             więc adres z jakiego wejde na moją stronę z telefonu, to będzie: http://192.168.18.4<b>:5500</b>/module-4.html</p>
+                            <p class="lesson__tile--hint">do skryptu w html dodajemy atrybut "defer", żeby skrypt szybciej wczytywał się na serwerze lokalnym&lt;script defer src="main.js"&gt;&lt;/script&gt;</p>
                         </div>
             </article>
 
@@ -692,7 +693,7 @@
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-02.jpg" alt="">
-                    <p>Document Object Model</p>
+                    <p>Document Object Model - obiektowy model dokumentów</p>
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-03.jpg" alt="">
@@ -725,10 +726,12 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-10.jpg" alt="">
                     <p>JS ❤ DOM</p>
+                    <p>Interakcje tworzone w JS, możemy zobaczyć w DOM</p>
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-11.jpg" alt="">
-                    <p>Tak samo jak w CSS!<br>document.querySelector('.selector')</p>
+                    <p>Tak samo jak w CSS, tak i w JS mamy selektory, z których korzystamy, aby odnieść się do elementu lub go zmodyfikować</p>
+                    <p>document.querySelector('.selector')</p>
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-12.jpg" alt="">
@@ -738,14 +741,24 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-13.jpg" alt="">
                     <p>block__element--js</p>
+                    <p>do elementów, na których będą wykonywane operacje za pomocą JS, będziemy dodawać klasę z końcówką --js</p>
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-14.jpg" alt="">
-                    <p>Połączmy się z DOM</p>
+                    <p>Połączmy się z DOM [4:02]</p>
+                    <p>wylistujmy style elementu za pomocą własności style i zmieńmy jego kolor [10:27]</p>
+                    <p>const header = document.querySelector ('.module__h1--js');<br>
+                        console.log(header.style);<br>
+                        header.style.color = 'red';</p>
+                        <p class="lesson__tile--hint">JS doda styl inlinowy, więc staramy się nie modyfikować kolorów za pomocą JS, w pierwszej kolejności powinniśmy użyć warstwy CSS</p>
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-15.jpg" alt="">
                     <p>nazwaZmiennejQuerySelector.innerHTML = 'treść'</p>
+                    <p>Podmieńmy treść z użyciem własności innerHTML [7:40]</p>
+                    <p>const header = document.querySelector('.module__h1--js');<br>
+                        header.innerHTML = 'dupa dupa dupa';<br>
+                        console.log (header);</p>
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/4/WTF_M04L11 - DOM/WTF_M04L11 - DOM-16.jpg" alt="">
@@ -849,7 +862,7 @@
         <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
         <p class="footer__hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
     </footer>
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </body>
 
 </html>

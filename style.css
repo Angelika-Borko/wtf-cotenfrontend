@@ -47,7 +47,8 @@ body {
     box-sizing: border-box;
     display: inline-block;
     background: firebrick;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 310px;
     overflow: scroll;
     padding: 16px;
@@ -59,7 +60,8 @@ body {
 }
 
 .lesson__tile--img {
-    width: 360px;
+    width: 100%;
+    margin: auto;
 }
 
 .lesson__tile--hint {
@@ -75,7 +77,8 @@ body {
     box-sizing: border-box;
     display: inline-block;
     background: lightgray;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 310px;
     overflow: scroll;
     padding: 16px;
@@ -90,7 +93,8 @@ body {
     box-sizing: border-box;
     display: inline-block;
     background: green;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 310px;
     overflow: scroll;
     padding: 16px;
@@ -102,7 +106,8 @@ body {
 }
 
 .homework__tile--img {
-    width: 360px;
+    width: 100%;
+    margin: auto;
 }
 
 footer {
