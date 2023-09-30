@@ -23,8 +23,7 @@
             <a class="navigation__link" href="module-4.html">Moduł 4</a>
             <a class="navigation__link" href="module-5.html">Moduł 5</a>
             <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza
-                się na kilku
-                stronach.</p>
+                się na kilku stronach.</p>
         </nav>
     </header>
 
@@ -43,11 +42,14 @@
                 <h2 class="lesson__header"><a
                         href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810841"
                         target="_blank">M05L01: Tydzień V + rozwiązania tydzień IV [16:37]</a></h2>
-                <h3></h3>
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p></p>
-                </div>
+                        <div class="lesson__tile">
+                            <p class="lesson__tile--hint">Jak w prosty sposób zrobić responsywny obrazek [2:10]</p>
+                            <p>styl dodany do pliku CSS, który sprawi, że kontent będzie się przyjemnie czytało<br>
+                                main {<br>
+                                    max-width: 1168px;<br>
+                                    margin: 0 auto;<br>
+                                }</p>
+                        </div>
             </article>
         </section>
 
@@ -60,105 +62,147 @@
                 <h2 class="lesson__header"><a
                         href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810842"
                         target="_blank">M05L02: CSS: Typografia [12:35]</a></h2>
-                <h3></h3>
+            
                 <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p></p>
-                </div>
-                REM - EM - TYPOGRAFIA
-
-                font-size
-             
-                font-family
-             
-                font-weight
-             
-                line-height
-             
-                letter-spacing
-             
-                <span>
-             
-                 EM
-              1 em = ?
-             
-                 EM
-              1 em = font-size dla elementu (dziedziczony / ustawiony) * 1
-             
-                 REM
-              1rem = ?
-             
-                 REM
-              1 rem = font-size dla root elementu * 1
-             
-                   https://nekocalc.com/px-to-rem-converter
-              
-                 16px
-              Nie każda przeglądarka ma domyślnie ustawione font size na 16px!
-             
-                NIGDY (SERIO, NIGDY) TEGO NIE RÓB
-             html { font-size: 10px }
-              
-                TO TEŻ NIE JEST ZBYT DOBRE
-             html { font-size: 62.5% }
-              
-                   Rekomenduję zostawienie font-size
-             domyślnego albo ustawienie na 16px
-             
-                The end
-
-                
-                <img class="lesson__tile--img"
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-01.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>REM - EM - TYPOGRAFIA</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-02.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>font-size</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-03.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>font-family</p>
+                    <p>zmianę fontu dla całej strony można zrobić na tagu body</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-04.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>font-weight</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-05.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>line-height</p>
+                    <p>wysokość tekstu dobrze podać większą niż jest w rzeczywistowści, można zapisać: line-height: 1.5; co powiększy wysokość fontu o dodatkowe 50%</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-06.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>letter-spacing</p>
+                    <p>Odległość między literami - ma dobre zastosowanie przy nagłówkach</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-07.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>&lt;span>&gt;</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-08.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>1 em = ?</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-09.jpg" alt=""
                     width="300">
+                    <p>1 em = font-size dla elementu (dziedziczony / ustawiony) * 1</p>
+                </div>
+              
+              <div class="lesson__tile">
                 <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-10.jpg" alt=""
                     width="300">
+                    <p>1rem = ?</p>
+            </div>
+
+              <div class="lesson__tile">
                 <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-11.jpg" alt=""
                     width="300">
-                <img class="lesson__tile--img"
+                    <p>1 rem = font-size dla root elementu * 1</p>
+            </div>
+
+                   <div class="lesson__tile">
+                    <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-12.jpg" alt=""
                     width="300">
+                     <p><a class="lesson__link" href="https://nekocalc.com/px-to-rem-converter" target="_blank">https://nekocalc.com/px-to-rem-converter</a></p>
+                </div>
+                 
+              <div class="lesson__tile">
                 <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-13.jpg" alt=""
                     width="300">
+                    <p>Nie każda przeglądarka ma domyślnie ustawione font size na 16px!</p>
+              </div>
+
+             <div class="lesson__tile">
                 <img class="lesson__tile--img"
                     src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-14.jpg" alt=""
                     width="300">
+                    <p>NIGDY (SERIO, NIGDY) TEGO NIE RÓB<br>
+                        html { font-size: 10px }</p>
+            </div>
+
+             <div class="lesson__tile">
                 <img class="lesson__tile--img"
-                    src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-15.jpg" alt=""
-                    width="300">
+                src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-15.jpg" alt=""
+                width="300">
+                 <p>TO TEŻ NIE JEST ZBYT DOBRE<br>
+                    html { font-size: 62.5% }</p>
+            </div>
+
+            <div class="lesson__tile">
                 <img class="lesson__tile--img"
-                    src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-16.jpg" alt=""
-                    width="300">
+                src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-16.jpg" alt=""
+                width="300">
+                   <p>Rekomenduję zostawienie font-size
+             domyślnego albo ustawienie na 16px</p>
+            </div>
+             
+             <div class="lesson__tile">
                 <img class="lesson__tile--img"
-                    src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-17.jpg" alt=""
-                    width="300">
+                src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-17.jpg" alt=""
+                width="300">
+                <p>The end</p>
+            </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+               
+                
 
             </article>
         </section>

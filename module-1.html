@@ -2,366 +2,653 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1 moduł WTF</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="normalize.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1 moduł WTF</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="normalize.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-      <nav class="navigation">
-        <a class="navigation__link" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="notatki-html.html">Notatki z HTML-a</a>
-        <a class="navigation__link" href="notatki-css.html">Notatki z CSS-a</a>
-        <a class="navigation__link" href="notatki-js.html">Notatki z JS-a</a>
-        <a class="navigation__link" href="notatki-inne.html">Inne notatki</a>
-        <a class="navigation__link" href="module-1.html">Moduł 1</a>
-        <a class="navigation__link" href="module-2.html">Moduł 2</a>
-        <a class="navigation__link" href="module-3.html">Moduł 3</a>
-        <a class="navigation__link" href="module-4.html">Moduł 4</a>
-        <a class="navigation__link" href="module-5.html">Moduł 5</a>
-        <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
-            stronach.</p>
+  <header>
+    <nav class="navigation">
+      <a class="navigation__link" href="index.html">Strona główna</a>
+      <a class="navigation__link" href="notatki-html.html">Notatki z HTML-a</a>
+      <a class="navigation__link" href="notatki-css.html">Notatki z CSS-a</a>
+      <a class="navigation__link" href="notatki-js.html">Notatki z JS-a</a>
+      <a class="navigation__link" href="notatki-inne.html">Inne notatki</a>
+      <a class="navigation__link" href="module-1.html">Moduł 1</a>
+      <a class="navigation__link" href="module-2.html">Moduł 2</a>
+      <a class="navigation__link" href="module-3.html">Moduł 3</a>
+      <a class="navigation__link" href="module-4.html">Moduł 4</a>
+      <a class="navigation__link" href="module-5.html">Moduł 5</a>
+      <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na
+        kilku
+        stronach.</p>
     </nav>
+  </header>
 
-    <main>
-        <header>
-            <h1>notatki z modułu 1</h1>
-        </header>
-        <p class="hint">W main opakowywujemy unikalną treść dla danej strony</p>
+  <main>
+    <header class="module__header">
+      <h1 class="module__h1--js">notatki z modułu 1</h1>
+      <p class="module__header--hint">W main opakowywujemy unikalną treść dla danej strony</p>
+    </header>
 
-        <br>
-        <hr>
-        <br>
+    <br>
+    <hr>
+    <br>
 
-        <section>
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093218"
-                  target="_blank">M01L01: Powitanie i plan szkolenia [08:35]</a></h2>
-              <p>szablon</p>
-              WTF: Co ten frontend Informacje praktyczne
+    <section>
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093218"
+            target="_blank">M01L01: Powitanie i plan szkolenia [08:35]</a></h2>
 
-13
-13 tygodni
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page01_1.jpg" width="300"
+            alt="">
+          <p>WTF: Co ten frontend Informacje praktyczne</p>
+        </div>
 
- Publikacja nowych materiałów raz w tygodniu
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page02_1.jpg" width="300"
+            alt="">
+          <p>13 tygodni</p>
+        </div>
 
- Dostęp do materiałów po "zakończeniu" szkolenia
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page03_1.jpg" width="300"
+            alt="">
+          <p>Publikacja nowych materiałów raz w tygodniu
+          </p>
+        </div>
 
- Prezentacje i przykłady będą dostępne do ściągnięcia
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page04_1.jpg" width="300"
+            alt="">
+          <p>Dostęp do materiałów po "zakończeniu" szkolenia
+          </p>
+        </div>
 
- Spotkamy się na żywo!
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page05_1.jpg" width="300"
+            alt="">
+          <p>Prezentacje i przykłady będą dostępne do ściągnięcia
+          </p>
+        </div>
 
-Zasady
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page06_1.jpg" width="300"
+            alt="">
+          <p>Spotkamy się na żywo!</p>
+        </div>
 
- Wycisz wszystkie powiadomienia
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page07_1.jpg" width="300"
+            alt="">
+          <p>Zasady</p>
+        </div>
 
- Nie oglądaj bezmyślnie
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page08_1.jpg" width="300"
+            alt="">
+          <p>Wycisz wszystkie powiadomienia</p>
+        </div>
 
- Rób notatki
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page09_1.jpg" width="300"
+            alt="">
+          <p>Nie oglądaj bezmyślnie</p>
+        </div>
 
- 1. Obejrzyj lekcje
-2. Sprawdź prace domowe
-3. Obejrzyj jeszcze raz przy wykonywaniu zadań
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page10_1.jpg" width="300"
+            alt="">
+          <p>Rób notatki</p>
+        </div>
 
- Nie pomijaj odcinków
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page11_1.jpg" width="300"
+            alt="">
+          <ol>
+            <li>Obejrzyj lekcje</li>
+            <li>Sprawdź prace domowe</li>
+            <li>Obejrzyj jeszcze raz przy wykonywaniu zadań</li>
+          </ol>
+        </div>
 
- Działaj regularnie
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page12_1.jpg" width="300"
+            alt="">
+          <p>Nie pomijaj odcinków</p>
+        </div>
 
- Bądź częścią społeczności
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page13_1.jpg" width="300"
+            alt="">
+          <p>Działaj regularnie</p>
+        </div>
 
- Nie bój się pytać
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page14_1.jpg" width="300"
+            alt="">
+          <p>Bądź częścią społeczności</p>
+        </div>
 
- Pamiętaj do kogo skierowany jest program
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page15_1.jpg" width="300"
+            alt="">
+          <p>Nie bój się pytać</p>
+        </div>
 
-Czego się nauczę?
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page16_1.jpg" width="300"
+            alt="">
+          <p>Pamiętaj do kogo skierowany jest program</p>
+        </div>
 
- Jak działać samodzielnie
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page17_1.jpg" width="300"
+            alt="">
+          <p>Czego się nauczę?</p>
+        </div>
 
- Gdzie szukać informacji
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page18_1.jpg" width="300"
+            alt="">
+          <p>Jak działać samodzielnie</p>
+        </div>
 
- Jak wygląda praca frontend developera
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page19_1.jpg" width="300"
+            alt="">
+          <p>Gdzie szukać informacji</p>
+        </div>
 
- HTML
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page20_1.jpg" width="300"
+            alt="">
+          <p>Jak wygląda praca frontend developera</p>
+        </div>
 
- CSS
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page21_1.jpg" width="300"
+            alt="">
+          <p>HTML</p>
+        </div>
 
- JavaScript
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page22_1.jpg" width="300"
+            alt="">
+          <p>CSS</p>
+        </div>
 
- Narzędzia frontend developera
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page23_1.jpg" width="300"
+            alt="">
+          <p>JavaScript</p>
+        </div>
 
-Czego uczyć się poza WTF?
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page24_1.jpg" width="300"
+            alt="">
+          <p>Narzędzia frontend developera</p>
+        </div>
 
- AN G I E LS K I E G O
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page25_1.jpg" width="300"
+            alt="">
+          <p>Czego uczyć się poza WTF?</p>
+        </div>
 
-DO DZIEŁA!
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page26_1.jpg" width="300"
+            alt="">
+          <p>A N G I E LS K I E G O</p>
+        </div>
 
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page01_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page02_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page03_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page04_1.jpg" width="300" alt=""> 
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page05_1.jpg" width="300" alt=""> 
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page06_1.jpg" width="300" alt=""> 
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page07_1.jpg" width="300" alt=""> 
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page08_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page09_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page10_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page11_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page12_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page13_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page14_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page15_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page16_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page17_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page18_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page19_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page20_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page21_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page22_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page23_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page24_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page25_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page26_1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L01_ Informacje_praktyczne/page27_1.jpg" width="300" alt="">
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L01_ Informacje_praktyczne/page27_1.jpg" width="300"
+            alt="">
+          <p>DO DZIEŁA!</p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093228"
+            target="_blank">M01L02: Czym jest frontend? [07:55]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-01.jpg" width="300" alt="">
+          <p>Czym jest frontend?</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-02.jpg" width="300" alt="">
+          <p>frontend / front end / front-end</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-03.jpg" width="300" alt="">
+          <p>Wszystko co widzisz w przeglądarce* *dawno i nieprawda :)</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-05.jpg" width="300" alt="">
+          <p>I youtube</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-06.jpg" width="300" alt="">
+          <p>I visual studio</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-07.jpg" width="300" alt="">
+          <p>Kim są osoby zajmujące się frontendem?</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-08.jpg" width="300" alt="">
+          <p>Kim są osoby zajmujące się frontendem?</p>
+          <ul>
+            <li>Frontend Developer</li>
+            <li>JavaScript Developer</li>
+            <li>Content Developer</li>
+            <li>UI Engineer</li>
+            <li>Full-stack Developer</li>
+            <li>CSS / HTML Developer</li>
+            <li>UI Developer</li>
+            <li>Webmaster</li>
+          </ul>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-09.jpg" width="300" alt="">
+          <p>HTML</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-10.jpg" width="300" alt="">
+          <p>CSS</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-11.jpg" width="300" alt="">
+          <p>JavaScript</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-12.jpg" width="300" alt="">
+          <p>Czym jest backend?</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-13.jpg" width="300" alt="">
+          <p>Wszystko to co dzieje się poza naszą przeglądarką*<br>
+            *w dużym uproszczeniu :)</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-14.jpg" width="300" alt="">
+          <p><b>Frontend</b> - odpowiada za karoserię i wnętrze używane przez kierowcę i pasażerów<br><br>
+            <b>Backend</b> - odpowiada za silnik i wszystkie układy które sprawiają, że samochód jedzie (to co pod
+            maską)
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-15.jpg" width="300" alt="">
+          <p>Frontend vs backend</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-16.jpg" width="300" alt="">
+          <p>Frontend vs backend</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-17.jpg" width="300" alt="">
+          <p>Frontend vs backend</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-18.jpg" width="300" alt="">
+          <p>Frontend vs backend</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-19.jpg" width="300" alt="">
+          <p>Frontend</p>
+          <ul>
+            <li>odpowiada za wygląd stron / aplikacji internetowych</li>
+            <li>odpowiada za interakcje z użytkownikiem</li>
+            <li>jest generowany głównie przy użyciu trzech technologii: HTML, CSS i JavaScript</li>
+            <li>technologie frontendowe przejmują rynek tradycyjnych aplikacji (w wybranych obszarach)</li>
+          </ul>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+            src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-20.jpg" width="300" alt="">
+          <p>THE END</p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093229"
+            target="_blank">M01L03: Konfiguracja narzędzi wykorzystywanych w szkoleniu [04:12]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-1.jpg"
+            width="300" alt="">
+          <p>Narzędzia i społeczność</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-2.jpg"
+            width="300" alt="">
+          <p>Google Chrome<br>
+            <a href="https://www.google.com/intl/pl/chrome/" target="_blank">https://www.google.com/intl/pl/chrome/</a>
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-3.jpg"
+            width="300" alt="">
+          <p>Visual Studio Code<br>
+            <a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a>
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-4.jpg"
+            width="300" alt="">
+          <p>Discord<br>
+            <a href="https://discord.com/download" target="_blank">https://discord.com/download</a>
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-5.jpg"
+            width="300" alt="">
+          <p><a href="https://cotenfrontend.pl/discord" target="_blank">https://cotenfrontend.pl/discord</a></p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-6.jpg"
+            width="300" alt="">
+          <p>THE END</p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093215"
+            target="_blank">M01L04: Konfiguracje systemowe (MacOS) [02:30]</a></h2>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093230"
+            target="_blank">M01L05: Ścieżka rozwoju [07:30]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-1.jpg"
+            width="300" alt="">
+          <p>Ścieżka rozwoju</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-2.jpg"
+            width="300" alt="">
+          <p>Stopnie doświadczenia</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-3.jpg"
+            width="300" alt="">
+          <p>Stażysta/Junior</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-4.jpg"
+            width="300" alt="">
+          <p>Mid</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-5.jpg"
+            width="300" alt="">
+          <p>Mid</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-6.jpg"
+            width="300" alt="">
+          <p>Senior</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-7.jpg"
+            width="300" alt="">
+          <p>Expert / Ninja / Wizard</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-8.jpg"
+            width="300" alt="">
+          <p><a href="https://roadmap.sh/frontend" target="_blank">https://roadmap.sh/frontend</a></p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-9.jpg"
+            width="300" alt="">
+          <p>THE END</p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093231"
+            target="_blank">M01L06: Warstwy strony internetowej [06:12]</a></h2>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        <div class="lesson__tile">
+
+          <p></p>
+        </div>
+
+        Warstwy
+
+        Cebula
+
+        shrek by anbileru adaleru from the Noun Project
+        Ogry
+
+        Strony internetowe
+
+        Warstwa 0 TREŚĆ
+
+        Warstwa 1 Semantyka: HTML
+
+        Warstwa 2 Prezentacja: CSS
+
+        Warstwa 3 Interakcja: JavaScript
+
+        JavaScript
+        CSS
+        HTML
+        TREŚĆ
+        Warstwy strony internetowej
+
+        CONTENT IS THE KING
+
+        THE END
+
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-01.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-02.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-03.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-04.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-05.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-06.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-07.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-08.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-09.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-10.jpg"
+          width="300" alt="">
+        <img class="lesson__tile--img"
+          src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-11.jpg"
+          width="300" alt="">
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093217"
+            target="_blank">M01 Praca domowa: Hello world - mój pierwszy projekt! [06:48]</a></h2>
+
+        <div class="homework__tile--done">
+          <p>Praca domowa</p>
+        </div>
+      </article>
+    </section>
 
 
-            </article>
+    <br>
+    <hr>
+    <br>
 
-            <br>
-            <hr>
-            <br>
+  </main>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093228"
-                  target="_blank">M01L02: Czym jest frontend? [07:55]</a></h2>
-              <p>szablon</p>
-              Czym jest frontend?
-
-              frontend / front end / front-end
-         
-              Wszystko co widzisz w przeglądarce* *dawno i nieprawda :)
-         
-              
-              
-              
-              Kim są osoby zajmujące się frontendem?
-         
-            Kim są osoby zajmujące się frontendem?
-           Frontend Developer
-         JavaScript Developer CSS / HTML Developer
-           Content Developer
-         UI Engineer UI Developer
-         Full-stack Developer Webmaster
-             
-              HTML
-         
-              CSS
-         
-              JavaScript
-         
-              Czym jest backend?
-         
-              Wszystko to co dzieje się poza naszą przeglądarką*
-         *w dużym uproszczeniu :)
-         
-              Frontend - odpowiada za karoserię i wnętrze używane przez kierowcę i pasażerów
-         Backend - odpowiada za silnik i wszystkie układy które sprawiają, że samochód jedzie (to co pod maską)
-         
-              Frontend vs backend
-         
-             
-             
-             
-            Frontend
-         - odpowiada za wygląd stron / aplikacji internetowych
-         - odpowiada za interakcje z użytkownikiem
-         - jest generowany głównie przy użyciu trzech technologii: HTML, CSS i JavaScript
-         - technologie frontendowe przejmują rynek tradycyjnych aplikacji (w wybranych obszarach)
-          
-            THE END
-         
-
-
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-01.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-02.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-03.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-04.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-05.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-06.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-07.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-08.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-09.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-10.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-11.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-12.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-13.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-14.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-15.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-16.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-17.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-18.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-19.jpg" width="300" alt="">
-            <img src="images/1/WTF_M01L02_Czym_jest_frontend_/WTF_M01L02_Czym_jest_frontend_-20.jpg" width="300" alt="">
-            </article>
-
-            <br>
-            <hr>
-            <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093229"
-                  target="_blank">M01L03: Konfiguracja narzędzi wykorzystywanych w szkoleniu [04:12]</a></h2>
-              <p>szablon</p>
-
-
-              Narzędzia i społeczność
-
-              Google Chrome
-         https://www.google.com/intl/pl/chrome/
-            
-              Visual Studio Code
-         https://code.visualstudio.com/
-            
-              Discord
-         https://discord.com/download
-            
-                 https://cotenfrontend.pl/discord
-          
-            THE END
-         
-<img src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-2.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-3.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-4.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-5.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-6.jpg" width="300" alt="">
-
-            </article>
-
-            <br>
-            <hr>
-            <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093215"
-                  target="_blank">M01L04: Konfiguracje systemowe (MacOS) [02:30]</a></h2>
-              <p>szablon</p>
-              brak
-            </article>
-
-            <br>
-            <hr>
-            <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093230"
-                  target="_blank">M01L05: Ścieżka rozwoju [07:30]</a></h2>
-              <p>szablon</p>
-              Ścieżka rozwoju
-
-              Stopnie doświadczenia
-         
-              Stażysta/Junior
-         
-              Mid
-         
-              Mid
-         
-              Senior
-         
-              Expert / Ninja / Wizard
-         
-               https://roadmap.sh/frontend
-          
-            THE END
-         
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-1.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-2.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-3.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-4.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-5.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-6.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-7.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-8.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L05_Sciezka_rozwoju/WTF_M01L05_Sciezka_rozwoju-9.jpg" width="300" alt="">
-
-            </article>
-
-            <br>
-            <hr>
-            <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093231"
-                  target="_blank">M01L06: Warstwy strony internetowej [06:12]</a></h2>
-              <p>szablon</p>
-              Warstwy
-
-              Cebula
-         
-              shrek by anbileru adaleru from the Noun Project
-          Ogry
-         
-              Strony internetowe
-          
-          Warstwa 0 TREŚĆ
-             
-          Warstwa 1 Semantyka: HTML
-             
-          Warstwa 2 Prezentacja: CSS
-              
-          Warstwa 3 Interakcja: JavaScript
-             
-             JavaScript
-               CSS
-             HTML
-             TREŚĆ
-           Warstwy strony internetowej
-         
-            CONTENT IS THE KING
-          
-            THE END
-         
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-01.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-02.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-03.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-04.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-05.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-06.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-07.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-08.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-09.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-10.jpg" width="300" alt="">
-<img src="images/1/WTF_M01L06_Warstwy_strony_internetowej/WTF_M01L06_Warstwy_strony_internetowej-11.jpg" width="300" alt="">
-
-            </article>
-
-            <br>
-            <hr>
-            <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153228870/posts/2169093217"
-                  target="_blank">M01 Praca domowa: Hello world - mój pierwszy projekt! [06:48]</a></h2>
-              <p>szablon</p>
-            </article>
-          </section>
-      
-
-        <br>
-        <hr>
-        <br>
-
-    </main>
-
-    <footer>
-        <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
-        <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
-        <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
-    </footer>
-    <script src="main.js"></script>
+  <footer>
+    <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
+    <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
+    <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+  </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
