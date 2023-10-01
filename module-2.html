@@ -2,483 +2,694 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2 moduł WTF</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="normalize.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2 moduł WTF</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="normalize.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-      <nav class="navigation">
-        <a class="navigation__link" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="notatki-html.html">Notatki z HTML-a</a>
-        <a class="navigation__link" href="notatki-css.html">Notatki z CSS-a</a>
-        <a class="navigation__link" href="notatki-js.html">Notatki z JS-a</a>
-        <a class="navigation__link" href="notatki-inne.html">Inne notatki</a>
-        <a class="navigation__link" href="module-1.html">Moduł 1</a>
-        <a class="navigation__link" href="module-2.html">Moduł 2</a>
-        <a class="navigation__link" href="module-3.html">Moduł 3</a>
-        <a class="navigation__link" href="module-4.html">Moduł 4</a>
-        <a class="navigation__link" href="module-5.html">Moduł 5</a>
-        <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
-            stronach.</p>
+  <header>
+    <nav class="navigation">
+      <a class="navigation__link" href="index.html">Strona główna</a>
+      <a class="navigation__link" href="notatki-html.html">Notatki z HTML-a</a>
+      <a class="navigation__link" href="notatki-css.html">Notatki z CSS-a</a>
+      <a class="navigation__link" href="notatki-js.html">Notatki z JS-a</a>
+      <a class="navigation__link" href="notatki-inne.html">Inne notatki</a>
+      <a class="navigation__link" href="module-1.html">Moduł 1</a>
+      <a class="navigation__link" href="module-2.html">Moduł 2</a>
+      <a class="navigation__link" href="module-3.html">Moduł 3</a>
+      <a class="navigation__link" href="module-4.html">Moduł 4</a>
+      <a class="navigation__link" href="module-5.html">Moduł 5</a>
+      <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na
+        kilku
+        stronach.</p>
     </nav>
+  </header>
+
+  <main>
+    <header class="module__header">
+      <h1 class="module__h1--js">notatki z modułu 2</h1>
+      <p class="module__header--hint">W main opakowywujemy unikalną treść dla danej strony</p>
     </header>
 
-    <main>
-        <header>
-            <h1>notatki z modułu 2</h1>
-        </header>
-        <p class="hint">W main opakowywujemy unikalną treść dla danej strony</p>
+    <br>
+    <hr>
+    <br>
+    
+    <section>
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241047"
+            target="_blank">M02L01: Tydzień II + rozwiązania tydzień I [00:35]</a></h2>
+      </article>
 
-        <br>
-        <hr>
-        <br>
-        <section>
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241047"
-                  target="_blank">M02L01: Tydzień II + rozwiązania tydzień I [00:35]</a></h2>
-              <p>szablon</p>
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
+      <br>
+      <hr>
+      <br>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241048"
-                  target="_blank">M02L02: WTF: HTML - podstawy języka [11:36]</a></h2>
-              <p>szablon</p>
-              WTF: HTML
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241048"
+            target="_blank">M02L02: WTF: HTML - podstawy języka [11:36]</a></h2>
 
-              HTML = HyperText Markup Language
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-01.jpg" width="300" alt="">
+          <p>WTF: HTML</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-02.jpg" width="300" alt="">
+          <p>HTML = HyperText Markup Language</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-03.jpg" width="300" alt="">
+          <p>HTML odpowiada za treść*<br><br>
+            *a właściwie za jej właściwe opakowanie</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-04.jpg" width="300" alt="">
+          <p> 3. JavaScript<br>
+            2. CSS<br>
+            <b>1. HTML</b><br>
+            0. TREŚĆ<br>
+            <br>
+            Warstwy strony internetowej
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-05.jpg" width="300" alt="">
+          <p>Treść to:
+          <ul>
+            <li>Teksty</li>
+            <li>Nagłówki</li>
+            <li>Linki</li>
+            <li>Listy</li>
+            <li>Definicje</li>
+            <li>Obrazki</li>
+            <li>Video</li>
+            <li>Formularze</li>
+            <li>Wszystko co jest nośnikiem informacji</li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-06.jpg" width="300" alt="">
+          <p>&lt;/ &gt; HTML składa się ze znaczników/tagów/elementów</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-07.jpg" width="300" alt="">
+          <p>&lt;znacznik atrybut=”wartość”&gt;treść &lt;/znacznik&gt;<br>Budowa znaczników</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-08.jpg" width="300" alt="">
+          <p>Semantyczny = mający znaczenie</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-09.jpg" width="300" alt="">
+          <p>Pliki zawierające kod HTML mają zwykle rozszerzenie <i>.html</i></p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241049"
+            target="_blank">M02L03: WTF: HTML - podstawowe znaczniki [19:19]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-10.jpg" width="300" alt="">
+          <p>Tworzymy nasz pierwszy plik z HTML-em</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-11.jpg" width="300" alt="">
+          <p>HTML to szkielet strony internetowej*<br><br>
+            *nawet ma taką budowę!</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-12.jpg" width="300" alt="">
+          <p> &lt;html&gt;<br>
+            Jedna głowa &lt;head&gt;<br>
+            Jedno ciało &lt;body&gt;<br>
+            &lt;/html&gt;<br></p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-13.jpg" width="300" alt="">
+          <p>&lt;main&gt;<br>
+            Główna część dokumentu</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-14.jpg" width="300" alt="">
+          <p>&lt;section&gt;<br>
+            Sekcje dokumentu</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-15.jpg" width="300" alt="">
+          <p>&lt;article&gt;<br>
+            Samodzielne treści</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-16.jpg" width="300" alt="">
+          <p>&lt;header&gt;<br>
+            Nagłówek - dokumentu / sekcji / artykułu</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-17.jpg" width="300" alt="">
+          <p>&lt;footer&gt;<br>
+            Stopka - dokumentu / sekcji / artykułu</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-18.jpg" width="300" alt="">
+          <p>&lt;h1-h6&gt;<br>
+            Tekstowe nagłówki tytułowe - dokumentu / sekcji / artykułu</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-19.jpg" width="300" alt="">
+          <p>&lt;p&gt;<br>
+            Paragraf / akapit</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-20.jpg" width="300" alt="">
+          <p>Jak sprawdzić czy mój HTML jest OK?</p>
+          <p class="lesson__tile--hint">[W3 NU VALIDATOR]</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-21.jpg" width="300" alt="">
+          <p>HTML
+          <ul>
+            <li>Opakowuje i opisuje treść strony</li>
+            <li>Mówi przeglądarce o strukturze dokumentu (i o tym co ma wczytać)</li>
+            <li>Posiada swoją zdefiniowaną składnie</li>
+            <li>Nie jest językiem programowania, jest językiem znaczników (Markup Language)</li>
+            <li>HTML5 stał się tak zwanym "living standard"</li>
+            <li>Całą specyfikację znajdziesz na stronie w3c</li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-22.jpg" width="300" alt="">
+          <p>To be continued...</p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241050"
+            target="_blank">M02L04: WTF: CSS (atrybuty, selektory, kolory) [12:46]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-01.jpg" width="300" alt="">
+          <p>WTF: CSS</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-02.jpg" width="300" alt="">
+          <p>CSS = Cascading Style Sheets Kaskadowe arkusze stylów</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-03.jpg" width="300" alt="">
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-04.jpg" width="300" alt="">
+          <p>CSS odpowiadają za prezentację</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-05.jpg" width="300" alt="">
+          <p> 3. JavaScript<br>
+            <b>2. CSS</b><br>
+            1. HTML<br>
+            0. TREŚĆ<br>
+            <br>
+            Warstwy strony internetowej
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-06.jpg" width="300" alt="">
+          <p>CSS wpływają na wygląd elementów HTML na ekranie, wydrukach itp.</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-07.jpg" width="300" alt="">
+          <p>{}<br>
+            <br>
+            Składnia CSS to reguły
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-08.jpg" width="300" alt="">
+          <p>selektor {<br>
+            właściwość: wartość;<br>
+            }<br>
+            <br>
+            Budowa reguły CSS
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-09.jpg" width="300" alt="">
+          <p>.css<br>
+            Pliki zawierające kod CSS mają rozszerzenie <i>.css</i>*<br><br>
+            *jest możliwość korzystania z reguł CSS bez używania zewnętrznych plików</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-10.jpg" width="300" alt="">
+          <p>Czas na pierwsze stylowanie</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-11.jpg" width="300" alt="">
+          <p>&lt;style&gt;<br>
+            p {<br>
+            color: red;<br>
+            }<br>
+            &lt;/style&gt;<br>
+            <br>
+            Znacznik &lt;style&gt;
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-12.jpg" width="300" alt="">
+          <p>&lt;link href="style.css" rel="stylesheet" type="text/css"&gt;<br>
+            <br>
+            Znacznik &lt;link&gt;
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-13.jpg" width="300" alt="">
+          <p>CSS
+          <ul>
+            <li>Odpowiadają za prezentację treści strony</li>
+            <li>Nie mają jednej wersji (rozwój modułów), potocznie mówi się, że aktualna wersja to 3</li>
+            <li>Przeglądarki potrafią różnie interpretować CSS co prowadzi do tego, że...</li>
+            <li>... pisanie stylów powoduje wiele frustracji u programistów (ale jest też niezłym wyzwaniem :))</li>
+            <li>Całą specyfikację znajdziesz na stronie w3c</li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-14.jpg" width="300" alt="">
+          <p>To be continued...</p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241051"
+            target="_blank">M02L05: Devtools: podglądamy (i zmieniamy) istniejące strony [05:07]</a></h2>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241052"
+            target="_blank">M02L06: Formatowanie kodu [03:43]</a></h2>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241053"
+            target="_blank">M02L07: Klan - relacje między elementami [03:41]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-1.jpg" width="300"
+            alt="">
+          <p>WTF: Klan</p>
+        </div>
         
-              HTML odpowiada za treść* *a właściwie za jej właściwe opakowanie
-         
-            JavaScript
-              CSS
-            HTML
-            TREŚĆ
-          Warstwy strony internetowej
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-2.jpg" width="300" alt="">
+          <p>HTML jako rodzina elementów</p>
+        </div>
         
-           Treść to:
-        - Teksty
-        - Nagłówki
-        - Linki
-        - Listy
-        - Definicje
-        - Obrazki
-        - Video
-        - Formularze
-        - Wszystko co jest nośnikiem informacji
-           
-        &lt;/	&gt;
-        HTML składa się ze znaczników/tagów/elementów
-          
-        &lt;znacznik atrybut=”wartość”&gt;treść	&lt;/znacznik&gt; Budowa znaczników
-          
-               Semantyczny = mający znaczenie
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-3.jpg" width="300" alt="">
+          <p>Węzeł / node</p>
+        </div>
         
-            .html
-        Pliki zawierające kod HTML mają zwykle rozszerzenie .html
-          
-             Tworzymy nasz pierwszy plik z HTML-em
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-4.jpg" width="300" alt="">
+          <p>Rodzic - dziecko</p>
+        </div>
         
-             HTML to szkielet strony internetowej* *nawet ma taką budowę!
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-5.jpg" width="300" alt="">
+          <p>To be continued</p>
+        </div>
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241054"
+            target="_blank">M02L08 Magia programowania [07:44]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-01.jpg" width="300" alt="">
+          <p>Magia programowania</p>
+        </div>
         
-             &lt;html	&gt;
-          Jedna głowa 	&lt;head	&gt;
-           Jedno ciało 	&lt;body	&gt;
-           &lt;/html	&gt;
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-02.jpg" width="300" alt="">
+          <p>Czym jest programowanie?</p>
+        </div>
         
-           &lt;main	&gt;
-        Główna część dokumentu
-          
-        &lt;section	&gt;
-        Sekcje dokumentu
-          
-        &lt;article	&gt;
-        Samodzielne treści
-          
-        &lt;header	&gt;
-        Nagłówek - dokumentu / sekcji / artykułu
-          
-        &lt;footer	&gt;
-        Stopka - dokumentu / sekcji / artykułu
-          
-        &lt;h1-h6	&gt;
-        Tekstowe nagłówki tytułowe - dokumentu / sekcji / artykułu
-          
-        &lt;p	&gt;
-        Paragraf / akapit
-          
-             Jak sprawdzić czy mój HTML jest OK?
-        [W3 NU VALIDATOR]
-           
-           HTML
-        - Opakowuje i opisuje treść strony
-        - Mówi przeglądarce o strukturze dokumentu
-        (i o tym co ma wczytać)
-        - Posiada swoją zdefiniowaną składnie
-        - Nie jest językiem programowania, jest
-        językiem znaczników (Markup Language)
-        - HTML5 stał się tak zwanym "living standard"
-        - Całą specyfikację znajdziesz na stronie w3c
-              
-           To be continued...
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-03.jpg" width="300" alt="">
+          <p>Magia</p>
+        </div>
         
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-01.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-02.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-03.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-04.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-05.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-06.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-07.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-08.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-09.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-10.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-11.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-12.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-13.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-14.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-15.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-16.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-17.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-18.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-19.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-20.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-21.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-22.jpg" width="300" alt="">
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-04.jpg" width="300" alt="">
+          <p>Programowanie jak gotowanie*<br><br>*tylko przepisy często wymyślamy na bieżąco</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-05.jpg" width="300" alt="">
+          <p>ROBIMY HERBATĘ<br><br>(WERSJA SZYBKA - PROGRAMISTYCZNA)</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-06.jpg" width="300" alt="">
+          <p>1. Przygotuj czajnik, kubek, torebkę z herbatą</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-07.jpg" width="300" alt="">
+          <p>2. Zagotuj wodę</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-08.jpg" width="300" alt="">
+          <p>3. Wrzuć torebkę z herbatą do kubka</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-09.jpg" width="300" alt="">
+          <p>4. W momencie gdy woda zacznie wrzeć, przelej odpowiednią ilość do kubka</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-10.jpg" width="300" alt="">
+          <p>5. Odlicz czas zgodnie z instrukcją podaną na opakowaniu herbaty</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-11.jpg" width="300" alt="">
+          <p>6. Wyjmij torebkę, wypij herbatę</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-12.jpg" width="300" alt="">
+          <p>Co się stanie jak przekręcimy kolejność / zmienimy czas wykonywania poleceń?</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-13.jpg" width="300" alt="">
+          <p>Kolejność wykonywania kroków / instrukcji jest bardzo ważna!</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-14.jpg" width="300" alt="">
+          <p>ALGORYTMY</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-15.jpg" width="300" alt="">
+          <p>Schemat blokowy<br>
+            START<br>
+            Przygotuj czajnik, kubek, torebkę z herbatą<br>
+            Wstaw wodę<br>
+            Wrzuć torebkę do kubka<br>
+            Czekaj<br>
+            Czy woda się gotuje?<br>
+            NIE<br>
+            TAK<br>
+            Wlej 250ml wrzącej wody do kubka i czekaj 5 min<br>
+            STOP</p>
+        </div>
+       
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-16.jpg" width="300" alt="">
+          <p>Czym jest programowanie?</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-17.jpg" width="300" alt="">
+          <p>Zamiana ludzkiego języka na język zrozumiały przez komputer<br><br>
+            Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"<br><br>
+            Moja strona<br>
+            Mój nagłówek<br>
+            <button>P R Z Y C I S K</button></p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-18.jpg" width="300" alt="">
+          <p>Zamiana ludzkiego języka na język zrozumiały przez komputer<br><br>
+            Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"<br><br>
+            Moja strona<br>
+            Mój nagłówek<br>
+            <button>P R Z Y C I S K</button></p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-19.jpg" width="300" alt="">
+          <p>Zamiana ludzkiego języka na język zrozumiały przez komputer<br><br>
+            Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"<br><br>
+            Moja strona<br>
+            klik, klik!<br>
+            <button>P R Z Y C I S K</button><br></p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-20.jpg" width="300" alt="">
+          <p>ABC<br><br>
+            Język programowania ma swoją składnie, gramatykę i ortografię</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-21.jpg" width="300" alt="">
+          <p>700+<br><br>
+            Na świecie istnieje ponad 700 języków programowania</p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-22.jpg" width="300" alt="">
+          <p>W tym szkoleniu skupimy się na jednym:<br><br>
+            <b><i>JavaScript</i></b></p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-23.jpg" width="300" alt="">
+          <p>3. <b>JavaScript</b><br>
+            2. CSS<br>
+            1. HTML<br>
+            0. TREŚĆ<br>
+            <br>
+            Warstwy strony internetowej
+          </p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-24.jpg" width="300" alt="">
+          <p>JavaScript (JS)
+            <ul>
+           <li>Odpowiada za interakcje</li>
+           <li>Pozwala na programowanie we frontendzie</li>
+           <li>Potrafi wpływać na każdą z warstw</li>
+           <li>Rozszerza możliwości zwykłych stron</li>
+           <li>Aktualnie jest jednym z najpopularniejszych języków programowania na świecie</li>
+          </ul></p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img"
+          src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-25.jpg" width="300" alt="">
+          <p>To be continued...</p>
+        </div>
+      </article>
 
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
+      <br>
+      <hr>
+      <br>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241049"
-                  target="_blank">M02L03: WTF: HTML - podstawowe znaczniki [19:19]</a></h2>
-              <p>szablon</p>
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241055"
+            target="_blank">M02L09: Jak wygląda planowanie pracy za pomocą metody Kanban? [07:50]</a></h2>
+      </article>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241050"
-                  target="_blank">M02L04: WTF: CSS (atrybuty, selektory, kolory) [12:46]</a></h2>
-              <p>szablon</p>
-              WTF: CSS
+      <br>
+      <hr>
+      <br>
 
-              CSS = Cascading Style Sheets Kaskadowe arkusze stylów
-          
-            
-               CSS odpowiadają za prezentację
-          
-             JavaScript
-               CSS
-             HTML
-             TREŚĆ
-           Warstwy strony internetowej
-         
-              CSS wpływają na wygląd elementów HTML na ekranie, wydrukach itp.
-         
-             {}
-         Składnia CSS to reguły
-           
-            selektor {
-         właściwość: wartość;
-         }
-          Budowa reguły CSS
-          
-             .css
-         Pliki zawierające kod CSS mają rozszerzenie .css*
-         *jest możliwość korzystania z reguł CSS bez używania zewnętrznych plików
-          
-              Czas na pierwsze stylowanie
-         
-              &lt;style	&gt;
-         p{
-         color: red;
-         }
-         &lt;/style	&gt;
-          Znacznik 	&lt;style	&gt;
-         
-          &lt;link href="style.css" rel="stylesheet"
-                     type="text/css"	&gt;
-          Znacznik 	&lt;link	&gt;
-         
-            CSS
-         - Odpowiadają za prezentację treści strony
-         - Nie mają jednej wersji (rozwój modułów),
-         potocznie mówi się, że aktualna wersja to 3
-         - Przeglądarki potrafią różnie interpretować
-         CSS co prowadzi do tego, że...
-         - ... pisanie stylów powoduje wiele
-         frustracji u programistów (ale jest też niezłym
-         wyzwaniem :))
-         - Całą specyfikację znajdziesz na stronie w3c
-               
-            To be continued...
-         
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-01.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-02.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-03.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-04.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-05.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-06.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-07.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-08.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-09.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-10.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-11.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-12.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-13.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L04_CSS/WTF_M02L04_CSS-14.jpg" width="300" alt="">
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241057"
+            target="_blank">M02L10: Tydzień II - prace domowe [04:22]</a></h2>
+        
+        <div class="homework__tile--done">
+          <img class="homework__tile--img"
+          src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-1.jpg" width="300"
+          alt="">
+          <p>Tydzień II: Prace domowe</p>
+        </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-2.jpg" width="300"
+            alt="">
+            <p>0. Baw się dobrze!</p>
+          </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-3.jpg" width="300"
+            alt="">
+            <p>1. Stwórz projekt homepage
+              <ol>
+             <li>Załóż katalog z plikiem index.html</li>
+              <li>Utwórz podobne sekcje jak w lekcji o HTML</li>
+                <li>Codziennie dopisuj nowy artykuł do notatek</li>
+              <li> Sprawdź swój kod za pomocą validatora</li>
+            </ol></p>
+          </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-4.jpg" width="300"
+            alt="">
+            <p>2. Dodaj style
+              <ol>
+             <li>W projekcie homepage utwórz plik style.css</li>
+             <li>Ustaw tło strony na #fefefe</li>
+             <li>Ustaw kolor nagłówków h2 na #1460AA</li>
+             <li>Nie bój się eksperymentować!</li>
+            </ol></p>
+          </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-5.jpg" width="300"
+            alt="">
+            <p>3. Rozwiąż zagadkę</p>
+          </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-6.jpg" width="300"
+            alt="">
+            <p>4. Myśl jak programiści</p>
+          </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-7.jpg" width="300"
+            alt="">
+            <p>5. Zrób komuś kawał</p>
+          </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-8.jpg" width="300"
+            alt="">
+            <p>6. Załóż tablicę na trello i wrzucaj tam prace domowe - śledź postęp!</p>
+          </div>
+        
+          <div class="homework__tile--done">
+            <img class="homework__tile--img"
+            src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-9.jpg" width="300"
+            alt="">
+            <p>Good luck!</p>
+          </div>
+      </article>
+    </section>
 
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
+    <br>
+    <hr>
+    <br>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241051"
-                  target="_blank">M02L05: Devtools: podglądamy (i zmieniamy) istniejące strony [05:07]</a></h2>
-              <p>szablon</p>
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
+  </main>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241052"
-                  target="_blank">M02L06: Formatowanie kodu [03:43]</a></h2>
-              <p>szablon</p>
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241053"
-                  target="_blank">M02L07: Klan - relacje między elementami [03:41]</a></h2>
-              <p>szablon</p>
-              WTF: Klan
-
-HTML jako rodzina elementów
-
-Węzeł / node
-
-Rodzic - dziecko
-
-To be continued
-
-<img src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-1.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-2.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-3.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-4.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-5.jpg" width="300" alt="">
-
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241054"
-                  target="_blank">M02L08 Magia programowania [07:44]</a></h2>
-              <p>szablon</p>
-              Magia programowania
-
-Czym jest programowanie?
-
-Magia
-
-Programowanie jak gotowanie* *tylko przepisy często wymyślamy na bieżąco
-
-ROBIMY HERBATĘ (WERSJA SZYBKA-PROGRAMISTYCZNA)
-
-1. Przygotuj czajnik, kubek, torebkę z herbatą
-
-2. Zagotuj wodę
-
-3. Wrzuć torebkę z herbatą do kubka
-
-4. W momencie gdy woda zacznie wrzeć, przelej odpowiednią ilość do kubka
-
-5. Odlicz czas zgodnie z instrukcją podaną na opakowaniu herbaty
-
-6. Wyjmij torebkę, wypij herbatę
-
-Co się stanie jak przekręcimy kolejność / zmienimy czas wykonywania poleceń?
-
-Kolejność wykonywania kroków / instrukcji jest bardzo ważna!
-
-ALGORYTMY
-
-Schemat blokowy
-START
-Przygotuj czajnik, kubek, torebkę z herbatą
-Wstaw wodę
-Wrzuć torebkę do kubka
-Czekaj
-Czy woda się gotuje?
-NIE
-  TAK
-Wlej 250ml wrzącej wody do kubka i czekaj 5 min
-STOP
-
-Czym jest programowanie?
-
-Zamiana ludzkiego języka na język zrozumiały przez komputer
-Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"
-Moja strona
-Mój nagłówek
-PR ZYC I S K
-
-Zamiana ludzkiego języka na język zrozumiały przez komputer
-Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"
-Moja strona
-Mój nagłówek
-PR ZYC I S K
-
-Zamiana ludzkiego języka na język zrozumiały przez komputer
-Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"
-Moja strona
-klik, klik!
-PR ZYC I S K
-
-ABC
-Język programowania ma swoją składnie, gramatykę i ortografię
-
-700+
-Na świecie istnieje ponad 700 języków programowania
-
-W tym szkoleniu skupimy się na jednym:
-JavaScript
-
-JavaScript
-CSS
-HTML
-TREŚĆ
-Warstwy strony internetowej
-
-JavaScript (JS)
-- Odpowiada za interakcje
-- Pozwala na programowanie we frontendzie
-- Potrafi wpływać na każdą z warstw
-- Rozszerza możliwości zwykłych stron
-- Aktualnie jest jednym z najpopularniejszych
-języków programowania na świecie
-
-To be continued...
-
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-01.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-02.jpg" width="300" alt=""> 
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-03.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-04.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-05.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-06.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-07.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-08.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-09.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-10.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-11.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-12.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-13.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-14.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-15.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-16.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-17.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-18.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-19.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-20.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-21.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-22.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-23.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-24.jpg" width="300" alt="">
-<img src="images/2/WTF_M02L08 - Magia programowania/WTF_M02L08 - Magia programowania-25.jpg" width="300" alt="">
-
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241055"
-                  target="_blank">M02L09: Jak wygląda planowanie pracy za pomocą metody Kanban? [07:50]</a></h2>
-              <p>szablon</p>
-            </article>
-                  
-          <br>
-          <hr>
-          <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241057"
-                  target="_blank">M02L10: Tydzień II - prace domowe [04:22]</a></h2>
-              <p>szablon</p>
-              Tydzień II: Prace domowe
-
-0. Baw się dobrze!
-
-1. Stwórz projekt homepage
-1. Załóż katalog z plikiem index.html
-2. Utwórz podobne sekcje jak w lekcji o HTML
-3. Codziennie dopisuj nowy artykuł
-do notatek
-4. Sprawdź swój kod za pomocą validatora
-
-2. Dodaj style
-1. W projekcie homepage utwórz plik style.css
-2. Ustaw tło strony na #fefefe
-3. Ustaw kolor nagłówków h2 na #1460AA
-4. Nie bój się eksperymentować!
-
-  3. Rozwiąż zagadkę
-
-4. Myśl jak programiści
-
-5. Zrób komuś kawał
-
-6. Załóż tablicę na trello i wrzucaj tam prace domowe - śledź postęp!
-
-Good luck!
-
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-1.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-2.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-3.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-4.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-5.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-6.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-7.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-8.jpg" width="300" alt="">
-<img src="images/2/WTF_W02L10 - Tydzień II Prace domowe/WTF_W02L10 - Tydzień II Prace domowe-9.jpg" width="300" alt="">
-
-            </article>
-          </section>
-      
-        <br>
-        <hr>
-        <br>
-
-    </main>
-
-    <footer>
-        <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
-        <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
-        <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
-    </footer>
-    <script src="main.js"></script>
+  <footer>
+    <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
+    <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
+    <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+  </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>

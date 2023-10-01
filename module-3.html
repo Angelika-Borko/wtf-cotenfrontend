@@ -2,103 +2,106 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3 moduł WTF</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="normalize.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 moduł WTF</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="normalize.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-      <nav class="navigation">
-        <a class="navigation__link" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="notatki-html.html">Notatki z HTML-a</a>
-        <a class="navigation__link" href="notatki-css.html">Notatki z CSS-a</a>
-        <a class="navigation__link" href="notatki-js.html">Notatki z JS-a</a>
-        <a class="navigation__link" href="notatki-inne.html">Inne notatki</a>
-        <a class="navigation__link" href="module-1.html">Moduł 1</a>
-        <a class="navigation__link" href="module-2.html">Moduł 2</a>
-        <a class="navigation__link" href="module-3.html">Moduł 3</a>
-        <a class="navigation__link" href="module-4.html">Moduł 4</a>
-        <a class="navigation__link" href="module-5.html">Moduł 5</a>
-        <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na kilku
-            stronach.</p>
+  <header>
+    <nav class="navigation">
+      <a class="navigation__link" href="index.html">Strona główna</a>
+      <a class="navigation__link" href="notatki-html.html">Notatki z HTML-a</a>
+      <a class="navigation__link" href="notatki-css.html">Notatki z CSS-a</a>
+      <a class="navigation__link" href="notatki-js.html">Notatki z JS-a</a>
+      <a class="navigation__link" href="notatki-inne.html">Inne notatki</a>
+      <a class="navigation__link" href="module-1.html">Moduł 1</a>
+      <a class="navigation__link" href="module-2.html">Moduł 2</a>
+      <a class="navigation__link" href="module-3.html">Moduł 3</a>
+      <a class="navigation__link" href="module-4.html">Moduł 4</a>
+      <a class="navigation__link" href="module-5.html">Moduł 5</a>
+      <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na
+        kilku
+        stronach.</p>
     </nav>
+  </header>
+
+  <main>
+    <header class="module__header">
+      <h1 class="module__h1--js">notatki z modułu 3</h1>
+      <p class="module__header--hint">W main opakowywujemy unikalną treść dla danej strony</p>
     </header>
 
-    <main>
-        <header>
-            <h1>notatki z modułu 3</h1>
-        </header>
-        <p class="hint">W main opakowywujemy unikalną treść dla danej strony</p>
+    <br>
+    <hr>
+    <br>
 
-        <br>
-        <hr>
-        <br>
-      
-        <section>
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456211"
-                  target="_blank">M03L01: Tydzień III + rozwiązania tydzień II [04:42]</a></h2>
-              <p>szablon</p>
+    <section>
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456211"
+            target="_blank">M03L01: Tydzień III + rozwiązania tydzień II [04:42]</a></h2>
 
-              <img src="images/3/03-03-html.jpg" width="300" alt="">
-              <img src="images/3/03-06-inne.jpg" width="300" alt="">
-              <img src="images/3/03.0x-js.jpg" width="300" alt="">
-              <img src="images/3/03.05-css.jpg" width="300" alt="">
-              <img src="images/3/03.07-js.jpg" width="300" alt="">
-              <img src="images/3/03.08-inne.jpg" width="300" alt="">
-              <img src="images/3/inherit-computed.png" width="300" alt="">
-              <img src="images/3/inherit-value.png" width="300" alt="">
-              <img src="images/3/inherited-from.png" width="300" alt="">
-              <img src="images/3/root.png" width="300" alt="">
-            </article>
+        <img class="lesson__tile--img" src="images/3/03-03-html.jpg" width="300" alt="">
+        <img class="lesson__tile--img" src="images/3/03-06-inne.jpg" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/03.0x-js.jpg" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/03.05-css.jpg" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/03.07-js.jpg" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/03.08-inne.jpg" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/inherit-computed.png" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/inherit-value.png" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/inherited-from.png" width="300" alt="">
+<img class="lesson__tile--img" src="images/3/root.png" width="300" alt="">
 
-        <br>
-        <hr>
-        <br>
+      </article>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456212"
-                  target="_blank">M03L02: Jest GIT! [14:35]</a></h2>
-              <p>szablon</p>
-              Jest GIT!
+      <br>
+      <hr>
+      <br>
 
-              UWAGA: BĘDĄ UPROSZCZENIA *będziemy używać gita jako maszynki do robienia zip-ów
-        
-             Problemy przy tworzeniu oprogramowania*
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456212"
+            target="_blank">M03L02: Jest GIT! [14:35]</a></h2>
+        <p>szablon</p>
+        Jest GIT!
+
+        UWAGA: BĘDĄ UPROSZCZENIA *będziemy używać gita jako maszynki do robienia zip-ów
+
+        Problemy przy tworzeniu oprogramowania*
         *w sumie ogólnie przy tworzeniu rzeczy na komputerze
-        
-             Wczoraj działało...
-        
-             Gdybym miał poprzednią wersję...
-        
-             Skasowałem przez przypadek plik...
-        
-             Chciałbym zrobić zmiany w kilku plikach, ale móc cofnąć do obecnego stanu...
-        
-             Chcę pracować nad projektem grupowym...
-        
-             I wiele, wiele innych
-        
-               What if I tell you... There's an app for that.
-        
-             Linus Torvalds
-        
-              LINUX
-        
-             GIT
-        
-           Projekt
-           Mamy tylko aktualną wersję nie mamy historii tego co dokładaliśmy
-        
-           Projekt
+
+        Wczoraj działało...
+
+        Gdybym miał poprzednią wersję...
+
+        Skasowałem przez przypadek plik...
+
+        Chciałbym zrobić zmiany w kilku plikach, ale móc cofnąć do obecnego stanu...
+
+        Chcę pracować nad projektem grupowym...
+
+        I wiele, wiele innych
+
+        What if I tell you... There's an app for that.
+
+        Linus Torvalds
+
+        LINUX
+
+        GIT
+
+        Projekt
+        Mamy tylko aktualną wersję nie mamy historii tego co dokładaliśmy
+
+        Projekt
         Utworzyłem projekt.
         Pliki:
         nowy: index.html nowy: style.css
         .. .
-                  Dodałem tło strony
+        Dodałem tło strony
         Pliki:
         zmiana: style.css
         Rozwiązałem pracę domową
@@ -107,24 +110,24 @@
         Dodałem info o kolejnym dniu nauki
         Pliki:
         zmiana: index.html
-        
-             Instalujemy program do obsługi GIT-a
+
+        Instalujemy program do obsługi GIT-a
         Mac/Win: https://desktop.github.com
         Linux: https://github.com/shiftkey/desktop/releases
-            
-             Można również korzystać z terminala*
+
+        Można również korzystać z terminala*
         *ale wygodniej nam będzie przy wykorzystaniu GitHub Desktop
-          https://git-scm.com/
-        
-             git config --global user.name "Jan Nowak"
+        https://git-scm.com/
+
+        git config --global user.name "Jan Nowak"
         git config --global user.email jannowak@example.com
-        
-           Projekt
+
+        Projekt
         Utworzyłem projekt.
         Pliki:
         nowy: index.html nowy: style.css
         .. .
-                  Dodałem tło strony
+        Dodałem tło strony
         Pliki:
         zmiana: style.css
         Rozwiązałem pracę domową
@@ -133,26 +136,26 @@
         Dodałem info o kolejnym dniu nauki
         Pliki:
         zmiana: index.html
-        
-              Repozytorium = projekt czyli wszystkie pliki
-        
-             Załóżmy repozytorium
-        
-             git init
-        
-              .git
-        
-             Zróbmy zmiany (i je podejrzyjmy)
-        
-               Commit = stan projektu
+
+        Repozytorium = projekt czyli wszystkie pliki
+
+        Załóżmy repozytorium
+
+        git init
+
+        .git
+
+        Zróbmy zmiany (i je podejrzyjmy)
+
+        Commit = stan projektu
         i opis tego co się zmieniło od ostatniego zapisu
-        
-           Projekt
+
+        Projekt
         Utworzyłem projekt.
         Pliki:
         nowy: index.html nowy: style.css
         .. .
-                  Dodałem tło strony
+        Dodałem tło strony
         Pliki:
         zmiana: style.css
         Rozwiązałem pracę domową
@@ -161,860 +164,1564 @@
         Dodałem info o kolejnym dniu nauki
         Pliki:
         zmiana: index.html
+
+        git status
+
+        git add .
+
+        git commit -m "opis zmian"
+
+        Jak często commitować?
+
+        To be continued...
+
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-07.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-             git status
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-01.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-             git add .
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-02.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-             git commit -m "opis zmian"
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-03.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-             Jak często commitować?
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-04.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-           To be continued...
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-05.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-<img src="images/3/WTF_M03L02/WTF_M03L02-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-10.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-11.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-12.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-13.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-14.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-15.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-16.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-17.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-18.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-19.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-20.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-21.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-22.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-23.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-24.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-25.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-26.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-27.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-28.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-29.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-30.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L02/WTF_M03L02-31.jpg" width="300" alt="">
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-06.jpg" width="300" alt="">
 
-            </article>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-08.jpg" width="300" alt="">
 
-        <br>
-        <hr>
-        <br>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-09.jpg" width="300" alt="">
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456213"
-                  target="_blank">M03L03: Git vs GitHub [10:45]</a></h2>
-              <p>szablon</p>
-              GitHub
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-10.jpg" width="300" alt="">
 
-              GitHub != Git chociaż tutaj mamy części wspólne ;)
-           
-              
-                Zakładamy konto na githubie
-           https://github.com
-              
-                 Zakładamy repozytorium na GitHubie
-           
-                git remote add origin https://github.com/user/repo
-           
-                Podpinamy repozytorium zdalne do lokalnego
-           
-                Wrzucamy kod na GitHuba
-           
-                git push
-           
-              Podsumowanie
-           - GIT pozwala na sprawne zarządzanie zmianami w projekcie
-           - Działa lokalnie
-           - Do działania zdalnego potrzebuje serwera (np. GitHub)
-           - Znajomość podstaw GIT-a jest wymagana niezależnie od technologii
-           - Konto na GitHubie jest Twoją programistyczną wizytówką, zadbaj aby była ładna i prawdziwa :)
-           - Commitujemy jak dokładamy jakąś widoczną zmianę do projektu (lepiej częściej, niż za mało)
-           - Podstawowy flow: git add . / git commit -m "opis zmiany" / git push
-              
-              To be continued...
-           
-<img src="images/3/WTF_M03L03/WTF_M03L03-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-10.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L03/WTF_M03L03-11.jpg" width="300" alt="">
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-11.jpg" width="300" alt="">
 
-            </article>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-12.jpg" width="300" alt="">
 
-        <br>
-        <hr>
-        <br>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-13.jpg" width="300" alt="">
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456214"
-                  target="_blank">M03L04: Atrybuty w HTML [22:23]</a></h2>
-              <p>szablon</p>
-              WTF: HTML II
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-14.jpg" width="300" alt="">
 
-              W poprzednim odcinku...
-         
-              &lt;znacznik atrybut=”wartość”&gt;treść&lt;/znacznik&gt; ATRYBUTY (i nowe znaczniki)
-           
-              &lt;br&gt;
-         nowa linia
-           
-         &lt;b&gt; vs &lt;strong&gt; vs &lt;i&gt; vs &lt;em&gt;
-         Elementy do wyróżniania tekstu?
-           
-         &lt;b&gt; & &lt;i&gt;
-         Nie mają dużego znaczenia semantycznego - służą do wyróżnienia fragmentu z tekstu otaczającego
-           
-         &lt;strong&gt; & &lt;em&gt;
-         &lt;strong&gt; - podkreśla wysoką istotność
-         i poważność frazy w nim zawartej
-         &lt;em&gt; - podkreśla, że tekst może mieć inne znaczenie (np. ironia)
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-15.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-16.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-17.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-18.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-19.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-20.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-21.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-22.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-23.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-24.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-25.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-26.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-27.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-28.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-29.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-30.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L02/WTF_M03L02-31.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456213"
+            target="_blank">M03L03: Git vs GitHub [10:45]</a></h2>
+        <p>szablon</p>
+        GitHub
+
+        GitHub != Git chociaż tutaj mamy części wspólne ;)
+
+
+        Zakładamy konto na githubie
+        https://github.com
+
+        Zakładamy repozytorium na GitHubie
+
+        git remote add origin https://github.com/user/repo
+
+        Podpinamy repozytorium zdalne do lokalnego
+
+        Wrzucamy kod na GitHuba
+
+        git push
+
+        Podsumowanie
+        - GIT pozwala na sprawne zarządzanie zmianami w projekcie
+        - Działa lokalnie
+        - Do działania zdalnego potrzebuje serwera (np. GitHub)
+        - Znajomość podstaw GIT-a jest wymagana niezależnie od technologii
+        - Konto na GitHubie jest Twoją programistyczną wizytówką, zadbaj aby była ładna i prawdziwa :)
+        - Commitujemy jak dokładamy jakąś widoczną zmianę do projektu (lepiej częściej, niż za mało)
+        - Podstawowy flow: git add . / git commit -m "opis zmiany" / git push
+
+        To be continued...
+
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-01.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-02.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-03.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-04.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-05.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-06.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-07.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-08.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-09.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-10.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L03/WTF_M03L03-11.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456214"
+            target="_blank">M03L04: Atrybuty w HTML [22:23]</a></h2>
+        <p>szablon</p>
+        WTF: HTML II
+
+        W poprzednim odcinku...
+
+        &lt;znacznik atrybut=”wartość”&gt;treść&lt;/znacznik&gt; ATRYBUTY (i nowe znaczniki)
+
+        &lt;br&gt;
+        nowa linia
+
+        &lt;b&gt; vs &lt;strong&gt; vs &lt;i&gt; vs &lt;em&gt;
+        Elementy do wyróżniania tekstu?
+
+        &lt;b&gt; & &lt;i&gt;
+        Nie mają dużego znaczenia semantycznego - służą do wyróżnienia fragmentu z tekstu otaczającego
+
+        &lt;strong&gt; & &lt;em&gt;
+        &lt;strong&gt; - podkreśla wysoką istotność
+        i poważność frazy w nim zawartej
+        &lt;em&gt; - podkreśla, że tekst może mieć inne znaczenie (np. ironia)
+
+        &lt;u&gt;
+        Kiedyś - stylowanie tekstu przez podkreślenie Teraz - dodanie "nietekstowej adnotacji"
+        na przykład oznaczenie błędu
+
+        JavaScript
+        CSS
+        HTML
+        TREŚĆ
+        Warstwy strony internetowej
+
+        &lt;a href="" target=""&gt;opis łącza&lt;/a&gt;
+        a - linki / łącza wewnątrz dokumentu
+
+        &lt;element id="moj-identyfikator"&gt;
+        atrybut id - identyfikuje element (przydaje się do nawigacji w obrębie dokumentu)
+
+        &lt;nav&gt;
+        Nawigacja
+
+        &lt;img src="" alt=""&gt;
+        img - obrazek o podanym adresie
+
+        Podsumowanie
+        - atrybuty są "niewidzialne" - chowamy je w znaczniku
+        - nadają elementom dodatkowe właściwości (href, src)
+        - pozwalają na grupowanie elementów (class)
+        - pozwalają na identyfikowanie elementów (id)
+        - można je miksować
+        - spis atrybutów "globalnych"
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
+
+        To be continued...
+
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-01.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-02.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-03.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-04.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-05.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-06.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-07.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-08.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-09.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-10.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-11.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-12.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-13.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-14.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-15.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456215"
+            target="_blank">M03L05: Klasy CSS [24:34]</a></h2>
+        <p>szablon</p>
+        WTF: CSS II
+
+        W poprzednim odcinku...
+
+        &lt;znacznik style=”color:yellow;”&gt;treść&lt;/znacznik&gt;
+        Styl przy znaczniku z wykorzystaniem atrybutu style nazywamy stylem inline
+
+        Czy ma to sens?
+
+        #id .class element
+        Prawdziwe selektory
+
+        &lt;znacznik class=”name”&gt;treść&lt;/znacznik&gt; Jak dostać się do takiego elementu?
+
+        &lt;znacznik class=”name”&gt;treść&lt;/znacznik&gt;
+        .name {
+        właściwość: wartość;
+        }
+        . (kropka) - selektor klasy
+
+        &lt;znacznik id=”name”&gt;treść&lt;/znacznik&gt;
+        #name {
+        właściwość: wartość;
+        }
+        # (hash) - selektor id
+
+        !important
+
+        Łączenie selektorów
+
+        #name { color: red;
+        }
+        &lt;span style=”color: yellow” id="name"&gt;treść&lt;/span&gt;
+        Jakiego koloru będzie treść?
+
+        Specyficzność w CSS
+
+        źródło: sport.pl
+
+        (_ , _) , _ , _ , _ !important style="" #name .name element
+
+        body h1 {
+        color: yellow; }
+        0 , 0 , 0, 0 , 2 !important style="" #name .name element
+        h1 {
+        color: red;
+        }
+        0 , 0 , 0, 0 , 1 !important style="" #name .name element
+
+        html body h1 {
+        color: yellow; }
+        0 , 0, 0, 0 , 3 !important style="" #name .name element
+        #main-header { color: red;
+        }0 , 0 , 1 , 0 , 0 !important style="" #name .name element
+
+        html body h1#main-header {
+        color: yellow; }
+        0 , 0, 1 , 0 , 3 !important style="" #name .name element
+        body .section #main-header {
+        color: red; }
+        0 , 0 , 1 ,1 , 1 !important style="" #name .name element
+
+        html body h1 {
+        color: yellow; }
+        0 , 0, 0, 0 , 3 !important style="" #name .name element
+        body #main-header {
+        color: red !important; }
+        1 , 0 , 1 ,0 , 1 !important style="" #name .name element
+
+        &lt;h1 style="color:blue"&gt;Nagłówek&lt;/h1&gt;
+        0 , 1 , 0, 0 , 0 !important style="" #name .name element
+        h1 {
+        color: red !important;
+        } 1 , 0, 0 , 0 , 1 !important style="" #name .name element
+
+        &lt;h1 style="color:blue"&gt;Nagłówek&lt;/h1&gt;
+        0 , 1 , 0, 0 , 0 !important style="" #name .name element
+        body section#main h1.heading { color: red;
+        } 0 , 0 , 1 ,1 , 3 !important style="" #name .name element
+
+        Jeśli specyficzność jest równa - pierwszeństwo ma selektor "bliżej" elementu
+
+        style.css
+        body section#main h1.heading {
+        color: red; }
+        body section#main h1.heading {
+        color: blue; }
+
+        style.css
+        body section#main h1.heading { color: red;
+        color: blue; }
+
+        Rekomenduję dodawać klasy do wszystkich elementów i unikać zagnieżdżeń
+
+        There are only two hard things in Computer Science: cache invalidation and naming things.
+        -- Phil Karlton
+
+        Nazewnictwo klas
+        - używaj pojedynczych słów z j. angielskiego
+        - nazywaj rzeczy zgodnie z ich funkcją na stronie
+        - startuj z małej litery np. header nie Header
+        - nie zaczynaj od cyfry
+        - jeśli musisz użyć dwóch słów użyj tzw. kebab case np.
+        news-listing
+        - staraj się, żeby element miał jedną klasę (nie zwiększaj
+        specyficzności bez potrzeby)
+
+        Podsumowanie
+        - html class="name" = css .name
+        - html id="name" = css #name
+        - stylujemy po klasach (bez zagnieżdżeń!)
+        - nazywamy klasy po angielsku zgodnie z przeznaczeniem
+        - tworzymy klasy nawet mamy jeden element danego typu
+        - specyficzność może dać popalić ;)
+        - nie używamy !important i stylów inline'owych
+
+        To be continued...
+
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-01.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-02.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-03.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-04.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-05.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-06.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-07.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-08.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-09.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-10.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-11.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-12.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-13.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-14.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-15.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-16.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-17.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-18.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-19.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-20.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-21.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-22.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-23.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-24.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-25.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-26.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-27.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-28.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456216"
+            target="_blank">M03L06: Opowieść o wężu, kebabie, wielbłądzie i Pascalu [04:55]</a></h2>
+        <p>szablon</p>
+        Opowieść o wężu, kebabie, wielbłądzie i Pascalu
+
+        Najtrudniejsza rzecz w programowaniu
+
+        Nazywanie rzeczy
+
+        Nazywanie rzeczy
+        - nazwy zapisujemy bez polskich znaków (ąćęłńóśżź)
+        - nie używamy spacji
+        - najlepiej używać angielskich słów
+        (treść oczywiście może być w innym języku)
+        - trzymamy się jednego schematu (konsekwencja jest istotna)
+
+        Konwencje nazewnictwa
+
+        &lt;H1&gt;
+        My super bold header
+
+        camelCase
+
+        mySuperBoldHeader
+
+        kebab-case
+
+        my-super-bold-header
+
+        snake_case
+
+        my_super_bold_header
+
+        PascalCase
+
+        MySuperBoldHeader
+
+        theEnd the-end the_end TheEnd
+
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-01.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-02.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-03.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-04.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-05.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-06.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-07.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-08.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-09.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-10.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-11.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-12.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-13.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-14.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L06/WTF_M03L06-15.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456217"
+            target="_blank">M03L07: Klan - dziedziczenie [09:22]</a></h2>
+        <p>szablon</p>
+        WTF: Klan II
+
+        Dziedziczenie
+
+        inherit
+        wartość: inherit;
+
+        The end
+
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L07/WTF_M03L07-1.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+       
+        <img
+          class="lesson__tile--img" src="images/3/WTF_M03L07/WTF_M03L07-2.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
           
-         &lt;u&gt;
-         Kiedyś - stylowanie tekstu przez podkreślenie Teraz - dodanie "nietekstowej adnotacji"
-         na przykład oznaczenie błędu
-           
-             JavaScript
-               CSS
-             HTML
-             TREŚĆ
-           Warstwy strony internetowej
-         
-           &lt;a href="" target=""&gt;opis łącza&lt;/a&gt;
-         a - linki / łącza wewnątrz dokumentu
-           
-         &lt;element id="moj-identyfikator"&gt;
-         atrybut id - identyfikuje element (przydaje się do nawigacji w obrębie dokumentu)
-           
-         &lt;nav&gt;
-         Nawigacja
-           
-         &lt;img src="" alt=""&gt;
-         img - obrazek o podanym adresie
-           
-            Podsumowanie
-         - atrybuty są "niewidzialne" - chowamy je w znaczniku
-         - nadają elementom dodatkowe właściwości (href, src)
-         - pozwalają na grupowanie elementów (class)
-         - pozwalają na identyfikowanie elementów (id)
-         - można je miksować
-         - spis atrybutów "globalnych"
-         https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
-              
-            To be continued...
-         
-<img src="images/3/WTF_M03L04/WTF_M03L04-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-10.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-11.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-12.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-13.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-14.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L04/WTF_M03L04-15.jpg" width="300" alt="">
+          <img
+          class="lesson__tile--img" src="images/3/WTF_M03L07/WTF_M03L07-3.jpg" width="300" alt="">
 
-            </article>
-
-        <br>
-        <hr>
-        <br>
-
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456215"
-                  target="_blank">M03L05: Klasy CSS [24:34]</a></h2>
-              <p>szablon</p>
-              WTF: CSS II
-
-              W poprzednim odcinku...
-         
-              &lt;znacznik style=”color:yellow;”&gt;treść&lt;/znacznik&gt;
-         Styl przy znaczniku z wykorzystaniem atrybutu style nazywamy stylem inline
-           
-              Czy ma to sens?
-         
-             #id .class element
-         Prawdziwe selektory
+          <p></p>
+        </div>
           
-         &lt;znacznik class=”name”&gt;treść&lt;/znacznik&gt; Jak dostać się do takiego elementu?
-           
-         &lt;znacznik class=”name”&gt;treść&lt;/znacznik&gt;
-         .name {
-         właściwość: wartość;
-          }
-          . (kropka) - selektor klasy
-          
-          &lt;znacznik id=”name”&gt;treść&lt;/znacznik&gt;
-         #name {
-         właściwość: wartość;
-          }
-          # (hash) - selektor id
-          
-              !important
-         
-              Łączenie selektorów
-         
-            #name { color: red;
-         }
-         &lt;span style=”color: yellow” id="name"&gt;treść&lt;/span&gt;
-           Jakiego koloru będzie treść?
-          
-              Specyficzność w CSS
-         
-              źródło: sport.pl
-         
-            (_ , _) , _ , _ , _ !important style="" #name .name element
-              
-            body h1 {
-         color: yellow; }
-         0 , 0 , 0, 0 , 2 !important style="" #name .name element
-         h1 {
-         color: red;
-         }
-                  0 , 0 , 0, 0 , 1 !important style="" #name .name element
-              
-            html body h1 {
-         color: yellow; }
-         0 , 0, 0, 0 , 3 !important style="" #name .name element
-         #main-header { color: red;
-         }0 , 0 , 1 , 0 , 0 !important style="" #name .name element
-                       
-            html body h1#main-header {
-         color: yellow; }
-         0 , 0, 1 , 0 , 3 !important style="" #name .name element
-         body .section #main-header {
-         color: red; }
-         0 , 0 , 1 ,1 , 1 !important style="" #name .name element
-                       
-            html body h1 {
-         color: yellow; }
-         0 , 0, 0, 0 , 3 !important style="" #name .name element
-         body #main-header {
-         color: red !important; }
-         1 , 0 , 1 ,0 , 1 !important style="" #name .name element
-                       
-         &lt;h1 style="color:blue"&gt;Nagłówek&lt;/h1&gt;
-         0 , 1 , 0, 0 , 0 !important style="" #name .name element
-         h1 {
-         color: red !important;
-         } 1 , 0, 0 , 0 , 1 !important style="" #name .name element
-                       
-         &lt;h1 style="color:blue"&gt;Nagłówek&lt;/h1&gt;
-         0 , 1 , 0, 0 , 0 !important style="" #name .name element
-         body section#main h1.heading { color: red;
-         } 0 , 0 , 1 ,1 , 3 !important style="" #name .name element
-                       
-              Jeśli specyficzność jest równa - pierwszeństwo ma selektor "bliżej" elementu
-         
-            style.css
-         body section#main h1.heading {
-         color: red; }
-         body section#main h1.heading {
-         color: blue; }
-           
-            style.css
-         body section#main h1.heading { color: red;
-         color: blue; }
-            
-              Rekomenduję dodawać klasy do wszystkich elementów i unikać zagnieżdżeń
-         
-              There are only two hard things in Computer Science: cache invalidation and naming things.
-         -- Phil Karlton
-         
-            Nazewnictwo klas
-         - używaj pojedynczych słów z j. angielskiego
-         - nazywaj rzeczy zgodnie z ich funkcją na stronie
-         - startuj z małej litery np. header nie Header
-         - nie zaczynaj od cyfry
-         - jeśli musisz użyć dwóch słów użyj tzw. kebab case np.
-         news-listing
-         - staraj się, żeby element miał jedną klasę (nie zwiększaj
-         specyficzności bez potrzeby)
-            
-            Podsumowanie
-         - html class="name" = css .name
-         - html id="name" = css #name
-         - stylujemy po klasach (bez zagnieżdżeń!)
-         - nazywamy klasy po angielsku zgodnie z przeznaczeniem
-         - tworzymy klasy nawet mamy jeden element danego typu
-         - specyficzność może dać popalić ;)
-         - nie używamy !important i stylów inline'owych
-            
-            To be continued...
-         
-<img src="images/3/WTF_M03L05/WTF_M03L05-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-10.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-11.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-12.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-13.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-14.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-15.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-16.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-17.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-18.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-19.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-20.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-21.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-22.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-23.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-24.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-25.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-26.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-27.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L05/WTF_M03L05-28.jpg" width="300" alt="">
+          <img
+          class="lesson__tile--img" src="images/3/WTF_M03L07/WTF_M03L07-4.jpg" width="300" alt="">
 
-            </article>
+          <p></p>
+        </div>
 
-        <br>
-        <hr>
-        <br>
+      </article>
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456216"
-                  target="_blank">M03L06: Opowieść o wężu, kebabie, wielbłądzie i Pascalu [04:55]</a></h2>
-              <p>szablon</p>
-              Opowieść o wężu, kebabie, wielbłądzie i Pascalu
+      <br>
+      <hr>
+      <br>
 
-              Najtrudniejsza rzecz w programowaniu
-         
-              Nazywanie rzeczy
-         
-            Nazywanie rzeczy
-         - nazwy zapisujemy bez polskich znaków (ąćęłńóśżź)
-         - nie używamy spacji
-         - najlepiej używać angielskich słów
-         (treść oczywiście może być w innym języku)
-         - trzymamy się jednego schematu (konsekwencja jest istotna)
-            
-               Konwencje nazewnictwa
-         
-               &lt;H1&gt;
-          My super bold header
-         
-              camelCase
-         
-              mySuperBoldHeader
-         
-              kebab-case
-         
-              my-super-bold-header
-         
-              snake_case
-         
-              my_super_bold_header
-         
-              PascalCase
-         
-              MySuperBoldHeader
-         
-            theEnd the-end the_end TheEnd
-         
-<img src="images/3/WTF_M03L06/WTF_M03L06-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-10.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-11.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-12.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-13.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-14.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L06/WTF_M03L06-15.jpg" width="300" alt="">
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456220"
+            target="_blank">M03L08: Jak działa internet i protokół HTTP? [20:17]</a></h2>
+        <p>szablon</p>
+        Jak działa przeglądarka?
 
-            </article>
+        Internet (wg IT Crowd)
 
-        <br>
-        <hr>
-        <br>
+        HTTP
+        Protokół, którego używa Twoja przeglądarka*
+        * (w większości przypadków)
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456217"
-                  target="_blank">M03L07: Klan - dziedziczenie [09:22]</a></h2>
-              <p>szablon</p>
-              WTF: Klan II
+        HTTP
+        Hypertext Transfer Protocol
 
-              Dziedziczenie
-         
-            inherit
-          wartość: inherit;
-         
-            The end
-         
-            <img src="images/3/WTF_M03L07/WTF_M03L07-1.jpg" width="300" alt=""> <img src="images/3/WTF_M03L07/WTF_M03L07-2.jpg" width="300" alt=""> <img src="images/3/WTF_M03L07/WTF_M03L07-3.jpg" width="300" alt=""> <img src="images/3/WTF_M03L07/WTF_M03L07-4.jpg" width="300" alt="">
+        HTML = HyperText Markup Language
 
-            </article>
+        http = protokół do transportowania htmla* * i całej reszty, którą widzisz na stronach
 
-        <br>
-        <hr>
-        <br>
+        HTTPS
+        Hypertext Transfer Protocol Secure
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456220"
-                  target="_blank">M03L08: Jak działa internet i protokół HTTP? [20:17]</a></h2>
-              <p>szablon</p>
-              Jak działa przeglądarka?
+        URL
+        Uniform Resource Locator
 
-              Internet (wg IT Crowd)
-            
-               HTTP
-            Protokół, którego używa Twoja przeglądarka*
-           * (w większości przypadków)
-           
-               HTTP
-            Hypertext Transfer Protocol
-           
-                 HTML = HyperText Markup Language
-           
-               http = protokół do transportowania htmla* * i całej reszty, którą widzisz na stronach
-           
-               HTTPS
-            Hypertext Transfer Protocol Secure
-           
-               URL
-            Uniform Resource Locator
-           
-              super ważny / (root)
-             https://cotenfrontend.pl:443/index.html?parametr=wartość
-                     protokół
-           host (adres serwera) ścieżka dostępu do zasobu
-           port
-           parametry
-           
-              1. wpisuję w pasku adresu cotenfrontend.pl [enter]
-           2. przeglądarka szuka serwera cotenfrontend.pl [DNS]
-           3. po znalezieniu serwera odpytuje go o index (jeśli podamy sam adres serwera) - to co jest indexem zależy od konfiguracji serwera (nie musi to być index.html, choć w przypadku stron statycznych jest to najczęstszy przypadek)
-           4. serwer wysyła do przeglądarki zawartość html
-           5. przeglądarka wczytuje html i szuka wszystkich dodatkowych zasobów: style, skrypty, obrazki itp. i dla każdego z zasobów wykonuje zapytanie
-           6. Przeglądarka parsuje i renderuje stronę
-           request - response
-             
-                Zobaczmy jak to działa!
-           
-                -404-
-             KODY ODPOWIEDZI HTTP
-           
-                -200-
-             OK
-           
-                -30x-
-             Szukasz w złym miejscu - przekieruję Cię w dobre (bo wiem gdzie)
-           
-                -404-
-             Nie mam tego czego potrzebujesz. Sorry.
-           
-                -50x-
-             Nie czuję się najlepiej... Błąd wewnętrzny serwera.
-           
-              Kody HTTP
-           1xx: hold on
-           2xx: here you go 3xx: go away
-           4xx: you fucked up 5xx: I fucked up
-             
-               /
-           Czym jest root?
-            
-               https://cotenfrontend.pl/img/wtf.sv
-           g
-            1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt; 2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
-            
-               1
-           https://cotenfrontend.pl
-            
-              https://cotenfrontend.pl/
-             1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
-           pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
-           2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
-           pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
-                  
-               2
-           https://cotenfrontend.pl/podstrona/
-            
-              https://cotenfrontend.pl/podstrona/
-             1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
-           pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
-           2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
-           pobierz: https://cotenfrontend.pl/podstrona/img/wtf.svg ❌ 404 Not found
-                  
-                ?!
-           WTF?!
-            
-               /
-           Brak / z przodu drugiej ścieżki uczynił
-           adres do zasobu relatywnym* *dlatego przeglądarka szukała pliku w aktualnym "katalogu" - /podstrona/img/wtf.svg
-            
-               /
-           Tworząc stronę uruchamianą "z dysku" pomijaliśmy używanie slasha z przodu
-             
-               /
-           Ale wkrótce będzie naszym dobrym przyjacielem 😎
-             
-              Podsumowanie
-           - protokół który obsługuje strony internetowe i ich zawartość to HTTP (aktualnie coraz częściej HTTP/2)
-           - komunikacja przeglądarka - serwer odbywa się na zasadach request - response
-           - odpowiedzi serwera mają różne kody
-           (i pozwala nam to na diagnozowanie problemów)
-           - root (/) jest istotną częścią ścieżek do zasobów (i dobrze wiedzieć jak działa :))
-              
-              To be continued...
-           
-<img src="images/3/WTF_M03L08/WTF_M03L08-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-10.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-11.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-12.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-13.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-14.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-15.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-16.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-17.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-18.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-19.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-20.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-21.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-22.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-23.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-24.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-25.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-26.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-27.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-28.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L08/WTF_M03L08-29.jpg" width="300" alt="">
+        super ważny / (root)
+        https://cotenfrontend.pl:443/index.html?parametr=wartość
+        protokół
+        host (adres serwera) ścieżka dostępu do zasobu
+        port
+        parametry
 
-            </article>
+        1. wpisuję w pasku adresu cotenfrontend.pl [enter]
+        2. przeglądarka szuka serwera cotenfrontend.pl [DNS]
+        3. po znalezieniu serwera odpytuje go o index (jeśli podamy sam adres serwera) - to co jest indexem zależy od
+        konfiguracji serwera (nie musi to być index.html, choć w przypadku stron statycznych jest to najczęstszy
+        przypadek)
+        4. serwer wysyła do przeglądarki zawartość html
+        5. przeglądarka wczytuje html i szuka wszystkich dodatkowych zasobów: style, skrypty, obrazki itp. i dla każdego
+        z zasobów wykonuje zapytanie
+        6. Przeglądarka parsuje i renderuje stronę
+        request - response
 
-        <br>
-        <hr>
-        <br>
+        Zobaczmy jak to działa!
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456219"
-                  target="_blank">M03L09: WTF: JavaScript [20:43]</a></h2>
-              <p>szablon</p>
-              WTF: JavaScript
+        -404-
+        KODY ODPOWIEDZI HTTP
 
-              JS = JavaScript
+        -200-
+        OK
+
+        -30x-
+        Szukasz w złym miejscu - przekieruję Cię w dobre (bo wiem gdzie)
+
+        -404-
+        Nie mam tego czego potrzebujesz. Sorry.
+
+        -50x-
+        Nie czuję się najlepiej... Błąd wewnętrzny serwera.
+
+        Kody HTTP
+        1xx: hold on
+        2xx: here you go 3xx: go away
+        4xx: you fucked up 5xx: I fucked up
+
+        /
+        Czym jest root?
+
+        https://cotenfrontend.pl/img/wtf.sv
+        g
+        1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt; 2: &lt;img src="img/wtf.svg" alt="Logo WTF:
+        Co ten frontend"/&gt;
+
+        1
+        https://cotenfrontend.pl
+
+        https://cotenfrontend.pl/
+        1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+        pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
+        2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+        pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
+
+        2
+        https://cotenfrontend.pl/podstrona/
+
+        https://cotenfrontend.pl/podstrona/
+        1: &lt;img src="/img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+        pobierz: https://cotenfrontend.pl/img/wtf.svg ✅ 200 OK
+        2: &lt;img src="img/wtf.svg" alt="Logo WTF: Co ten frontend"/&gt;
+        pobierz: https://cotenfrontend.pl/podstrona/img/wtf.svg ❌ 404 Not found
+
+        ?!
+        WTF?!
+
+        /
+        Brak / z przodu drugiej ścieżki uczynił
+        adres do zasobu relatywnym* *dlatego przeglądarka szukała pliku w aktualnym "katalogu" - /podstrona/img/wtf.svg
+
+        /
+        Tworząc stronę uruchamianą "z dysku" pomijaliśmy używanie slasha z przodu
+
+        /
+        Ale wkrótce będzie naszym dobrym przyjacielem 😎
+
+        Podsumowanie
+        - protokół który obsługuje strony internetowe i ich zawartość to HTTP (aktualnie coraz częściej HTTP/2)
+        - komunikacja przeglądarka - serwer odbywa się na zasadach request - response
+        - odpowiedzi serwera mają różne kody
+        (i pozwala nam to na diagnozowanie problemów)
+        - root (/) jest istotną częścią ścieżek do zasobów (i dobrze wiedzieć jak działa :))
+
+        To be continued...
+
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-01.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-           JavaScript != Java NIGDY nie używaj takiego skrótu
-          
-            operator porównania - nie równa się
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-02.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-03.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-04.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-05.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-06.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-07.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-08.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-09.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-10.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-11.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-12.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-13.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-14.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-15.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-16.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-17.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-18.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-19.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-20.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-21.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-22.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-23.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-24.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-25.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-26.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-27.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-28.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L08/WTF_M03L08-29.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456219"
+            target="_blank">M03L09: WTF: JavaScript [20:43]</a></h2>
+        <p>szablon</p>
+        WTF: JavaScript
+
+        JS = JavaScript
+
         JavaScript != Java NIGDY nie używaj takiego skrótu
-             
-           Java ma się do JavaScriptu jak...
-         kot do kotary
-        
-           Java ma się do JavaScriptu jak...
-         świnka do świnki morskiej
-        
-           Java ma się do JavaScriptu jak...
-         sam do samochodu
-        
-           Java is to JavaScript like...
-         ham to hamster
-        
-             Będziemy uczyć się ECMAScript 2015+ (ES6+)
-         
-           Co to jest ECMAScript 6+
+
+        operator porównania - nie równa się
+        JavaScript != Java NIGDY nie używaj takiego skrótu
+
+        Java ma się do JavaScriptu jak...
+        kot do kotary
+
+        Java ma się do JavaScriptu jak...
+        świnka do świnki morskiej
+
+        Java ma się do JavaScriptu jak...
+        sam do samochodu
+
+        Java is to JavaScript like...
+        ham to hamster
+
+        Będziemy uczyć się ECMAScript 2015+ (ES6+)
+
+        Co to jest ECMAScript 6+
         - ECMAScript jest to ustandaryzowany przez organizację ECMA skryptowy język programowania
         - JavaScript implementuje rzeczy ze specyfikacji ECMAScript
         - Rozwój ECMAScript mocno przyspieszył przez szerokie wykorzystywanie JavaScriptu
         - ES6 (i nowsze) wprowadzają wiele udogodnień dla developerów
         - Nowe feature'y mogą nie być wspierane we wszystkich przeglądarkach (ale są na to sposoby 😎)
-            
-            JavaScript
-              CSS
-            HTML
-            TREŚĆ
-          Warstwy strony internetowej
-        
-            ?
+
+        JavaScript
+        CSS
+        HTML
+        TREŚĆ
+        Warstwy strony internetowej
+
+        ?
         Z czego składa się JavaScript?
-          
-           Wartości
-          
-            Wartości
+
+        Wartości
+
+        Wartości
         Operacje porównywania
-           
-            Wartości Literały
+
+        Wartości Literały
         Operacje porównywania
-             
-            Wartości
+
+        Wartości
         Operacje porównywania
-            Zmienne Literały
-           
-            Wartości
+        Zmienne Literały
+
+        Wartości
         Operacje porównywania
-            Zmienne Literały
+        Zmienne Literały
         Obiekty
-             
-            Wartości
+
+        Wartości
         Operacje porównywania
-            Zmienne Literały
+        Zmienne Literały
         Funkcje
         Obiekty
-               
-             Wartości dla JS tym, czym liczby dla matematyki
-         
-            Wszechświat wartości
-         
-            .js
+
+        Wartości dla JS tym, czym liczby dla matematyki
+
+        Wszechświat wartości
+
+        .js
         Pliki zawierające kod JavaScript mają rozszerzenie .js*
         *ale podobnie jak style - mają też swój znacznik - &lt;script&gt;
-          
-             Poskryptujmy!
-        
-             &lt;script&gt;
+
+        Poskryptujmy!
+
+        &lt;script&gt;
         alert('Siema!')
         &lt;/script&gt;
-         Znacznik &lt;script&gt;
-        
-            &lt;script src="main.js"&gt; &lt;/script&gt;
-         Znacznik &lt;script&gt;
-        
-             JavaScript daje nam masę narzędzi!
-        
-             console.log('Siema!');
-        
-             console.log(name); console.log(age);
-        
-             &lsquo;
+        Znacznik &lt;script&gt;
+
+        &lt;script src="main.js"&gt; &lt;/script&gt;
+        Znacznik &lt;script&gt;
+
+        JavaScript daje nam masę narzędzi!
+
+        console.log('Siema!');
+
+        console.log(name); console.log(age);
+
+        &lsquo;
         Backtick / backquote
         (znajdź go na klawiaturze, zwykle występuje z ~)
-         
-            ${zmienna}
-         console.log(`Nazywam się ${name} i mam ${age} lat`);
-        
-           Podsumowanie
+
+        ${zmienna}
+        console.log(`Nazywam się ${name} i mam ${age} lat`);
+
+        Podsumowanie
         - Kod JS uruchamia się raz (po załadowaniu strony)
         - Java to nie JavaScript
         - JavaScript implementuje rzeczy ze specyfikacji ECMAScript
         - JavaScript to frontendowe programowanie
         - Za pomocą JS można robić różne szalone rzeczy (a ja jestem ekspertem od szalonych rzeczy 😎)
-            
-           To be continued...
+
+        To be continued...
+
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-01.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
         
-<img src="images/3/WTF_M03L09/WTF_M03L09-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-10.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-11.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-12.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-13.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-14.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-15.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-16.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-17.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-18.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-19.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-20.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-21.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-22.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-23.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-24.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-25.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-26.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-27.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-28.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-29.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-30.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L09/WTF_M03L09-31.jpg" width="300" alt="">
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-02.jpg" width="300" alt="">
 
-            </article>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-03.jpg" width="300" alt="">
 
-        <br>
-        <hr>
-        <br>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-04.jpg" width="300" alt="">
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456222"
-                  target="_blank">M03L10: Terminal, czyli ocb z tym czarnym okienkiem - MacOS [05:11]</a></h2>
-              <p>szablon</p>
-              Terminal
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-05.jpg" width="300" alt="">
 
-OCB z tym czarnym okienkiem
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-06.jpg" width="300" alt="">
 
-  Różnice w systemach operacyjnych
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-07.jpg" width="300" alt="">
 
-MacOS
-- cd ~
-przejście do katalogu domowego
-- ls
-wypisanie zawartości katalogu
-- cd ..
-przejście do katalogu wyżej
-- cd nazwa-katalogu
-przejście do katalogu o nazwie nazwa-katalogu
-- code .
-uruchomienie visual studio code w aktualnym katalogu
-- pwd
-wyświetlenie aktualnej ścieżki
-- mkdir nazwa-katalogu
-stworzenie katalogu o nazwie nazwa-katalogu
- 
-Linux
-- cd ~
-przejście do katalogu domowego
-- ls
-wypisanie zawartości katalogu
-- cd ..
-przejście do katalogu wyżej
-- cd nazwa-katalogu
-przejście do katalogu o nazwie nazwa-katalogu
-- code .
-uruchomienie visual studio code w aktualnym katalogu
-- pwd
-wyświetlenie aktualnej ścieżki
-- mkdir nazwa-katalogu
-stworzenie katalogu o nazwie nazwa-katalogu
- 
-Windows
-- cd C:\
-przejście do głównego katalogu na dysku C
-- dir
-wypisanie zawartości katalogu
-- cd ..
-przejście do katalogu wyżej
-- cd nazwa-katalogu
-przejście do katalogu o nazwie nazwa-katalogu
-- code .
-uruchomienie visual studio code w aktualnym katalogu
-- cd
-wyświetlenie aktualnej ścieżki
-- mkdir nazwa-katalogu
-stworzenie katalogu o nazwie nazwa-katalogu
-  
-The end
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-08.jpg" width="300" alt="">
 
-<img src="images/3/WTF_M03L10/WTF_M03L10-1.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L10/WTF_M03L10-2.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L10/WTF_M03L10-3.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L10/WTF_M03L10-4.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L10/WTF_M03L10-5.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L10/WTF_M03L10-6.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L10/WTF_M03L10-7.jpg" width="300" alt="">
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-09.jpg" width="300" alt="">
 
-            </article>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-10.jpg" width="300" alt="">
 
-        <br>
-        <hr>
-        <br>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-11.jpg" width="300" alt="">
 
-            <article>
-              <h2><a href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456224"
-                  target="_blank">M03L11: Tydzień III - prace domowe [04:07]</a></h2>
-              <p>szablon</p>
-              Tydzień III: Prace domowe
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-12.jpg" width="300" alt="">
 
-0. Baw się dobrze!
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-13.jpg" width="300" alt="">
 
-1. Załóż konto na GitHubie i zainstaluj
-program GitHub Desktop
-https://github.com
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-14.jpg" width="300" alt="">
 
-2. Wrzuć projekt homepage na GitHuba
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-15.jpg" width="300" alt="">
 
- 3. Zacznij commitować zmiany
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-16.jpg" width="300" alt="">
 
-4. Rozbuduj projekt homepage
-1. W katalogu homepage stwórz kolejne pliki
-2. Do każdego pliku dołóż jakieś zdjęcie
-3. Stwórz nawigację między plikami
-4. Pamiętaj o formatowaniu i sprawdzaniu swojego kodu za pomocą validatora
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-17.jpg" width="300" alt="">
 
-5. Dodaj klasy
-1. Uzupełnij HTML-a o klasy i utwórz odniesienia do nich w stylach
-2. Nadaj style nagłówkom za pomocą klas
-3. Pamiętaj o odpowiednim nazewnictwie
-4. Nie bój się eksperymentować!
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-18.jpg" width="300" alt="">
 
-6. Przejdź labirynt*
-*i obejrzyj nagrodę - tylko bez spoilerów!
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-19.jpg" width="300" alt="">
 
-7. Dołóż skrypt do swojej strony i w konsoli przywitaj się z odbiorcą :)
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-20.jpg" width="300" alt="">
 
-Good luck!
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-21.jpg" width="300" alt="">
 
-<img src="images/3/WTF_M03L11/WTF_M03L11-01.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-02.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-03.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-04.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-05.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-06.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-07.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-08.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-09.jpg" width="300" alt="">
-<img src="images/3/WTF_M03L11/WTF_M03L11-10.jpg" width="300" alt="">
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-22.jpg" width="300" alt="">
 
-            </article>
-          </section>
-      
-          <br>
-          <hr>
-          <br>
-      
-    </main>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-23.jpg" width="300" alt="">
 
-    <footer>
-        <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
-        <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
-        <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
-    </footer>
-    <script src="main.js"></script>
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-24.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-25.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-26.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-27.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-28.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-29.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-30.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+        
+        <div class="lesson__tile"><img class="lesson__tile--img" src="images/3/WTF_M03L09/WTF_M03L09-31.jpg" width="300" alt="">
+
+          <p></p>
+        </div>
+
+
+          <p></p>
+        </div>
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456222"
+            target="_blank">M03L10: Terminal, czyli ocb z tym czarnym okienkiem - MacOS [05:11]</a></h2>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L10/WTF_M03L10-1.jpg" width="300" alt="">
+          <p>Terminal</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L10/WTF_M03L10-2.jpg" width="300" alt="">
+          <p>OCB z tym czarnym okienkiem</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L10/WTF_M03L10-3.jpg" width="300" alt="">
+          <p>Różnice w systemach operacyjnych</p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L10/WTF_M03L10-4.jpg" width="300" alt="">
+          <p>MacOS
+            <ul>
+            <li>cd ~<br>
+            przejście do katalogu domowego</li>
+            <li>ls<br>
+            wypisanie zawartości katalogu</li>
+            <li>cd ..<br>
+            przejście do katalogu wyżej</li>
+            <li>cd nazwa-katalogu<br>
+            przejście do katalogu o nazwie nazwa-katalogu</li>
+            <li>code .<br>
+            uruchomienie visual studio code w aktualnym katalogu</li>
+            <li>pwd<br>
+            wyświetlenie aktualnej ścieżki</li>
+            <li>mkdir nazwa-katalogu<br>
+            stworzenie katalogu o nazwie nazwa-katalogu</li>
+          </ul></p>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L10/WTF_M03L10-5.jpg" width="300" alt="">
+          <p>Linux
+            <ul>
+            <li>cd ~<br>
+            przejście do katalogu domowego</li>
+            <li>ls<br>
+            wypisanie zawartości katalogu</li>
+            <li>cd ..<br>
+            przejście do katalogu wyżej</li>
+            <li>cd nazwa-katalogu<br>
+            przejście do katalogu o nazwie nazwa-katalogu</li>
+            <li>code .<br>
+            uruchomienie visual studio code w aktualnym katalogu</li>
+            <li>pwd<br>
+            wyświetlenie aktualnej ścieżki</li>
+            <li>mkdir nazwa-katalogu<br>
+            stworzenie katalogu o nazwie nazwa-katalogu</li></p>
+          </ul>
+        </div>
+
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L10/WTF_M03L10-6.jpg" width="300" alt="">
+          <p>Windows
+            <ul>
+            <li>cd C:\<br>
+            przejście do głównego katalogu na dysku C</li>
+            <li>dir<br>
+            wypisanie zawartości katalogu</li>
+            <li>cd ..<br>
+            przejście do katalogu wyżej</li>
+            <li>cd nazwa-katalogu<br>
+            przejście do katalogu o nazwie nazwa-katalogu</li>
+            <li>code .<br>
+            uruchomienie visual studio code w aktualnym katalogu</li>
+            <li>cd<br>
+            wyświetlenie aktualnej ścieżki</li>
+            <li>mkdir nazwa-katalogu<br>
+            stworzenie katalogu o nazwie nazwa-katalogu</li>
+          </ul></p>
+        </div>
+        
+        <div class="lesson__tile">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L10/WTF_M03L10-7.jpg" width="300" alt="">
+          <p>The end</p>
+        </div>
+
+      </article>
+
+      <br>
+      <hr>
+      <br>
+
+      <article>
+        <h2 class="lesson__header"><a
+            href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153318133/posts/2169456224"
+            target="_blank">M03L11: Tydzień III - prace domowe [04:07]</a></h2>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-01.jpg" width="300" alt="">
+          <p> Tydzień III: Prace domowe</p>
+        </div>
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-02.jpg" width="300" alt="">
+          <p>0. Baw się dobrze!</p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-03.jpg" width="300" alt="">
+          <p>1. Załóż konto na GitHubie i zainstaluj program GitHub Desktop<br><br>
+            <a href="https://github.com" target="_blank">https://github.com</a>
+          </p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-04.jpg" width="300" alt="">
+          <p>2. Wrzuć projekt homepage na GitHuba</p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-05.jpg" width="300" alt="">
+          <p>3. Zacznij commitować zmiany</p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-06.jpg" width="300" alt="">
+          <p>4. Rozbuduj projekt homepage
+          <ol>
+            <li>W katalogu homepage stwórz kolejne pliki</li>
+            <li>Do każdego pliku dołóż jakieś zdjęcie</li>
+            <li>Stwórz nawigację między plikami</li>
+            <li>Pamiętaj o formatowaniu i sprawdzaniu swojego kodu za pomocą validatora</li>
+          </ol>
+          </p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-07.jpg" width="300" alt="">
+          <p>5. Dodaj klasy
+          <ol>
+            <li>Uzupełnij HTML-a o klasy i utwórz odniesienia do nich w stylach</li>
+            <li>Nadaj style nagłówkom za pomocą klas</li>
+            <li>Pamiętaj o odpowiednim nazewnictwie</li>
+            <li>Nie bój się eksperymentować!</li>
+          </ol>
+          </p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-08.jpg" width="300" alt="">
+          <p>6. Przejdź labirynt*<br><br>
+            *i obejrzyj nagrodę - tylko bez spoilerów!</p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-09.jpg" width="300" alt="">
+          <p>7. Dołóż skrypt do swojej strony i w konsoli przywitaj się z odbiorcą :)</p>
+        </div>
+
+        <div class="homework__tile--done">
+          <img class="lesson__tile--img" src="images/3/WTF_M03L11/WTF_M03L11-10.jpg" width="300" alt="">
+          <p>Good luck!</p>
+        </div>
+      </article>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+  </main>
+
+  <footer>
+    <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
+    <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
+    <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+  </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
