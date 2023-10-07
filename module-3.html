@@ -368,7 +368,8 @@
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-04.jpg" width="300" alt="">
           <p>&lt;br&gt;<br><br>
-            nowa linia</p>
+            nowa linia; jest to znacznik występujący pojedynczo, nie ma
+              swojej pary, tzw. znacznik samozamykający.</p>
         </div>
 
         <div class="lesson__tile">
@@ -379,14 +380,14 @@
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-06.jpg" width="300" alt="">
-          <p>&lt;b&gt; & &lt;i&gt;<br><br>
-            Nie mają dużego znaczenia semantycznego - służą do wyróżnienia fragmentu z tekstu otaczającego</p>
+          <p><b>bold</b> &lt;b&gt; & <i>italic</i> &lt;i&gt;<br><br>
+          nie mają dużego znaczenia semantycznego - służą do wyróżnienia fragmentu z tekstu otaczającego</p>
         </div>
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-07.jpg" width="300" alt="">
-          <p>&lt;strong&gt; - podkreśla wysoką istotność i poważność frazy w nim zawartej<br><br>
-            &lt;em&gt; - podkreśla, że tekst może mieć inne znaczenie (np. ironia)</p>
+          <p>&lt;strong&gt; - wyróżnia wizualnie tekst poprzez pogrubienie, ale też podkreśla wysoką istotność i poważność frazy w nim zawartej<br><br>
+            &lt;em&gt; - wizualnie pochyla tekst, ale dodatkowo podkreśla, że tekst może mieć inne znaczenie (np. ironia)</p>
         </div>
 
         <div class="lesson__tile">
@@ -409,25 +410,30 @@
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-10.jpg" width="300" alt="">
           <p>&lt;a href="" target=""&gt;opis łącza&lt;/a&gt;<br><br>
-            a - linki / łącza wewnątrz dokumentu</p>
+            <p>target="blank" - otworzy się link w nowej karcie</p>
         </div>
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-11.jpg" width="300" alt="">
           <p>&lt;element id="moj-identyfikator"&gt;<br><br>
             atrybut id - identyfikuje element (przydaje się do nawigacji w obrębie dokumentu)</p>
+            <p>Identyfikator musi być unikalny w ramach dokumentu (id="moj-identyfikator"), odnosimy się do niego podając na początku jego wartości znak #. Czyli jeśli elementowi nadamy id o wartości "notatki", to odnosimy się do niego wpisując href="#notatki".</p>
         </div>
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-12.jpg" width="300" alt="">
           <p>&lt;nav&gt;<br><br>
             Nawigacja</p>
+            <p>Znacznik wskazuje, że jest to główna nawigacja po stronie/serwisie. &lt;nav&gt; wstawiamy do znacznika &lt;header&gt;, który znajduje się w &lt;body&gt;, ale poza znacznikiem &lt;main&gt;.</p>
+              <p class="lesson__tile--hint">Każdą treść powtarzalną
+              wyrzucamy poza main, czyli oprócz znacznika header może to być przykładowo znacznik footer. Treści takie nie
+              są analizowane przez wyszukiwarki czy czytniki treści, które skupiają się na treści zawartej w tagu main.</p>
         </div>
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L04/WTF_M03L04-13.jpg" width="300" alt="">
           <p>&lt;img src="" alt=""&gt;<br><br>
-            img - obrazek o podanym adresie</p>
+            img - obrazek o podanym adresie; img jest znacznikiem samozamykającem się, tak jak &lt;br&gt;</p>
         </div>
 
         <div class="lesson__tile">

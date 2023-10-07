@@ -61,7 +61,8 @@
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-02.jpg" width="300" alt="">
-          <p>HTML = HyperText Markup Language</p>
+          <p>HTML – nie jest to język programowania, lecz język znaczników (HyperText Markup Language) ; odpowiada za
+          semantykę, nadaje znaczenie i strukturę elementom składającym się na treść strony.</p>
         </div>
 
         <div class="lesson__tile">
@@ -130,6 +131,10 @@
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-10.jpg" width="300" alt="">
           <p>Tworzymy nasz pierwszy plik z HTML-em</p>
+          <p class="lesson__tile--hint">Po utworzeniu pliku index.html wpisujemy w pierwszej linii ”!” i klikamy tabulator. Automatycznie wkleja
+            nam się wówczas szkielet strony.</p>
+            <p>DOCTYPE – określa typ dokumentu, aktualnie będzie to raczej zawsze html</p>
+            <p>lang – wybór języka, np. en, pl; ma znaczenie dla dostępności, kierują się tym czytniki treści</p>
         </div>
 
         <div class="lesson__tile">
@@ -144,6 +149,7 @@
             Jedna głowa &lt;head&gt;<br>
             Jedno ciało &lt;body&gt;<br>
             &lt;/html&gt;<br></p>
+            <p>head - zawiera to, co jest niewidoczne na stronie</p>
         </div>
 
         <div class="lesson__tile">
@@ -155,19 +161,22 @@
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-14.jpg" width="300" alt="">
           <p>&lt;section&gt;<br>
-            Sekcje dokumentu</p>
+            Sekcje dokumentu - część treści logicznie wyodrębniona;</p>
+            <p class="lesson__tile--hint">każda sekcja powinna mieć nagłówek</p>
         </div>
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-15.jpg" width="300" alt="">
           <p>&lt;article&gt;<br>
             Samodzielne treści</p>
+            <p class="lesson__tile--hint">Treści, które mogą funkcjonować jako odrębny element (analogia do gazety – section to np.
+              sekcja kulturalna, a article to konkretny artykuł w ramach takiej sekcji)</p>
         </div>
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L02_03_HTML/WTF_M02L02_03_HTML-16.jpg" width="300" alt="">
           <p>&lt;header&gt;<br>
-            Nagłówek - dokumentu / sekcji / artykułu</p>
+            Nagłówek - dokumentu / sekcji / artykułu. Może być dodawany np. w przypadku artykułów na blogu i zawierać wówczas nazwisko autora czy datę.</p>
         </div>
 
         <div class="lesson__tile">
@@ -343,6 +352,14 @@
         <h2 class="lesson__header"><a
             href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153264584/posts/2169241052"
             target="_blank">M02L06: Formatowanie kodu [03:43]</a></h2>
+
+            <div class="lesson__tile">
+                <h3>Porządkujemy htmla</h3>
+                <p class="lesson__tile--hint">ctrl+shift+p i wyszukiwana fraza „format” – z podpowiedzi wybieramy „format document” i
+                  automatycznie formatuje nam dokument napisany w html.</p>
+                <p>Możemy też regulować wyrównywanie, głębokość wcięć: wybieramy w tym celu opcję "spaces" na
+                  dolnej belce VSC po prawej stronie, następnie na rozwijanej liście klikamy w opcję indent using tabs i wpisujemy wybraną wartość (wybrałam 2, wcześniej było 4). To samo można zastosować w pliku ze stylami.</p>
+            </div>
       </article>
 
       <br>
@@ -363,16 +380,20 @@
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-2.jpg" width="300" alt="">
           <p>HTML jako rodzina elementów</p>
+          <p>Kod HTML ma strukturę drzewa, rodziny, klanu z zagnieżdżonymi elementami, które zawierają się jedne w drugich
+            w relacji rodzic - dziecko</p>
         </div>
         
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-3.jpg" width="300" alt="">
           <p>Węzeł / node</p>
+          <p>Poszczególne zagnieżdżone elementy to węzły (node), a element, z którego wychodzą to korzeń (root element - znacznik html).</p>
         </div>
         
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/2/WTF_M02L07 - Klan I/WTF_M02L07 - Klan I-4.jpg" width="300" alt="">
-          <p>Rodzic - dziecko</p>
+          <p>Rodzic - element, w którym jest zagnieżdżony inny element.</p>
+          <p>Dziecko - element, który jest zagnieżdżony w innym elemencie, swoim rodzicu.</p>
         </div>
         
         <div class="lesson__tile">
