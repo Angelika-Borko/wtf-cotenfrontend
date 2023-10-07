@@ -505,8 +505,8 @@
             ↓<br>
             .name {<br>
             właściwość: wartość;<br>
-            }<br><br>
-            . (kropka) - selektor klasy</p>
+            }</p>
+            <p class="lesson__tile--hint">. (kropka) - selektor klasy</p>
         </div>
 
         <div class="lesson__tile">
@@ -515,13 +515,20 @@
             ↓<br>
             #name {<br>
             właściwość: wartość;<br>
-            }<br><br>
-            # (hash) - selektor id</p>
+            }</p>
+            <p class="lesson__tile--hint"># (hash) - selektor id</p>
+            <p>ID na stronie musi być unikalne, tylko jedno o danej nazwie!</p>
         </div>
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-09.jpg" width="300" alt="">
-          <p>!important</p>
+          <p>!important to zmora, jeśli chodzi o stylowanie. Nie powinno się go używać.</p>
+          <p>Przykład w krokach:</p>
+            <ol>
+            <li>Mam wybrany jeden paragraf &lt;p&gt; o klasie z kolorem czerwonym - mój paragraf jest czerwony.</li>
+            <li>Dodaję do arkusza styli regułę na <b>wszystkie &lt;p&gt; z kolorem niebieskim</b> - mój paragraf nadal jest czerwony, ale wszystkie pozostałe stają się niebieskie.</li>
+            <li>Do arkusza styli dodaję <b>p {color: blue !important;}</b> - mój paragraf staje się niebieski, mimo, że ma klasę z kolorem czerwonym.</li>
+          </ol>
         </div>
 
         <div class="lesson__tile">
@@ -540,7 +547,8 @@
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-12.jpg" width="300" alt="">
-          <p>Specyficzność w CSS</p>
+          <p>Specyficzność w CSS - co w sytuacji, gdy do danego elementu mamy zdefiniowane stylowanie zarówno w pliku css, jak i przy danym
+            znaczniku jako inline?</p>
         </div>
 
         <div class="lesson__tile">
@@ -618,6 +626,7 @@
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L05/WTF_M03L05-21.jpg" width="300" alt="">
           <p>Jeśli specyficzność jest równa - pierwszeństwo ma selektor "bliżej" elementu</p>
+          <p>Wyobrażamy sobie, że style zdefiniowane w pliku style.css są umieszczone w pliku HTML w miejscu, gdzie znajduje się odniesienie do pliku css. Wtedy zastosowany zostanie styl umieszczony niżej, a tym samym fizycznie bliżej elementu.</p>
         </div>
 
         <div class="lesson__tile">
@@ -799,7 +808,8 @@
 
         <div class="lesson__tile">
           <img class="lesson__tile--img" src="images/3/WTF_M03L07/WTF_M03L07-3.jpg" width="300" alt="">
-          <p>wartość: inherit;</p>
+          <p>wartość: inherit;<br>
+            korzystamy z niej, jeśli chcemy, aby dziecko przejęło wartość po rodzicu</p>
         </div>
 
         <div class="lesson__tile">
