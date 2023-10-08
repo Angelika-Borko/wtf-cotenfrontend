@@ -21,6 +21,7 @@ body {
     width: 100vw;
     padding: 15px 30px 5px 30px;
 }
+
 main {
     max-width: 1280px;
     margin: 0 auto;
@@ -123,11 +124,13 @@ main {
 }
 
 footer {
-background: yellow;
-color: inherit;
-max-width: 1268px;
+    display: block;
+    background: yellow;
+    color: inherit;
+    max-width: 1268px;
     margin: 0 auto;
-
+    width: 100vw;
+    padding: 4px;
 }
 
 .footer__button-up {
@@ -140,5 +143,7 @@ max-width: 1268px;
 
 .footer__hint {
     font-weight: 700;
-    background-color: darkorange
+    background-color: darkorange;
+    padding: 4px;
+    margin-bottom: 0;
 }
