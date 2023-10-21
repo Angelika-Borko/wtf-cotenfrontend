@@ -70,30 +70,31 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-02.jpg"
                         alt="" width="300">
-                    <p>font-size</p>
+                    <p>font-size (rozmiar czcionki)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-03.jpg"
                         alt="" width="300">
-                    <p>font-family</p>
-                    <p>zmianę fontu dla całej strony można zrobić na tagu body</p>
+                    <p>font-family (krój czcionki)</p>
+                    <p class="lesson__tile--hint">zmianę fontu dla całej strony można zrobić na tagu body</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-04.jpg"
                         alt="" width="300">
-                    <p>font-weight</p>
+                    <p>font-weight (grubość fontu)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-05.jpg"
                         alt="" width="300">
-                    <p>line-height</p>
-                    <p>wysokość tekstu dobrze podać większą niż jest w rzeczywistowści, można zapisać: line-height: 1.5;
+                    <p>line-height (wysokość tekstu)</p>
+                    <p class="lesson__tile--hint">dobrze podać większą, niż jest w rzeczywistowści, można zapisać:
+                        line-height: 1.5;
                         co powiększy wysokość fontu o dodatkowe 50%</p>
                 </div>
 
@@ -101,16 +102,29 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-06.jpg"
                         alt="" width="300">
-                    <p>letter-spacing</p>
-                    <p>Odległość między literami - ma dobre zastosowanie przy nagłówkach</p>
+                    <p>letter-spacing (odległość między literami, ma zastosowanie przy nagłówkach)</p>
+                    <p>[8:57] można używać jednostek px, może przyjmować wartości ujemne</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-07.jpg"
                         alt="" width="300">
-                    <p>&lt;span>&gt;</p>
+                    <p>&lt;span&gt; nie ma znaczenia samantycznego, pozwala nam na tworzenie wizualnych wyróżników
+                        tekstu</p>
                 </div>
+            </article>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <article>
+                <h2 class="lesson__header"><a
+                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810843"
+                        target="_blank">M05L03: CSS: Typografia - jednostki [08:47]</a></h2>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
@@ -123,7 +137,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-09.jpg"
                         alt="" width="300">
-                    <p>1 em = font-size dla elementu (dziedziczony / ustawiony) * 1</p>
+                    <p>1 em = font-size dla elementu (dziedziczony / ustawiony) * 1, zazwyczaj przydaje się do letter-spacingu</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -184,23 +198,6 @@
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-17.jpg"
                         alt="" width="300">
                     <p>The end</p>
-                </div>
-            </article>
-        </section>
-
-        <br>
-        <hr>
-        <br>
-
-        <section>
-            <article>
-                <h2 class="lesson__header"><a
-                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810843"
-                        target="_blank">M05L03: CSS: Typografia - jednostki [08:47]</a></h2>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p></p>
                 </div>
             </article>
         </section>
@@ -1450,11 +1447,11 @@
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-06.jpg" width="300"
                         alt="">
                     <p>background-attachment:</p>
-                        <ul>
-                            <li>scroll</li>
-                            <li>fixed</li>
-                            <li>local</li>
-                        </ul>
+                    <ul>
+                        <li>scroll</li>
+                        <li>fixed</li>
+                        <li>local</li>
+                    </ul>
                 </div>
 
                 <div class="lesson__tile">
@@ -1495,18 +1492,19 @@
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-11.jpg" width="300"
                         alt="">
                     <p>background-size:</p>
-                        <ul>
-                            <li>auto</li>
-                            <li>cover</li>
-                            <li>contain</li>
-                            <li>&lt;width&gt; &lt;height&gt;</li>
-                        </ul>
+                    <ul>
+                        <li>auto</li>
+                        <li>cover</li>
+                        <li>contain</li>
+                        <li>&lt;width&gt; &lt;height&gt;</li>
+                    </ul>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-12.jpg" width="300"
                         alt="">
-                    <p>gradienty <a href="https://cssgradient.io/gradient-backgrounds/" target="_blank">https://cssgradient.io/gradient-backgrounds/</a></p>
+                    <p>gradienty <a href="https://cssgradient.io/gradient-backgrounds/"
+                            target="_blank">https://cssgradient.io/gradient-backgrounds/</a></p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1520,7 +1518,9 @@
                         padding-box <i>/* origin */</i><br>
                         content-box <i>/* clip */</i><br>
                         red; <i>/* color */</i><br>
-                        <a href="https://css-tricks.com/almanac/properties/b/background/" target="_blank">https://css-tricks.com/almanac/properties/b/background/</a></p>
+                        <a href="https://css-tricks.com/almanac/properties/b/background/"
+                            target="_blank">https://css-tricks.com/almanac/properties/b/background/</a>
+                    </p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1670,14 +1670,14 @@
                         href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810860"
                         target="_blank">M05L19: Prace domowe tydzień V [05:21]</a></h2>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-1.jpg"
                         width="300" alt="">
                     <p>Tydzień V: Prace domowe</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-2.jpg"
                         width="300" alt="">
@@ -1712,7 +1712,7 @@
                     <p>4. Stwórz gradient i dodaj go jako tło do strony</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-7.jpg"
                         width="300" alt="">
@@ -1721,7 +1721,7 @@
                     </p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-8.jpg"
                         width="300" alt="">

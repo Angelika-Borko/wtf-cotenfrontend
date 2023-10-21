@@ -39,6 +39,7 @@ main {
 .module__header {
     background-color: cadetblue;
     margin-top: 100px;
+    letter-spacing: 0.2em;
 }
 
 .module__header--hint {
