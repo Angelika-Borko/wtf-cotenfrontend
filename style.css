@@ -16,6 +16,11 @@ body {
 }
 
 .navigation {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,10 +36,11 @@ main {
 
 .navigation__link {
     color: inherit;
+    padding: 0 1rem 0 1rem;
 }
 
 .navigation__hint {
-    font-weight: 900;
+    font-weight: 700;
     background-color: darkorange
 }
 

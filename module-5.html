@@ -839,26 +839,32 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -12.jpg" width="300" alt="">
                     <p>const / let<br>
-                        zmienne -> własności (property)</p>
+                        zmienne -> własności (property)<br>
+                        <span class="lesson__tile--hint">w obiektach nie ma zmiennych, są własności</span>
+                    </p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -13.jpg" width="300" alt="">
                     <p>() => {}<br>
-                        funkcje -> metody (methods)</p>
+                        funkcje -> metody (methods)<br>
+                        <span class="lesson__tile--hint">funkcje w świecie obiektowym to metody</span>
+                    </p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -14.jpg" width="300" alt="">
-                    <p>. dot notation</p>
+                    <p>. dot notation pozwala dostać się do własności obiektu</p>
+                    <p>deathStar.name,</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -15.jpg" width="300" alt="">
-                    <p>[] bracket notation</p>
+                    <p>[] bracket notation, też pozwala dostać się do własności obiektu</p>
+                    <p>deathStar['name'],</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -903,6 +909,8 @@
                         const numberTwo = 42;<br>
                         const nameOne = 'Maciek';<br>
                         let nameTwo = 'Stefan';<br></p>
+                    <p class="lesson__tile--hint">tylko zmienną let można zmienić i na następnym kafelku to połączenie
+                        jest zaznaczone na zielono</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -915,6 +923,8 @@
                         nameOne - Maciek<br>
                         nameTwo - Stefan
                     </p>
+                    <p class="lesson__tile--hint">tylko zmienną let można zmienić i na kafelku to połączenie jest
+                        zaznaczone na zielono</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1077,6 +1087,9 @@
                         width="300" alt="">
                     <p>humanOne - name: Maciek - age: 35<br>
                         humanTwo - name: Stefan - age: <b>32</b></p>
+                    <p class="lesson__tile--hint"> dlatego, że wskazuje się na wartość (32), a nie na własność
+                        (humanOne.age), więc obiekt pozostał z poprzednią wartością, nie mógł pobrać jej po nadpisaniu
+                        wartości własności humanOne.age na 35. To tak po prostu nie działa</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1264,11 +1277,24 @@
                         <li>&lt;flex-direction&gt; &lt;flex-wrap&gt;</li>
                     </ul>
                 </div>
+            </article>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <article>
+                <h2 class="lesson__header"><a
+                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810850"
+                        target="_blank">M05L10: CSS: flexbox - justify i align [16:09]</a></h2>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-08.jpg"
                         width="300" alt="">
-                    <p>justify-content, <i>ustawianie elementów wzdłuż osi flex-direction:</i></p>
+                    <p>justify-content, <span class="lesson__tile--hint">może się kojarzyć z justowaniem,
+                            roztrzeliwaniem tekstu</span>, <i>ustawianie elementów wzdłuż osi flex-direction:</i></p>
                     <ul class="lesson__tile--list">
                         <li>flex-start</li>
                         <li>flex-end</li>
@@ -1281,7 +1307,8 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-09.jpg"
                         alt="" width="300">
-                    <p>align-content, <i>ustawianie wierszy/kolumn wzdłuż osi przeciwnej do flex-direction
+                    <p>align-content, <span class="lesson__tile--hint">ma sens, kiedy elementy się zawijają, przy
+                            flex-wrap: wrap;</span> <i>ustawianie wierszy/kolumn wzdłuż osi przeciwnej do flex-direction
                             (taki justify-content dla drugiej osi):</i></p>
                     <ul class="lesson__tile--list">
                         <li>stretch</li>
@@ -1318,6 +1345,18 @@
                         <li>baseline</li>
                     </ul>
                 </div>
+            </article>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <article>
+                <h2 class="lesson__header"><a
+                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810851"
+                        target="_blank">M05L11: CSS: flexbox - order, basis i devtools [20:59]</a></h2>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-12.jpg"
@@ -1387,40 +1426,6 @@
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-20.jpg"
                         width="300" alt="">
                     <p>The end</p>
-                </div>
-            </article>
-        </section>
-
-        <br>
-        <hr>
-        <br>
-
-        <section>
-            <article>
-                <h2 class="lesson__header"><a
-                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810850"
-                        target="_blank">M05L10: CSS: flexbox - justify i align [16:09]</a></h2>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p></p>
-                </div>
-            </article>
-        </section>
-
-        <br>
-        <hr>
-        <br>
-
-        <section>
-            <article>
-                <h2 class="lesson__header"><a
-                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810851"
-                        target="_blank">M05L11: CSS: flexbox - order, basis i devtools [20:59]</a></h2>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p></p>
                 </div>
             </article>
         </section>
@@ -1722,7 +1727,7 @@
                     <p>0. Baw się dobrze!</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-3.jpg"
                         width="300" alt="">
@@ -1736,7 +1741,7 @@
                     <p>2. "Potnij" wizytówkę załóż osobne repozytorium!</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-5.jpg"
                         width="300" alt="">
