@@ -9,24 +9,11 @@ html {
 }
 
 body {
-    background: #fefefe;
+    left: 0;
+    background-image: linear-gradient(to top, #da70d6 1%, #ffffff 100%);
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.2;
-}
-
-.navigation {
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: orchid;
-    width: 100vw;
-    padding: 15px 30px 5px 30px;
 }
 
 main {
@@ -34,18 +21,35 @@ main {
     margin: 0 auto;
 }
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #da70d6;
+    width: 100vw;
+    padding: 15px 30px 5px 30px;
+}
+
 .navigation__link {
     color: inherit;
-    padding: 0 1rem 0 1rem;
+    flex: 1 0 120px;
 }
 
 .navigation__hint {
-    font-weight: 700;
-    background-color: darkorange
+    font-weight: 500;
+    background-color: darkorange;
+    order: 1;
+    flex-grow: 0;
 }
 
 .module__header {
-    background-color: cadetblue;
+    background-color: #5f9ea0;
     margin-top: 100px;
     letter-spacing: 0.2em;
 }
@@ -66,7 +70,9 @@ main {
 .lesson__tile {
     box-sizing: border-box;
     display: inline-block;
-    background: firebrick;
+    background-color: #ff8c00;
+    background-image: linear-gradient(180deg, #ff8c00 0%, #ad1a1a 100%);
+    background-blend-mode: screen;
     width: 100%;
     max-width: 400px;
     height: 310px;
@@ -74,7 +80,7 @@ main {
     padding: 16px;
     border-width: 2px;
     border-style: solid;
-    border-color: darkgoldenrod;
+    border-color: #ff8c00;
     border-radius: 30px;
     margin: 10px;
 }
@@ -86,7 +92,7 @@ main {
 }
 
 .lesson__tile--hint {
-    font-weight: 700;
+    font-weight: 500;
     background-color: darkorange
 }
 
@@ -155,7 +161,7 @@ footer {
 }
 
 .footer__hint {
-    font-weight: 700;
+    font-weight: 500;
     background-color: darkorange;
     padding: 4px;
     margin-bottom: 0;
