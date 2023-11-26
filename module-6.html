@@ -52,6 +52,7 @@
 
         <section>
             <article>
+
                 <h2 class="lesson__header"><a
                         href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153450611/posts/2169981557"
                         target="_blank">M06L02: Logika w JS [24:48]</a></h2>
@@ -73,141 +74,178 @@
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-03.jpg" alt="" width="300">
                     <p>Porównania</p>
                 </div>
-                
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-04.jpg" alt="" width="300">
-                    <p></p>
+                    <p>operator porównania - nie równa się<br>
+                        <br>
+                        <span class="lesson__tile--code"><strong>JavaScript != Java</strong></span><br>
+                        <br>
+                        <b><u>NIGDY</u></b> nie używaj takiego skrótu
+                    </p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-05.jpg" alt="" width="300">
-                    <p></p>
+                    <p> != zwraca true lub false</p>
+                    <p class="lesson__tile--code">
+                        if ('JavaScript' != 'Java') {<br>
+                        // wykonaj kod jeśli true<br>
+                        }</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-06.jpg" alt="" width="300">
-                    <p></p>
+                    <p>Porównania</p>
+                    <ul>
+                        <li style="list-style: none;"><span class="lesson__tile--code">>&nbsp;&nbsp;&nbsp;</span>lewa
+                            strona większa od prawej</li>
+                        <li style="list-style: none;"><span class="lesson__tile--code">
+                                <&nbsp;&nbsp;&nbsp;< /span>lewa strona mniejsza od prawej</li>
+                        <li style="list-style: none;"><span class="lesson__tile--code">>=&nbsp;&nbsp;</span>lewa strona
+                            większa / równa od prawej</li>
+                        <li style="list-style: none;"><span class="lesson__tile--code">
+                                <=&nbsp;&nbsp;< /span>lewa strona mniejsza / równa od prawej</li>
+                        <li style="list-style: none;"><span class="lesson__tile--code">==&nbsp;&nbsp;</span>obie strony
+                            równe </li>
+                        <li style="list-style: none;"><span class="lesson__tile--code">===&nbsp;</span>obie strony równe
+                            (sprawdza typeof)</li>
+                        <li style="list-style: none;"><span class="lesson__tile--code">!=&nbsp;&nbsp;</span>obie strony
+                            różne</li>
+                        <li style="list-style: none;"><span class="lesson__tile--code">!==&nbsp;</span>obie strony różne
+                            (sprawdza typeof)</li>
+                    </ul>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-07.jpg" alt="" width="300">
-                    <p></p>
+                    <p>typeof <span><i>zmienna</i></span></p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-08.jpg" alt="" width="300">
-                    <p></p>
+                    <p>Falsy - 6 wartości</p>
+                    <ul>
+                        <li style="list-style: none;">false</li>
+                        <li style="list-style: none;">0</li>
+                        <li style="list-style: none;">'' , "" , `` - pusty string</li>
+                        <li style="list-style: none;">null</li>
+                        <li style="list-style: none;">undefined</li>
+                        <li style="list-style: none;">NaN - not a number</li>
+                    </ul>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-09.jpg" alt="" width="300">
-                    <p></p>
+                    <p>Truthy - cała reszta ;)</p>
+                    <ul>
+                        <li style="list-style: none;">'Tekst'</li>
+                        <li style="list-style: none;">12</li>
+                        <li style="list-style: none;">-4</li>
+                        <li style="list-style: none;">{}</li>
+                        <li style="list-style: none;">[]</li>
+                        <li style="list-style: none;">true</li>
+                        <li style="list-style: none;">itd.</li>
+                    </ul>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-10.jpg" alt="" width="300">
-                    <p></p>
+                    <p><b>&& AND</b> - wszystkie warunki muszą być <i>true</i><br>
+                        <br>
+                        <span class="lesson__tile--code">if ((myVariable==4) && (otherVar !=='test' )) {...}</span>
+                    </p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-11.jpg" alt="" width="300">
-                    <p></p>
+                    <p><b>|| OR</b> - przynajmniej jeden warunek ma być <i>true</i><br>
+                        <br>
+                        <span class="lesson__tile--code">if ((myVariable==4) || (otherVar !=='test' )) {...}</span>
+                    </p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-12.jpg" alt="" width="300">
-                    <p></p>
+                    <p><b>! NOT</b> - odwraca wartość wyrażenia logicznego<br>
+                        <br>
+                        <span class="lesson__tile--code">if (!('JavaScript'=='Java' )) {<br>
+                            // ten kod się wykona<br>
+                            }</span>
+                    </p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-13.jpg" alt="" width="300">
-                    <p></p>
+                    <p class="lesson__tile--code">!false => true<br>
+                        !true => false</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-14.jpg" alt="" width="300">
-                    <p></p>
+                    <p class="lesson__tile--code">
+                        if (myVariable == 4) {<br>
+                        // wykonaj kod jeśli true<br>
+                        } else {<br>
+                        // wykonaj kod jeśli false<br>
+                        }</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-15.jpg" alt="" width="300">
-                    <p></p>
+                    <p class="lesson__tile--code"> if (myVariable == 4) {<br>
+                        // wykonaj kod jeśli true<br>
+                        } else if (myVariable == 8) {<br>
+                        // wykonaj kod jeśli myVariable == 8<br>
+                        }</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-16.jpg" alt="" width="300">
-                    <p></p>
+                    <p class="lesson__tile--code">switch (myVariable) { case 4:<br>
+                        console.log('hi 4');<br>
+                        break; case 8:<br>
+                        console.log('hi 8');<br>
+                        break;<br>
+                        default:<br>
+                        console.log('default response');<br>
+                        }</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-17.jpg" alt="" width="300">
-                    <p></p>
+                    <p>zapis skrócony: <span class="lesson__tile--code">
+                            (zmienna1 > zmienna2) ? console.log('true') : console.log('false')</span>
+                    </p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-18.jpg" alt="" width="300">
-                    <p></p>
+                    <p>WAT</p>
+                    <a href="https://www.destroyallsoftware.com/talks/wat"
+                        target="_blank">https://www.destroyallsoftware.com/talks/wat</a>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-19.jpg" alt="" width="300">
-                    <p></p>
+                    <p>The end</p>
                 </div>
-
-                operator porównania - nie równa się
-                JavaScript != Java NIGDY nie używaj takiego skrótu
-
-                if
-                zwraca true lub false
-                if ('JavaScript' != 'Java') { // wykonaj kod jeśli true
-                }
-
-                Porównania
-                > lewa strona większa od prawej
-                < lewa strona mniejsza od prawej>= lewa strona większa / równa od prawej <= lewa strona mniejsza / równa
-                        od prawej==obie strony równe===obie strony równe (sprawdza typeof) !=obie strony różne !==obie
-                        strony różne (sprawdza typeof) typeof typeof zmienna Falsy - 6 wartości false 0 '' , "" , `` -
-                        pusty string null undefined NaN - not a number false Truthy cała reszta ;) 'Tekst' 12 -4 {} []
-                        true itd. true && AND - wszystkie warunki muszą być true if ((myVariable==4) && (otherVar
-                        !=='test' )) {...} || OR - przynajmniej jeden warunek ma być true if ((myVariable==4) ||
-                        (otherVar !=='test' )) {...} ! NOT - odwraca wartość wyrażenia logicznego if
-                        (!('JavaScript'=='Java' )) { // ten kod się wykona } !false=> true !true => false
-
-                        else
-                        if (myVariable == 4) {
-                        // wykonaj kod jeśli true
-                        } else {
-                        // wykonaj kod jeśli false
-                        }
-
-                        else if
-                        if (myVariable == 4) {
-                        // wykonaj kod jeśli true
-                        } else if (myVariable == 8) {
-                        // wykonaj kod jeśli myVariable == 8
-                        }
-
-                        switch (myVariable) { case 4:
-                        console.log('hi 4');
-                        break; case 8:
-                        console.log('hi 8');
-                        break;
-                        default:
-                        console.log('default response');
-                        }
-                        switch
-
-                        ?
-                        zapis skrócony
-                        (zmienna1 > zmienna2) ? console.log('true') : console.log('false')
-
-                        ?
-                        WAT
-                        https://www.destroyallsoftware.com/talks/wat
-
-                        The end
-
 
             </article>
         </section>
@@ -218,120 +256,143 @@
 
         <section>
             <article>
+
                 <h2 class="lesson__header"><a
                         href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153450611/posts/2169981558"
                         target="_blank">M06L03: HTML: formularze [07:52]</a></h2>
 
                 <div class="lesson__tile">
-                    <p class="lesson__tile--hint"></p>
-                    <p></p>
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-01.jpg" alt="" width="300">
+                    <p>Formularze</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-01.jpg" alt="" width="300">
-                    <p></p>
-                </div>
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-02.jpg" alt="" width="300">
-                    <p></p>
+                    <p>🗣 Pogadajmy ze światem</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-03.jpg" alt="" width="300">
-                    <p></p>
+                    <p>&lt;form&gt;</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-04.jpg" alt="" width="300">
-                    <p></p>
+                    <p>&lt;input&gt;</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-05.jpg" alt="" width="300">
-                    <p></p>
+                    <p>name="nazwaPola"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-06.jpg" alt="" width="300">
-                    <p></p>
+                    <p>id="idPola"<br>
+                        <br>
+                        * używamy do odniesienia się do label for=""</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-07.jpg" alt="" width="300">
-                    <p></p>
+                    <p>&lt;label&gt;</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-08.jpg" alt="" width="300">
-                    <p></p>
+                    <p>for="idPola"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-09.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="text"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-10.jpg" alt="" width="300">
-                    <p></p>
+                    <p>value="wartość"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-11.jpg" alt="" width="300">
-                    <p></p>
+                    <p>placeholder="Tekst podpowiedzi"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-12.jpg" alt="" width="300">
-                    <p></p>
+                    <p>atrybut <i>placeholder</i> <b>nie zastępuje</b> elementu <i>label</i></p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-13.jpg" alt="" width="300">
-                    <p></p>
+                    <p>&lt;fieldset&gt;</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-14.jpg" alt="" width="300">
-                    <p></p>
+                    <p>&lt;legend&gt;</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-15.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="radio"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-16.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="radio"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-17.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="checkbox"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-18.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="tel"<br>
+                        type="number"<br>
+                        type="email
+                    </p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-19.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="range"</p>
+                     <input type="range" min="0" max="100" step="5">
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-20.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="password"</p>
                 </div>
+
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-21.jpg" alt="" width="300">
-                    <p></p>
+                    <p>type="file"</p>
                 </div>
+                
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-22.jpg" alt="" width="300">
@@ -409,59 +470,14 @@
                 </div>
 
 
-                Formularze
+            
+                            <select>
 
-                🗣
-                Pogadajmy ze światem
+                                <option>
 
-                <form>
+                                    value="wartość"
 
-                    <input>
-
-                    name="nazwaPola"
-
-                    id="idPola"
-                    * używamy do odniesienia się do label for=""
-
-                    <label>
-
-                        for="idPola"
-
-                        type="text"
-
-                        value="wartość"
-
-                        placeholder="Tekst podpowiedzi"
-
-                        atrybut placeholder nie zastępuje elementu label
-
-                        <fieldset>
-
-                            <legend>
-
-                                type="radio"
-
-                                type="radio"
-
-                                type="checkbox"
-
-                                "number" type="tel"
-                                "email"
-
-                                type="range"
-                                <input type="range" min="0" max="100" step="5">
-
-                                type="password"
-
-                                type="file"
-
-                                <select>
-
-                                    <option>
-
-                                        value="wartość"
-
-                                        <textarea>
+                                    <textarea>
 
 <input type="submit">
 
