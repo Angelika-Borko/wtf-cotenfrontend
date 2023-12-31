@@ -10,7 +10,14 @@ console.log("jestem Twoim drugim console.logiem");
 const firstName = "Angelika";
 const age = 34;
 
-console.log(`Nazywam się ${firstName} i mam ${age} lata`); 
+    // funkcja powitalna z pracy domowej, z modułu 5
+
+const greet = (greetFirstName, greetAge) => {
+    const result = `Witaj ${greetFirstName}! Masz ${greetAge} lata.`;
+    return result;
+}
+
+console.log(greet('Angelika', 34));
 
     // funkcja
 

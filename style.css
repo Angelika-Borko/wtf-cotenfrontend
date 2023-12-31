@@ -27,22 +27,20 @@ main {
 
 .navigation {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.5;
+    gap: 24px;
     position: fixed;
     top: 0;
-    left: 0;
     background-color: #da70d6;
     width: 100vw;
-    padding: 5px 30px 5px 30px;
+    /* padding: 5px 0px 5px 0px; */
 }
 
 .navigation__link {
     color: inherit;
-    flex: 1 0 120px;
+    flex: 0 0 auto;
 }
 
 .navigation__hint {
