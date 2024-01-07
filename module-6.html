@@ -547,12 +547,16 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-19.jpg" alt="" width="300">
                     <p class="lesson__tile--code">type="range"</p>
+                    <p>range to zakres, wartości <i>min</i> i <i>max</i> oznaczają początek i koniec zakresu,
+                        <i>step</i> definiuje o ile suwak ma się przesuwać
+                    </p>
+                    <p class="lesson__tile--hint">tricki z java scriptem - odczytywanie wartości z suwaka [3:00]</p>
                     <form>
                         <fieldset>
                             <legend>Nowy zbiór pól</legend>
                             <p>
-                                <label>Ocena</label>
-                                <input type="range" min="0" max="100" step="5">
+                                <label for="rate">Ocena</label>
+                                <input name="rate" id="rate" type="range" min="0" max="100" step="15">
                             </p>
                         </fieldset>
                     </form>
@@ -562,114 +566,86 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-20.jpg" alt="" width="300">
                     <p class="lesson__tile--code">type="password"</p>
+                    <form>
+                        <p>
+                            <label for="enterPassword">Hasło</label>
+                            <input name="enterPassword" id="enterPassword" type="password" placeholder="hasło">
+                        </p>
+                    </form>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-21.jpg" alt="" width="300">
                     <p class="lesson__tile--code">type="file"</p>
+                    <form>
+                        <p>
+                            <label for="avatar">Zdjęcie profilowe</label>
+                            <input name="avatar" id="avatar" type="file">
+                        </p>
+                    </form>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-22.jpg" alt="" width="300">
                     <p class="lesson__tile--code">&lt;select&gt;</p>
+                    <form>
+                        <p>
+                            <label for="size">Wybierz rozmiar</label>
+                            <select name="size" id="size"></select>
+                        </p>
+                    </form>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-23.jpg" alt="" width="300">
                     <p class="lesson__tile--code">&lt;option&gt;</p>
+                    <p>ten select jeszcze <b>nie jest gotowy</b>, nie ma atrybutów value!</p>
+                    <form>
+                        <p>
+                            <label for="size2">Wybierz rozmiar</label>
+                            <select name="size2" id="size2">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </p>
+                    </form>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-24.jpg" alt="" width="300">
                     <p class="lesson__tile--code">value="wartość"</p>
+                    <form>
+                        <p>
+                            <label for="size3">Wybierz rozmiar</label>
+                            <select name="size3" id="size3">
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                                <option selected value="selected">Ten z atrybutem "selected"</option>
+                            </select>
+                        </p>
+                    </form>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-25.jpg" alt="" width="300">
                     <p class="lesson__tile--code">&lt;textarea&gt;</p>
+                    <form>
+                        <p>
+                            <label for="comment">Komentarz:</label>
+                            <br>
+                            <textarea name="comment" id="comment" placeholder="[14:00]"></textarea>
+                        </p>
+                    </form>
                 </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-26.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;input type="submit"&gt;</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-27.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;form&gt;</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-28.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">action= "url://z-którym-gadamy"</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-29.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">method="post"</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-30.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">method="get"</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-31.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">enctype= "application/x-www-form-urlencoded" *<br>
-                        enctype= "multipart/form-data" **</p>
-                    <p>* wartość domyślna<br>
-                        ** używamy, kiedy wysyłamy pliki</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-32.jpg" alt="" width="300">
-                    <p>Walidacja</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-33.jpg" alt="" width="300">
-                    <p>required</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-34.jpg" alt="" width="300">
-                    <p><span class="lesson__tile--code">pattern="[a-zA-Z0-9]+"</span>,
-                        <br><i>gdzie [a-zA-Z0-9]+ wyrażenie regularne (regular expression)</i>
-                    </p>
-                    <a href="http://html5pattern.com/Names" target="_blank">http://html5pattern.com/Names</a>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-35.jpg" alt="" width="300">
-                    <p>walidacja po stronie frontendu<br>
-                        <strong>nie zastępuje</strong><br>
-                        walidacji po stronie backendu
-                    </p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img"
-                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-36.jpg" alt="" width="300">
-                    <p>The end</p>
-                </div>
-
-
 
             </article>
         </section>
@@ -685,11 +661,65 @@
                         target="_blank">M06L06: Formularze: Czym się różni GET od POST? [10:46]</a></h2>
 
                 <div class="lesson__tile">
-                    <p class="lesson__tile--hint"></p>
-                    <p></p>
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-26.jpg" alt="" width="300">
+                    <p class="lesson__tile--code">&lt;input type="submit"&gt;</p>
+                    <p>jako jedyny nie ma znacznika "label", zamiast niego, można też użyć znaczika button, o ile będzie
+                        to jedyny button na stronie.</p>
+                    <form>
+                        <p>
+                            <input name="submitButton" id="submitButton" type="submit" value="input wyślij" />
+                        </p>
+                        <p>lub</p>
+                        <p>
+                            <button>przycisk wyśij</button>
+                        </p>
+                    </form>
                 </div>
 
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-27.jpg" alt="" width="300">
+                    <p class="lesson__tile--code">&lt;form&gt;</p>
+                    <p>zaczynamy wysyłać dane!!! [2:00]</p>
+                </div>
 
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-28.jpg" alt="" width="300">
+                    <p class="lesson__tile--code">action="url://z-którym-gadamy"</p>
+                    <p>do tagu form musimy dodać adres, do którego będziemy przekazywać dane z formularza</p>
+                    <p class="lesson__tile--code">&lt;form action="https://forms.cotenfrontend.pl"&gt;&lt;form/&gt;</p>
+                    <p class="lesson__tile--hint">po wysłaniu formularza, w pasku adrsu pojawia się query string, który
+                        przechowuje wszystkie wysłane wartości, aktualnie raczej się go ukrywa</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-29.jpg" alt="" width="300">
+                    <p class="lesson__tile--code">method="post"</p>
+                    <p>method jest atrybutem, który mówi o tym w jaki sposób wysyłany jest formularz.</p>
+                    <p class="lesson__tile--code">&lt;form action="https://forms.cotenfrontend.pl"
+                        method="post"&gt;&lt;form/&gt;</p>
+                    <p>przy żądaniu typu POST, w adresie nie ma wartości, a zamiast query stringa, w Networku > Payload
+                        można zobaczyć Form Data [6:30]</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-30.jpg" alt="" width="300">
+                    <p class="lesson__tile--code">method="get"</p>
+                    <p>domyślny typ żądania to GET, zawiera query string z parametrami</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-31.jpg" alt="" width="300">
+                    <p class="lesson__tile--code">enctype= "application/x-www-form-urlencoded" *<br>
+                        enctype= "multipart/form-data" **</p>
+                    <p>* wartość domyślna<br>
+                        ** używamy, kiedy wysyłamy pliki</p>
+                </div>
 
             </article>
         </section>
@@ -705,8 +735,56 @@
                         target="_blank">M06L07: Formularze: Walidacja [06:15]</a></h2>
 
                 <div class="lesson__tile">
-                    <p class="lesson__tile--hint"></p>
-                    <p></p>
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-32.jpg" alt="" width="300">
+                    <p>Walidacja</p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-33.jpg" alt="" width="300">
+                    <p>required - pole z tym atrybutem będzie wymagane</p>
+                    <form>
+                        <p>
+                            <label for="postalCode">Kod pocztowy</label>
+                            <input name="postalCode" id="postalCode" type="text" placeholder="XX-XXX" required />
+                            <input type="submit" value="wyśij" />
+                        </p>
+                    </form>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-34.jpg" alt="" width="300">
+                    <p><span class="lesson__tile--code">pattern="[a-zA-Z0-9]+"</span>,
+                        <br><i>gdzie [a-zA-Z0-9]+ wyrażenie regularne (regular expression)</i>
+                    </p>
+                    <p>służy do sprawdzania poprawności formatu m.in. kodu pocztowego lub wymaganej złożoności w
+                        tworzonym haśle do konta. pattern wklejamy ze strony z podpowiedziami, np. <a
+                            href="http://html5pattern.com/Names" target="_blank">http://html5pattern.com/Names</a></p>
+                    <form>
+                        <p>
+                            <label for="postalCode">Kod pocztowy</label>
+                            <input name="postalCode" id="postalCode" type="text" placeholder="XX-XXX" required
+                                pattern="[0-9]{2}-[0-9]{3}" />
+                            <input type="submit" value="wyśij" />
+                        </p>
+                    </form>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-35.jpg" alt="" width="300">
+                    <p>walidacja po stronie frontendu<br>
+                        <strong>nie zastępuje</strong><br>
+                        walidacji po stronie backendu
+                    </p>
+                </div>
+
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img"
+                        src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-36.jpg" alt="" width="300">
+                    <p>The end</p>
                 </div>
 
 
@@ -1450,7 +1528,7 @@
                     <a href="https://cssgridgarden.com/" target="_blank">https://cssgridgarden.com/</a>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-8.jpg"
                         alt="" width="300">
@@ -1458,8 +1536,29 @@
                     <p class="lesson__tile--code">action="<a href="https://forms.cotenfrontend.pl"
                             target="_blank">https://forms.cotenfrontend.pl</a>"</p>
                     <p>potestuj różne typy inputów i zobacz co jest przesyłane</p>
-                    <p>bonus: stwórz dwa pola name oraz riddle jako wartość riddle wpisz cotenfrontend wartość name to
-                        Twoje imię wyślij taki formularz metodą post pod podany wyżej action</p>
+                    <p class="lesson__tile--hint">bonus: stwórz <b>dwa pola</b> name oraz riddle jako wartość <u>riddle
+                            wpisz cotenfrontend</u> wartość <u>name to
+                            Twoje imię</u> wyślij taki formularz <u>metodą post</u> pod podany wyżej action</p>
+                    <form action="https://forms.cotenfrontend.pl" method="post">
+                        <fieldset>
+                            <legend>Dane do bonusu:</legend>
+                            <p>
+                                <label for="name">Imię</label>
+                                <input name="name" id="name" type="text" placeholder="imię" />
+                            </p>
+                            <p>
+                                <label for="riddle">riddle</label>
+                                <input name="riddle" id="riddle" type="text" placeholder="cotenfrontend" />
+                            </p>
+                            <input type="submit" value="wyślij" disabled />
+                        </fieldset>
+                    </form>
+                    <p><b>ODPOWIEDŹ Z SERWERA ^^</b></p>
+                    <p class="lesson__tile--code">Pssst, sprawdź kanał 📝│moduł-06 na discordzie 😎
+                        <br>
+                        PS. Jak raz się udało to usuń pole riddle, żeby nie spamować na kanale jeśli chcesz się dalej
+                        bawić tą sprawdzarką :)
+                    </p>
                 </div>
 
                 <div class="homework__tile--done">

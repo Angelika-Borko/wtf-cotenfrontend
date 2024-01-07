@@ -1,11 +1,11 @@
-html {
-    box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+.about-me__picture {
+    border-radius: 50%;
 }
 
 body {
@@ -16,49 +16,71 @@ body {
     line-height: 1.2;
 }
 
-main {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-.about-me__picture {
-    border-radius: 50%;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 24px;
-    position: fixed;
-    top: 0;
-    background-color: #da70d6;
-    width: 100vw;
-    padding: 0 50px 0 50px;
-}
-
-.navigation__link {
+footer {
+    display: block;
+    background: yellow;
     color: inherit;
-    flex: 0 0 auto;
+    max-width: 1268px;
+    margin: 0 auto;
+    width: 100vw;
+    padding: 4px;
 }
 
-.navigation__hint {
+.footer__button-up {
+    background-color: darkmagenta;
+}
+
+.footer__button-up--link {
+    color: floralwhite;
+}
+
+.footer__hint {
     font-weight: 500;
     background-color: darkorange;
-    order: 1;
-    flex-grow: 0;
+    padding: 4px;
+    margin-bottom: 0;
 }
 
-.module__header {
-    background-color: #5f9ea0;
-    margin-top: 100px;
-    letter-spacing: 0.2em;
+.homework__tile--to-do {
+    box-sizing: border-box;
+    display: inline-block;
+    background: lightgray;
+    width: 100%;
+    max-width: 400px;
+    height: 310px;
+    overflow: scroll;
+    padding: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 30px;
+    margin: 10px;
 }
 
-.module__header--hint {
-    font-weight: 700;
-    background-color: darkorange
+.homework__tile--done {
+    box-sizing: border-box;
+    display: inline-block;
+    background: green;
+    width: 100%;
+    max-width: 400px;
+    height: 310px;
+    overflow: scroll;
+    padding: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.homework__tile--img {
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+}
+
+html {
+    box-sizing: border-box;
 }
 
 .lesson__header {
@@ -111,67 +133,45 @@ main {
     color: darkred;
 }
 
-.homework__tile--to-do {
-    box-sizing: border-box;
-    display: inline-block;
-    background: lightgray;
-    width: 100%;
-    max-width: 400px;
-    height: 310px;
-    overflow: scroll;
-    padding: 16px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 30px;
-    margin: 10px;
-}
-
-.homework__tile--done {
-    box-sizing: border-box;
-    display: inline-block;
-    background: green;
-    width: 100%;
-    max-width: 400px;
-    height: 310px;
-    overflow: scroll;
-    padding: 16px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: greenyellow;
-    border-radius: 30px;
-    margin: 10px;
-}
-
-.homework__tile--img {
-    width: 100%;
-    margin: auto;
-    max-width: 400px;
-}
-
-footer {
-    display: block;
-    background: yellow;
-    color: inherit;
-    max-width: 1268px;
+main {
+    max-width: 1280px;
     margin: 0 auto;
+}
+
+.module__header {
+    background-color: #5f9ea0;
+    margin-top: 100px;
+    letter-spacing: 0.2em;
+}
+
+.module__header--hint {
+    font-weight: 700;
+    background-color: darkorange
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    position: fixed;
+    top: 0;
+    background-color: #da70d6;
     width: 100vw;
-    padding: 4px;
+    padding: 0 50px 0 50px;
 }
 
-.footer__button-up {
-    background-color: darkmagenta;
+.navigation__link {
+    color: inherit;
+    flex: 0 0 auto;
 }
 
-.footer__button-up--link {
-    color: floralwhite;
-}
-
-.footer__hint {
+.navigation__hint {
     font-weight: 500;
     background-color: darkorange;
-    padding: 4px;
-    margin-bottom: 0;
+    order: 1;
+    flex-grow: 0;
 }
 
 table {
@@ -181,4 +181,9 @@ table {
 
 table caption {
     margin-bottom: 0.5rem;
+}
+
+textarea {
+    width: 80%;
+    min-height: 5rem;
 }
