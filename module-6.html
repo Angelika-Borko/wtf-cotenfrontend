@@ -27,7 +27,7 @@
     <main>
         <header class="module__header">
             <h1 class="module__h1--js">notatki z modułu 6</h1>
-            <p class="module__header--hint">W main opakowywujemy unikalną treść dla danej strony</p>
+            <p class="module__header--hint">w main opakowywujemy unikalną treść dla danej strony</p>
         </header>
 
         <br>
@@ -811,7 +811,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-02.jpg"
                         alt="" width="300">
-                    <p>GRID</p>
+                    <p>GRID, czyli siatka</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -835,6 +835,7 @@
                         alt="" width="300">
                     <p>źródło: <a href="https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/"
                             target="_blank">https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/</a>
+                        [3:58]
                     </p>
                 </div>
 
@@ -854,30 +855,37 @@
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-08.jpg"
                         alt="" width="300">
                     <p class="lesson__tile--code">grid-template-columns:&lt;wartości po spacji&gt;</p>
+                    <p class="lesson__tile--hint">ta właściwość jest konieczna, żeby w ogóle grid się wyświetlił, jako
+                        wartości podaje się szerokość kolumny. Po podaniu wartości "200px 200px 400px", powstaną 3
+                        kolumny - dwie pierwsze będą miały szerokość 200px, a ostatnia 400px. Jeśli podamy wartości w
+                        pikselach, to nie dopasują się one do szerokości ekranu, będą na stałe określone [5:30]</p>
 
                 </div>
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-09.jpg"
                         alt="" width="300">
                     <p class="lesson__tile--code">grid-template-rows:&lt;wartości po spacji&gt;</p>
+                    <p>ta właściwość definiuje wysokość wiersza, raczej nie stosujemy</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-10.jpg"
                         alt="" width="300">
-                    <p>nowa jednostka: fr</p>
+                    <p>nowa jednostka: fr [9:20]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-11.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">1fr 1fr 2fr 444</p>
+                    <p class="lesson__tile--code">1fr/4 1fr/4 2fr/4 </p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-12.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">repeat(ileRazy, wartość)</p>
+                    <p class="lesson__tile--code">repeat(ileRazy, wartość)<br>
+                        repeat(3, 1fr);</p>
+                    <p>repeat(ileKolumnChceszMieć, jakieMająByćSzerokie)</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -895,8 +903,24 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-15.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">minmax(minWartość, maxWartość)</p>
+                    <p class="lesson__tile--code">minmax(minWartość, maxWartość)<br>
+                        grid-template-columns: 1fr 1fr minmax(300px, 1fr);</p>
+                    <p>[14:40] minimalne i maksymalne wartości jakie może przyjąć nasza kolumna (bo kolumny najczęściej
+                        stylujemy, ale do wiersza też można zastosować te właściwość</p>
                 </div>
+
+            </article>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <article>
+                <h2 class="lesson__header"><a
+                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153450611/posts/2169981564"
+                        target="_blank">M06L09: Popularne techniki budowania layoutów [20:27]</a></h2>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-16.jpg"
@@ -989,27 +1013,6 @@
                         alt="" width="300">
                     <p>The end</p>
                 </div>
-
-            </article>
-        </section>
-
-        <br>
-        <hr>
-        <br>
-
-        <section>
-            <article>
-                <h2 class="lesson__header"><a
-                        href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153450611/posts/2169981564"
-                        target="_blank">M06L09: Popularne techniki budowania layoutów [20:27]</a></h2>
-
-                <div class="lesson__tile">
-                    <p class="lesson__tile--hint"></p>
-                    <p></p>
-                </div>
-
-
-
             </article>
         </section>
 
@@ -1520,7 +1523,7 @@
                     <p>4. Uruchom github pages w repozytorium ze swoją stroną</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-7.jpg"
                         alt="" width="300">

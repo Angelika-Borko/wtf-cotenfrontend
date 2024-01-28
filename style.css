@@ -142,11 +142,13 @@ main {
     background-color: #5f9ea0;
     margin-top: 100px;
     letter-spacing: 0.2em;
+    padding-left: 10px;
 }
 
 .module__header--hint {
     font-weight: 700;
-    background-color: darkorange
+    background-color: darkorange;
+    padding-left: 10px;
 }
 
 .navigation {
