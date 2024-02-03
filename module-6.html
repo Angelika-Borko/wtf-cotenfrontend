@@ -937,17 +937,19 @@
                         <li>"article aside"</li>
                         <li>"footer footer"</li>
                     </ul>
+                    <p>[2:00]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-18.jpg"
                         alt="" width="300">
-                    <p>Grid item</p>
+                    <p>Grid item [3:35]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-19.jpg"
                         alt="" width="300">
+                    <p>grid-area to własność, którą przypisujemy do dzieci naszego kontenera [7:20]</p>
                     <p class="lesson__tile--code">grid-area:</p>
                     <ul style="list-style: none;" class="lesson__tile--code">
                         <li>&lt;nazwa obszaru&gt;</li>
@@ -969,6 +971,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-21.jpg"
                         alt="" width="300">
+                    <p>[10:41]</p>
                     <p class="lesson__tile--code">grid-row-start: numer / [nazwa] / span<br>
                         grid-row-end: numer / [nazwa] / span<br>
                         grid-column-start: numer / [nazwa] / span<br>
@@ -978,6 +981,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-22.jpg"
                         alt="" width="300">
+                    <p>najbardziej popularny, najłatwiejszy sposób zapisu grida [12:07]</p>
                     <p class="lesson__tile--code">grid-row: numer / [nazwa] / span<br>
                         grid-column: numer / [nazwa] / span</p>
                 </div>
@@ -985,7 +989,8 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-23.jpg"
                         alt="" width="300">
-                    <p>z-index</p>
+                    <p>z-index pozwala zdefiniować, który element ma być na wierzchu. Wyższy z-index wyciąga element na
+                        wierzch.</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -994,25 +999,6 @@
                     <p>Grid to nie tetris - wszystko zamyka się w regularnych prostokątach</p>
                 </div>
 
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-25.jpg"
-                        alt="" width="300">
-                    <p>Grid nie zastępuje flexboxa*<br>
-                        *super się uzupełniają</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-26.jpg"
-                        alt="" width="300">
-                    <p>Kiedy grid, a kiedy flexbox?<br>
-                        TO ZALEŻY</p>
-                </div>
-
-                <div class="lesson__tile">
-                    <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-27.jpg"
-                        alt="" width="300">
-                    <p>The end</p>
-                </div>
             </article>
         </section>
 
@@ -1027,12 +1013,24 @@
                         target="_blank">M06L10: Grid vs flexbox [12:38]</a></h2>
 
                 <div class="lesson__tile">
-                    <p class="lesson__tile--hint"></p>
-                    <p></p>
+                    <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-25.jpg"
+                        alt="" width="300">
+                    <p>Grid nie zastępuje flexboxa*<br>
+                        *super się uzupełniają</p>
                 </div>
 
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-26.jpg"
+                        alt="" width="300">
+                    <p>Kiedy grid, a kiedy flexbox?<br>
+                        TO ZALEŻY [1:00]</p>
+                </div>
 
-
+                <div class="lesson__tile">
+                    <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-27.jpg"
+                        alt="" width="300">
+                    <p>The end</p>
+                </div>
             </article>
         </section>
 
@@ -1092,7 +1090,7 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-07.jpg" alt=""
                         width="300">
-                    <p class="lesson__tile--code">@media</p>
+                    <p class="lesson__tile--code">@media [5:00]</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1133,7 +1131,18 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-11.jpg" alt=""
                         width="300">
-                    <p>mobile-first</p>
+                    <p>mobile-first [11:10]</p>
+                    <p class="lesson__tile--hint">oto jak naprawić stronę dostosowaną tylko dla desktopu:</p>
+                    <ol>
+                        <li>dodaj do arkuszu stylów <span class="lesson__tile--code">@media screen and (min-width:
+                                768px)</span>, co pozwoli dostosować cały arkusz stylów do urządzenia o maksymalnej
+                            szerokości 768px, natomiast wszystkie szersze urządzenia będą pobierały własności z @media
+                        </li>
+                        <li>włącz podgląd RWD w narzędziach przeglądarki i ustaw szerokość na 320px, żeby strona była
+                            czytelna także na małych urządzeniach</li>
+                        <li>własności nieczytelnych elementów, kopiuj do @media, natomiast w domyślnym stylu css
+                            aktualizuj je na takie, które wyświetlą się poprawnie na urządzeniu węższym</li>
+                    </ol>
                 </div>
 
                 <div class="lesson__tile">
@@ -1147,14 +1156,15 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-13.jpg" alt=""
                         width="300">
-                    <p>Device toolbar</p>
+                    <p>Device toolbar [7:58]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-14.jpg" alt=""
                         width="300">
-                    <p>🥇 Specyficzność</p>
+                    <p>🥇 Specyficzność - aby było dobrze, @media dodawaj na końcu pliku CSS, a jeżeli masz ustalonych
+                        kilka szerokości, to zaczynaj od najmniejszej do największej</p>
                 </div>
 
                 <div class="lesson__tile">

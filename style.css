@@ -14,6 +14,7 @@ body {
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.2;
+    font-size: 16px;
 }
 
 footer {
@@ -111,7 +112,6 @@ html {
 
 .lesson__tile--code {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 12px;
 }
 
 .lesson__tile--img {
@@ -188,4 +188,16 @@ table caption {
 textarea {
     width: 80%;
     min-height: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: peachpuff;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        background: plum;
+    }
 }
