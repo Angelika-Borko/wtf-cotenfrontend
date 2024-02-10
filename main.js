@@ -63,3 +63,19 @@ console.log(deathStar['diameter']);
 console.log(deathStar.commander.name);
 
 deathStar.fire('Russia');
+
+
+// lekcja M06L12 - eventy - click i zmiana tekstu
+    // stworzenie zmiennej dla przycisku
+        const button = document.querySelector('.lesson__tile--button--js');
+
+    // dodanie funkcji, która wykona się po kliknięciu - w parametrach funkcji może być pusto, ale jeśli dodamy (e) oraz console.log(e); to zobaczymy dane dotyczące kliknięcia tzw pointer event, czyli zdarzenie kursora
+        const clickFunction = (e) => {
+            const header = document.querySelector('.lesson__tile--h3--js');
+            header.innerHTML = 'Czary Mary :D';
+        }
+
+    // dodanie metody nasłuchującej event
+    // element.addEventListener('click', nazwaFunkcji);
+        button.addEventListener('click', clickFunction);
+

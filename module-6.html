@@ -764,8 +764,8 @@
                             href="http://html5pattern.com/Names" target="_blank">http://html5pattern.com/Names</a></p>
                     <form>
                         <p>
-                            <label for="postalCode">Kod pocztowy</label>
-                            <input name="postalCode" id="postalCode" type="text" placeholder="XX-XXX" required
+                            <label for="postalCode2">Kod pocztowy</label>
+                            <input name="postalCode2" id="postalCode2" type="text" placeholder="XX-XXX" required
                                 pattern="[0-9]{2}-[0-9]{3}" />
                             <input type="submit" value="wyśij" />
                         </p>
@@ -1253,7 +1253,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-08.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">&lt;button&gt;</p>
+                    <p class="lesson__tile--code">&lt;button&gt; [2:45]</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1269,6 +1269,7 @@
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-10.jpg"
                         alt="" width="300">
                     <p class="lesson__tile--code">element.addEventListener(type, listener [, options])</p>
+                    <p>jest to funkcja, metoda, która nasłuchuje event, można go podpiąć pod każdą warstwę (html, css)</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1276,7 +1277,7 @@
                         alt="" width="300">
                     <p>mouse events</p>
                     <ul class="lesson__tile--code" style="list-style: none;">
-                        <li>click</li>
+                        <li>click - eventy związane z kliknięciem i tapnięciem</li>
                         <li>mouseenter</li>
                         <li>mouseleave</li>
                         <li>mouseover</li>
@@ -1293,6 +1294,7 @@
                         console.log('click click');<br>
                         }</p>
                     <p class="lesson__tile--code">element.addEventListener('click', nazwaFunkcji);</p>
+                    <p>w powyższej linijce 'click' jest eventem, na który funkcja będzie nasłuchiwała, a nazwaFunkcji, to funkcja, którą napiszę i wykona się po usłyszanym kliknięciu</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1301,7 +1303,7 @@
                     <p class="lesson__tile--code">element.addEventListener('click', (e) => {<br>
                         ...<br>
                         })</p>
-                    <p>e = Event</p>
+                    <p>e = Event [10:05], w parametrach funkcji może być pusto, ale jeśli dodamy (e) oraz console.log(e); to zobaczymy dane dotyczące kliknięcia tzw pointer event, czyli zdarzenie kursora</p>
                     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event"
                         target="_blank">https://developer.mozilla.org/en-US/docs/Web/API/Event</a>
                 </div>
@@ -1310,6 +1312,8 @@
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-14.jpg"
                         alt="" width="300">
                     <p>💩 Złóżmy to do kupy</p>
+                    <h3 class="lesson__tile--h3--js">Nagłówek testowy</h3>
+                    <button class="lesson__tile--button lesson__tile--button--js">zmień tekst nagłówka</button>
                 </div>
 
                 <div class="lesson__tile">

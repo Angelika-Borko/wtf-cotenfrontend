@@ -110,6 +110,15 @@ html {
     margin: 10px;
 }
 
+.lesson__tile--button {
+    text-align: center;
+    padding: 3%;
+    border-radius: 33px;
+    color: #1460aa;
+    background-color: #ffffff;
+    font: inherit;
+}
+
 .lesson__tile--code {
     font-family: 'Courier New', Courier, monospace;
 }
