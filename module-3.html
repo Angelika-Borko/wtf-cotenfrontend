@@ -10,20 +10,20 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navigation">
-      <a class="navigation__link" href="index.html">Strona główna</a>
-      <a class="navigation__link" href="module-1.html">Moduł 1</a>
-      <a class="navigation__link" href="module-2.html">Moduł 2</a>
-      <a class="navigation__link" href="module-3.html">Moduł 3</a>
-      <a class="navigation__link" href="module-4.html">Moduł 4</a>
-      <a class="navigation__link" href="module-5.html">Moduł 5</a>
-      <a class="navigation__link" href="module-6.html">Moduł 6</a>
-      <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza się na
-        kilku
-        stronach.</p>
-    </nav>
-  </header>
+   <header>
+        <nav class="navigation navigation__js">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="module-1.html">Moduł 1</a>
+            <a class="navigation__link" href="module-2.html">Moduł 2</a>
+            <a class="navigation__link" href="module-3.html">Moduł 3</a>
+            <a class="navigation__link" href="module-4.html">Moduł 4</a>
+            <a class="navigation__link" href="module-5.html">Moduł 5</a>
+            <a class="navigation__link" href="module-6.html">Moduł 6</a>
+            <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza
+                się na kilku stronach.</p>
+        </nav>
+        <button class="header__hamburger header__hamburger--js" aria-label="Menu">≡</button>
+    </header>
 
   <main>
     <header class="module__header">
@@ -1445,7 +1445,10 @@
     <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
     <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
   </footer>
-  <script src="main.js"></script>
+
+  <script defer src="main.js"></script>
+  <script defer src="hamburger-menu.js"></script>
+
 </body>
 
 </html>

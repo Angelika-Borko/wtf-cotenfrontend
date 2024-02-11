@@ -42,6 +42,21 @@ footer {
     margin-bottom: 0;
 }
 
+header {
+    min-height: 50px;
+    background-color: #da70d6;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.header__hamburger {
+    font-size: 1.5rem;
+    padding: 0 15px 0 15px;
+    background-color: transparent;
+    border-style: none;
+}
+
 .homework__tile--to-do {
     box-sizing: border-box;
     display: inline-block;
@@ -121,6 +136,7 @@ html {
 
 .lesson__tile--code {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
 }
 
 .lesson__tile--img {
@@ -161,16 +177,19 @@ main {
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-around;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 24px;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 50px;
     background-color: #da70d6;
-    width: 100vw;
-    padding: 0 50px 0 50px;
+    padding: 16px;
+}
+
+.navigation__open {
+    display: flex;
 }
 
 .navigation__link {
@@ -202,6 +221,24 @@ textarea {
 @media screen and (min-width: 768px) {
     body {
         background: peachpuff;
+    }
+
+    .header__hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        position: static;
+        top: 0;
+        background-color: #da70d6;
+        width: 100vw;
+        padding: 0 50px 0 50px;
     }
 }
 

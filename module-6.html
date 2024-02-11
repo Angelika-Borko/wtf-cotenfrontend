@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav class="navigation">
+        <nav class="navigation navigation__js">
             <a class="navigation__link" href="index.html">Strona główna</a>
             <a class="navigation__link" href="module-1.html">Moduł 1</a>
             <a class="navigation__link" href="module-2.html">Moduł 2</a>
@@ -22,6 +22,7 @@
             <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza
                 się na kilku stronach.</p>
         </nav>
+        <button class="header__hamburger header__hamburger--js" aria-label="Menu">≡</button>
     </header>
 
     <main>
@@ -1269,7 +1270,8 @@
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-10.jpg"
                         alt="" width="300">
                     <p class="lesson__tile--code">element.addEventListener(type, listener [, options])</p>
-                    <p>jest to funkcja, metoda, która nasłuchuje event, można go podpiąć pod każdą warstwę (html, css)</p>
+                    <p>jest to funkcja, metoda, która nasłuchuje event, można go podpiąć pod każdą warstwę (html, css)
+                    </p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1294,7 +1296,8 @@
                         console.log('click click');<br>
                         }</p>
                     <p class="lesson__tile--code">element.addEventListener('click', nazwaFunkcji);</p>
-                    <p>w powyższej linijce 'click' jest eventem, na który funkcja będzie nasłuchiwała, a nazwaFunkcji, to funkcja, którą napiszę i wykona się po usłyszanym kliknięciu</p>
+                    <p>w powyższej linijce 'click' jest eventem, na który funkcja będzie nasłuchiwała, a nazwaFunkcji,
+                        to funkcja, którą napiszę i wykona się po usłyszanym kliknięciu</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1303,7 +1306,9 @@
                     <p class="lesson__tile--code">element.addEventListener('click', (e) => {<br>
                         ...<br>
                         })</p>
-                    <p>e = Event [10:05], w parametrach funkcji może być pusto, ale jeśli dodamy (e) oraz console.log(e); to zobaczymy dane dotyczące kliknięcia tzw pointer event, czyli zdarzenie kursora</p>
+                    <p>e = Event [10:05], w parametrach funkcji może być pusto, ale jeśli dodamy (e) oraz
+                        console.log(e); to zobaczymy dane dotyczące kliknięcia tzw pointer event, czyli zdarzenie
+                        kursora</p>
                     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event"
                         target="_blank">https://developer.mozilla.org/en-US/docs/Web/API/Event</a>
                 </div>
@@ -1371,13 +1376,36 @@
                         <li>toggle</li>
                         <li>contains</li>
                     </ul>
-                    <p>tutaj podajemy samą nazwę klasy (bez kropki!)</p>
+                    <p>tutaj podajemy samą nazwę klasy (bez kropki!) [2:00]</p>
+                    <ol>
+                        <li>sprawdzamy klasę poprzez wsadzenie elementu do stałej zmiennej i wywołanie metody
+                            classList:<br>
+                            <span class="lesson__tile--code">const button =
+                                document.querySelector('.lesson__tile--button--js');<br>
+                                console.log(button.classList);</span>
+                        </li>
+                        <li>dodajemy klasę za pomocą add:<br>
+                            <span class="lesson__tile--code">button.classList.add('testowa');<br>
+                                console.log(button.classList);</span>
+                        </li>
+                        <li>usuwamy klasę za pomocą remove:<br>
+                            <span class="lesson__tile--code">button.classList.add('testowa');<br>
+                                console.log(button.classList);</span>
+                        </li>
+                        <li>wyłaczamy i włączamy klasę za pomocą toggle:<br>
+                            <span class="lesson__tile--code">button.classList.add('testowa');<br>
+                                console.log(button.classList);</span> - jeśli klasa jest to toggle ją usunie, a jeśli jej nie ma, to ją doda
+                        </li>
+                        <li>sprawdzamy czy klasa istnieje za pomocą contains:<br>
+                            <span class="lesson__tile--code">console.log(button.classList.contains('testowaaaaaa'));</span> - po wywołaniu tego polecenia zwrócony zostanie boolen
+                        </li>
+                    </ol>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L13 - Hamburger/WTF_M06L13 - Hamburger-5.jpg"
                         alt="" width="300">
-                    <p>🤖 Do roboty!</p>
+                    <p>🤖 Do roboty! [5:40]</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -1398,14 +1426,6 @@
                 <h2 class="lesson__header"><a
                         href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153450611/posts/2169981568"
                         target="_blank">M06L14: Dostosowanie podstron do 🍔 menu [04:46]</a></h2>
-
-                <div class="lesson__tile">
-                    <p class="lesson__tile--hint"></p>
-                    <p></p>
-                </div>
-
-
-
             </article>
         </section>
 
@@ -1523,7 +1543,7 @@
                     <p>2. Dodaj responsywność do swojej strony (media queries)</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-5.jpg"
                         alt="" width="300">
@@ -1609,7 +1629,8 @@
     </footer>
 
     <script defer src="main.js"></script>
-
+    <script defer src="module-6.js"></script>
+    <script defer src="hamburger-menu.js"></script>
 </body>
 
 </html>
