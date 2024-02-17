@@ -9,7 +9,7 @@
   <link href="normalize.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
+<body >
   <header>
     <nav class="navigation navigation__js">
         <a class="navigation__link" href="index.html">Strona główna</a>
@@ -26,15 +26,15 @@
 </header>
 
   <main>
-    <header class="module__header">
-      <h1 class="module__h1--js">notatki z frontendu</h1>
-      <p class="module__header--hint">w main opakowywujemy unikalną treść dla danej strony</p>
+    <header class="module__header--grid">
+      <h1 class="module__header--h1--grid module__h1--js">notatki z frontendu</h1>
+      <p class="module__header--hint--grid">w main opakowywujemy unikalną treść dla danej strony</p>
     </header>
 
-    <section>
-      <h2>O mnie</h2>
-      <img class="about-me__picture" src="images/angie.jpg" alt="Zdjęcie Angeliki Borko" >
-      <p>Cześć! Na co dzień pracuje jako testerka oprogramowania. Chcę podnieść swoje kwalifikacje i zostać
+    <section class="about-me__grid">
+      <h2 class="about-me__h2--grid">O mnie</h2>
+      <img class="about-me__picture about-me__grid--img" src="images/angie.jpg" alt="Zdjęcie Angeliki Borko" >
+      <p class="about-me__grid--p">Cześć! Na co dzień pracuje jako testerka oprogramowania. Chcę podnieść swoje kwalifikacje i zostać
         programistką. Właśnie dlatego zdecydowałam się wziąć udział w WTF. To moje drugie podejście do kursu. Za
         pierwszym razem utknęłam na 5 module. Pokonały mnie javascript i zbyt ambitne podejście do budowy swojego
         "projektu". Tym razem mogę liczyć na pomoc kolegów z pracy, do kursu podeszłam razem z koleżanką, a dodatkowo moim projektem będzie jedynie prowadzenie tutaj notatek z kursu.</p>
@@ -46,10 +46,9 @@
       <br>
   </main>
 
-  <footer>
-    <p><a href="#Top">Przewiń na górę strony 🔝</a></p>
-    <p>Brudnopis Angeliki Borko - notatki z frontendu.</p>
-    <p class="hint">Footer wyrzucamy poza znacznik main, jeśli powtarza się na kilku stronach.</p>
+  <footer class="footer__grid">
+    <p class="footer__about--grid">Brudnopis Angeliki Borko - notatki z frontendu.</p>
+    <p class="footer__hint--grid">Footer wyjmujemy poza znacznik main, jeśli powtarza się na podstronach.</p>
   </footer>
 
   <script src="main.js"></script>
