@@ -12,35 +12,32 @@
 <body>
     <header class="navigation__header">
         <nav class="navigation navigation__js">
-            <a class="navigation__link" href="index.html">Strona główna</a>
-            <a class="navigation__link" href="module-1.html">Moduł 1</a>
-            <a class="navigation__link" href="module-2.html">Moduł 2</a>
-            <a class="navigation__link" href="module-3.html">Moduł 3</a>
-            <a class="navigation__link" href="module-4.html">Moduł 4</a>
-            <a class="navigation__link" href="module-5.html">Moduł 5</a>
-            <a class="navigation__link" href="module-6.html">Moduł 6</a>
-            <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza
-                się na kilku stronach.</p>
+          <a class="navigation__link" href="index.html">Strona główna</a>
+          <a class="navigation__link" href="module-1.html">Moduł 1</a>
+          <a class="navigation__link" href="module-2.html">Moduł 2</a>
+          <a class="navigation__link" href="module-3.html">Moduł 3</a>
+          <a class="navigation__link" href="module-4.html">Moduł 4</a>
+          <a class="navigation__link" href="module-5.html">Moduł 5</a>
+          <a class="navigation__link" href="module-6.html">Moduł 6</a>
+          <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza
+            się na kilku stronach.</p>
         </nav>
-        <button class="header__hamburger header__hamburger--js" aria-label="Menu">≡</button>
-    </header>
-
-    <main>
-        <header class="module__header--grid">
+        <button class="header__hamburger header__hamburger--js" aria-label="Menu">🍔</button>
+        <div class="module__header--grid">
             <h1 class="module__header--h1--grid ">notatki z modułu 5</h1>
             <p class="module__header--hint--grid">w main opakowywujemy unikalną treść dla danej strony</p>
-          </header>
-
-        <hr>
-
+        </div>  
+      </header>
+    
+      <main>
         <section>
             <article>
                 <h2 class="lesson__header"><a
                         href="https://edu.devstyle.pl/products/wtf-co-ten-frontend-3/categories/2153406673/posts/2169810841"
                         target="_blank">M05L01: Tydzień V + rozwiązania tydzień IV [16:37]</a></h2>
                 <div class="lesson__tile">
-                    <p class="lesson__tile--hint">Jak w prosty sposób zrobić responsywny obrazek [2:10]</p>
-                    <p>styl dodany do pliku CSS, który sprawi, że kontent będzie się przyjemnie czytało<br>
+                    <p class="homework__tile--paragraf lesson__tile--hint">Jak w prosty sposób zrobić responsywny obrazek [2:10]</p>
+                    <p class="homework__tile--paragraf">styl dodany do pliku CSS, który sprawi, że kontent będzie się przyjemnie czytało<br>
                         main {<br>
                         max-width: 1168px;<br>
                         margin: 0 auto;<br>
@@ -61,37 +58,37 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-01.jpg"
                         alt="" width="300">
-                    <p>REM - EM - TYPOGRAFIA</p>
+                    <p class="homework__tile--paragraf">REM - EM - TYPOGRAFIA</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-02.jpg"
                         alt="" width="300">
-                    <p>font-size (rozmiar czcionki)</p>
+                    <p class="homework__tile--paragraf">font-size (rozmiar czcionki)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-03.jpg"
                         alt="" width="300">
-                    <p>font-family (krój czcionki)</p>
-                    <p class="lesson__tile--hint">zmianę fontu dla całej strony można zrobić na tagu body</p>
+                    <p class="homework__tile--paragraf">font-family (krój czcionki)</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">zmianę fontu dla całej strony można zrobić na tagu body</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-04.jpg"
                         alt="" width="300">
-                    <p>font-weight (grubość fontu)</p>
+                    <p class="homework__tile--paragraf">font-weight (grubość fontu)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-05.jpg"
                         alt="" width="300">
-                    <p>line-height (wysokość tekstu)</p>
-                    <p class="lesson__tile--hint">dobrze podać większą, niż jest w rzeczywistowści, można zapisać:
+                    <p class="homework__tile--paragraf">line-height (wysokość tekstu)</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">dobrze podać większą, niż jest w rzeczywistowści, można zapisać:
                         line-height: 1.5;
                         co powiększy wysokość fontu o dodatkowe 50%</p>
                 </div>
@@ -100,15 +97,15 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-06.jpg"
                         alt="" width="300">
-                    <p>letter-spacing (odległość między literami, ma zastosowanie przy nagłówkach)</p>
-                    <p>[8:57] można używać jednostek px, może przyjmować wartości ujemne</p>
+                    <p class="homework__tile--paragraf">letter-spacing (odległość między literami, ma zastosowanie przy nagłówkach)</p>
+                    <p class="homework__tile--paragraf">[8:57] można używać jednostek px, może przyjmować wartości ujemne</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-07.jpg"
                         alt="" width="300">
-                    <p>&lt;span&gt; nie ma znaczenia samantycznego, pozwala nam na tworzenie wizualnych wyróżników
+                    <p class="homework__tile--paragraf">&lt;span&gt; nie ma znaczenia samantycznego, pozwala nam na tworzenie wizualnych wyróżników
                         tekstu</p>
                 </div>
             </article>
@@ -126,14 +123,14 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-08.jpg"
                         alt="" width="300">
-                    <p>1 em = ?</p>
+                    <p class="homework__tile--paragraf">1 em = ?</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-09.jpg"
                         alt="" width="300">
-                    <p>1 em = font-size dla elementu (dziedziczony / ustawiony) * 1, zazwyczaj przydaje się do
+                    <p class="homework__tile--paragraf">1 em = font-size dla elementu (dziedziczony / ustawiony) * 1, zazwyczaj przydaje się do
                         letter-spacingu</p>
                 </div>
 
@@ -141,21 +138,21 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-10.jpg"
                         alt="" width="300">
-                    <p>1rem = ?</p>
+                    <p class="homework__tile--paragraf">1rem = ?</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-11.jpg"
                         alt="" width="300">
-                    <p>1 rem = font-size dla root elementu * 1</p>
+                    <p class="homework__tile--paragraf">1 rem = font-size dla root elementu * 1</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-12.jpg"
                         alt="" width="300">
-                    <p><a class="lesson__link" href="https://nekocalc.com/px-to-rem-converter"
+                    <p class="homework__tile--paragraf"><a class="lesson__link" href="https://nekocalc.com/px-to-rem-converter"
                             target="_blank">https://nekocalc.com/px-to-rem-converter</a></p>
                 </div>
 
@@ -163,14 +160,14 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-13.jpg"
                         alt="" width="300">
-                    <p>Nie każda przeglądarka ma domyślnie ustawione font size na 16px!</p>
+                    <p class="homework__tile--paragraf">Nie każda przeglądarka ma domyślnie ustawione font size na 16px!</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-14.jpg"
                         alt="" width="300">
-                    <p>NIGDY (SERIO, NIGDY) TEGO NIE RÓB<br>
+                    <p class="homework__tile--paragraf">NIGDY (SERIO, NIGDY) TEGO NIE RÓB<br>
                         html { font-size: 10px }</p>
                 </div>
 
@@ -178,7 +175,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-15.jpg"
                         alt="" width="300">
-                    <p>TO TEŻ NIE JEST ZBYT DOBRE<br>
+                    <p class="homework__tile--paragraf">TO TEŻ NIE JEST ZBYT DOBRE<br>
                         html { font-size: 62.5% }</p>
                 </div>
 
@@ -186,7 +183,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-16.jpg"
                         alt="" width="300">
-                    <p>Rekomenduję zostawienie font-size
+                    <p class="homework__tile--paragraf">Rekomenduję zostawienie font-size
                         domyślnego albo ustawienie na 16px</p>
                 </div>
 
@@ -194,7 +191,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L02 - REM - EM - TYPOGRAFIA/WTF_M05L02 - REM - EM - TYPOGRAFIA-17.jpg"
                         alt="" width="300">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
             </article>
         </section>
@@ -211,42 +208,42 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-01.jpg"
                         width="300" alt="">
-                    <p>U mnie (nie) działa</p>
+                    <p class="homework__tile--paragraf">U mnie (nie) działa</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-02.jpg"
                         width="300" alt="">
-                    <p>Co robić jak nie działa?</p>
+                    <p class="homework__tile--paragraf">Co robić jak nie działa?</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-03.jpg"
                         width="300" alt="">
-                    <p>Debugging - odrobaczanie</p>
+                    <p class="homework__tile--paragraf">Debugging - odrobaczanie</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-04.jpg"
                         width="300" alt="">
-                    <p>Sprawdź czy plik jest zapisany</p>
+                    <p class="homework__tile--paragraf">Sprawdź czy plik jest zapisany</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-05.jpg"
                         width="300" alt="">
-                    <p>Sprawdź czy edytujesz właściwy plik</p>
+                    <p class="homework__tile--paragraf">Sprawdź czy edytujesz właściwy plik</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-06.jpg"
                         width="300" alt="">
-                    <p>Sprawdź czy odświeżyłaś/eś przeglądarkę, <span class="lesson__tile--hint">twardym
+                    <p class="homework__tile--paragraf">Sprawdź czy odświeżyłaś/eś przeglądarkę, <span class="lesson__tile--hint">twardym
                             odświeżeniem:</span></p>
                     <ul class="lesson__tile--list">
                         <li>Win&Linux: ctrl+f5</li>
@@ -258,70 +255,70 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-07.jpg"
                         width="300" alt="">
-                    <p>Sprawdź czy nie masz błędów w edytorze / w devtoolsach</p>
+                    <p class="homework__tile--paragraf">Sprawdź czy nie masz błędów w edytorze / w devtoolsach</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-08.jpg"
                         width="300" alt="">
-                    <p>CZYTAJ BŁĘDY</p>
+                    <p class="homework__tile--paragraf">CZYTAJ BŁĘDY</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-09.jpg"
                         width="300" alt="">
-                    <p>Zajrzyj w zakładkę network</p>
+                    <p class="homework__tile--paragraf">Zajrzyj w zakładkę network</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-10.jpg"
                         width="300" alt="">
-                    <p>Pogadaj z kaczką!</p>
+                    <p class="homework__tile--paragraf">Pogadaj z kaczką!</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-11.jpg"
                         width="300" alt="">
-                    <p>Google it!</p>
+                    <p class="homework__tile--paragraf">Google it!</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-12.jpg"
                         width="300" alt="">
-                    <p>Najlepiej odpowiedzi do roku wstecz</p>
+                    <p class="homework__tile--paragraf">Najlepiej odpowiedzi do roku wstecz</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-13.jpg"
                         width="300" alt="">
-                    <p>Nie wchodzimy na w3schools</p>
+                    <p class="homework__tile--paragraf">Nie wchodzimy na w3schools</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-14.jpg"
                         width="300" alt="">
-                    <p>w3c != w3schools</p>
+                    <p class="homework__tile--paragraf">w3c != w3schools</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-15.jpg"
                         width="300" alt="">
-                    <p>Stack Overflow</p>
+                    <p class="homework__tile--paragraf">Stack Overflow</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-16.jpg"
                         width="300" alt="">
-                    <p>Spoko źródła 👍</p>
+                    <p class="homework__tile--paragraf">Spoko źródła 👍</p>
                     <ul class="lesson__tile--list">
                         <li>Dokumentacja narzędzia, z którego korzystasz</li>
                         <li>GitHub issues</li>
@@ -341,7 +338,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-17.jpg"
                         width="300" alt="">
-                    <p>Fajne grupy polskojęzyczne</p>
+                    <p class="homework__tile--paragraf">Fajne grupy polskojęzyczne</p>
                     <ul class="lesson__tile--list">
                         <li><a href="https://www.facebook.com/groups/742940452405327/" target="_blank">HTML, CSS i JS:
                                 pierwsze kroki</a></li>
@@ -360,7 +357,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L04 -  U mnie (nie) działa/WTF_M05L04 -  U mnie (nie) działa-18.jpg"
                         width="300" alt="">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
             </article>
         </section>
@@ -377,49 +374,49 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -01.jpg"
                         width="300" alt="">
-                    <p>HTML: Listy, tabele, definicje</p>
+                    <p class="homework__tile--paragraf">HTML: Listy, tabele, definicje</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -02.jpg"
                         width="300" alt="">
-                    <p>&lt;ul&gt; Unordered List (lista nieuporządkowana)</p>
+                    <p class="homework__tile--paragraf">&lt;ul&gt; Unordered List (lista nieuporządkowana)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -03.jpg"
                         width="300" alt="">
-                    <p>&lt;li&gt; List Item (element listy)</p>
+                    <p class="homework__tile--paragraf">&lt;li&gt; List Item (element listy)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -04.jpg"
                         width="300" alt="">
-                    <p>&lt;ol&gt; Ordered List (lista uporządkowana)</p>
+                    <p class="homework__tile--paragraf">&lt;ol&gt; Ordered List (lista uporządkowana)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -05.jpg"
                         width="300" alt="">
-                    <p>list-style(-type) (styl listy)</p>
+                    <p class="homework__tile--paragraf">list-style(-type) (styl listy)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -06.jpg"
                         width="300" alt="">
-                    <p>Zagnieżdżanie list [4:16]</p>
+                    <p class="homework__tile--paragraf">Zagnieżdżanie list [4:16]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -07.jpg"
                         width="300" alt="">
-                    <p>&lt;dl&gt; Description list [5:34] </p>
+                    <p class="homework__tile--paragraf">&lt;dl&gt; Description list [5:34] </p>
                     <dl>
                         <dt>h1</dt>
                         <dd>najważniejszy nagłówek</dd>
@@ -433,21 +430,21 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -08.jpg"
                         width="300" alt="">
-                    <p>&lt;dt&gt; Description term - pojęcie</p>
+                    <p class="homework__tile--paragraf">&lt;dt&gt; Description term - pojęcie</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -09.jpg"
                         width="300" alt="">
-                    <p>&lt;dd&gt; Description details - opis pojęcia</p>
+                    <p class="homework__tile--paragraf">&lt;dd&gt; Description details - opis pojęcia</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -10.jpg"
                         width="300" alt="">
-                    <p>Wypisywanie listy definicji/wskazówek; dt i dd są automatycznie parą, jeśli występują jedno po
+                    <p class="homework__tile--paragraf">Wypisywanie listy definicji/wskazówek; dt i dd są automatycznie parą, jeśli występują jedno po
                         drugim</p>
                 </div>
 
@@ -455,7 +452,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -11.jpg"
                         width="300" alt="">
-                    <p>&lt;table&gt; Tabela [7:30]</p>
+                    <p class="homework__tile--paragraf">&lt;table&gt; Tabela [7:30]</p>
                     <table>
                         <caption>Opis tabeli</caption>
                         <thead>
@@ -484,70 +481,70 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -12.jpg"
                         width="300" alt="">
-                    <p>&lt;tr&gt; Wiersz tabeli (table row)</p>
+                    <p class="homework__tile--paragraf">&lt;tr&gt; Wiersz tabeli (table row)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -13.jpg"
                         width="300" alt="">
-                    <p>&lt;td&gt; Komórka tabeli (czemu td )</p>
+                    <p class="homework__tile--paragraf">&lt;td&gt; Komórka tabeli (czemu td )</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -14.jpg"
                         width="300" alt="">
-                    <p>&lt;td&gt; Table Data (cell)</p>
+                    <p class="homework__tile--paragraf">&lt;td&gt; Table Data (cell)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -15.jpg"
                         width="300" alt="">
-                    <p>&lt;thead&gt; Nagłówek tabeli</p>
+                    <p class="homework__tile--paragraf">&lt;thead&gt; Nagłówek tabeli</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -16.jpg"
                         width="300" alt="">
-                    <p>&lt;th&gt; Komórka w nagłówku tabeli</p>
+                    <p class="homework__tile--paragraf">&lt;th&gt; Komórka w nagłówku tabeli</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -17.jpg"
                         width="300" alt="">
-                    <p>&lt;tbody&gt; "Ciało" tabeli</p>
+                    <p class="homework__tile--paragraf">&lt;tbody&gt; "Ciało" tabeli</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -18.jpg"
                         width="300" alt="">
-                    <p>&lt;caption&gt; Opis tabeli</p>
+                    <p class="homework__tile--paragraf">&lt;caption&gt; Opis tabeli</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -19.jpg"
                         width="300" alt="">
-                    <p>Przykładowa tabela</p>
+                    <p class="homework__tile--paragraf">Przykładowa tabela</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -20.jpg"
                         width="300" alt="">
-                    <p>Nie używamy tabel do budowania layoutów</p>
+                    <p class="homework__tile--paragraf">Nie używamy tabel do budowania layoutów</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -21.jpg"
                         width="300" alt="">
-                    <p>&copy; Encje / Entities © to specjalne znaki</p>
+                    <p class="homework__tile--paragraf">&copy; Encje / Entities © to specjalne znaki</p>
                     <a href="https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references"
                         target="_blank">Official list of character entities</a>
                 </div>
@@ -556,7 +553,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L05 - HTML - Listy, tabele, definicje, encje /WTF_M05L05 - HTML - Listy, tabele, definicje, encje -22.jpg"
                         width="300" alt="">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
             </article>
         </section>
@@ -572,27 +569,27 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-01.jpg" width="300" alt="">
-                    <p>JavaScript: Funkcje</p>
+                    <p class="homework__tile--paragraf">JavaScript: Funkcje</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-02.jpg" width="300" alt="">
-                    <p>fun('Hi!') Hello world</p>
-                    <p>console.log(); jest funkcją</p>
+                    <p class="homework__tile--paragraf">fun('Hi!') Hello world</p>
+                    <p class="homework__tile--paragraf">console.log(); jest funkcją</p>
 
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-03.jpg" width="300" alt="">
-                    <p>Czym jest funkcja?</p>
+                    <p class="homework__tile--paragraf">Czym jest funkcja?</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-04.jpg" width="300" alt="">
-                    <p>Czym jest funkcja?<br><br>
+                    <p class="homework__tile--paragraf">Czym jest funkcja?<br><br>
                         f(x) = x / argument i wynik<br>
                         f - nazwa funkcji<br>
                         (x) - argument<br>
@@ -602,14 +599,14 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-05.jpg" width="300" alt="">
-                    <p>Czym jest funkcja?<br><br>
+                    <p class="homework__tile--paragraf">Czym jest funkcja?<br><br>
                         f(x) = x*7 / argument i wynik</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-06.jpg" width="300" alt="">
-                    <p>Czym jest funkcja?</p>
+                    <p class="homework__tile--paragraf">Czym jest funkcja?</p>
                     <ul class="lesson__tile--list">
                         <li>Na wejściu dostaje dane - argumenty</li>
                         <li>Dla podanego argumentu zwraca jakąś wartość</li>
@@ -620,7 +617,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-07.jpg" width="300" alt="">
-                    <p>Funkcja w JS<br><br>
+                    <p class="homework__tile--paragraf">Funkcja w JS<br><br>
                         function calculate(myNumber) {<br>
                         return myNumber*7;<br>
                         }</p>
@@ -629,20 +626,20 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-08.jpg" width="300" alt="">
-                    <p>Funkcja w JS<br><br>
+                    <p class="homework__tile--paragraf">Funkcja w JS<br><br>
                         Deklaracja • Parametr • Słowo kluczowe • Wynik</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-09.jpg" width="300" alt="">
-                    <p>słowo kluczowe return</p>
+                    <p class="homework__tile--paragraf">słowo kluczowe return</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-10.jpg" width="300" alt="">
-                    <p>Funkcja w JS<br><br>
+                    <p class="homework__tile--paragraf">Funkcja w JS<br><br>
                         function calculate(myNumber) {<br>
                         myNumber = myNumber + 3;<br>
                         console.log(myNumber);<br>
@@ -653,7 +650,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-11.jpg" width="300" alt="">
-                    <p>Wywołanie funkcji w JS<br><br>
+                    <p class="homework__tile--paragraf">Wywołanie funkcji w JS<br><br>
                         function calculate(myNumber) {<br>
                         myNumber = myNumber + 3;<br>
                         console.log(myNumber);<br>
@@ -666,7 +663,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-12.jpg" width="300" alt="">
-                    <p>Funkcja w JS</p>
+                    <p class="homework__tile--paragraf">Funkcja w JS</p>
                     <ul class="lesson__tile--list">
                         <li>Deklarujemy nazwę funkcji (nie zawsze)</li>
                         <li>W środku dokonujemy obliczeń / wykonujemy zadania</li>
@@ -679,7 +676,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-13.jpg" width="300" alt="">
-                    <p>Funkcje po co?</p>
+                    <p class="homework__tile--paragraf">Funkcje po co?</p>
                     <ul class="lesson__tile--list">
                         <li>Deklarujemy kod, który się powtarza
                             (<b>DRY</b> - don't repeat yourself)</li>
@@ -692,13 +689,13 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-14.jpg" width="300" alt="">
-                    <p>(Fat) arrow functions =></p>
+                    <p class="homework__tile--paragraf">(Fat) arrow functions =></p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-15.jpg" width="300" alt="">
-                    <p>(Fat) arrow function<br><br>
+                    <p class="homework__tile--paragraf">(Fat) arrow function<br><br>
                         const calculate = (myNumber) => {<br>
                         myNumber = myNumber + 3;<br>
                         console.log(myNumber);<br>
@@ -710,7 +707,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-16.jpg" width="300" alt="">
-                    <p>(Fat) arrow function<br><br>
+                    <p class="homework__tile--paragraf">(Fat) arrow function<br><br>
                         const calculate = myNumber => (myNumber+3)*7;<br>
                         calculate(2); // 35</p>
                 </div>
@@ -718,7 +715,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-17.jpg" width="300" alt="">
-                    <p>(Fat) arrow function</p>
+                    <p class="homework__tile--paragraf">(Fat) arrow function</p>
                     <ul class="lesson__tile--list">
                         <li>Skraca zapis deklaracji funkcji</li>
                         <li>Zwiększa czytelność (dyskusyjne)</li>
@@ -731,7 +728,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L06 - JS_ Funkcje/WTF_M05L06 - JS_ Funkcje-18.jpg" width="300" alt="">
-                    <p>To be continued</p>
+                    <p class="homework__tile--paragraf">To be continued</p>
                 </div>
             </article>
         </section>
@@ -747,25 +744,25 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -01.jpg" width="300" alt="">
-                    <p>JS: Obiekt</p>
+                    <p class="homework__tile--paragraf">JS: Obiekt</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -02.jpg" width="300" alt="">
-                    <p>Nauka języka obcego</p>
+                    <p class="homework__tile--paragraf">Nauka języka obcego</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -03.jpg" width="300" alt="">
-                    <p>Wszystko będzie <b>ok!</b> (daj sobie trochę czasu)</p>
+                    <p class="homework__tile--paragraf">Wszystko będzie <b>ok!</b> (daj sobie trochę czasu)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -04.jpg" width="300" alt="">
-                    <p>Prawie wszystko w JS jest obiektem*<br>*bo nawet typy proste, mimo iż nie są obiektem - to się
+                    <p class="homework__tile--paragraf">Prawie wszystko w JS jest obiektem*<br>*bo nawet typy proste, mimo iż nie są obiektem - to się
                         tak
                         zachowują</p>
                 </div>
@@ -773,31 +770,31 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -05.jpg" width="300" alt="">
-                    <p>zmienne const / let</p>
+                    <p class="homework__tile--paragraf">zmienne const / let</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -06.jpg" width="300" alt="">
-                    <p>funkcje () => {}</p>
+                    <p class="homework__tile--paragraf">funkcje () => {}</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -07.jpg" width="300" alt="">
-                    <p>Obiekt jest <i><b>strukturą</b></i> danych {}</p>
+                    <p class="homework__tile--paragraf">Obiekt jest <i><b>strukturą</b></i> danych {}</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -08.jpg" width="300" alt="">
-                    <p>Nasz świat jest obiektowy 😎</p>
+                    <p class="homework__tile--paragraf">Nasz świat jest obiektowy 😎</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -09.jpg" width="300" alt="">
-                    <p>const deathStar = {<br>
+                    <p class="homework__tile--paragraf">const deathStar = {<br>
                         diameter: 120000,<br>
                         fire: (target) => {<br>
                         console.log(`${target} destroyed 💥`)<br>
@@ -813,20 +810,20 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -10.jpg" width="300" alt="">
-                    <p>key: value / klucz: wartość</p>
+                    <p class="homework__tile--paragraf">key: value / klucz: wartość</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -11.jpg" width="300" alt="">
-                    <p>klucz - unikalny w ramach obiektu<br>
+                    <p class="homework__tile--paragraf">klucz - unikalny w ramach obiektu<br>
                         wartość - prymitywy / funkcje / zagnieżdżenia</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -12.jpg" width="300" alt="">
-                    <p>const / let<br>
+                    <p class="homework__tile--paragraf">const / let<br>
                         zmienne -> własności (property)<br>
                         <span class="lesson__tile--hint">w obiektach nie ma zmiennych, są własności</span>
                     </p>
@@ -835,7 +832,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -13.jpg" width="300" alt="">
-                    <p>() => {}<br>
+                    <p class="homework__tile--paragraf">() => {}<br>
                         funkcje -> metody (methods)<br>
                         <span class="lesson__tile--hint">funkcje w świecie obiektowym to metody</span>
                     </p>
@@ -844,21 +841,21 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -14.jpg" width="300" alt="">
-                    <p>. dot notation pozwala dostać się do własności obiektu</p>
-                    <p>deathStar.name,</p>
+                    <p class="homework__tile--paragraf">. dot notation pozwala dostać się do własności obiektu</p>
+                    <p class="homework__tile--paragraf">deathStar.name,</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -15.jpg" width="300" alt="">
-                    <p>[] bracket notation, też pozwala dostać się do własności obiektu</p>
-                    <p>deathStar['name'],</p>
+                    <p class="homework__tile--paragraf">[] bracket notation, też pozwala dostać się do własności obiektu</p>
+                    <p class="homework__tile--paragraf">deathStar['name'],</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L07 - JS_ Obiekt /WTF_M05L07 - JS_ Obiekt -16.jpg" width="300" alt="">
-                    <p>To be continued</p>
+                    <p class="homework__tile--paragraf">To be continued</p>
                 </div>
             </article>
         </section>
@@ -875,14 +872,14 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-01.jpg"
                         width="300" alt="">
-                    <p>JS: Immutability w obiektach</p>
+                    <p class="homework__tile--paragraf">JS: Immutability w obiektach</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-02.jpg"
                         width="300" alt="">
-                    <p>IMMUTABILITY - Nie możemy zmieniać wartości primitive values w JS. To co zmieniamy to połączenie
+                    <p class="homework__tile--paragraf">IMMUTABILITY - Nie możemy zmieniać wartości primitive values w JS. To co zmieniamy to połączenie
                         między nimi, a
                         zmiennymi.</p>
                 </div>
@@ -891,11 +888,11 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-03.jpg"
                         width="300" alt="">
-                    <p>const numberOne = 42;<br>
+                    <p class="homework__tile--paragraf">const numberOne = 42;<br>
                         const numberTwo = 42;<br>
                         const nameOne = 'Maciek';<br>
                         let nameTwo = 'Stefan';<br></p>
-                    <p class="lesson__tile--hint">tylko zmienną let można zmienić i na następnym kafelku to połączenie
+                    <p class="homework__tile--paragraf lesson__tile--hint">tylko zmienną let można zmienić i na następnym kafelku to połączenie
                         jest zaznaczone na zielono</p>
                 </div>
 
@@ -903,13 +900,13 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-04.jpg"
                         width="300" alt="">
-                    <p>numberOne - 42 <br>
+                    <p class="homework__tile--paragraf">numberOne - 42 <br>
                         numberTwo - 42<br>
                         <br>
                         nameOne - Maciek<br>
                         nameTwo - Stefan
                     </p>
-                    <p class="lesson__tile--hint">tylko zmienną let można zmienić i na kafelku to połączenie jest
+                    <p class="homework__tile--paragraf lesson__tile--hint">tylko zmienną let można zmienić i na kafelku to połączenie jest
                         zaznaczone na zielono</p>
                 </div>
 
@@ -917,7 +914,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-05.jpg"
                         width="300" alt="">
-                    <p>const numberOne = 42;<br>
+                    <p class="homework__tile--paragraf">const numberOne = 42;<br>
                         const numberTwo = 42;<br>
                         const nameOne = 'Maciek';<br>
                         let nameTwo = 'Stefan';<br><br>
@@ -928,7 +925,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-06.jpg"
                         width="300" alt="">
-                    <p>numberOne - 42 <br>
+                    <p class="homework__tile--paragraf">numberOne - 42 <br>
                         numberTwo - 42<br>
                         <br>
                         nameOne - Maciek<br>
@@ -941,7 +938,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-07.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32<br>
                         }<br><br>
@@ -955,7 +952,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-08.jpg"
                         width="300" alt="">
-                    <p>humanOne - name: Maciek - age: 32<br>
+                    <p class="homework__tile--paragraf">humanOne - name: Maciek - age: 32<br>
                         humanTwo - name: Stefan - age: 32</p>
                 </div>
 
@@ -963,7 +960,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-09.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {Maciek<br>
+                    <p class="homework__tile--paragraf">const humanOne = {Maciek<br>
                         name: 'Maciek',<br>
                         age: 32<br>
                         }<br><br>
@@ -978,7 +975,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-10.jpg"
                         width="300" alt="">
-                    <p>humanOne - name: Maciek - age: 32<br>
+                    <p class="homework__tile--paragraf">humanOne - name: Maciek - age: 32<br>
                         humanTwo - name: Stefan - age: 35
                     </p>
                 </div>
@@ -987,7 +984,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-11.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32<br>
                         }<br><br>
@@ -998,7 +995,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-12.jpg"
                         width="300" alt="">
-                    <p>humanOne - name: Maciek - age: 32<br>
+                    <p class="homework__tile--paragraf">humanOne - name: Maciek - age: 32<br>
                         humanTwo = humanOne</p>
                 </div>
 
@@ -1006,7 +1003,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-13.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32<br>
                         }<br><br>
@@ -1018,7 +1015,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-14.jpg"
                         width="300" alt="">
-                    <p>humanOne - name: Maciek - age: 35<br>
+                    <p class="homework__tile--paragraf">humanOne - name: Maciek - age: 35<br>
                         humanTwo = humanOne</p>
                 </div>
 
@@ -1026,7 +1023,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-15.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32<br>
                         }<br><br>
@@ -1040,7 +1037,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-16.jpg"
                         width="300" alt="">
-                    <p>humanOne - name: Maciek - age: 32<br>
+                    <p class="homework__tile--paragraf">humanOne - name: Maciek - age: 32<br>
                         humanTwo - name: Stefan - age: <b>?</b></p>
                 </div>
 
@@ -1048,7 +1045,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-17.jpg"
                         width="300" alt="">
-                    <p>humanOne - name: Maciek - age: 32<br>
+                    <p class="homework__tile--paragraf">humanOne - name: Maciek - age: 32<br>
                         humanTwo - name: Stefan - age: <b>32</b></p>
                 </div>
 
@@ -1056,7 +1053,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-18.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32<br>
                         }<br><br>
@@ -1071,9 +1068,9 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-19.jpg"
                         width="300" alt="">
-                    <p>humanOne - name: Maciek - age: 35<br>
+                    <p class="homework__tile--paragraf">humanOne - name: Maciek - age: 35<br>
                         humanTwo - name: Stefan - age: <b>32</b></p>
-                    <p class="lesson__tile--hint"> dlatego, że wskazuje się na wartość (32), a nie na własność
+                    <p class="homework__tile--paragraf lesson__tile--hint"> dlatego, że wskazuje się na wartość (32), a nie na własność
                         (humanOne.age), więc obiekt pozostał z poprzednią wartością, nie mógł pobrać jej po nadpisaniu
                         wartości własności humanOne.age na 35. To tak po prostu nie działa</p>
                 </div>
@@ -1082,7 +1079,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-20.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32,<br>
                         address: {<br>
@@ -1101,7 +1098,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-21.jpg"
                         width="300" alt="">
-                    <p>humanOne - street: Warszawska - city: Białystok<br>
+                    <p class="homework__tile--paragraf">humanOne - street: Warszawska - city: Białystok<br>
                         humanTwo - street: Warszawska - city: Białystok</p>
                 </div>
 
@@ -1109,7 +1106,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-22.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32,<br>
                         address: {<br>
@@ -1129,7 +1126,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-23.jpg"
                         width="300" alt="">
-                    <p>humanOne - street: Lipowa - city: Białystok<br>
+                    <p class="homework__tile--paragraf">humanOne - street: Lipowa - city: Białystok<br>
                         humanTwo - street: Warszawska - city: Białystok</p>
                 </div>
 
@@ -1137,7 +1134,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-24.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32,<br>
                         address: {<br>
@@ -1159,7 +1156,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-25.jpg"
                         width="300" alt="">
-                    <p>humanOne - street: Warszawska - city: Białystok<br>
+                    <p class="homework__tile--paragraf">humanOne - street: Warszawska - city: Białystok<br>
                         humanTwo - street: Warszawska - city: Białystok</p>
                 </div>
 
@@ -1167,7 +1164,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-26.jpg"
                         width="300" alt="">
-                    <p>const humanOne = {<br>
+                    <p class="homework__tile--paragraf">const humanOne = {<br>
                         name: 'Maciek',<br>
                         age: 32,<br>
                         address: {<br>
@@ -1190,7 +1187,7 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L08 - JS_  Immutability w obiektach/WTF_M05L08 - JS_  Immutability w obiektach-27.jpg"
                         width="300" alt="">
-                    <p>humanOne - street: Lipowa - city: Białystok<br>
+                    <p class="homework__tile--paragraf">humanOne - street: Lipowa - city: Białystok<br>
                         humanTwo - street: Warszawska - city: Białystok</p>
                 </div>
             </article>
@@ -1207,44 +1204,44 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-01.jpg"
                         width="300" alt="">
-                    <p>Flexbox</p>
+                    <p class="homework__tile--paragraf">Flexbox</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-02.jpg"
                         alt="" width="300">
-                    <p>Wyśrodkujmy coś 😎</p>
+                    <p class="homework__tile--paragraf">Wyśrodkujmy coś 😎</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-03.jpg"
                         width="300" alt="">
-                    <p>CSS IS AWSOME</p>
+                    <p class="homework__tile--paragraf">CSS IS AWSOME</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-04.jpg"
                         alt="" width="300">
-                    <p>display: flex</p>
+                    <p class="homework__tile--paragraf">display: flex</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-05.jpg"
                         alt="" width="300">
-                    <p>flex-direction:</p>
+                    <p class="homework__tile--paragraf">flex-direction:</p>
                     <ul class="lesson__tile--list">
                         <li>row</li>
                         <li>column</li>
                         <li>row-reverse</li>
                         <li>column-reverse</li>
                     </ul>
-                    <p>ROW → / COLUMN ↓</p>
+                    <p class="homework__tile--paragraf">ROW → / COLUMN ↓</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-06.jpg"
                         width="300" alt="">
-                    <p>flex-wrap, <i>zawijanie wiersza / kolumny:</i></p>
+                    <p class="homework__tile--paragraf">flex-wrap, <i>zawijanie wiersza / kolumny:</i></p>
                     <ul class="lesson__tile--list">
                         <li>nowrap</li>
                         <li>wrap</li>
@@ -1255,7 +1252,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-07.jpg"
                         width="300" alt="">
-                    <p>flex-flow:</p>
+                    <p class="homework__tile--paragraf">flex-flow:</p>
                     <ul class="lesson__tile--list">
                         <li>row nowrap</li>
                         <li>&lt;flex-direction&gt; &lt;flex-wrap&gt;</li>
@@ -1275,7 +1272,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-08.jpg"
                         width="300" alt="">
-                    <p>justify-content, <span class="lesson__tile--hint">może się kojarzyć z justowaniem,
+                    <p class="homework__tile--paragraf">justify-content, <span class="lesson__tile--hint">może się kojarzyć z justowaniem,
                             roztrzeliwaniem tekstu</span>, <i>ustawianie elementów wzdłuż osi flex-direction:</i></p>
                     <ul class="lesson__tile--list">
                         <li>flex-start</li>
@@ -1289,7 +1286,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-09.jpg"
                         alt="" width="300">
-                    <p>align-content, <span class="lesson__tile--hint">ma sens, kiedy elementy się zawijają, przy
+                    <p class="homework__tile--paragraf">align-content, <span class="lesson__tile--hint">ma sens, kiedy elementy się zawijają, przy
                             flex-wrap: wrap;</span> <i>ustawianie wierszy/kolumn wzdłuż osi przeciwnej do flex-direction
                             (taki justify-content dla drugiej osi):</i></p>
                     <ul class="lesson__tile--list">
@@ -1305,7 +1302,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-10.jpg"
                         width="300" alt="">
-                    <p>align-items, <i>ustawianie elementów wzdłuż osi przeciwnej do flex-direction</i></p>
+                    <p class="homework__tile--paragraf">align-items, <i>ustawianie elementów wzdłuż osi przeciwnej do flex-direction</i></p>
                     <ul class="lesson__tile--list">
                         <li>stretch</li>
                         <li>flex-start</li>
@@ -1318,7 +1315,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-11.jpg"
                         alt="" width="300">
-                    <p>align-self, <i>ustawianie elementu wzdłuż osi przeciwnej do flex-direction:</i></p>
+                    <p class="homework__tile--paragraf">align-self, <i>ustawianie elementu wzdłuż osi przeciwnej do flex-direction:</i></p>
                     <ul class="lesson__tile--list">
                         <li>stretch</li>
                         <li>flex-start</li>
@@ -1341,7 +1338,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-12.jpg"
                         width="300" alt="">
-                    <p>order, <i>kolejność:</i></p>
+                    <p class="homework__tile--paragraf">order, <i>kolejność:</i></p>
                     <ul class="lesson__tile--list">
                         <li>0</li>
                         <li>liczba całkowita (-/+)</li>
@@ -1351,7 +1348,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-13.jpg"
                         width="300" alt="">
-                    <p>flex-grow:</p>
+                    <p class="homework__tile--paragraf">flex-grow:</p>
                     <ul class="lesson__tile--list">
                         <li>0</li>
                         <li>liczba / proporcja</li>
@@ -1361,7 +1358,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-14.jpg"
                         width="300" alt="">
-                    <p>flex-shrink:</p>
+                    <p class="homework__tile--paragraf">flex-shrink:</p>
                     <ul class="lesson__tile--list">
                         <li>1</li>
                         <li>liczba / proporcja</li>
@@ -1371,7 +1368,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-15.jpg"
                         width="300" alt="">
-                    <p>flex-basis:</p>
+                    <p class="homework__tile--paragraf">flex-basis:</p>
                     <ul class="lesson__tile--list">
                         <li>none</li>
                         <li>rozmiar bazowy</li>
@@ -1381,33 +1378,33 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-16.jpg"
                         alt="" width="300">
-                    <p>flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;</p>
-                    <p class="lesson__tile--hint">flex: 1 0 100px; znaczy, że item ma rosnąć, ma się nie kurczyć, a jego
+                    <p class="homework__tile--paragraf">flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">flex: 1 0 100px; znaczy, że item ma rosnąć, ma się nie kurczyć, a jego
                         minimalna szerokość to 100px</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-17.jpg"
                         width="300" alt="">
-                    <p>row-gap: rozmiar</p>
+                    <p class="homework__tile--paragraf">row-gap: rozmiar</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-18.jpg"
                         width="300" alt="">
-                    <p>column-gap: rozmiar</p>
+                    <p class="homework__tile--paragraf">column-gap: rozmiar</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-19.jpg"
                         width="300" alt="">
-                    <p>gap: rozmiar / &lt;row-gap&gt; / &lt;column-gap&gt;</p>
+                    <p class="homework__tile--paragraf">gap: rozmiar / &lt;row-gap&gt; / &lt;column-gap&gt;</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L09 - Flexbox/WTF_M05L09 - Flexbox-20.jpg"
                         width="300" alt="">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
             </article>
         </section>
@@ -1423,26 +1420,26 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-01.jpg" width="300"
                         alt="">
-                    <p>Tła</p>
+                    <p class="homework__tile--paragraf">Tła</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-02.jpg" width="300"
                         alt="">
-                    <p>background</p>
+                    <p class="homework__tile--paragraf">background</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-03.jpg" width="300"
                         alt="">
-                    <p>background-image: url('sciezka-do-pliku');</p>
+                    <p class="homework__tile--paragraf">background-image: url('sciezka-do-pliku');</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-04.jpg" width="300"
                         alt="">
-                    <p>background-position:</p>
-                    <p>0 ⏤ 0<br>
+                    <p class="homework__tile--paragraf">background-position:</p>
+                    <p class="homework__tile--paragraf">0 ⏤ 0<br>
                         &lt;pozycja-x&gt; ⏤ &lt;pozycja-y&gt;<br>
                         right ⏤ top<br>
                         left ⏤ bottom<br>
@@ -1455,7 +1452,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-05.jpg" width="300"
                         alt="">
-                    <p>background-repeat:</p>
+                    <p class="homework__tile--paragraf">background-repeat:</p>
                     <ul class="lesson__tile--list">
                         <li>repeat</li>
                         <li>repeat-x</li>
@@ -1469,7 +1466,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-06.jpg" width="300"
                         alt="">
-                    <p>background-attachment:</p>
+                    <p class="homework__tile--paragraf">background-attachment:</p>
                     <ul class="lesson__tile--list">
                         <li>scroll</li>
                         <li>fixed</li>
@@ -1480,7 +1477,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-07.jpg" width="300"
                         alt="">
-                    <p>background-origin:</p>
+                    <p class="homework__tile--paragraf">background-origin:</p>
                     <ul class="lesson__tile--list">
                         <li>padding-box</li>
                         <li>border-box</li>
@@ -1491,7 +1488,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-08.jpg" width="300"
                         alt="">
-                    <p>background-clip:</p>
+                    <p class="homework__tile--paragraf">background-clip:</p>
                     <ul class="lesson__tile--list">
                         <li>border-box</li>
                         <li>padding-box</li>
@@ -1502,13 +1499,13 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-09.jpg" width="300"
                         alt="">
-                    <p>background-color: wartość koloru</p>
+                    <p class="homework__tile--paragraf">background-color: wartość koloru</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-10.jpg" width="300"
                         alt="">
-                    <p>rgb(255,255,255,0.4)</p>
+                    <p class="homework__tile--paragraf">rgb(255,255,255,0.4)</p>
                 </div>
             </article>
         </section>
@@ -1524,7 +1521,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-11.jpg" width="300"
                         alt="">
-                    <p>background-size:</p>
+                    <p class="homework__tile--paragraf">background-size:</p>
                     <ul class="lesson__tile--list">
                         <li>auto</li>
                         <li>cover</li>
@@ -1536,14 +1533,14 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-12.jpg" width="300"
                         alt="">
-                    <p>gradienty <a href="https://cssgradient.io/gradient-backgrounds/"
+                    <p class="homework__tile--paragraf">gradienty <a href="https://cssgradient.io/gradient-backgrounds/"
                             target="_blank">https://cssgradient.io/gradient-backgrounds/</a></p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-13.jpg" width="300"
                         alt="">
-                    <p>background:<br>
+                    <p class="homework__tile--paragraf">background:<br>
                         url(sweettexture.jpg) <i>/* image */</i><br>
                         top center / 200px 200px <i>/* position / size */</i><br>
                         no-repeat <i>/* repeat */</i><br>
@@ -1559,7 +1556,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/5/WTF_M05L12 -  Tła/WTF_M05L12 -  Tła-14.jpg" width="300"
                         alt="">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
             </article>
         </section>
@@ -1577,15 +1574,15 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L14 - Grafik cięcie - też zajęcie/WTF_M05L14 - Grafik cięcie - też zajęcie-1.jpg"
                         width="300" alt="">
-                    <p>Grafik cięcie też zajęcie</p>
-                    <p>Zainstalowanie i omówienie funkcji Figmy</p>
+                    <p class="homework__tile--paragraf">Grafik cięcie też zajęcie</p>
+                    <p class="homework__tile--paragraf">Zainstalowanie i omówienie funkcji Figmy</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L14 - Grafik cięcie - też zajęcie/WTF_M05L14 - Grafik cięcie - też zajęcie-2.jpg"
                         width="300" alt="">
-                    <p>Figma<br>
+                    <p class="homework__tile--paragraf">Figma<br>
                         <a href="https://www.figma.com/" target="_blank">https://www.figma.com/</a><br>
                         <a href="https://www.figma.com/downloads/" target="_blank">https://www.figma.com/downloads/</a>
                     </p>
@@ -1595,14 +1592,14 @@
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L14 - Grafik cięcie - też zajęcie/WTF_M05L14 - Grafik cięcie - też zajęcie-3.jpg"
                         width="300" alt="">
-                    <p>Wizytówka</p>
+                    <p class="homework__tile--paragraf">Wizytówka</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/5/WTF_M05L14 - Grafik cięcie - też zajęcie/WTF_M05L14 - Grafik cięcie - też zajęcie-4.jpg"
                         width="300" alt="">
-                    <p>Do boju!</p>
+                    <p class="homework__tile--paragraf">Do boju!</p>
                 </div>
             </article>
         </section>
@@ -1617,7 +1614,7 @@
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p>Założenie nowego repozytorium.</p>
+                    <p class="homework__tile--paragraf">Założenie nowego repozytorium.</p>
                     <ol>
                         <li class="lesson__tile--hint">Po utworzeniu pliku index.html wpisujemy w pierwszej linii ”!” i klikamy tabulator. Automatycznie wkleja nam się wówczas szkielet strony.</li>
                         <li>Dodanie pliku ze stylami razem z normalize, który można skopiować z innego projektu</li>
@@ -1641,13 +1638,13 @@
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p>Ogarnięcie wyśrodkowania - podstawowy przepis na elemencie body:<br>
+                    <p class="homework__tile--paragraf">Ogarnięcie wyśrodkowania - podstawowy przepis na elemencie body:<br>
                     min-height: 100vh;<br>
                         display: flex;<br>
                         align-content: center;<br>
                         align-items: center;<br>
                         padding: 16px;</p>
-                        <p class="lesson__tile--hint">Style wpływające na rozmieszczenie, położenie dajemy rodzicowi, poziom wyżej - "dziecko może być głupie i nie wiedzieć gdzie jest xD"</p>
+                        <p class="homework__tile--paragraf lesson__tile--hint">Style wpływające na rozmieszczenie, położenie dajemy rodzicowi, poziom wyżej - "dziecko może być głupie i nie wiedzieć gdzie jest xD"</p>
                 </div>
             </article>
         </section>
@@ -1662,7 +1659,7 @@
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p>dużo praktyki w tej lekcji!</p>
+                    <p class="homework__tile--paragraf">dużo praktyki w tej lekcji!</p>
                 </div>
             </article>
         </section>
@@ -1677,8 +1674,8 @@
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="" width="300" alt="">
-                    <p>dużo praktyki w tej lekcji!</p>
-                    <p>flex-basis pozwala ustawić bazową szerokośc</p>
+                    <p class="homework__tile--paragraf">dużo praktyki w tej lekcji!</p>
+                    <p class="homework__tile--paragraf">flex-basis pozwala ustawić bazową szerokośc</p>
                 </div>
             </article>
         </section>
@@ -1695,49 +1692,49 @@
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-1.jpg"
                         width="300" alt="">
-                    <p>Tydzień V: Prace domowe</p>
+                    <p class="homework__tile--paragraf">Tydzień V: Prace domowe</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-2.jpg"
                         width="300" alt="">
-                    <p>0. Baw się dobrze!</p>
+                    <p class="homework__tile--paragraf">0. Baw się dobrze!</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-3.jpg"
                         width="300" alt="">
-                    <p>1. Utwórz funkcję powitalną jako parametr niech przyjmuje imię i wiek</p>
+                    <p class="homework__tile--paragraf">1. Utwórz funkcję powitalną jako parametr niech przyjmuje imię i wiek</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-4.jpg"
                         width="300" alt="">
-                    <p>2. "Potnij" wizytówkę załóż osobne repozytorium!</p>
+                    <p class="homework__tile--paragraf">2. "Potnij" wizytówkę załóż osobne repozytorium!</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-5.jpg"
                         width="300" alt="">
-                    <p>3. Wyśrodkuj linki w nawigacji za pomocą flexboxa</p>
+                    <p class="homework__tile--paragraf">3. Wyśrodkuj linki w nawigacji za pomocą flexboxa</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-6.jpg"
                         width="300" alt="">
-                    <p>4. Stwórz gradient i dodaj go jako tło do strony</p>
+                    <p class="homework__tile--paragraf">4. Stwórz gradient i dodaj go jako tło do strony</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-7.jpg"
                         width="300" alt="">
-                    <p>5. Przejdź flexbox froggy<br>
+                    <p class="homework__tile--paragraf">5. Przejdź flexbox froggy<br>
                         <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a>
                     </p>
                 </div>
@@ -1746,14 +1743,14 @@
                     <img class="homework__tile--img"
                         src="images/5/WTF_M05L19 - Tydzień V Prace domowe/WTF_M05L19 - Tydzień V Prace domowe-8.jpg"
                         width="300" alt="">
-                    <p>Good luck!</p>
+                    <p class="homework__tile--paragraf">Good luck!</p>
                 </div>
 
                 <div class="homework__tile--to-do">
                     <img class="homework__tile--img"
                         src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-4.jpg" alt=""
                         width="300">
-                    <p>Przeczytać czat na discordzie, dedykowany temu modułowi</p>
+                    <p class="homework__tile--paragraf">Przeczytać czat na discordzie, dedykowany temu modułowi</p>
                 </div>
 
             </article>

@@ -12,29 +12,24 @@
 <body>
     <header class="navigation__header">
         <nav class="navigation navigation__js">
-            <a class="navigation__link" href="index.html">Strona główna</a>
-            <a class="navigation__link" href="module-1.html">Moduł 1</a>
-            <a class="navigation__link" href="module-2.html">Moduł 2</a>
-            <a class="navigation__link" href="module-3.html">Moduł 3</a>
-            <a class="navigation__link" href="module-4.html">Moduł 4</a>
-            <a class="navigation__link" href="module-5.html">Moduł 5</a>
-            <a class="navigation__link" href="module-6.html">Moduł 6</a>
-            <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza
-                się na kilku stronach.</p>
+          <a class="navigation__link" href="index.html">Strona główna</a>
+          <a class="navigation__link" href="module-1.html">Moduł 1</a>
+          <a class="navigation__link" href="module-2.html">Moduł 2</a>
+          <a class="navigation__link" href="module-3.html">Moduł 3</a>
+          <a class="navigation__link" href="module-4.html">Moduł 4</a>
+          <a class="navigation__link" href="module-5.html">Moduł 5</a>
+          <a class="navigation__link" href="module-6.html">Moduł 6</a>
+          <p class="navigation__hint">Headery mogą być dwa. Ten z nawigacją wyrzucamy poza znacznik main, bo powtarza
+            się na kilku stronach.</p>
         </nav>
-        <button class="header__hamburger header__hamburger--js" aria-label="Menu">≡</button>
-    </header>
-
-    <main>
-        <header class="module__header--grid">
+        <button class="header__hamburger header__hamburger--js" aria-label="Menu">🍔</button>
+        <div class="module__header--grid">
             <h1 class="module__header--h1--grid ">notatki z modułu 6</h1>
             <p class="module__header--hint--grid">w main opakowywujemy unikalną treść dla danej strony</p>
-        </header>
-
-
-        <hr>
-
-
+        </div>
+      </header>
+    
+      <main>
         <section>
             <article>
                 <h2 class="lesson__header"><a
@@ -42,7 +37,6 @@
                         target="_blank">M06L01: Tydzień VI + rozwiązania tydzień V [11:50]</a></h2>
             </article>
         </section>
-
 
         <hr>
 
@@ -57,25 +51,25 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-01.jpg" alt="" width="300">
-                    <p>Logika w JS</p>
+                    <p class="homework__tile--paragraf">Logika w JS</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-02.jpg" alt="" width="300">
-                    <p>TRUE or FALSE? - Prawda czy fałsz?</p>
+                    <p class="homework__tile--paragraf">TRUE or FALSE? - Prawda czy fałsz?</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-03.jpg" alt="" width="300">
-                    <p>Porównania</p>
+                    <p class="homework__tile--paragraf">Porównania</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-04.jpg" alt="" width="300">
-                    <p>operator porównania - nie równa się<br>
+                    <p class="homework__tile--paragraf">operator porównania - nie równa się<br>
                         <br>
                         <span class="lesson__tile--code"><strong>JavaScript != Java</strong></span><br>
                         <br>
@@ -86,8 +80,8 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-05.jpg" alt="" width="300">
-                    <p> != zwraca true lub false</p>
-                    <p class="lesson__tile--code">
+                    <p class="homework__tile--paragraf"> != zwraca true lub false</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">
                         if ('JavaScript' != 'Java') {<br>
                         // wykonaj kod jeśli true<br>
                         }</p>
@@ -96,16 +90,16 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-06.jpg" alt="" width="300">
-                    <p>Porównania</p>
+                    <p class="homework__tile--paragraf">Porównania</p>
                     <ul>
                         <li style="list-style: none;"><span class="lesson__tile--code">>&nbsp;&nbsp;&nbsp;</span>lewa
                             strona większa od prawej</li>
                         <li style="list-style: none;"><span class="lesson__tile--code">
-                                <&nbsp;&nbsp;&nbsp;< /span>lewa strona mniejsza od prawej</li>
+                                <&nbsp;&nbsp;&nbsp;</span>lewa strona mniejsza od prawej</li>
                         <li style="list-style: none;"><span class="lesson__tile--code">>=&nbsp;&nbsp;</span>lewa strona
                             większa / równa od prawej</li>
                         <li style="list-style: none;"><span class="lesson__tile--code">
-                                <=&nbsp;&nbsp;< /span>lewa strona mniejsza / równa od prawej</li>
+                                <=&nbsp;&nbsp;</span>lewa strona mniejsza / równa od prawej</li>
                         <li style="list-style: none;"><span class="lesson__tile--code">==&nbsp;&nbsp;</span>obie strony
                             równe </li>
                         <li style="list-style: none;"><span class="lesson__tile--code">===&nbsp;</span>obie strony równe
@@ -120,13 +114,13 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-07.jpg" alt="" width="300">
-                    <p>typeof <span><i>zmienna</i></span></p>
+                    <p class="homework__tile--paragraf">typeof <span><i>zmienna</i></span></p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-08.jpg" alt="" width="300">
-                    <p>Falsy - 6 wartości <b>[9:30]</b></p>
+                    <p class="homework__tile--paragraf">Falsy - 6 wartości <b>[9:30]</b></p>
                     <ul>
                         <li style="list-style: none;">false</li>
                         <li style="list-style: none;">0</li>
@@ -140,7 +134,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-09.jpg" alt="" width="300">
-                    <p>Truthy - cała reszta ;) <b>[11:30]</b></p>
+                    <p class="homework__tile--paragraf">Truthy - cała reszta ;) <b>[11:30]</b></p>
                     <ul>
                         <li style="list-style: none;">'Tekst'</li>
                         <li style="list-style: none;">12</li>
@@ -155,7 +149,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-10.jpg" alt="" width="300">
-                    <p><b>&& AND</b> - wszystkie warunki muszą być <i>true</i> <b>[12:40]</b><br>
+                    <p class="homework__tile--paragraf"><b>&& AND</b> - wszystkie warunki muszą być <i>true</i> <b>[12:40]</b><br>
                         <br>
                         <span class="lesson__tile--code">if ((myVariable==4) && (otherVar !=='test' )) {...}</span>
                     </p>
@@ -164,7 +158,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-11.jpg" alt="" width="300">
-                    <p><b>|| OR</b> - przynajmniej jeden warunek ma być <i>true</i> <b>[14:10]</b><br>
+                    <p class="homework__tile--paragraf"><b>|| OR</b> - przynajmniej jeden warunek ma być <i>true</i> <b>[14:10]</b><br>
                         <br>
                         <span class="lesson__tile--code">if ((myVariable==4) || (otherVar !=='test' )) {...}</span>
                     </p>
@@ -173,7 +167,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-12.jpg" alt="" width="300">
-                    <p><b>! NOT</b> - odwraca wartość wyrażenia logicznego <b>[14:40]</b><br>
+                    <p class="homework__tile--paragraf"><b>! NOT</b> - odwraca wartość wyrażenia logicznego <b>[14:40]</b><br>
                         <br>
                         <span class="lesson__tile--code">if (!('JavaScript'=='Java' )) {<br>
                             // ten kod się wykona<br>
@@ -184,15 +178,15 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-13.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">!false => true<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">!false => true<br>
                         !true => false</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-14.jpg" alt="" width="300">
-                    <p>Sprawdzarka warunków logicznych <b>[16:00]</b></p>
-                    <p class="lesson__tile--code">
+                    <p class="homework__tile--paragraf">Sprawdzarka warunków logicznych <b>[16:00]</b></p>
+                    <p class="homework__tile--paragraf lesson__tile--code">
                         if (myVariable == 4) {<br>
                         console.log('to jest prawda') <br>
                         } else {<br>
@@ -203,20 +197,20 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-15.jpg" alt="" width="300">
-                    <p>Jeśli pierwszy warunek został spełniony, to reszta kodu się nie wykona <b>[18:20]</b></p>
-                    <p class="lesson__tile--code"> if (myVariable == 4) {<br>
+                    <p class="homework__tile--paragraf">Jeśli pierwszy warunek został spełniony, to reszta kodu się nie wykona <b>[18:20]</b></p>
+                    <p class="homework__tile--paragraf lesson__tile--code"> if (myVariable == 4) {<br>
                         // wykonaj kod jeśli true<br>
                         } else if (myVariable == 8) {<br>
                         // wykonaj kod jeśli myVariable == 8<br>
                         }</p>
-                    <p> Ale można dodać na końcu 'else" i wtedy wykona się ostatni warunek</p>
+                    <p class="homework__tile--paragraf"> Ale można dodać na końcu 'else" i wtedy wykona się ostatni warunek</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-16.jpg" alt="" width="300">
-                    <p>Inny zapis instrukcji warunkowej <b>[20:40]</b></p>
-                    <p class="lesson__tile--code">switch (myVariable) { case 4:<br>
+                    <p class="homework__tile--paragraf">Inny zapis instrukcji warunkowej <b>[20:40]</b></p>
+                    <p class="homework__tile--paragraf lesson__tile--code">switch (myVariable) { case 4:<br>
                         console.log('hi 4');<br>
                         break; case 8:<br>
                         console.log('hi 8');<br>
@@ -229,8 +223,8 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-17.jpg" alt="" width="300">
-                    <p>sprawdzenie warunku <b>?</b> wykonaj jeśli true <b>:</b> wykonaj jeśli false <b>[22:55]</b></p>
-                    <p>zapis skrócony: <span class="lesson__tile--code">
+                    <p class="homework__tile--paragraf">sprawdzenie warunku <b>?</b> wykonaj jeśli true <b>:</b> wykonaj jeśli false <b>[22:55]</b></p>
+                    <p class="homework__tile--paragraf">zapis skrócony: <span class="lesson__tile--code">
                             (zmienna1 > zmienna2) ? console.log('true') : console.log('false')</span>
                     </p>
                 </div>
@@ -238,7 +232,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-18.jpg" alt="" width="300">
-                    <p>WAT</p>
+                    <p class="homework__tile--paragraf">WAT</p>
                     <a href="https://www.destroyallsoftware.com/talks/wat"
                         target="_blank">https://www.destroyallsoftware.com/talks/wat</a>
                 </div>
@@ -246,7 +240,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L02 - Logika w JS/WTF_M06L02 - Logika w JS-19.jpg" alt="" width="300">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
 
             </article>
@@ -265,28 +259,28 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-01.jpg" alt="" width="300">
-                    <p>Formularze</p>
+                    <p class="homework__tile--paragraf">Formularze</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-02.jpg" alt="" width="300">
-                    <p>🗣 Pogadajmy ze światem</p>
+                    <p class="homework__tile--paragraf">🗣 Pogadajmy ze światem</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-03.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;form&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;form&gt;</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-04.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;input /&gt;</p>
-                    <p>jest znacznikiem samozamykającym</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;input /&gt;</p>
+                    <p class="homework__tile--paragraf">jest znacznikiem samozamykającym</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <input />
                         </p>
                     </form>
@@ -295,9 +289,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-05.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">name="nazwaPola"</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">name="nazwaPola"</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <input name="firstName1" />
                         </p>
                     </form>
@@ -306,10 +300,10 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-06.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">id="idPola"</p>
-                    <p>* używamy do odniesienia się do label for=""</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">id="idPola"</p>
+                    <p class="homework__tile--paragraf">* używamy do odniesienia się do label for=""</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <input name="firstName2" id="firstName2" />
                         </p>
                     </form>
@@ -318,10 +312,10 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-07.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;label&gt;</p>
-                    <p>etykieta do pola</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;label&gt;</p>
+                    <p class="homework__tile--paragraf">etykieta do pola</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label>Imię</label>
                             <input name="firstName3" id="firstName3" />
                         </p>
@@ -331,11 +325,11 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-08.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">for="idPola"</p>
-                    <p>ten atrybut przypisuje etykietę do konkretnego pola w formularzu, więc teraz po kliknięciu w
+                    <p class="homework__tile--paragraf lesson__tile--code">for="idPola"</p>
+                    <p class="homework__tile--paragraf">ten atrybut przypisuje etykietę do konkretnego pola w formularzu, więc teraz po kliknięciu w
                         słowo "Imię", pole inputu się podświetli</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="firstName4">Imię</label>
                             <input name="firstName4" id="firstName4" />
                         </p>
@@ -345,11 +339,11 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-09.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="text"</p>
-                    <p>text to domyślny typ inputa i w naszym przykładzie nic nie zmieni, będzie to zawsze
+                    <p class="homework__tile--paragraf lesson__tile--code">type="text"</p>
+                    <p class="homework__tile--paragraf">text to domyślny typ inputa i w naszym przykładzie nic nie zmieni, będzie to zawsze
                         jednowierszowe okienko</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="firstName5">Imię</label>
                             <input name="firstName5" id="firstName5" type="text" />
                         </p>
@@ -359,10 +353,10 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-10.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">value="wartość"</p>
-                    <p>atrybut pozwala na podanie domyślnej wartości</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">value="wartość"</p>
+                    <p class="homework__tile--paragraf">atrybut pozwala na podanie domyślnej wartości</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="firstName6">Imię</label>
                             <input name="firstName6" id="firstName6" type="text" value="Angelika" />
                         </p>
@@ -372,10 +366,10 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-11.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">placeholder="Tekst podpowiedzi"</p>
-                    <p>wyszarzony tekst jest wpisany w okienko inputa, znika po rozpoczęciu wpisywania</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">placeholder="Tekst podpowiedzi"</p>
+                    <p class="homework__tile--paragraf">wyszarzony tekst jest wpisany w okienko inputa, znika po rozpoczęciu wpisywania</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="firstName7">Imię</label>
                             <input name="firstName7" id="firstName7" type="text" placeholder="imię" />
                         </p>
@@ -385,7 +379,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-12.jpg" alt="" width="300">
-                    <p>atrybut <i>placeholder</i> <b>nie zastępuje</b> elementu <i>label</i>, <span
+                    <p class="homework__tile--paragraf">atrybut <i>placeholder</i> <b>nie zastępuje</b> elementu <i>label</i>, <span
                             class="lesson__tile--hint">label musi być zawsze</span></p>
                 </div>
 
@@ -405,8 +399,8 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-13.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;fieldset&gt;</p>
-                    <p>zbiór pól, służy do tego, żeby pogrupować pola w formularzu, np dane adresowe</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;fieldset&gt;</p>
+                    <p class="homework__tile--paragraf">zbiór pól, służy do tego, żeby pogrupować pola w formularzu, np dane adresowe</p>
                     <form>
                         <fieldset></fieldset>
                     </form>
@@ -416,16 +410,16 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-14.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;legend&gt;</p>
-                    <p>legenda opisuje zbiór pól i dodaje się ją jako dziecko do fieldset</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;legend&gt;</p>
+                    <p class="homework__tile--paragraf">legenda opisuje zbiór pól i dodaje się ją jako dziecko do fieldset</p>
                     <form>
                         <fieldset>
                             <legend>Dane osobowe:</legend>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="firstName8">Imię</label>
                                 <input name="firstName8" id="firstName8" type="text" placeholder="imię" />
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="lastName8">Nazwisko</label>
                                 <input name="lastName8" id="lastName8" type="text" placeholder="nazwisko" />
                             </p>
@@ -433,11 +427,11 @@
                         <br>
                         <fieldset>
                             <legend>Dane adresowe:</legend>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="street">Ulica</label>
                                 <input name="street" id="street" type="text" placeholder="ulica" />
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="city">Miejscowość</label>
                                 <input name="city" id="city" type="text" placeholder="miejscowość" />
                             </p>
@@ -448,21 +442,21 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-15.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="radio"</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">type="radio"</p>
                     <form>
                         <fieldset>
                             <legend>Ulubione lody:</legend>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="radio" name="icecream" value="chocolate" /> Czekoladowe</label>
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="radio" name="icecream" value="checked" checked /> Domyślnie
                                     zaznaczona</label>
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="radio" name="icecream" value="vanilla" /> Waniliowe</label>
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="radio" name="icecream" value="strawberry" /> Truskawkowe</label>
                             </p>
                         </fieldset>
@@ -472,8 +466,8 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-16.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="radio"</p>
-                    <p>bo tak jak w starym radiu, tylko jedna opcja może być aktywna <span class="lesson__tile--hint">i
+                    <p class="homework__tile--paragraf lesson__tile--code">type="radio"</p>
+                    <p class="homework__tile--paragraf">bo tak jak w starym radiu, tylko jedna opcja może być aktywna <span class="lesson__tile--hint">i
                             żeby tak się stało do każdej pozycji trzeba dodać atrybut name <b>o takiej samej nazwie, np
                                 <u>name="icecream"</u></b></span></p>
                 </div>
@@ -481,24 +475,24 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-17.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="checkbox"</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">type="checkbox"</p>
                     <form>
                         <fieldset>
                             <legend>Ulubione gry:</legend>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="checkbox" name="play" value="cards" /> Karciane</label>
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="checkbox" name="play" value="checked" checked /> Domyślnie
                                     zaznaczona</label>
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="checkbox" name="play" value="team" /> Zespołowe</label>
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label><input type="checkbox" name="play" value="logical" /> Logiczne</label>
                             </p>
-                            <p>* atrybut name grupuje odpowiedzi, więc musi być taki sam</p>
+                            <p class="homework__tile--paragraf">* atrybut name grupuje odpowiedzi, więc musi być taki sam</p>
                         </fieldset>
                     </form>
                 </div>
@@ -506,22 +500,22 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-18.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="tel"<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">type="tel"<br>
                         type="number"<br>
                         type="email
                     </p>
                     <form>
                         <fieldset>
                             <legend>Dane kontaktowe:</legend>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="telephone">Numer telefonu</label>
                                 <input name="telephone" id="telephone" type="tel" placeholder="numer telefonu" />
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="email">Adres email</label>
                                 <input name="email" id="email" type="email" placeholder="email" />
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="amount">Ilość zamawianych sztuk</label>
                                 <input name="amount" id="amount" type="number" placeholder="wybierz ilość" />
                             </p>
@@ -546,15 +540,15 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-19.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="range"</p>
-                    <p>range to zakres, wartości <i>min</i> i <i>max</i> oznaczają początek i koniec zakresu,
+                    <p class="homework__tile--paragraf lesson__tile--code">type="range"</p>
+                    <p class="homework__tile--paragraf">range to zakres, wartości <i>min</i> i <i>max</i> oznaczają początek i koniec zakresu,
                         <i>step</i> definiuje o ile suwak ma się przesuwać
                     </p>
-                    <p class="lesson__tile--hint">tricki z java scriptem - odczytywanie wartości z suwaka [3:00]</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">tricki z java scriptem - odczytywanie wartości z suwaka [3:00]</p>
                     <form>
                         <fieldset>
                             <legend>Nowy zbiór pól</legend>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="rate">Ocena</label>
                                 <input name="rate" id="rate" type="range" min="0" max="100" step="15">
                             </p>
@@ -565,9 +559,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-20.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="password"</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">type="password"</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="enterPassword">Hasło</label>
                             <input name="enterPassword" id="enterPassword" type="password" placeholder="hasło">
                         </p>
@@ -577,9 +571,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-21.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">type="file"</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">type="file"</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="avatar">Zdjęcie profilowe</label>
                             <input name="avatar" id="avatar" type="file">
                         </p>
@@ -589,9 +583,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-22.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;select&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;select&gt;</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="size">Wybierz rozmiar</label>
                             <select name="size" id="size"></select>
                         </p>
@@ -601,10 +595,10 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-23.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;option&gt;</p>
-                    <p>ten select jeszcze <b>nie jest gotowy</b>, nie ma atrybutów value!</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;option&gt;</p>
+                    <p class="homework__tile--paragraf">ten select jeszcze <b>nie jest gotowy</b>, nie ma atrybutów value!</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="size2">Wybierz rozmiar</label>
                             <select name="size2" id="size2">
                                 <option>S</option>
@@ -619,9 +613,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-24.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">value="wartość"</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">value="wartość"</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="size3">Wybierz rozmiar</label>
                             <select name="size3" id="size3">
                                 <option value="s">S</option>
@@ -637,9 +631,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-25.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;textarea&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;textarea&gt;</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="comment">Komentarz:</label>
                             <br>
                             <textarea name="comment" id="comment" placeholder="[14:00]"></textarea>
@@ -663,15 +657,15 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-26.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;input type="submit"&gt;</p>
-                    <p>jako jedyny nie ma znacznika "label", zamiast niego, można też użyć znaczika button, o ile będzie
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;input type="submit"&gt;</p>
+                    <p class="homework__tile--paragraf">jako jedyny nie ma znacznika "label", zamiast niego, można też użyć znaczika button, o ile będzie
                         to jedyny button na stronie.</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <input name="submitButton" id="submitButton" type="submit" value="input wyślij" />
                         </p>
-                        <p>lub</p>
-                        <p>
+                        <p class="homework__tile--paragraf">lub</p>
+                        <p class="homework__tile--paragraf">
                             <button>przycisk wyśij</button>
                         </p>
                     </form>
@@ -680,44 +674,44 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-27.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">&lt;form&gt;</p>
-                    <p>zaczynamy wysyłać dane!!! [2:00]</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;form&gt;</p>
+                    <p class="homework__tile--paragraf">zaczynamy wysyłać dane!!! [2:00]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-28.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">action="url://z-którym-gadamy"</p>
-                    <p>do tagu form musimy dodać adres, do którego będziemy przekazywać dane z formularza</p>
-                    <p class="lesson__tile--code">&lt;form action="https://forms.cotenfrontend.pl"&gt;&lt;form/&gt;</p>
-                    <p class="lesson__tile--hint">po wysłaniu formularza, w pasku adrsu pojawia się query string, który
+                    <p class="homework__tile--paragraf lesson__tile--code">action="url://z-którym-gadamy"</p>
+                    <p class="homework__tile--paragraf">do tagu form musimy dodać adres, do którego będziemy przekazywać dane z formularza</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;form action="https://forms.cotenfrontend.pl"&gt;&lt;form/&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">po wysłaniu formularza, w pasku adrsu pojawia się query string, który
                         przechowuje wszystkie wysłane wartości, aktualnie raczej się go ukrywa</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-29.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">method="post"</p>
-                    <p>method jest atrybutem, który mówi o tym w jaki sposób wysyłany jest formularz.</p>
-                    <p class="lesson__tile--code">&lt;form action="https://forms.cotenfrontend.pl"
+                    <p class="homework__tile--paragraf lesson__tile--code">method="post"</p>
+                    <p class="homework__tile--paragraf">method jest atrybutem, który mówi o tym w jaki sposób wysyłany jest formularz.</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;form action="https://forms.cotenfrontend.pl"
                         method="post"&gt;&lt;form/&gt;</p>
-                    <p>przy żądaniu typu POST, w adresie nie ma wartości, a zamiast query stringa, w Networku > Payload
+                    <p class="homework__tile--paragraf">przy żądaniu typu POST, w adresie nie ma wartości, a zamiast query stringa, w Networku > Payload
                         można zobaczyć Form Data [6:30]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-30.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">method="get"</p>
-                    <p>domyślny typ żądania to GET, zawiera query string z parametrami</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">method="get"</p>
+                    <p class="homework__tile--paragraf">domyślny typ żądania to GET, zawiera query string z parametrami</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-31.jpg" alt="" width="300">
-                    <p class="lesson__tile--code">enctype= "application/x-www-form-urlencoded" *<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">enctype= "application/x-www-form-urlencoded" *<br>
                         enctype= "multipart/form-data" **</p>
-                    <p>* wartość domyślna<br>
+                    <p class="homework__tile--paragraf">* wartość domyślna<br>
                         ** używamy, kiedy wysyłamy pliki</p>
                 </div>
 
@@ -737,15 +731,15 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-32.jpg" alt="" width="300">
-                    <p>Walidacja</p>
+                    <p class="homework__tile--paragraf">Walidacja</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-33.jpg" alt="" width="300">
-                    <p>required - pole z tym atrybutem będzie wymagane</p>
+                    <p class="homework__tile--paragraf">required - pole z tym atrybutem będzie wymagane</p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="postalCode">Kod pocztowy</label>
                             <input name="postalCode" id="postalCode" type="text" placeholder="XX-XXX" required />
                             <input type="submit" value="wyśij" />
@@ -756,14 +750,14 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-34.jpg" alt="" width="300">
-                    <p><span class="lesson__tile--code">pattern="[a-zA-Z0-9]+"</span>,
+                    <p class="homework__tile--paragraf"><span class="lesson__tile--code">pattern="[a-zA-Z0-9]+"</span>,
                         <br><i>gdzie [a-zA-Z0-9]+ wyrażenie regularne (regular expression)</i>
                     </p>
-                    <p>służy do sprawdzania poprawności formatu m.in. kodu pocztowego lub wymaganej złożoności w
+                    <p class="homework__tile--paragraf">służy do sprawdzania poprawności formatu m.in. kodu pocztowego lub wymaganej złożoności w
                         tworzonym haśle do konta. pattern wklejamy ze strony z podpowiedziami, np. <a
                             href="http://html5pattern.com/Names" target="_blank">http://html5pattern.com/Names</a></p>
                     <form>
-                        <p>
+                        <p class="homework__tile--paragraf">
                             <label for="postalCode2">Kod pocztowy</label>
                             <input name="postalCode2" id="postalCode2" type="text" placeholder="XX-XXX" required
                                 pattern="[0-9]{2}-[0-9]{3}" />
@@ -775,7 +769,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-35.jpg" alt="" width="300">
-                    <p>walidacja po stronie frontendu<br>
+                    <p class="homework__tile--paragraf">walidacja po stronie frontendu<br>
                         <strong>nie zastępuje</strong><br>
                         walidacji po stronie backendu
                     </p>
@@ -784,7 +778,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L03  - Formularze/WTF_M06L03  - Formularze-36.jpg" alt="" width="300">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
 
 
@@ -804,35 +798,35 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-01.jpg"
                         alt="" width="300">
-                    <p>CSS: Grid</p>
+                    <p class="homework__tile--paragraf">CSS: Grid</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-02.jpg"
                         alt="" width="300">
-                    <p>GRID, czyli siatka</p>
+                    <p class="homework__tile--paragraf">GRID, czyli siatka</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-03.jpg"
                         alt="" width="300">
-                    <p>Świat dwuwymiarowy</p>
+                    <p class="homework__tile--paragraf">Świat dwuwymiarowy</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-04.jpg"
                         alt="" width="300">
-                    <p>Po co ten grid?</p>
-                    <p>Potrzeba stworzenia prostego systemu do budowania layoutów
+                    <p class="homework__tile--paragraf">Po co ten grid?</p>
+                    <p class="homework__tile--paragraf">Potrzeba stworzenia prostego systemu do budowania layoutów
                         (tabele, floaty, div-oza itp. nie spełniały oczekiwań i były kiepską praktyką)</p>
-                    <p>Przyjazny zapis i możliwość łatwej edycji w kontekście responsywności</p>
-                    <p>Standard dopasowany do aktualnego stanu stron internetowych</p>
+                    <p class="homework__tile--paragraf">Przyjazny zapis i możliwość łatwej edycji w kontekście responsywności</p>
+                    <p class="homework__tile--paragraf">Standard dopasowany do aktualnego stanu stron internetowych</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-05.jpg"
                         alt="" width="300">
-                    <p>źródło: <a href="https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/"
+                    <p class="homework__tile--paragraf">źródło: <a href="https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/"
                             target="_blank">https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/</a>
                         [3:58]
                     </p>
@@ -841,20 +835,20 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-06.jpg"
                         alt="" width="300">
-                    <p>Grid container</p>
+                    <p class="homework__tile--paragraf">Grid container</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-07.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">display:grid</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">display:grid</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-08.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">grid-template-columns:&lt;wartości po spacji&gt;</p>
-                    <p class="lesson__tile--hint">ta właściwość jest konieczna, żeby w ogóle grid się wyświetlił, jako
+                    <p class="homework__tile--paragraf lesson__tile--code">grid-template-columns:&lt;wartości po spacji&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">ta właściwość jest konieczna, żeby w ogóle grid się wyświetlił, jako
                         wartości podaje się szerokość kolumny. Po podaniu wartości "200px 200px 400px", powstaną 3
                         kolumny - dwie pierwsze będą miały szerokość 200px, a ostatnia 400px. Jeśli podamy wartości w
                         pikselach, to nie dopasują się one do szerokości ekranu, będą na stałe określone [5:30]</p>
@@ -863,48 +857,48 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-09.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">grid-template-rows:&lt;wartości po spacji&gt;</p>
-                    <p>ta właściwość definiuje wysokość wiersza, raczej nie stosujemy</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">grid-template-rows:&lt;wartości po spacji&gt;</p>
+                    <p class="homework__tile--paragraf">ta właściwość definiuje wysokość wiersza, raczej nie stosujemy</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-10.jpg"
                         alt="" width="300">
-                    <p>nowa jednostka: fr [9:20]</p>
+                    <p class="homework__tile--paragraf">nowa jednostka: fr [9:20]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-11.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">1fr/4 1fr/4 2fr/4 </p>
+                    <p class="homework__tile--paragraf lesson__tile--code">1fr/4 1fr/4 2fr/4 </p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-12.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">repeat(ileRazy, wartość)<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">repeat(ileRazy, wartość)<br>
                         repeat(3, 1fr);</p>
-                    <p>repeat(ileKolumnChceszMieć, jakieMająByćSzerokie)</p>
+                    <p class="homework__tile--paragraf">repeat(ileKolumnChceszMieć, jakieMająByćSzerokie)</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-13.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">column-gap: &lt;rozmiar odstępu&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">column-gap: &lt;rozmiar odstępu&gt;</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-14.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">row-gap: &lt;rozmiar odstępu&gt;</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">row-gap: &lt;rozmiar odstępu&gt;</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-15.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">minmax(minWartość, maxWartość)<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">minmax(minWartość, maxWartość)<br>
                         grid-template-columns: 1fr 1fr minmax(300px, 1fr);</p>
-                    <p>[14:40] minimalne i maksymalne wartości jakie może przyjąć nasza kolumna (bo kolumny najczęściej
+                    <p class="homework__tile--paragraf">[14:40] minimalne i maksymalne wartości jakie może przyjąć nasza kolumna (bo kolumny najczęściej
                         stylujemy, ale do wiersza też można zastosować te właściwość</p>
                 </div>
 
@@ -924,32 +918,32 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-16.jpg"
                         alt="" width="300">
-                    <p>header - article - aside - footer</p>
+                    <p class="homework__tile--paragraf">header - article - aside - footer</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-17.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">grid-template-areas:</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">grid-template-areas:</p>
                     <ul style="list-style: none;" class="lesson__tile--code">
                         <li>"header header"</li>
                         <li>"article aside"</li>
                         <li>"footer footer"</li>
                     </ul>
-                    <p>[2:00]</p>
+                    <p class="homework__tile--paragraf">[2:00]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-18.jpg"
                         alt="" width="300">
-                    <p>Grid item [3:35]</p>
+                    <p class="homework__tile--paragraf">Grid item [3:35]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-19.jpg"
                         alt="" width="300">
-                    <p>grid-area to własność, którą przypisujemy do dzieci naszego kontenera [7:20]</p>
-                    <p class="lesson__tile--code">grid-area:</p>
+                    <p class="homework__tile--paragraf">grid-area to własność, którą przypisujemy do dzieci naszego kontenera [7:20]</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">grid-area:</p>
                     <ul style="list-style: none;" class="lesson__tile--code">
                         <li>&lt;nazwa obszaru&gt;</li>
                         <li>&lt;row-start&gt;</li>
@@ -962,7 +956,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-20.jpg"
                         alt="" width="300">
-                    <p>źródło: <a href="https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/"
+                    <p class="homework__tile--paragraf">źródło: <a href="https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/"
                             target="_blank">https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/</a>
                     </p>
                 </div>
@@ -970,8 +964,8 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-21.jpg"
                         alt="" width="300">
-                    <p>[10:41]</p>
-                    <p class="lesson__tile--code">grid-row-start: numer / [nazwa] / span<br>
+                    <p class="homework__tile--paragraf">[10:41]</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">grid-row-start: numer / [nazwa] / span<br>
                         grid-row-end: numer / [nazwa] / span<br>
                         grid-column-start: numer / [nazwa] / span<br>
                         grid-column-end: numer / [nazwa] / span</p>
@@ -980,22 +974,22 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-22.jpg"
                         alt="" width="300">
-                    <p>najbardziej popularny, najłatwiejszy sposób zapisu grida [12:07]</p>
-                    <p class="lesson__tile--code">grid-row: numer / [nazwa] / span<br>
+                    <p class="homework__tile--paragraf">najbardziej popularny, najłatwiejszy sposób zapisu grida [12:07]</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">grid-row: numer / [nazwa] / span<br>
                         grid-column: numer / [nazwa] / span</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-23.jpg"
                         alt="" width="300">
-                    <p>z-index pozwala zdefiniować, który element ma być na wierzchu. Wyższy z-index wyciąga element na
+                    <p class="homework__tile--paragraf">z-index pozwala zdefiniować, który element ma być na wierzchu. Wyższy z-index wyciąga element na
                         wierzch.</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-24.jpg"
                         alt="" width="300">
-                    <p>Grid to nie tetris - wszystko zamyka się w regularnych prostokątach</p>
+                    <p class="homework__tile--paragraf">Grid to nie tetris - wszystko zamyka się w regularnych prostokątach</p>
                 </div>
 
             </article>
@@ -1014,21 +1008,21 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-25.jpg"
                         alt="" width="300">
-                    <p>Grid nie zastępuje flexboxa*<br>
+                    <p class="homework__tile--paragraf">Grid nie zastępuje flexboxa*<br>
                         *super się uzupełniają</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-26.jpg"
                         alt="" width="300">
-                    <p>Kiedy grid, a kiedy flexbox?<br>
+                    <p class="homework__tile--paragraf">Kiedy grid, a kiedy flexbox?<br>
                         TO ZALEŻY [1:00]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L08 - CSS_ grid/WTF_M06L08 - CSS_ grid-27.jpg"
                         alt="" width="300">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
             </article>
         </section>
@@ -1047,91 +1041,91 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-01.jpg" alt=""
                         width="300">
-                    <p>CSS: media queries</p>
+                    <p class="homework__tile--paragraf">CSS: media queries</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-02.jpg" alt=""
                         width="300">
-                    <p>Strony skrojone na wymiar</p>
+                    <p class="homework__tile--paragraf">Strony skrojone na wymiar</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-03.jpg" alt=""
                         width="300">
-                    <p>Kiedyś to było...</p>
+                    <p class="homework__tile--paragraf">Kiedyś to było...</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-04.jpg" alt=""
                         width="300">
-                    <p>Różne urządzenia</p>
+                    <p class="homework__tile--paragraf">Różne urządzenia</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-05.jpg" alt=""
                         width="300">
-                    <p>RWD - Ratuj własną dupę</p>
+                    <p class="homework__tile--paragraf">RWD - Ratuj własną dupę</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-06.jpg" alt=""
                         width="300">
-                    <p>RWD - Responsive web design</p>
+                    <p class="homework__tile--paragraf">RWD - Responsive web design</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-07.jpg" alt=""
                         width="300">
-                    <p class="lesson__tile--code">@media [5:00]</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">@media [5:00]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-08.jpg" alt=""
                         width="300">
-                    <p class="lesson__tile--code">@media</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">@media</p>
                     <ul class="lesson__tile--code" style="list-style: none;">
                         <li>screen</li>
                         <li>print</li>
                         <li>all</li>
                         <li>...</li>
                     </ul>
-                    <p>media type</p>
+                    <p class="homework__tile--paragraf">media type</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-09.jpg" alt=""
                         width="300">
-                    <p class="lesson__tile--code">min-width<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">min-width<br>
                         max-width<br>
                         color<br>
                         aspect-ratio<br>
                         orientation<br>
                         ...
-                    <p>media feature</p>
+                    <p class="homework__tile--paragraf">media feature</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-10.jpg" alt=""
                         width="300">
-                    <p class="lesson__tile--code">and / not / ,</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">and / not / ,</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-11.jpg" alt=""
                         width="300">
-                    <p>mobile-first [11:10]</p>
-                    <p class="lesson__tile--hint">oto jak naprawić stronę dostosowaną tylko dla desktopu:</p>
+                    <p class="homework__tile--paragraf">mobile-first [11:10]</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">oto jak naprawić stronę dostosowaną tylko dla desktopu:</p>
                     <ol>
                         <li>dodaj do arkuszu stylów <span class="lesson__tile--code">@media screen and (min-width:
                                 768px)</span>, co pozwoli dostosować cały arkusz stylów do urządzenia o maksymalnej
@@ -1148,21 +1142,21 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-12.jpg" alt=""
                         width="300">
-                    <p>breakpoint</p>
+                    <p class="homework__tile--paragraf">breakpoint</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-13.jpg" alt=""
                         width="300">
-                    <p>Device toolbar [7:58]</p>
+                    <p class="homework__tile--paragraf">Device toolbar [7:58]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-14.jpg" alt=""
                         width="300">
-                    <p>🥇 Specyficzność - aby było dobrze, @media dodawaj na końcu pliku CSS, a jeżeli masz ustalonych
+                    <p class="homework__tile--paragraf">🥇 Specyficzność - aby było dobrze, @media dodawaj na końcu pliku CSS, a jeżeli masz ustalonych
                         kilka szerokości, to zaczynaj od najmniejszej do największej</p>
                 </div>
 
@@ -1170,7 +1164,7 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L11 - CSS_ media queries/WTF_M06L11 - CSS_ media queries-15.jpg" alt=""
                         width="300">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
 
             </article>
@@ -1189,27 +1183,27 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-01.jpg"
                         alt="" width="300">
-                    <p>JS: Eventy</p>
+                    <p class="homework__tile--paragraf">JS: Eventy</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-02.jpg"
                         alt="" width="300">
-                    <p>Posłuchajmy co w trawie piszczy</p>
+                    <p class="homework__tile--paragraf">Posłuchajmy co w trawie piszczy</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-03.jpg"
                         alt="" width="300">
-                    <p>Czym jest programowanie?</p>
+                    <p class="homework__tile--paragraf">Czym jest programowanie?</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-04.jpg"
                         alt="" width="300">
-                    <p>Zamiana ludzkiego języka na język zrozumiały przez komputer</p>
-                    <p>Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"</p>
-                    <p>Moja strona<br>
+                    <p class="homework__tile--paragraf">Zamiana ludzkiego języka na język zrozumiały przez komputer</p>
+                    <p class="homework__tile--paragraf">Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"</p>
+                    <p class="homework__tile--paragraf">Moja strona<br>
                         Mój nagłówek<br>
                         P R Z Y C I S K</p>
                 </div>
@@ -1217,9 +1211,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-05.jpg"
                         alt="" width="300">
-                    <p>Zamiana ludzkiego języka na język zrozumiały przez komputer</p>
-                    <p>Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"</p>
-                    <p>Moja strona<br>
+                    <p class="homework__tile--paragraf">Zamiana ludzkiego języka na język zrozumiały przez komputer</p>
+                    <p class="homework__tile--paragraf">Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"</p>
+                    <p class="homework__tile--paragraf">Moja strona<br>
                         Mój nagłówek<br>
                         P R Z Y C I S K</p>
                 </div>
@@ -1227,9 +1221,9 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-06.jpg"
                         alt="" width="300">
-                    <p>Zamiana ludzkiego języka na język zrozumiały przez komputer</p>
-                    <p>Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"</p>
-                    <p>Moja strona<br>
+                    <p class="homework__tile--paragraf">Zamiana ludzkiego języka na język zrozumiały przez komputer</p>
+                    <p class="homework__tile--paragraf">Chcę, żeby po kliknięciu w ten przycisk tekst nagłówka zmienił się na "klik, klik!"</p>
+                    <p class="homework__tile--paragraf">Moja strona<br>
                         klik, klik!<br>
                         P R Z Y C I S K</p>
                 </div>
@@ -1237,14 +1231,14 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-07.jpg"
                         alt="" width="300">
-                    <p>Przepis na przycisk zmieniający nagłówek</p>
+                    <p class="homework__tile--paragraf">Przepis na przycisk zmieniający nagłówek</p>
                     <ol>
                         <li>Przycisk</li>
                         <li>Nagłówek</li>
                         <li>Kod js, który obsłuży kliknięcie</li>
                         <li>Kod js, który zmieni treść nagłówka</li>
                     </ol>
-                    <p>Moja strona<br>
+                    <p class="homework__tile--paragraf">Moja strona<br>
                         Mój nagłówek<br>
                         P R Z Y C I S K</p>
                 </div>
@@ -1252,30 +1246,30 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-08.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">&lt;button&gt; [2:45]</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">&lt;button&gt; [2:45]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-09.jpg"
                         alt="" width="300">
-                    <p><span class="lesson__tile--code">&lt;button&gt;</span> vs <span
+                    <p class="homework__tile--paragraf"><span class="lesson__tile--code">&lt;button&gt;</span> vs <span
                             class="lesson__tile--code">&lt;a&gt;</span></p>
-                    <p>button: interakcje na stronie<br>
+                    <p class="homework__tile--paragraf">button: interakcje na stronie<br>
                         a: nawigacja</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-10.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">element.addEventListener(type, listener [, options])</p>
-                    <p>jest to funkcja, metoda, która nasłuchuje event, można go podpiąć pod każdą warstwę (html, css)
+                    <p class="homework__tile--paragraf lesson__tile--code">element.addEventListener(type, listener [, options])</p>
+                    <p class="homework__tile--paragraf">jest to funkcja, metoda, która nasłuchuje event, można go podpiąć pod każdą warstwę (html, css)
                     </p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-11.jpg"
                         alt="" width="300">
-                    <p>mouse events</p>
+                    <p class="homework__tile--paragraf">mouse events</p>
                     <ul class="lesson__tile--code" style="list-style: none;">
                         <li>click - eventy związane z kliknięciem i tapnięciem</li>
                         <li>mouseenter</li>
@@ -1290,21 +1284,21 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-12.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">function handleClick() {<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">function handleClick() {<br>
                         console.log('click click');<br>
                         }</p>
-                    <p class="lesson__tile--code">element.addEventListener('click', nazwaFunkcji);</p>
-                    <p>w powyższej linijce 'click' jest eventem, na który funkcja będzie nasłuchiwała, a nazwaFunkcji,
+                    <p class="homework__tile--paragraf lesson__tile--code">element.addEventListener('click', nazwaFunkcji);</p>
+                    <p class="homework__tile--paragraf">w powyższej linijce 'click' jest eventem, na który funkcja będzie nasłuchiwała, a nazwaFunkcji,
                         to funkcja, którą napiszę i wykona się po usłyszanym kliknięciu</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-13.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">element.addEventListener('click', (e) => {<br>
+                    <p class="homework__tile--paragraf lesson__tile--code">element.addEventListener('click', (e) => {<br>
                         ...<br>
                         })</p>
-                    <p>e = Event [10:05], w parametrach funkcji może być pusto, ale jeśli dodamy (e) oraz
+                    <p class="homework__tile--paragraf">e = Event [10:05], w parametrach funkcji może być pusto, ale jeśli dodamy (e) oraz
                         console.log(e); to zobaczymy dane dotyczące kliknięcia tzw pointer event, czyli zdarzenie
                         kursora</p>
                     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event"
@@ -1314,7 +1308,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-14.jpg"
                         alt="" width="300">
-                    <p>💩 Złóżmy to do kupy</p>
+                    <p class="homework__tile--paragraf">💩 Złóżmy to do kupy</p>
                     <h3 class="lesson__tile--h3--js">Nagłówek testowy</h3>
                     <button class="lesson__tile--button lesson__tile--button--js">zmień tekst nagłówka</button>
                 </div>
@@ -1322,7 +1316,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L12 - JS_ Eventy/WTF_M06L12 - JS_ Eventy-15.jpg"
                         alt="" width="300">
-                    <p>To be continued...</p>
+                    <p class="homework__tile--paragraf">To be continued...</p>
                 </div>
 
             </article>
@@ -1340,19 +1334,19 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L13 - Hamburger/WTF_M06L13 - Hamburger-1.jpg"
                         alt="" width="300">
-                    <p>🍔 menu</p>
+                    <p class="homework__tile--paragraf">🍔 menu</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L13 - Hamburger/WTF_M06L13 - Hamburger-2.jpg"
                         alt="" width="300">
-                    <p>🍔 = ☰</p>
+                    <p class="homework__tile--paragraf">🍔 = ☰</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L13 - Hamburger/WTF_M06L13 - Hamburger-3.jpg"
                         alt="" width="300">
-                    <p>Przepis na hamburger menu</p>
+                    <p class="homework__tile--paragraf">Przepis na hamburger menu</p>
                     <ol>
                         <li>Nawigacja</li>
                         <li>Style do nawigacji na mobile 🍔</li>
@@ -1366,14 +1360,14 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L13 - Hamburger/WTF_M06L13 - Hamburger-4.jpg"
                         alt="" width="300">
-                    <p class="lesson__tile--code">element.classList.</p>
+                    <p class="homework__tile--paragraf lesson__tile--code">element.classList.</p>
                     <ul class="lesson__tile--code" style="list-style: none;">
                         <li>add</li>
                         <li>remove</li>
                         <li>toggle</li>
                         <li>contains</li>
                     </ul>
-                    <p>tutaj podajemy samą nazwę klasy (bez kropki!) [2:00]</p>
+                    <p class="homework__tile--paragraf">tutaj podajemy samą nazwę klasy (bez kropki!) [2:00]</p>
                     <ol>
                         <li>sprawdzamy klasę poprzez wsadzenie elementu do stałej zmiennej i wywołanie metody
                             classList:<br>
@@ -1405,13 +1399,13 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L13 - Hamburger/WTF_M06L13 - Hamburger-5.jpg"
                         alt="" width="300">
-                    <p>🤖 Do roboty! [5:40]</p>
+                    <p class="homework__tile--paragraf">🤖 Do roboty! [5:40]</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/6/WTF_M06L13 - Hamburger/WTF_M06L13 - Hamburger-6.jpg"
                         alt="" width="300">
-                    <p>The end</p>
+                    <p class="homework__tile--paragraf">The end</p>
                 </div>
 
             </article>
@@ -1443,35 +1437,35 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L15 - GitHub pages_ publikowanie witryny/WTF_M06L15 - GitHub pages_ publikowanie witryny-1.jpg"
                         alt="" width="300">
-                    <p>GitHub pages</p>
+                    <p class="homework__tile--paragraf">GitHub pages</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L15 - GitHub pages_ publikowanie witryny/WTF_M06L15 - GitHub pages_ publikowanie witryny-2.jpg"
                         alt="" width="300">
-                    <p>Opublikujmy naszą stronę!</p>
+                    <p class="homework__tile--paragraf">Opublikujmy naszą stronę!</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L15 - GitHub pages_ publikowanie witryny/WTF_M06L15 - GitHub pages_ publikowanie witryny-3.jpg"
                         alt="" width="300">
-                    <p>repozytorium → settings → Pages</p>
+                    <p class="homework__tile--paragraf">repozytorium → settings → Pages</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L15 - GitHub pages_ publikowanie witryny/WTF_M06L15 - GitHub pages_ publikowanie witryny-4.jpg"
                         alt="" width="300">
-                    <p>https://<b>nazwausera</b>.github.io/<b>nazwarepozytorium</b></p>
+                    <p class="homework__tile--paragraf">https://<b>nazwausera</b>.github.io/<b>nazwarepozytorium</b></p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L15 - GitHub pages_ publikowanie witryny/WTF_M06L15 - GitHub pages_ publikowanie witryny-5.jpg"
                         alt="" width="300">
-                    <p>Repozytorium: <b>nazwausera</b>.github.io<br>
+                    <p class="homework__tile--paragraf">Repozytorium: <b>nazwausera</b>.github.io<br>
                         Adres: <b>nazwausera</b>.github.io</p>
                 </div>
 
@@ -1479,7 +1473,7 @@
                     <img class="lesson__tile--img"
                         src="images/6/WTF_M06L15 - GitHub pages_ publikowanie witryny/WTF_M06L15 - GitHub pages_ publikowanie witryny-6.jpg"
                         alt="" width="300">
-                    <p>To be continued...</p>
+                    <p class="homework__tile--paragraf">To be continued...</p>
                 </div>
 
             </article>
@@ -1512,49 +1506,49 @@
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-1.jpg"
                         alt="" width="300">
-                    <p>Tydzień VI: Prace domowe</p>
+                    <p class="homework__tile--paragraf">Tydzień VI: Prace domowe</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-2.jpg"
                         alt="" width="300">
-                    <p>0. Baw się dobrze!</p>
+                    <p class="homework__tile--paragraf">0. Baw się dobrze!</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-3.jpg"
                         alt="" width="300">
-                    <p>1. Dodaj grid do swojej strony</p>
+                    <p class="homework__tile--paragraf">1. Dodaj grid do swojej strony</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-4.jpg"
                         alt="" width="300">
-                    <p>2. Dodaj responsywność do swojej strony (media queries)</p>
+                    <p class="homework__tile--paragraf">2. Dodaj responsywność do swojej strony (media queries)</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-5.jpg"
                         alt="" width="300">
-                    <p>3. Dodaj do nawigacji na stronie "hamburgera"</p>
+                    <p class="homework__tile--paragraf">3. Dodaj do nawigacji na stronie "hamburgera"</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-6.jpg"
                         alt="" width="300">
-                    <p>4. Uruchom github pages w repozytorium ze swoją stroną</p>
+                    <p class="homework__tile--paragraf">4. Uruchom github pages w repozytorium ze swoją stroną</p>
                 </div>
 
                 <div class="homework__tile--done">
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-7.jpg"
                         alt="" width="300">
-                    <p>5. Przejdź grid garden</p>
+                    <p class="homework__tile--paragraf">5. Przejdź grid garden</p>
                     <a href="https://cssgridgarden.com/" target="_blank">https://cssgridgarden.com/</a>
                 </div>
 
@@ -1562,29 +1556,29 @@
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-8.jpg"
                         alt="" width="300">
-                    <p>6. Stwórz nowy projekt z prostym formularzem</p>
-                    <p class="lesson__tile--code">action="<a href="https://forms.cotenfrontend.pl"
+                    <p class="homework__tile--paragraf">6. Stwórz nowy projekt z prostym formularzem</p>
+                    <p class="homework__tile--paragraf lesson__tile--code ">action="<a href="https://forms.cotenfrontend.pl"
                             target="_blank">https://forms.cotenfrontend.pl</a>"</p>
-                    <p>potestuj różne typy inputów i zobacz co jest przesyłane</p>
-                    <p class="lesson__tile--hint">bonus: stwórz <b>dwa pola</b> name oraz riddle jako wartość <u>riddle
+                    <p class="homework__tile--paragraf">potestuj różne typy inputów i zobacz co jest przesyłane</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">bonus: stwórz <b>dwa pola</b> name oraz riddle jako wartość <u>riddle
                             wpisz cotenfrontend</u> wartość <u>name to
                             Twoje imię</u> wyślij taki formularz <u>metodą post</u> pod podany wyżej action</p>
                     <form action="https://forms.cotenfrontend.pl" method="post">
                         <fieldset>
                             <legend>Dane do bonusu:</legend>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="name">Imię</label>
                                 <input name="name" id="name" type="text" placeholder="imię" />
                             </p>
-                            <p>
+                            <p class="homework__tile--paragraf">
                                 <label for="riddle">riddle</label>
                                 <input name="riddle" id="riddle" type="text" placeholder="cotenfrontend" />
                             </p>
                             <input type="submit" value="wyślij" disabled />
                         </fieldset>
                     </form>
-                    <p><b>ODPOWIEDŹ Z SERWERA ^^</b></p>
-                    <p class="lesson__tile--code">Pssst, sprawdź kanał 📝│moduł-06 na discordzie 😎
+                    <p class="homework__tile--paragraf"><b>ODPOWIEDŹ Z SERWERA ^^</b></p>
+                    <p class="homework__tile--paragraf lesson__tile--code">Pssst, sprawdź kanał 📝│moduł-06 na discordzie 😎
                         <br>
                         PS. Jak raz się udało to usuń pole riddle, żeby nie spamować na kanale jeśli chcesz się dalej
                         bawić tą sprawdzarką :)
@@ -1595,14 +1589,14 @@
                     <img class="homework__tile--img"
                         src="images/6/WTF_M06L17 - Tydzień VI Prace domowe/WTF_M06L17 - Tydzień VI Prace domowe-9.jpg"
                         alt="" width="300">
-                    <p>Good luck!</p>
+                    <p class="homework__tile--paragraf">Good luck!</p>
                 </div>
 
                 <div class="homework__tile--to-do">
                     <img class="homework__tile--img"
                         src="images/1/WTF_M01L03_Narzedzia_i_grupy/WTF_M01L03_Narzedzia_i_grupy-4.jpg" alt=""
                         width="300">
-                    <p>Przeczytać czat na discordzie, dedykowany temu modułowi</p>
+                    <p class="homework__tile--paragraf">Przeczytać czat na discordzie, dedykowany temu modułowi</p>
                 </div>
 
             </article>
