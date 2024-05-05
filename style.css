@@ -8,6 +8,7 @@ a {
     word-wrap: break-word;
     max-width: max-content;
     display: block;
+    margin: 10px 5px 0 15px;
 }
 
 .about-me__grid {
@@ -134,7 +135,7 @@ body {
 
 hr {
     border: 3px solid #da70d6;
-    width: 80vw;
+    width: 95vw;
 }
 
 html {
@@ -177,6 +178,7 @@ html {
 .lesson__tile--code {
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
+    margin: 10px 5px 0 15px;
 }
 
 .lesson__tile--hint {
@@ -293,7 +295,6 @@ main {
 
 section {
     margin: 5px 15px 5px 15px;
-    padding-bottom: 50px;
 }
 
 table {
@@ -323,8 +324,52 @@ textarea {
         z-index: 1;
     }
 
+    hr {
+        margin: 50px 15px 50px 15px;
+    }
+
     .header__hamburger {
         display: none;
+    }
+
+    .homework__tile--to-do {
+        box-sizing: border-box;
+        display: inline-block;
+        background: silver;
+        max-width: 300px;
+        height: 300px;
+        overflow: scroll;
+        border-radius: 10px;
+        padding-bottom: 15px;
+        margin: 7.5px;
+        word-wrap: break-word;
+    }
+    
+    .homework__tile--done {
+        box-sizing: border-box;
+        display: inline-block;
+        background: darkseagreen;
+        max-width: 300px;
+        height: 300px;
+        overflow: scroll;
+        border-radius: 10px;
+        padding-bottom: 15px;
+        margin: 7.5px;
+        word-wrap: break-word;
+    }
+
+    .lesson__tile {
+        box-sizing: border-box;
+        display: inline-block;
+        background-color: burlywood;
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+        overflow: scroll;
+        border-radius: 10px;
+        padding-bottom: 15px;
+        margin: 7.5px;
+        word-wrap: break-word;
     }
 
     main {
@@ -333,7 +378,8 @@ textarea {
         position: absolute;
         z-index: 1;
         background: white;
-        padding: 0 0 50px 0;
+        padding: 0 0 100px 0;
+        height: max-content;
     }
 
     .module__header--grid {
