@@ -145,7 +145,7 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-10.png"
                         alt="" width="300">
-                        <p class="homework__tile--paragraf"><b>[8:25]</b></p> 
+                    <p class="homework__tile--paragraf"><b>[8:25]</b></p>
                     <p class="homework__tile--paragraf lesson__tile--hint"><span class="lesson__tile--code">clear</span>
                         czyści terminal</p>
                     <p class="homework__tile--paragraf lesson__tile--code" style="text-align: center;">npm init<br>
@@ -171,10 +171,12 @@
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-13.png"
                         alt="" width="300">
                     <p class="homework__tile--paragraf lesson__tile--code"><b>npm install &lt;nazwa_paczki&gt;
-                        --save</b> po wyborze tej opcji, z paczki będą korzystali użytkownicy w przeglądarce
+                            --save</b> po wyborze tej opcji, z paczki będą korzystali użytkownicy w przeglądarce
                         <br><br>
-                        <b>npm install &lt;nazwa_paczki&gt; --save-dev</b> po wyborze tej opcji, paczka będzie wykorzystywana tylko w trakcie developmentu<br><br>
-                        <b>npm install</b> bez podania opcji, zadziała jak z opcją "--save"</p>
+                        <b>npm install &lt;nazwa_paczki&gt; --save-dev</b> po wyborze tej opcji, paczka będzie
+                        wykorzystywana tylko w trakcie developmentu<br><br>
+                        <b>npm install</b> bez podania opcji, zadziała jak z opcją "--save"
+                    </p>
                 </div>
 
                 <div class="lesson__tile">
@@ -194,19 +196,23 @@
                         alt="" width="300">
                     <p class="homework__tile--paragraf lesson__tile--hint"><b>Nie commitujemy</b> node_modules</p>
                     <p class="homework__tile--paragraf">każdy może zrobić "npm install" i sobie ściągnąć wymagane
-                        paczki, jeśli ma dostęp do repozytorium. Wszystko co trzeba pobrać będzie zapisane w pliku "package-lock.json". Plik ten tworzy się sam.</p>
+                        paczki, jeśli ma dostęp do repozytorium. Wszystko co trzeba pobrać będzie zapisane w pliku
+                        "package-lock.json". Plik ten tworzy się sam.</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-17.png"
                         alt="" width="300">
-                    <p class="homework__tile--paragraf"> Paczki node_modules dodajemy do .gitignore, dzięki czemu nie będą się pojawiały podczas commitowania</p>
+                    <p class="homework__tile--paragraf"> Paczki node_modules dodajemy do .gitignore, dzięki czemu nie
+                        będą się pojawiały podczas commitowania</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-18.png"
                         alt="" width="300">
-                    <p class="homework__tile--paragraf">alternatywa: YARN - także popularny menadżer paczek, tak jak npm, korzysta z pliku package.json, ale jego log nazywa się yarn-lock.json. Tworzy także node_modules.</p>
+                    <p class="homework__tile--paragraf">alternatywa: YARN - także popularny menadżer paczek, tak jak
+                        npm, korzysta z pliku package.json, ale jego log nazywa się yarn-lock.json. Tworzy także
+                        node_modules.</p>
                     <a href="https://yarnpkg.com/" target="_blank">https://yarnpkg.com/</a>
                 </div>
 
@@ -227,8 +233,22 @@
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="" alt="" width="300">
-                    <p class="homework__tile--paragraf"></p>
-                    <p class="homework__tile--paragraf"></p>
+                    <p class="homework__tile--paragraf">npx pozwala na uruchamianie kodu, który znajduje się w paczkach
+                        npm-owych, <b>nie tworzy nowych plików, służy do instalacji tymczasowych</b>
+                        <br><br>
+                        w lekcji instalujemy <b>"npx cowsay"</b> i używamy różnych opcji, następnie instalujemy w naszym
+                        projekcie za pomocą polecenia <b>"npm install cowsay --save-dev"</b>
+                    <p class="lesson__tile--hint">paczkę używamy za pomocą npm-owych skryptów - wchodzimy do pliku
+                        package.json, do sekcji "scripts" skąd poznajemy nazwę skryptu, następnie w konsoli uruchamiamy <b>"npm run nazwa_skryptu"</b></p>
+                    <p class="homework__tile--paragraf">możemy i będziemy dodawać własne skrypty, np.
+                        <b>"cow": "cowsay
+                            siemanko"</b>, następnie po wpisaniu do konsoli <b>"npm run cow"</b> pojawi nam się:
+                    <p class="lesson__tile--code">
+                        &gt; nazwa_projektu@wersja_projektu cow<br>
+                        &gt; cowsay siemanko<br><br>
+                        rysunek krowy, która mówi "siemanko"
+                    </p>
+                    </p>
                 </div>
             </article>
 
@@ -688,14 +708,14 @@
                     <p class="homework__tile--paragraf">1. Dodaj ::before z ozdobnikiem do nagłówków</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="lesson__tile--img"
                         src="images/7/WTF_M07L10 - Tydzień VII Prace domowe/WTF_M07L10 - Tydzień VII Prace domowe-05.png"
                         alt="" width="300">
                     <p class="homework__tile--paragraf">2. Zainstaluj node.js i napisz prosty skrypt z console.log</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="lesson__tile--img"
                         src="images/7/WTF_M07L10 - Tydzień VII Prace domowe/WTF_M07L10 - Tydzień VII Prace domowe-06.png"
                         alt="" width="300">
@@ -738,7 +758,7 @@
                     <p class="homework__tile--paragraf">8. Przerób BEM-a na składnię scss z wykorzystaniem &</p>
                 </div>
 
-                <div class="homework__tile--to-do">
+                <div class="homework__tile--done">
                     <img class="lesson__tile--img"
                         src="images/7/WTF_M07L10 - Tydzień VII Prace domowe/WTF_M07L10 - Tydzień VII Prace domowe-12.png"
                         alt="" width="300">
