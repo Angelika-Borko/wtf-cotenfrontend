@@ -52,10 +52,12 @@
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="" alt="" width="300">
-                    <p class="homework__tile--paragraf">.gitignore daje możliwość wykluczenia plików, których nie chcemy trzymać w repozytorium, ale chcemy je mieć lokalnie w katalogu</p>
+                    <p class="homework__tile--paragraf">.gitignore daje możliwość wykluczenia plików, których nie chcemy
+                        trzymać w repozytorium, ale chcemy je mieć lokalnie w katalogu</p>
                     <ol>
                         <li>Utwórz w projekcie plik o nazwie .gitignore</li>
-                        <li>W pliku .gitignore napisz nazwę pliku lub katalogu, którego nie chcesz przesyłać do repo</li>
+                        <li>W pliku .gitignore napisz nazwę pliku lub katalogu, którego nie chcesz przesyłać do repo
+                        </li>
                     </ol>
                 </div>
 
@@ -99,6 +101,8 @@
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-05.png"
                         alt="" width="300">
                     <p class="homework__tile--paragraf">node skrypt.js</p>
+                    <p class="lesson__tile--code"><b>node -v</b> pozwala sprawdzić zainstalowaną wersję node.js</p>
+                    <p class="lesson__tile--code"><b>node skrypt.js</b> uruchamia w konsoli cały plik ze skryptem</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -134,14 +138,21 @@
                         alt="" width="300">
                     <p class="homework__tile--paragraf"><i>npm</i> to taka skrzynka z narzędziami, których możemy
                         użyć w naszym projekcie</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">w repozytorium npm znajduje się na przykład
+                        normalize.css i nie trzeba go szukać w google, i kopiować</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-10.png"
                         alt="" width="300">
+                        <p class="homework__tile--paragraf"><b>[8:25]</b></p> 
+                    <p class="homework__tile--paragraf lesson__tile--hint"><span class="lesson__tile--code">clear</span>
+                        czyści terminal</p>
                     <p class="homework__tile--paragraf lesson__tile--code" style="text-align: center;">npm init<br>
                         /<br>
                         npm init -y</p>
+                    <p class="homework__tile--paragraf lesson__tile--hint">parametr "-y" pozwala pominąć wszystkie
+                        pytania jakie pojawiają się podczas instalacji</span></p>
                 </div>
 
                 <div class="lesson__tile">
@@ -159,10 +170,11 @@
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-13.png"
                         alt="" width="300">
-                    <p class="homework__tile--paragraf lesson__tile--code">npm install &lt;nazwa_paczki&gt;
-                        --save<br><br>
-                        npm install &lt;nazwa_paczki&gt; --save-dev<br><br>
-                        npm install</p>
+                    <p class="homework__tile--paragraf lesson__tile--code"><b>npm install &lt;nazwa_paczki&gt;
+                        --save</b> po wyborze tej opcji, z paczki będą korzystali użytkownicy w przeglądarce
+                        <br><br>
+                        <b>npm install &lt;nazwa_paczki&gt; --save-dev</b> po wyborze tej opcji, paczka będzie wykorzystywana tylko w trakcie developmentu<br><br>
+                        <b>npm install</b> bez podania opcji, zadziała jak z opcją "--save"</p>
                 </div>
 
                 <div class="lesson__tile">
@@ -181,20 +193,20 @@
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-16.png"
                         alt="" width="300">
                     <p class="homework__tile--paragraf lesson__tile--hint"><b>Nie commitujemy</b> node_modules</p>
-                    <p class="homework__tile--paragraf">(każdy może zrobić npm install i sobie ściągnąć wymagane
-                        paczki)</p>
+                    <p class="homework__tile--paragraf">każdy może zrobić "npm install" i sobie ściągnąć wymagane
+                        paczki, jeśli ma dostęp do repozytorium. Wszystko co trzeba pobrać będzie zapisane w pliku "package-lock.json". Plik ten tworzy się sam.</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-17.png"
                         alt="" width="300">
-                    <p class="homework__tile--paragraf">.gitignore</p>
+                    <p class="homework__tile--paragraf"> Paczki node_modules dodajemy do .gitignore, dzięki czemu nie będą się pojawiały podczas commitowania</p>
                 </div>
 
                 <div class="lesson__tile">
                     <img class="lesson__tile--img" src="images/7/WTF_M07L03 -  node.js/WTF_M07L03 -  node.js-18.png"
                         alt="" width="300">
-                    <p class="homework__tile--paragraf">alternatywa: YARN</p>
+                    <p class="homework__tile--paragraf">alternatywa: YARN - także popularny menadżer paczek, tak jak npm, korzysta z pliku package.json, ale jego log nazywa się yarn-lock.json. Tworzy także node_modules.</p>
                     <a href="https://yarnpkg.com/" target="_blank">https://yarnpkg.com/</a>
                 </div>
 

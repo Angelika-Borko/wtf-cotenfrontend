@@ -183,7 +183,9 @@ html {
 
 .lesson__tile--hint {
     font-weight: 500;
-    background-color: darkorange
+    background-color: darkorange;
+    padding: 5px 15px;
+    margin: 10px 15px;
 }
 
 .lesson__tile--img {
